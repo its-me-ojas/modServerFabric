@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="datapacks">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/world/datapacks/player head drops v1.1.8 (MC 1.21-1.21.1).zip!/" />
+      <root url="jar://$PROJECT_DIR$/world/datapacks/graves v3.0.5 (MC 1.21-1.21.1).zip!/" />
+      <root url="jar://$PROJECT_DIR$/world/datapacks/chunk loaders v1.0.9 (MC 1.21-1.21.1).zip!/" />
+      <root url="jar://$PROJECT_DIR$/world/datapacks/armored elytra v2.0.1 (MC 1.21-1.21.1).zip!/" />
+      <root url="jar://$PROJECT_DIR$/world/datapacks/name colors v1.0.6 (MC 1.21-1.21.1).zip!/" />
+      <root url="jar://$PROJECT_DIR$/world/datapacks/tectonic-datapack-v2.4.0a.zip!/" />
+      <root url="jar://$PROJECT_DIR$/world/datapacks/wandering trader announcements v1.0.1 (MC 1.21-1.21.1).zip!/" />
+      <root url="jar://$PROJECT_DIR$/world/datapacks/xp bottling v1.1.9 (MC 1.21-1.21.1).zip!/" />
+      <root url="jar://$PROJECT_DIR$/world/datapacks/furnicraft-v4.2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/world/datapacks/confetti creepers v2.2.9 (MC 1.21-1.21.1).zip!/" />
+      <root url="jar://$PROJECT_DIR$/world/datapacks/timber v2.1.10 (MC 1.21-1.21.1).zip!/" />
+      <root url="jar://$PROJECT_DIR$/world/datapacks/Explorify v1.6.0 f10-48.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

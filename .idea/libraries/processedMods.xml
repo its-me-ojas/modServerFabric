@@ -1,0 +1,74 @@
+<component name="libraryTable">
+  <library name="processedMods">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-object-builder-api-v1-15.+a551f7a4d1-3cc78fc5ad4a96da.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-convention-tags-v1-2.0.19+7f945d5bd1-69a3f9b281dc9485.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-api-base-0.4.42+6573ed8cd1-2b297b69472a919a.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-item-api-v1-11.0.0+afdfc921d1-8389d83bc483cd81.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-screen-handler-api-v1-1.3+b5597344d1-6771dc2da5bf9df6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/wover-preset-21.0.13-d1a45ee5eb1be321.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/io_wispforest_endec_netty-0.1.2-a36115128c438577.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/cardinal-components-world-6.1.1-89cf00f831a849a9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-block-view-api-v2-1.0.10+6573ed8cd1-44658b840af4d7fc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/cardinal-components-scoreboard-6.1.1-432760bb05f4c836.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-particles-v1-4.0.2+6573ed8cd1-1139648e12486276.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-data-attachment-api-v1-1.+6a6dfa19d1-13f5faa05e5de0e0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/io_wispforest_endec_gson-0.1.3-1f733f5eb2cb8bd2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-item-group-api-v1-4.1.4+78017270d1-5dffc9561160c7f2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-loot-api-v2-3.0.14+3f89f5a5d1-cc0bfc9ca7c85494.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-recipe-api-v1-5.0.12+65089712d1-89bcca7419cb5033.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-resource-conditions-api-v+8dc279b1d1-3ec206a85281a178.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/wover-biome-21.0.13-ecfa0e39366be3d1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/wover-recipe-21.0.13-b6ec50e8f0025a9e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-transfer-api-v1-5.1.16+3dccd343d1-f2a65740f134f1db.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-lifecycle-events-v1-2.3.1+6c1df360d1-c0b4d6e7c3bfc603.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/wover-common-21.0.13-73e683526b3d9f9e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/cardinal-components-base-6.1.1-991165e811980bbd.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-resource-loader-v0-1.3.0+56599129d1-237ecd946ba09fd6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-api-lookup-api-v1-1.6.68+b5597344d1-f8cc74be2c3fca1c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-biome-api-v1-13.0.29+5bd9f1bcd1-31c7caf8c4b56316.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-content-registries-v0-8.0+b5597344d1-bcc7e878e28e1165.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-command-api-v1-1.2.49+f71b366fd1-b9d0df302e55f64e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/io_wispforest_endec-0.1.5-93c8793c8c0dd195.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-convention-tags-v2-2.5.0+c5e2b5c6d1-86c9fd1c1bfd9c0e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/wunderlib-21.0.8-e1150a286f68b474.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/cardinal-components-entity-6.1.1-badb8653d73cc052.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/wover-math-21.0.13-7c83b9556607239d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-rendering-data-attachment+73761d2ed1-d84ba4e14139311b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-dimensions-v1-4.0.0+6fc22b99d1-5ba1337790a3a2db.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/wover-block-21.0.13-79614e4b6b402d72.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/cardinal-components-block-6.1.1-2734227ca440a310.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/wover-structure-21.0.13-517ca1c286d9e528.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-loot-api-v3-1.0.2+3f89f5a5d1-bd4bb990e175c1ac.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-registry-sync-v0-5.1.2+60c3209bd1-9a8f161573b92cda.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/wover-surface-21.0.13-c6d211b44de24b37.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-message-api-v1-6.0.13+6573ed8cd1-914a860d59608ef1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/cardinal-components-item-6.1.1-bec01105fcc80925.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/wover-ui-21.0.13-70ed37f189a91c3f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-data-generation-api-v1-20+16c4ae25d1-bbe4e6261799c8fb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/wover-item-21.0.13-9694637ca99c689f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-commands-v0-0.2.66+df3654b3d1-7ce63ed9df258f25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/wover-core-21.0.13-1afdc0da1640cc95.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/wover-feature-21.0.13-2dee4c62e35b503c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/wover-events-21.0.13-9c200a761df289a9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-transitive-access-widener+176f9036d1-8186557583f2674d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-game-rule-api-v1-1.0.53+6ced4dd9d1-93b3dc987d86fc21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-block-api-v1-1.0.22+0af3f5a7d1-3845e87f4b36ce9d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/cardinal-components-chunk-6.1.1-c9a13b99e0311730.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/mixinextras-0.4.1-215bdc40eef77b8f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-command-api-v2-2.2.28+6ced4dd9d1-1d6f02d96a572f7f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-entity-events-v1-1.6.12+6fc22b99d1-12095273d7dcab9b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/cardinal-components-level-6.1.1-11b11c6924b8c577.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-events-interaction-v0-0.7+ba9dae06d1-b99e2f647facc92b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-crash-report-info-v1-0.2.+0af3f5a7d1-41a24455942851d9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/wover-tag-21.0.13-75893af4281a3b83.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-networking-api-v1-4.2.2+60c3209bd1-3777f48d4d96b962.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/wover-datagen-21.0.13-7bc9bf0b84067869.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/fabric-rendering-fluids-v1-3.1.6+b5597344d1-287e0da30ff63095.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/wover-generator-21.0.13-e19b4dc33bba965.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.fabric/processedMods/cloth-basic-math-0.6.1-17ea6dce277cc3b8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
