@@ -6715,5 +6715,17 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/cow": {
+    "criteria": {
+      "has_milk_bucket": "2024-08-17 04:17:59 +0530"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_trident_trial_monument": {
+    "criteria": {
+      "ttm": "2024-08-17 04:14:50 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
