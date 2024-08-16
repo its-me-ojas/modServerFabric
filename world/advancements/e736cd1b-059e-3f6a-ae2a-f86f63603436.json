@@ -4643,18 +4643,6 @@
     },
     "done": true
   },
-  "wooltostring:recipes/misc/wool": {
-    "criteria": {
-      "has_ingredient": "2024-07-26 07:16:07 +0530"
-    },
-    "done": true
-  },
-  "wooltostring:recipes/misc/wool_carpets": {
-    "criteria": {
-      "has_ingredient": "2024-07-26 07:16:07 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/chest_minecart": {
     "criteria": {
       "has_minecart": "2024-07-26 07:33:16 +0530"
@@ -5002,6 +4990,205 @@
   "minecraft:husbandry/obtain_sniffer_egg": {
     "criteria": {
       "obtain_sniffer_egg": "2024-08-16 03:29:33 +0530"
+    },
+    "done": true
+  },
+  "wooltostring:recipes/misc/wool": {
+    "criteria": {
+      "has_wool": "2024-08-16 06:24:40 +0530"
+    },
+    "done": true
+  },
+  "wooltostring:recipes/misc/wool_carpets": {
+    "criteria": {
+      "has_wool": "2024-08-16 06:24:40 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/creeper": {
+    "criteria": {
+      "has_gunpowder": "2024-08-16 06:24:40 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/crafting_upgrade": {
+    "criteria": {
+      "has_crafting_table": "2024-08-16 06:24:40 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/spider": {
+    "criteria": {
+      "has_string": "2024-08-16 06:24:40 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_perl_to_block": {
+    "criteria": {
+      "has_ender_pearl": "2024-08-16 06:24:40 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/standard": {
+    "criteria": {
+      "has_chest": "2024-08-16 06:24:40 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/skeleton": {
+    "criteria": {
+      "has_arrow": "2024-08-16 06:24:40 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/blank_upgrade": {
+    "criteria": {
+      "has_chest": "2024-08-16 06:24:40 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/enderman": {
+    "criteria": {
+      "has_ender_pearl": "2024-08-16 06:24:40 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_eye_amber": {
+    "criteria": {
+      "has_ender_pearl": "2024-08-16 06:24:40 +0530"
+    },
+    "done": true
+  },
+  "betterend:all_elytras": {
+    "criteria": {
+      "vanilla": "2024-08-16 06:24:40 +0530"
+    },
+    "done": false
+  },
+  "chunkloaders:recipes/misc/basic_chunk_loader": {
+    "criteria": {
+      "recipe_condition": "2024-08-16 06:24:40 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/infusion_pedestal": {
+    "criteria": {
+      "has_ender_pearl": "2024-08-16 06:24:40 +0530"
+    },
+    "done": true
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2024-08-16 06:24:43 +0530"
+    },
+    "done": true
+  },
+  "betterend:enter_end": {
+    "criteria": {
+      "entered_end": "2024-08-16 07:26:34 +0530"
+    },
+    "done": true
+  },
+  "betterend:all_the_biomes": {
+    "criteria": {
+      "betterend:umbrella_jungle": "2024-08-16 07:28:14 +0530",
+      "betterend:dragon_graveyards": "2024-08-16 07:28:18 +0530",
+      "betterend:umbra_valley": "2024-08-16 07:28:40 +0530",
+      "betterend:painted_mountains": "2024-08-16 07:46:21 +0530",
+      "betterend:foggy_mushroomland": "2024-08-16 07:59:52 +0530",
+      "betterend:chorus_forest": "2024-08-16 07:59:51 +0530",
+      "betterend:blossoming_spires": "2024-08-16 07:28:43 +0530",
+      "betterend:sulphur_springs": "2024-08-16 07:28:20 +0530"
+    },
+    "done": false
+  },
+  "travelersbackpack:recipes/misc/end": {
+    "criteria": {
+      "has_ender_eye": "2024-08-16 07:37:45 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/blossom_berry_jelly_potion": {
+    "criteria": {
+      "has_potion": "2024-08-16 07:38:17 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/shadow_berry_jelly_potion": {
+    "criteria": {
+      "has_potion": "2024-08-16 07:38:17 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sweet_berry_jelly_potion": {
+    "criteria": {
+      "has_potion": "2024-08-16 07:38:17 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_furnace": {
+    "criteria": {
+      "has_end_stone": "2024-08-16 07:43:47 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/backpack_tank": {
+    "criteria": {
+      "has_iron": "2024-08-16 07:44:12 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/copy_plate_upgrade": {
+    "criteria": {
+      "has_iron_ingot": "2024-08-16 07:44:12 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_chandelier": {
+    "criteria": {
+      "has_iron_ingot": "2024-08-16 07:44:12 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_hammer": {
+    "criteria": {
+      "has_iron_ingot": "2024-08-16 07:44:12 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_bulb_lantern": {
+    "criteria": {
+      "has_iron_ingot": "2024-08-16 07:44:12 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/iron": {
+    "criteria": {
+      "has_iron_ingot": "2024-08-16 07:44:12 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/iron_tier_upgrade": {
+    "criteria": {
+      "has_iron_ingot": "2024-08-16 07:44:12 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/hose_nozzle": {
+    "criteria": {
+      "has_iron": "2024-08-16 07:44:12 +0530"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/kill_all_minibosses": {
+    "criteria": {
+      "kill_phantom_boss": "2024-08-16 07:51:37 +0530"
+    },
+    "done": false
+  },
+  "nova_structures:end/kill_phantom_boss": {
+    "criteria": {
+      "kill_phantom_boss": "2024-08-16 07:51:37 +0530"
     },
     "done": true
   },
