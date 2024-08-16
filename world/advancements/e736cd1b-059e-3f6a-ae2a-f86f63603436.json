@@ -4883,12 +4883,6 @@
     },
     "done": true
   },
-  "vanillatweaks:chunk_loaders": {
-    "criteria": {
-      "tick": "2024-08-14 20:44:52 +0530"
-    },
-    "done": true
-  },
   "graves:check_death_markers_later_in_tick": {
     "criteria": {
       "tick": "2024-08-14 20:44:52 +0530"
@@ -5390,6 +5384,348 @@
     },
     "done": true
   },
+  "betterend:recipes/misc/ender_block_to_perl": {
+    "criteria": {
+      "has_ender_block": "2024-08-16 19:18:49 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_slab": {
+    "criteria": {
+      "has_umbralith": "2024-08-16 19:22:32 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_stairs_stonecutting": {
+    "criteria": {
+      "has_umbralith": "2024-08-16 19:22:32 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_button": {
+    "criteria": {
+      "has_umbralith": "2024-08-16 19:22:32 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_bricks_stonecutting": {
+    "criteria": {
+      "has_umbralith": "2024-08-16 19:22:32 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_wall": {
+    "criteria": {
+      "has_umbralith": "2024-08-16 19:22:32 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_tiles_stonecutting": {
+    "criteria": {
+      "has_umbralith": "2024-08-16 19:22:32 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_slab_stonecutting": {
+    "criteria": {
+      "has_umbralith": "2024-08-16 19:22:32 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_pillar_stonecutting": {
+    "criteria": {
+      "has_umbralith": "2024-08-16 19:22:32 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_wall_stonecutting": {
+    "criteria": {
+      "has_umbralith": "2024-08-16 19:22:32 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_stairs": {
+    "criteria": {
+      "has_umbralith": "2024-08-16 19:22:32 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_brick_wall_stonecutting": {
+    "criteria": {
+      "has_umbralith": "2024-08-16 19:22:32 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_furnace": {
+    "criteria": {
+      "has_umbralith": "2024-08-16 19:22:32 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_pressure_plate": {
+    "criteria": {
+      "has_umbralith": "2024-08-16 19:22:32 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_brick_slab_stonecutting": {
+    "criteria": {
+      "has_umbralith": "2024-08-16 19:22:32 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_polished_stonecutting": {
+    "criteria": {
+      "has_umbralith": "2024-08-16 19:22:32 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_bricks": {
+    "criteria": {
+      "has_umbralith": "2024-08-16 19:22:32 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_brick_stair_stonecutting": {
+    "criteria": {
+      "has_umbralith": "2024-08-16 19:22:32 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2024-08-16 19:23:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2024-08-16 19:23:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2024-08-16 19:23:09 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_smelter": {
+    "criteria": {
+      "has_tag_wover_furnaces": "2024-08-16 19:24:09 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/mossy_glowshroom_log": {
+    "criteria": {
+      "has_mossy_glowshroom_bark": "2024-08-16 19:24:31 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_sign": {
+    "criteria": {
+      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/mossy_glowshroom_slab": {
+    "criteria": {
+      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/mossy_glowshroom_door": {
+    "criteria": {
+      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_chest": {
+    "criteria": {
+      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/mossy_glowshroom_stairs": {
+    "criteria": {
+      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_barrel": {
+    "criteria": {
+      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/mossy_glowshroom_trapdoor": {
+    "criteria": {
+      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/mossy_glowshroom_bookshelf": {
+    "criteria": {
+      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/mossy_glowshroom_button": {
+    "criteria": {
+      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/mossy_glowshroom_wall": {
+    "criteria": {
+      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_crafting_table": {
+    "criteria": {
+      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/mossy_glowshroom_planks": {
+    "criteria": {
+      "has_the_recipe": "2024-08-16 19:24:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/mossy_glowshroom_plate": {
+    "criteria": {
+      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_fence": {
+    "criteria": {
+      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_ladder": {
+    "criteria": {
+      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/mossy_glowshroom_gate": {
+    "criteria": {
+      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_button": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_furnace": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_stairs_stonecutting": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_wall": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_bricks_stonecutting": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_polished_stonecutting": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_wall_stonecutting": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_slab_stonecutting": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_brick_slab_stonecutting": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_bricks": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_slab": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_pressure_plate": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_pillar_stonecutting": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_brick_stair_stonecutting": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_tiles_stonecutting": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_stairs": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_brick_wall_stonecutting": {
+    "criteria": {
+      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/missing_tile": {
+    "criteria": {
+      "has_purpur_block": "2024-08-16 19:26:49 +0530"
+    },
+    "done": true
+  },
   "betterend:recipes/decorations/lacugrove_bar_stool": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
@@ -5408,21 +5744,9 @@
     },
     "done": true
   },
-  "betterend:recipes/building_blocks/mossy_glowshroom_log": {
-    "criteria": {
-      "has_mossy_glowshroom_bark": "2024-08-16 19:24:31 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/decorations/mossy_glowshroom_bar_stool": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_button": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
     },
     "done": true
   },
@@ -5474,36 +5798,6 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/umbralith_slab": {
-    "criteria": {
-      "has_umbralith": "2024-08-16 19:22:32 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_furnace": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/mossy_glowshroom_sign": {
-    "criteria": {
-      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_stairs_stonecutting": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/umbralith_stairs_stonecutting": {
-    "criteria": {
-      "has_umbralith": "2024-08-16 19:22:32 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/misc/copy_terminite_upgrade": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
@@ -5522,51 +5816,15 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/sulphuric_rock_wall": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/decorations/pythadendron_fence": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
     },
     "done": true
   },
-  "betterend:recipes/building_blocks/mossy_glowshroom_slab": {
-    "criteria": {
-      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/ender_block_to_perl": {
-    "criteria": {
-      "has_ender_block": "2024-08-16 19:18:49 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/umbralith_button": {
-    "criteria": {
-      "has_umbralith": "2024-08-16 19:22:32 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_bricks_stonecutting": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/decorations/tenanea_fence": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/umbralith_bricks_stonecutting": {
-    "criteria": {
-      "has_umbralith": "2024-08-16 19:22:32 +0530"
     },
     "done": true
   },
@@ -5582,21 +5840,9 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/sulphuric_rock_polished_stonecutting": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/redstone/helix_tree_gate": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/redstone/mossy_glowshroom_door": {
-    "criteria": {
-      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
     },
     "done": true
   },
@@ -5624,33 +5870,15 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/sulphuric_rock_wall_stonecutting": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/misc/copy_handle_attachment": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
     },
     "done": true
   },
-  "betterend:recipes/misc/sulphuric_rock_slab_stonecutting": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/decorations/end_lotus_bar_stool": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/mossy_glowshroom_chest": {
-    "criteria": {
-      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
     },
     "done": true
   },
@@ -5663,12 +5891,6 @@
   "betterend:recipes/decorations/helix_tree_bar_stool": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/lead": {
-    "criteria": {
-      "has_slime_ball": "2024-08-16 19:23:09 +0530"
     },
     "done": true
   },
@@ -5714,12 +5936,6 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/umbralith_wall": {
-    "criteria": {
-      "has_umbralith": "2024-08-16 19:22:32 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/decorations/lucernia_sign": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
@@ -5738,21 +5954,9 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/sulphuric_rock_brick_slab_stonecutting": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/decorations/helix_tree_fence": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/umbralith_tiles_stonecutting": {
-    "criteria": {
-      "has_umbralith": "2024-08-16 19:22:32 +0530"
     },
     "done": true
   },
@@ -5768,33 +5972,9 @@
     },
     "done": true
   },
-  "betterend:recipes/building_blocks/mossy_glowshroom_stairs": {
-    "criteria": {
-      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/sticky_piston": {
-    "criteria": {
-      "has_slime_ball": "2024-08-16 19:23:09 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_bricks": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/decorations/end_lotus_fence": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/umbralith_slab_stonecutting": {
-    "criteria": {
-      "has_umbralith": "2024-08-16 19:22:32 +0530"
     },
     "done": true
   },
@@ -5810,33 +5990,9 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/sulphuric_rock_slab": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/decorations/umbrella_tree_ladder": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_pressure_plate": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_pillar_stonecutting": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/mossy_glowshroom_barrel": {
-    "criteria": {
-      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
     },
     "done": true
   },
@@ -5858,57 +6014,15 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/sulphuric_rock_brick_stair_stonecutting": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/umbralith_pillar_stonecutting": {
-    "criteria": {
-      "has_umbralith": "2024-08-16 19:22:32 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/decorations/umbrella_tree_chair": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
     },
     "done": true
   },
-  "betterend:recipes/misc/umbralith_wall_stonecutting": {
-    "criteria": {
-      "has_umbralith": "2024-08-16 19:22:32 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/umbralith_stairs": {
-    "criteria": {
-      "has_umbralith": "2024-08-16 19:22:32 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/umbralith_brick_wall_stonecutting": {
-    "criteria": {
-      "has_umbralith": "2024-08-16 19:22:32 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/decorations/jellyshroom_taburet": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/end_stone_smelter": {
-    "criteria": {
-      "has_tag_wover_furnaces": "2024-08-16 19:24:09 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/redstone/mossy_glowshroom_trapdoor": {
-    "criteria": {
-      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
     },
     "done": true
   },
@@ -5954,12 +6068,6 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/umbralith_furnace": {
-    "criteria": {
-      "has_umbralith": "2024-08-16 19:22:32 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/decorations/umbrella_tree_sign": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
@@ -5972,21 +6080,9 @@
     },
     "done": true
   },
-  "betterend:recipes/building_blocks/mossy_glowshroom_bookshelf": {
-    "criteria": {
-      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/redstone/dragon_tree_gate": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/slime_block": {
-    "criteria": {
-      "has_slime_ball": "2024-08-16 19:23:09 +0530"
     },
     "done": true
   },
@@ -6002,63 +6098,15 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/umbralith_pressure_plate": {
-    "criteria": {
-      "has_umbralith": "2024-08-16 19:22:32 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/redstone/mossy_glowshroom_button": {
-    "criteria": {
-      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/mossy_glowshroom_wall": {
-    "criteria": {
-      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/umbralith_brick_slab_stonecutting": {
-    "criteria": {
-      "has_umbralith": "2024-08-16 19:22:32 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sulphuric_rock_tiles_stonecutting": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/decorations/lucernia_ladder": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
     },
     "done": true
   },
-  "betterend:recipes/misc/umbralith_polished_stonecutting": {
-    "criteria": {
-      "has_umbralith": "2024-08-16 19:22:32 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/decorations/helix_tree_taburet": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/missing_tile": {
-    "criteria": {
-      "has_purpur_block": "2024-08-16 19:26:49 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/umbralith_bricks": {
-    "criteria": {
-      "has_umbralith": "2024-08-16 19:22:32 +0530"
     },
     "done": true
   },
@@ -6074,18 +6122,6 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/sulphuric_rock_stairs": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/mossy_glowshroom_crafting_table": {
-    "criteria": {
-      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/decorations/tenanea_chair": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
@@ -6098,27 +6134,9 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/sulphuric_rock_brick_wall_stonecutting": {
-    "criteria": {
-      "has_sulphuric_rock": "2024-08-16 19:26:42 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/decorations/tenanea_sign": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/building_blocks/mossy_glowshroom_planks": {
-    "criteria": {
-      "has_the_recipe": "2024-08-16 19:24:42 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/redstone/mossy_glowshroom_plate": {
-    "criteria": {
-      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
     },
     "done": true
   },
@@ -6128,39 +6146,63 @@
     },
     "done": true
   },
-  "betterend:recipes/decorations/mossy_glowshroom_fence": {
-    "criteria": {
-      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/umbralith_brick_stair_stonecutting": {
-    "criteria": {
-      "has_umbralith": "2024-08-16 19:22:32 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/decorations/mossy_glowshroom_ladder": {
-    "criteria": {
-      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/decorations/dragon_tree_sign": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
     },
     "done": true
   },
-  "betterend:recipes/redstone/mossy_glowshroom_gate": {
-    "criteria": {
-      "has_mossy_glowshroom_planks": "2024-08-16 19:24:42 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/decorations/dragon_tree_chair": {
     "criteria": {
       "has_stick": "2024-08-16 19:27:33 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/wolf": {
+    "criteria": {
+      "has_bone": "2024-08-16 19:37:07 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphur_gunpowder": {
+    "criteria": {
+      "has_bone_meal": "2024-08-16 19:37:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-08-16 19:39:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:sniffer": "2024-08-16 19:39:36 +0530"
+    },
+    "done": false
+  },
+  "knize1007:root": {
+    "criteria": {
+      "tick": "2024-08-16 19:52:17 +0530"
+    },
+    "done": true
+  },
+  "knize1007:hostilemobs": {
+    "criteria": {
+      "tick": "2024-08-16 19:52:17 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/coal": {
+    "criteria": {
+      "has_coal": "2024-08-16 19:56:00 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/blaze": {
+    "criteria": {
+      "has_blaze_rod": "2024-08-16 19:57:27 +0530"
     },
     "done": true
   },
