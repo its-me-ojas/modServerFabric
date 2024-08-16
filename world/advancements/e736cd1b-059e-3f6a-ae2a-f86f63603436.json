@@ -5087,6 +5087,7 @@
     "criteria": {
       "betterend:lush_aurora_cave": "2024-08-16 19:27:48 +0530",
       "betterend:dragon_graveyards": "2024-08-16 07:28:18 +0530",
+      "betterend:dry_shrubland": "2024-08-16 21:32:00 +0530",
       "betterend:umbra_valley": "2024-08-16 07:28:40 +0530",
       "betterend:empty_end_cave": "2024-08-16 19:27:47 +0530",
       "betterend:chorus_forest": "2024-08-16 07:59:51 +0530",
@@ -6182,18 +6183,6 @@
     },
     "done": false
   },
-  "knize1007:root": {
-    "criteria": {
-      "tick": "2024-08-16 19:52:17 +0530"
-    },
-    "done": true
-  },
-  "knize1007:hostilemobs": {
-    "criteria": {
-      "tick": "2024-08-16 19:52:17 +0530"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/misc/coal": {
     "criteria": {
       "has_coal": "2024-08-16 19:56:00 +0530"
@@ -6203,6 +6192,36 @@
   "travelersbackpack:recipes/misc/blaze": {
     "criteria": {
       "has_blaze_rod": "2024-08-16 19:57:27 +0530"
+    },
+    "done": true
+  },
+  "chunkloaders:recipes/misc/single_chunk_loader": {
+    "criteria": {
+      "recipe_condition": "2024-08-16 20:48:34 +0530"
+    },
+    "done": true
+  },
+  "chunkloaders:recipes/misc/advanced_chunk_loader": {
+    "criteria": {
+      "recipe_condition": "2024-08-16 20:48:34 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/chicken_smithing": {
+    "criteria": {
+      "has_chicken": "2024-08-16 21:31:34 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cake_smithing": {
+    "criteria": {
+      "has_cake": "2024-08-16 21:33:05 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/hay_smithing": {
+    "criteria": {
+      "has_hay": "2024-08-16 21:56:33 +0530"
     },
     "done": true
   },
