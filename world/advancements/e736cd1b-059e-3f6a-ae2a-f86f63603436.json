@@ -175,6 +175,7 @@
       "golden_carrot": "2024-07-20 06:34:55 +0530",
       "beetroot": "2024-07-21 01:06:52 +0530",
       "apple": "2024-07-19 04:49:48 +0530",
+      "cooked_chicken": "2024-08-17 19:56:40 +0530",
       "potato": "2024-07-19 04:48:32 +0530",
       "carrot": "2024-07-19 04:48:38 +0530"
     },
@@ -6928,6 +6929,24 @@
   "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
     "criteria": {
       "has_dark_prismarine": "2024-08-17 17:47:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot_from_netherite_block": {
+    "criteria": {
+      "has_netherite_block": "2024-08-17 19:08:28 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/sponge": {
+    "criteria": {
+      "has_sponge": "2024-08-17 19:09:54 +0530"
+    },
+    "done": true
+  },
+  "betterend:hammer": {
+    "criteria": {
+      "got_diamond_hammer": "2024-08-17 19:34:02 +0530"
     },
     "done": true
   },
