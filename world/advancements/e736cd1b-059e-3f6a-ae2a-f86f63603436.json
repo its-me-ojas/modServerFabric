@@ -20,6 +20,7 @@
       "minecraft:eroded_badlands": "2024-07-23 09:55:01 +0530",
       "minecraft:desert": "2024-07-23 08:49:39 +0530",
       "minecraft:deep_frozen_ocean": "2024-08-14 23:23:37 +0530",
+      "minecraft:windswept_forest": "2024-08-17 18:17:33 +0530",
       "minecraft:ocean": "2024-07-19 05:41:53 +0530",
       "minecraft:jungle": "2024-07-19 05:30:00 +0530",
       "minecraft:cherry_grove": "2024-07-19 06:00:59 +0530",
@@ -50,6 +51,7 @@
       "minecraft:old_growth_birch_forest": "2024-07-19 05:47:42 +0530",
       "minecraft:deep_dark": "2024-07-19 05:06:43 +0530",
       "minecraft:grove": "2024-07-23 09:59:15 +0530",
+      "minecraft:swamp": "2024-08-17 18:18:05 +0530",
       "minecraft:meadow": "2024-07-23 12:55:12 +0530",
       "minecraft:savanna": "2024-07-19 04:46:58 +0530",
       "minecraft:plains": "2024-07-19 05:25:26 +0530"
@@ -253,10 +255,12 @@
       "minecraft:pillager": "2024-07-19 04:50:00 +0530",
       "minecraft:blaze": "2024-07-19 20:08:01 +0530",
       "minecraft:skeleton": "2024-07-19 04:58:30 +0530",
+      "minecraft:elder_guardian": "2024-08-17 16:34:55 +0530",
       "minecraft:ravager": "2024-07-23 09:47:10 +0530",
       "minecraft:bogged": "2024-08-17 02:23:49 +0530",
       "minecraft:ghast": "2024-07-19 20:10:45 +0530",
       "minecraft:hoglin": "2024-07-19 20:05:38 +0530",
+      "minecraft:guardian": "2024-08-17 16:44:16 +0530",
       "minecraft:vindicator": "2024-07-19 05:51:27 +0530",
       "minecraft:breeze": "2024-07-23 23:35:19 +0530",
       "minecraft:magma_cube": "2024-07-19 20:09:55 +0530",
@@ -5187,7 +5191,8 @@
   },
   "nova_structures:adventure/kill_all_minibosses": {
     "criteria": {
-      "kill_phantom_boss": "2024-08-16 07:51:37 +0530"
+      "kill_phantom_boss": "2024-08-16 07:51:37 +0530",
+      "kill_guardian_boss": "2024-08-17 17:28:39 +0530"
     },
     "done": false
   },
@@ -6715,15 +6720,213 @@
     },
     "done": true
   },
+  "nova_structures:adventure/find_trident_trial_monument": {
+    "criteria": {
+      "ttm": "2024-08-17 04:14:50 +0530"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/cow": {
     "criteria": {
       "has_milk_bucket": "2024-08-17 04:17:59 +0530"
     },
     "done": true
   },
-  "nova_structures:adventure/find_trident_trial_monument": {
+  "minecraft:recipes/building_blocks/sponge": {
     "criteria": {
-      "ttm": "2024-08-17 04:14:50 +0530"
+      "has_wet_sponge": "2024-08-17 16:35:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-08-17 16:35:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2024-08-17 16:35:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-08-17 16:35:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2024-08-17 16:44:17 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2024-08-17 16:45:00 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_kelp_block": {
+    "criteria": {
+      "has_dried_kelp": "2024-08-17 16:58:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-08-17 17:04:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2024-08-17 17:04:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-08-17 17:04:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2024-08-17 17:04:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2024-08-17 17:04:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2024-08-17 17:04:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2024-08-17 17:24:33 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2024-08-17 17:24:33 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2024-08-17 17:24:33 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2024-08-17 17:24:33 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_copper_grate_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_copper_grate": "2024-08-17 17:25:04 +0530"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/kill_guardian_boss": {
+    "criteria": {
+      "kill__guardian_boss": "2024-08-17 17:28:39 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-08-17 17:38:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_grate_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-08-17 17:38:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper": {
+    "criteria": {
+      "has_copper_block": "2024-08-17 17:38:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-08-17 17:38:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-08-17 17:38:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
+    "criteria": {
+      "has_copper_block": "2024-08-17 17:38:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot": {
+    "criteria": {
+      "has_copper_block": "2024-08-17 17:38:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_bulb": {
+    "criteria": {
+      "has_copper_block": "2024-08-17 17:38:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_grate": {
+    "criteria": {
+      "has_copper_block": "2024-08-17 17:38:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-08-17 17:38:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs": {
+    "criteria": {
+      "has_dark_prismarine": "2024-08-17 17:47:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab": {
+    "criteria": {
+      "has_dark_prismarine": "2024-08-17 17:47:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_stairs_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2024-08-17 17:47:46 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting": {
+    "criteria": {
+      "has_dark_prismarine": "2024-08-17 17:47:46 +0530"
     },
     "done": true
   },
