@@ -5097,18 +5097,25 @@
     "criteria": {
       "betterend:lush_aurora_cave": "2024-08-16 19:27:48 +0530",
       "betterend:dragon_graveyards": "2024-08-16 07:28:18 +0530",
+      "betterend:megalake_grove": "2024-08-17 22:41:04 +0530",
       "betterend:dry_shrubland": "2024-08-16 21:32:00 +0530",
+      "betterend:crystal_mountains": "2024-08-17 23:06:52 +0530",
       "betterend:umbra_valley": "2024-08-16 07:28:40 +0530",
       "betterend:empty_end_cave": "2024-08-16 19:27:47 +0530",
       "betterend:chorus_forest": "2024-08-16 07:59:51 +0530",
       "betterend:shadow_forest": "2024-08-16 19:21:13 +0530",
       "betterend:sulphur_springs": "2024-08-16 07:28:20 +0530",
       "betterend:amber_land": "2024-08-16 19:27:03 +0530",
+      "betterend:lantern_woods": "2024-08-17 22:49:48 +0530",
       "betterend:umbrella_jungle": "2024-08-16 07:28:14 +0530",
       "betterend:painted_mountains": "2024-08-16 07:46:21 +0530",
+      "betterend:neon_oasis": "2024-08-17 22:02:48 +0530",
       "betterend:lush_smaragdant_cave": "2024-08-16 19:27:44 +0530",
+      "betterend:megalake": "2024-08-17 22:41:42 +0530",
       "betterend:foggy_mushroomland": "2024-08-16 07:59:52 +0530",
+      "betterend:dust_wastelands": "2024-08-17 22:44:14 +0530",
       "betterend:empty_smaragdant_cave": "2024-08-16 19:27:45 +0530",
+      "betterend:glowing_grasslands": "2024-08-17 23:07:36 +0530",
       "betterend:blossoming_spires": "2024-08-16 07:28:43 +0530"
     },
     "done": false
@@ -6947,6 +6954,36 @@
   "betterend:hammer": {
     "criteria": {
       "got_diamond_hammer": "2024-08-17 19:34:02 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crafter": {
+    "criteria": {
+      "has_dropper": "2024-08-17 22:31:11 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/lacugrove_log": {
+    "criteria": {
+      "has_lacugrove_bark": "2024-08-17 22:41:50 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/lacugrove_bark": {
+    "criteria": {
+      "has_lacugrove_log": "2024-08-17 22:41:53 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/respawn_obelisk": {
+    "criteria": {
+      "has_aurora_crystal": "2024-08-17 22:51:15 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-08-18 01:32:13 +0530"
     },
     "done": true
   },
