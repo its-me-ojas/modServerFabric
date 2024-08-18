@@ -4881,25 +4881,7 @@
     },
     "done": true
   },
-  "vanillatweaks:confetti_creepers": {
-    "criteria": {
-      "tick": "2024-08-14 20:44:52 +0530"
-    },
-    "done": true
-  },
-  "vanillatweaks:armored_elytra": {
-    "criteria": {
-      "tick": "2024-08-14 20:44:52 +0530"
-    },
-    "done": true
-  },
   "graves:check_death_markers_later_in_tick": {
-    "criteria": {
-      "tick": "2024-08-14 20:44:52 +0530"
-    },
-    "done": true
-  },
-  "vanillatweaks:xp_management": {
     "criteria": {
       "tick": "2024-08-14 20:44:52 +0530"
     },
@@ -5208,18 +5190,6 @@
   "nova_structures:end/kill_phantom_boss": {
     "criteria": {
       "kill_phantom_boss": "2024-08-16 07:51:37 +0530"
-    },
-    "done": true
-  },
-  "ketket_furnitures:adv_main": {
-    "criteria": {
-      "requirement": "2024-08-16 17:42:44 +0530"
-    },
-    "done": true
-  },
-  "ketkets:main": {
-    "criteria": {
-      "requirement": "2024-08-16 17:42:44 +0530"
     },
     "done": true
   },
@@ -6984,6 +6954,33 @@
   "minecraft:recipes/building_blocks/dripstone_block": {
     "criteria": {
       "has_pointed_dripstone": "2024-08-18 01:32:13 +0530"
+    },
+    "done": true
+  },
+  "chunkloaders:recipes/misc/single_to_basic_chunk_loader": {
+    "criteria": {
+      "recipe_condition": "2024-08-18 17:11:29 +0530"
+    },
+    "done": true
+  },
+  "tooltrims:adventure/shiny_tools": {
+    "criteria": {
+      "crafted_charge_quartz": "2024-08-18 18:28:17 +0530"
+    },
+    "done": true
+  },
+  "tooltrims:adventure/tools_of_all_styles": {
+    "criteria": {
+      "crafted_frost_quartz": "2024-08-18 18:31:05 +0530",
+      "crafted_charge_redstone": "2024-08-18 18:30:48 +0530",
+      "crafted_charge_quartz": "2024-08-18 18:28:17 +0530",
+      "crafted_frost_diamond": "2024-08-18 18:33:17 +0530"
+    },
+    "done": false
+  },
+  "travelersbackpack:recipes/misc/quartz": {
+    "criteria": {
+      "has_quartz": "2024-08-18 18:27:32 +0530"
     },
     "done": true
   },
