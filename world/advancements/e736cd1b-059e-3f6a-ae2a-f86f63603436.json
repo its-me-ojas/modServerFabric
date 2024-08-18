@@ -6963,6 +6963,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/quartz": {
+    "criteria": {
+      "has_quartz": "2024-08-18 18:27:32 +0530"
+    },
+    "done": true
+  },
   "tooltrims:adventure/shiny_tools": {
     "criteria": {
       "crafted_charge_quartz": "2024-08-18 18:28:17 +0530"
@@ -6978,9 +6984,81 @@
     },
     "done": false
   },
-  "travelersbackpack:recipes/misc/quartz": {
+  "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
-      "has_quartz": "2024-08-18 18:27:32 +0530"
+      "has_glow_ink_sac": "2024-08-18 19:23:13 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/make_a_sign_glow": {
+    "criteria": {
+      "make_a_sign_glow": "2024-08-18 19:23:51 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_torchflower": {
+    "criteria": {
+      "has_torchflower": "2024-08-18 21:59:41 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_bulb_lantern_orange": {
+    "criteria": {
+      "has_orange_dye": "2024-08-18 22:00:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_candle": {
+    "criteria": {
+      "has_orange_dye": "2024-08-18 22:00:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_orange_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-08-18 22:00:35 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_bulb_lantern_orange": {
+    "criteria": {
+      "has_orange_dye": "2024-08-18 22:00:35 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/hydralux_petal_block_orange": {
+    "criteria": {
+      "has_orange_dye": "2024-08-18 22:00:35 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_orange_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-08-18 22:00:35 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_orange": {
+    "criteria": {
+      "has_orange_dye": "2024-08-18 22:00:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_orange_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-08-18 22:00:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_orange_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-08-18 22:00:35 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2024-08-18 22:10:02 +0530"
     },
     "done": true
   },
