@@ -1,6 +1,6 @@
-[21:30:10] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.2
-[21:30:10] [ForkJoinPool-1-worker-3/WARN]: Mod travelersbackpack uses the version fabric-1.21-10.0.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[21:30:11] [main/INFO]: Loading 107 mods:
+[02:11:24] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.2
+[02:11:25] [ForkJoinPool-1-worker-3/WARN]: Mod travelersbackpack uses the version fabric-1.21-10.0.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[02:11:25] [main/INFO]: Loading 108 mods:
 	- accessories 1.0.0-beta.26+1.21
 	   |-- io_wispforest_endec 0.1.5
 	   |-- io_wispforest_endec_gson 0.1.3
@@ -83,6 +83,7 @@
 	- justmobheads 8.3
 	- minecraft 1.21
 	- morevanillashields 1.0.2-1.21
+	- mr_advancement_count 1-v1.2.0c
 	- mr_dungeons_andtaverns 1-v4.3
 	- mr_dungeons_andtavernsancientcityoverhaul 1-v2
 	- mr_dungeons_andtavernsdeserttempleoverhaul 1-v1.1
@@ -123,165 +124,169 @@
 	   \-- wunderlib 21.0.8
 	- xaerominimap 24.2.1
 	- xaeroworldmap 1.38.8
-[21:30:11] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/modServerFabric/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[21:30:11] [main/INFO]: Compatibility level set to JAVA_17
-[21:30:11] [main/INFO]: Compatibility level set to JAVA_21
-[21:30:12] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[21:30:12] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
-[21:30:12] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
-[21:30:14] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[21:30:14] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[21:30:14] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zzn000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[21:30:25] [main/INFO]: Registering Listeners!
-[21:30:26] [main/INFO]: Loading Collective version 7.84.
-[21:30:26] [main/INFO]: Registered synced config with path toughasnails/thirst.toml
-[21:30:26] [main/INFO]: Registered synced config with path toughasnails/temperature.toml
-[21:30:26] [main/ERROR]: No data fixer registered for water_purifier
-[21:30:26] [main/ERROR]: No data fixer registered for temperature_gauge
-[21:30:26] [main/ERROR]: No data fixer registered for thermoregulator
-[21:30:27] [main/INFO]: morevanillashields: This mod runs without a config file. Coming Soon in next updates!
-[21:30:27] [main/INFO]: Registering Mod Items for morevanillashields
-[21:30:27] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
-[21:30:27] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
-[21:30:27] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
-[21:30:27] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
-[21:30:27] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[21:30:27] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[21:30:28] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:30:28] [main/INFO]: Ignoring Patch{ModCore: bclib (bclib):3.0.11:196619}
-[21:30:28] [main/INFO]: Running Pre Patchers on ./world/.
-[21:30:28] [main/INFO]: Everything up to date
-[21:30:29] [main/INFO]: Processing wover.datapack.registry Entrypoints
-[21:30:29] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
-[21:30:29] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
-[21:30:29] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
-[21:30:29] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
-[21:30:29] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
-[21:30:30] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (170ebe3f)
-[21:30:30] [main/INFO]: Unable to build Biome List yet
-[21:30:30] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[21:30:30] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (7d0669ef)
-[21:30:30] [main/INFO]: Unable to build Biome List yet
-[21:30:30] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[21:30:30] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (67320b1c)
-[21:30:30] [main/INFO]: Unable to build Biome List yet
-[21:30:30] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[21:30:30] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (456b8f92)
-[21:30:30] [main/INFO]: Unable to build Biome List yet
-[21:30:30] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[21:30:30] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (11849b6c)
-[21:30:30] [main/INFO]: Unable to build Biome List yet
-[21:30:30] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[21:30:30] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (5a3fb3be)
-[21:30:30] [main/INFO]: Unable to build Biome List yet
-[21:30:30] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:chorus_forest
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dust_wastelands
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
-[21:30:30] [main/INFO]: Adding Small End Island Biome to Fabric: betterend:ice_starfield
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
-[21:30:30] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
-[21:30:30] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (fe481a3)
-[21:30:30] [main/INFO]: Unable to build Biome List yet
-[21:30:30] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[21:30:30] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (32d1bbd6)
-[21:30:30] [main/INFO]: Unable to build Biome List yet
-[21:30:30] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[21:30:32] [main/INFO]: Disabling Recipe: bclib:test_star
-[21:30:32] [main/INFO]: Loaded 2321 recipes
-[21:30:32] [main/INFO]: Added 0 recipes in 3ms
-[21:30:33] [main/ERROR]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[21:30:33] [main/INFO]: Loaded 2476 advancements
-[21:30:33] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
-[21:30:35] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (1858f81a)
-[21:30:35] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[21:30:35] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (4bcd543e)
-[21:30:35] [main/INFO]: Added 5 Biomes
-[21:30:35] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[21:30:35] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[21:30:35] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[21:30:35] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[21:30:35] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[21:30:35] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[21:30:35] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[21:30:35] [main/INFO]: Added Tags for 1 fabric biomes in 6.625 ms
-[21:30:35] [main/INFO]: Added 6 biomes to wover:is_end/highland in 4.903 ms
-[21:30:35] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (4bcd543e)
-[21:30:35] [main/INFO]: Added 5 Biomes
-[21:30:35] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[21:30:35] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[21:30:35] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[21:30:35] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[21:30:35] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[21:30:35] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[21:30:35] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (32d1bbd6)
-[21:30:35] [main/INFO]: Added 5 Biomes
-[21:30:35] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[21:30:35] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[21:30:35] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[21:30:35] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[21:30:35] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[21:30:35] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[21:30:35] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (32d1bbd6)
-[21:30:35] [main/INFO]: Added 5 Biomes
-[21:30:35] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[21:30:35] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[21:30:35] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[21:30:35] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[21:30:35] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[21:30:35] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[21:30:35] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (1858f81a)
-[21:30:35] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (fe481a3)
-[21:30:35] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (fe481a3)
-[21:30:35] [main/INFO]: Applied 3 biome modifications and added 0 tags to 3 of 89 biomes in 14.44 ms
-[21:30:35] [main/INFO]: Applied 0 biome modifications to 0 of 89 new biomes in 3.806 ms
-[21:30:36] [Server thread/INFO]: Starting minecraft server version 1.21
-[21:30:36] [Server thread/INFO]: Loading properties
-[21:30:36] [Server thread/INFO]: Default game type: SURVIVAL
-[21:30:36] [Server thread/INFO]: Generating keypair
-[21:30:36] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:30:36] [Server thread/INFO]: Using epoll channel type
-[21:30:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:30:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:30:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:30:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:30:36] [Server thread/INFO]: Preparing level "world"
-[21:30:36] [Server thread/INFO]: World Dimensions: 
+[02:11:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/modServerFabric/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[02:11:25] [main/INFO]: Compatibility level set to JAVA_17
+[02:11:25] [main/INFO]: Compatibility level set to JAVA_21
+[02:11:25] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:11:25] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
+[02:11:25] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
+[02:11:26] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[02:11:26] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[02:11:27] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zzn000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[02:11:38] [main/INFO]: Registering Listeners!
+[02:11:39] [main/INFO]: Loading Collective version 7.84.
+[02:11:40] [main/INFO]: Registered synced config with path toughasnails/thirst.toml
+[02:11:40] [main/INFO]: Registered synced config with path toughasnails/temperature.toml
+[02:11:40] [main/ERROR]: No data fixer registered for water_purifier
+[02:11:40] [main/ERROR]: No data fixer registered for temperature_gauge
+[02:11:40] [main/ERROR]: No data fixer registered for thermoregulator
+[02:11:40] [main/INFO]: morevanillashields: This mod runs without a config file. Coming Soon in next updates!
+[02:11:40] [main/INFO]: Registering Mod Items for morevanillashields
+[02:11:40] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[02:11:40] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[02:11:40] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[02:11:40] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[02:11:40] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[02:11:40] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[02:11:40] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:11:40] [main/INFO]: Ignoring Patch{ModCore: bclib (bclib):3.0.11:196619}
+[02:11:40] [main/INFO]: Running Pre Patchers on ./world/.
+[02:11:40] [main/INFO]: Everything up to date
+[02:11:41] [main/INFO]: Found new data pack file/Warden With Loot 1.21-1.21.1.zip, loading it automatically
+[02:11:41] [main/INFO]: Found new data pack file/Warden_Health_Bar_v1.3.4.zip, loading it automatically
+[02:11:41] [main/INFO]: Found new data pack file/[DatapackVer.]HopoBetterRuinedPortals-[1.21]-1.4.2.zip, loading it automatically
+[02:11:41] [main/INFO]: Found new data pack mr_advancement_count, loading it automatically
+[02:11:41] [main/INFO]: Processing wover.datapack.registry Entrypoints
+[02:11:41] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
+[02:11:41] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
+[02:11:41] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
+[02:11:41] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
+[02:11:41] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
+[02:11:42] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (6e6b91d2)
+[02:11:42] [main/INFO]: Unable to build Biome List yet
+[02:11:42] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[02:11:42] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (449666f7)
+[02:11:42] [main/INFO]: Unable to build Biome List yet
+[02:11:42] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[02:11:42] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (47ff2270)
+[02:11:42] [main/INFO]: Unable to build Biome List yet
+[02:11:42] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[02:11:42] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (569e577b)
+[02:11:42] [main/INFO]: Unable to build Biome List yet
+[02:11:42] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[02:11:42] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (30fafdb)
+[02:11:42] [main/INFO]: Unable to build Biome List yet
+[02:11:42] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[02:11:42] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (67a258ab)
+[02:11:42] [main/INFO]: Unable to build Biome List yet
+[02:11:42] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:chorus_forest
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dust_wastelands
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
+[02:11:42] [main/INFO]: Adding Small End Island Biome to Fabric: betterend:ice_starfield
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
+[02:11:42] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
+[02:11:42] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (7317eddb)
+[02:11:42] [main/INFO]: Unable to build Biome List yet
+[02:11:42] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[02:11:42] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (29d48d43)
+[02:11:42] [main/INFO]: Unable to build Biome List yet
+[02:11:42] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[02:11:44] [main/INFO]: Disabling Recipe: bclib:test_star
+[02:11:44] [main/INFO]: Loaded 2321 recipes
+[02:11:44] [main/INFO]: Added 0 recipes in 3ms
+[02:11:45] [main/ERROR]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[02:11:45] [main/INFO]: Loaded 2480 advancements
+[02:11:45] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
+[02:11:47] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (1a033b0f)
+[02:11:47] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[02:11:47] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2ad63ae7)
+[02:11:47] [main/INFO]: Added 5 Biomes
+[02:11:47] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[02:11:47] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[02:11:47] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[02:11:47] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[02:11:47] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[02:11:47] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[02:11:47] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[02:11:47] [main/INFO]: Added Tags for 1 fabric biomes in 7.559 ms
+[02:11:47] [main/INFO]: Added 6 biomes to wover:is_end/highland in 4.930 ms
+[02:11:47] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2ad63ae7)
+[02:11:47] [main/INFO]: Added 5 Biomes
+[02:11:47] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[02:11:47] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[02:11:47] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[02:11:47] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[02:11:47] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[02:11:47] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[02:11:47] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (29d48d43)
+[02:11:47] [main/INFO]: Added 5 Biomes
+[02:11:47] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[02:11:47] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[02:11:47] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[02:11:47] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[02:11:47] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[02:11:47] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[02:11:47] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (29d48d43)
+[02:11:47] [main/INFO]: Added 5 Biomes
+[02:11:47] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[02:11:47] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[02:11:47] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[02:11:47] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[02:11:47] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[02:11:47] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[02:11:47] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (1a033b0f)
+[02:11:47] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (7317eddb)
+[02:11:47] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (7317eddb)
+[02:11:47] [main/INFO]: Applied 3 biome modifications and added 0 tags to 3 of 89 biomes in 13.19 ms
+[02:11:48] [main/INFO]: Applied 0 biome modifications to 0 of 89 new biomes in 2.797 ms
+[02:11:48] [Server thread/INFO]: Starting minecraft server version 1.21
+[02:11:48] [Server thread/INFO]: Loading properties
+[02:11:48] [Server thread/INFO]: Default game type: SURVIVAL
+[02:11:48] [Server thread/INFO]: Generating keypair
+[02:11:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:11:49] [Server thread/INFO]: Using epoll channel type
+[02:11:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:11:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:11:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:11:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:11:49] [Server thread/INFO]: Preparing level "world"
+[02:11:49] [Server thread/INFO]: World Dimensions: 
  - minecraft:the_end: 
-     WoVer - Chunk Generator (1bda77dc)
+     WoVer - Chunk Generator (1bd47247)
          preset     = none
          noise      = minecraft:end
          features   = minecraft(5), betterend(127)
-     WoVer - The End  BiomeSource (32d1bbd6)
+     WoVer - The End  BiomeSource (29d48d43)
          biomes     = 24
          namespaces = betterend(19), minecraft(5)
          seed       = 1988232152129346940
@@ -289,68 +294,134 @@
          deciders   = 0
          config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
  - minecraft:overworld: 
-     class_3754 (2537318c)
+     class_3754 (136a39e3)
          preset     = none
          noise      = minecraft:overworld
          features   = minecraft(151)
-     class_4766 (1298a470)
+     class_4766 (39d8cc30)
          biomes     = 53
          namespaces = minecraft(53)
  - minecraft:the_nether: 
-     WoVer - Chunk Generator (29703282)
+     WoVer - Chunk Generator (5db07323)
          preset     = none
          noise      = minecraft:nether
          features   = minecraft(37)
-     WoVer - Nether BiomeSource (fe481a3)
+     WoVer - Nether BiomeSource (7317eddb)
          biomes     = 5
          namespaces = minecraft(5)
          seed       = 1988232152129346940
          height     = 128
          config     = NetherConfig{mapVersion=hex, useVerticalBiomes=true, biomeSize=16, biomeSizeVertical=5}
-[21:30:36] [Server thread/INFO]: Merged 19 additional Surface Rules for Dimension minecraft:the_end => 20 (1.316 ms) using WoVer - The End  BiomeSource (32d1bbd6)
+[02:11:49] [Server thread/INFO]: Merged 19 additional Surface Rules for Dimension minecraft:the_end => 20 (698.0 μs) using WoVer - The End  BiomeSource (29d48d43)
     biomes     = 24
     namespaces = betterend(19), minecraft(5)
     seed       = 1988232152129346940
     height     = 128
     deciders   = 0
     config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
-[21:30:37] [Server thread/INFO]: Added 2 Biomes
-[21:30:37] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
-[21:30:37] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
-[21:30:43] [Server thread/INFO]: Added 2 Biomes
-[21:30:43] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
-[21:30:43] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
-[21:30:48] [Server thread/INFO]: Added 2 Biomes
-[21:30:48] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
-[21:30:48] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
-[21:30:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:30:51] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[21:30:51] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[21:30:51] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[21:30:51] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[21:30:51] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[21:30:51] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[21:30:51] [Worker-Main-6/INFO]: Preparing spawn area: 2%
-[21:30:51] [Server thread/INFO]: Time elapsed: 3433 ms
-[21:30:51] [Server thread/INFO]: Done (14.990s)! For help, type "help"
-[21:30:51] [Server thread/INFO]: morevanillashields: This mod is now running on a server. Please report any error or bugs.
-[21:30:51] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[21:30:51] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[21:36:11] [Server thread/INFO]: whitehairguy[/127.0.0.1:58720] logged in with entity id 137 at (4231.740920565903, 72.0, -8406.738672847476)
-[21:36:11] [Server thread/INFO]: Loading config from file...
-[21:36:11] [Server thread/INFO]: whitehairguy joined the game
-[21:36:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[22:08:58] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[22:08:58] [Server thread/INFO]: whitehairguy left the game
-[22:08:58] [Server thread/WARN]: handleDisconnection() called twice
-[22:09:49] [Server thread/INFO]: whitehairguy[/127.0.0.1:50804] logged in with entity id 12859 at (4233.56933503815, 72.0, -8397.881563832498)
-[22:09:49] [Server thread/INFO]: Loading config from file...
-[22:09:49] [Server thread/INFO]: whitehairguy joined the game
-[22:10:02] [Server thread/INFO]: whitehairguy has reached the goal [Hired Help]
-[22:15:04] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[22:15:04] [Server thread/INFO]: whitehairguy left the game
-[22:24:30] [Server thread/INFO]: whitehairguy[/127.0.0.1:51364] logged in with entity id 15705 at (4271.4067010115505, 71.0, -8394.045180772677)
-[22:24:30] [Server thread/INFO]: Loading config from file...
-[22:24:30] [Server thread/INFO]: whitehairguy joined the game
-[22:24:56] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[22:24:56] [Server thread/INFO]: whitehairguy left the game
+[02:11:50] [Server thread/INFO]: Added 2 Biomes
+[02:11:50] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[02:11:50] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[02:12:03] [Server thread/INFO]: Added 2 Biomes
+[02:12:03] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[02:12:03] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[02:12:09] [Server thread/INFO]: Added 2 Biomes
+[02:12:09] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[02:12:09] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[02:12:09] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:12:13] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[02:12:13] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[02:12:13] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[02:12:13] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[02:12:13] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[02:12:13] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[02:12:13] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[02:12:13] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[02:12:13] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[02:12:13] [Worker-Main-1/INFO]: Preparing spawn area: 100%
+[02:12:13] [Server thread/INFO]: Time elapsed: 4820 ms
+[02:12:13] [Server thread/INFO]: Done (24.614s)! For help, type "help"
+[02:12:13] [Server thread/INFO]: morevanillashields: This mod is now running on a server. Please report any error or bugs.
+[02:12:13] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[02:12:13] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[02:12:53] [Server thread/INFO]: whitehairguy[/127.0.0.1:54792] logged in with entity id 157 at (4235.169513650246, 72.0, -8395.571143411486)
+[02:12:53] [Server thread/INFO]: Loading config from file...
+[02:12:53] [Server thread/INFO]: whitehairguy joined the game
+[02:12:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[02:16:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6885ms or 137 ticks behind
+[02:17:50] [Server thread/ERROR]: Display entityNot a string
+[02:20:47] [Server thread/WARN]: whitehairguy moved too quickly! -16.025661211364877,0.0,8.207727940462064
+[02:20:47] [Server thread/WARN]: whitehairguy moved too quickly! -12.950145757584323,0.0,7.9416921486026695
+[02:20:52] [Server thread/ERROR]: Display entityNot a string
+[02:21:25] [Server thread/WARN]: whitehairguy moved too quickly! -11.881351173076382,-0.07840000152587834,2.2225882585917134
+[02:23:39] [Server thread/WARN]: whitehairguy moved too quickly! 18.662954161322432,0.0,0.4525052916542336
+[02:23:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4626ms or 92 ticks behind
+[02:30:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3852ms or 77 ticks behind
+[02:31:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4310ms or 86 ticks behind
+[02:32:02] [Worker-Main-1/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
+[02:32:33] [Worker-Main-4/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
+[02:32:58] [Worker-Main-3/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
+[02:32:58] [Worker-Main-3/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
+[02:49:10] [Server thread/INFO]: Created at class_2338{x=-963, y=57, z=-11}, Block{betterend:mossy_glowshroom_chair}[facing=east,top=false], Block{minecraft:air}
+[02:49:10] [Server thread/INFO]: Creating Chair at class_2338{x=-963, y=57, z=-11}, Block{betterend:mossy_glowshroom_chair}[facing=east,top=false]
+[02:49:10] [Server thread/INFO]: Created at class_2338{x=-963, y=58, z=-11}, Block{betterend:mossy_glowshroom_chair}[facing=east,top=true], Block{minecraft:air}
+[02:49:17] [Server thread/INFO]: Chair Block was deleted -> ejecting
+[02:49:18] [Server thread/INFO]: Created at class_2338{x=-962, y=57, z=-11}, Block{betterend:mossy_glowshroom_chair}[facing=west,top=false], Block{minecraft:air}
+[02:49:18] [Server thread/INFO]: Creating Chair at class_2338{x=-962, y=57, z=-11}, Block{betterend:mossy_glowshroom_chair}[facing=west,top=false]
+[02:49:18] [Server thread/INFO]: Created at class_2338{x=-962, y=58, z=-11}, Block{betterend:mossy_glowshroom_chair}[facing=west,top=true], Block{minecraft:air}
+[02:49:27] [Server thread/INFO]: Chair Block was deleted -> ejecting
+[02:52:04] [Server thread/INFO]: Created at class_2338{x=-948, y=57, z=-20}, Block{betterend:mossy_glowshroom_chair}[facing=east,top=false], Block{minecraft:air}
+[02:52:04] [Server thread/INFO]: Creating Chair at class_2338{x=-948, y=57, z=-20}, Block{betterend:mossy_glowshroom_chair}[facing=east,top=false]
+[02:52:04] [Server thread/INFO]: Created at class_2338{x=-948, y=58, z=-20}, Block{betterend:mossy_glowshroom_chair}[facing=east,top=true], Block{minecraft:air}
+[02:52:13] [Server thread/INFO]: Chair Block was deleted -> ejecting
+[02:52:17] [Server thread/INFO]: Created at class_2338{x=-947, y=58, z=-19}, Block{betterend:mossy_glowshroom_chair}[facing=east,top=false], Block{minecraft:air}
+[02:52:17] [Server thread/INFO]: Creating Chair at class_2338{x=-947, y=58, z=-19}, Block{betterend:mossy_glowshroom_chair}[facing=east,top=false]
+[02:52:17] [Server thread/INFO]: Created at class_2338{x=-947, y=59, z=-19}, Block{betterend:mossy_glowshroom_chair}[facing=east,top=true], Block{minecraft:air}
+[03:19:44] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[03:19:44] [Server thread/INFO]: whitehairguy left the game
+[03:22:37] [Server thread/INFO]: whitehairguy[/127.0.0.1:58596] logged in with entity id 106587 at (-955.3264535468668, 55.0, -17.332495224227944)
+[03:22:37] [Server thread/INFO]: Loading config from file...
+[03:22:37] [Server thread/INFO]: whitehairguy joined the game
+[03:24:40] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[03:24:40] [Server thread/INFO]: whitehairguy left the game
+[03:25:58] [Server thread/INFO]: whitehairguy[/127.0.0.1:58914] logged in with entity id 107022 at (-953.6754676659438, 55.0, -16.13506490962678)
+[03:25:58] [Server thread/INFO]: Loading config from file...
+[03:25:58] [Server thread/INFO]: whitehairguy joined the game
+[03:34:31] [Server thread/INFO]: whitehairguy has made the advancement [Thallasium Smithing]
+[03:36:45] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[03:36:45] [Server thread/INFO]: whitehairguy left the game
+[03:37:43] [Server thread/INFO]: whitehairguy[/127.0.0.1:56374] logged in with entity id 108788 at (-953.867019627494, 55.0, -14.913051162250024)
+[03:37:43] [Server thread/INFO]: Loading config from file...
+[03:37:43] [Server thread/INFO]: whitehairguy joined the game
+[03:39:47] [Server thread/WARN]: whitehairguy moved wrongly!
+[03:48:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
+[03:56:14] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[03:56:14] [Server thread/INFO]: whitehairguy left the game
+[03:57:00] [Server thread/INFO]: whitehairguy[/127.0.0.1:59482] logged in with entity id 113020 at (-952.1795101749308, 54.0, -16.82584108833185)
+[03:57:00] [Server thread/INFO]: Loading config from file...
+[03:57:00] [Server thread/INFO]: whitehairguy joined the game
+[04:07:39] [Server thread/INFO]: whitehairguy has made the advancement [Plated Thallasium]
+[04:08:45] [Server thread/INFO]: whitehairguy has made the advancement [Dressed in Thallasium]
+[04:09:23] [Server thread/INFO]: whitehairguy was slain by Enderman
+[04:09:24] [Server thread/INFO]: Created new backpack backup file for whitehairguy with unique ID travelersbackpack.dragon_19.08.2024-04.09.23.dat
+[04:09:24] [Server thread/INFO]: Your backpack has been placed at X: -958 Y: 57 Z: 11
+[04:09:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
+[04:10:21] [Server thread/WARN]: whitehairguy moved too quickly! -7.237660295898287,0.0,7.314394848078578
+[04:16:38] [Server thread/INFO]: whitehairguy has made the advancement [Terminite Smithing]
+[04:20:23] [Server thread/INFO]: whitehairguy has made the advancement [Plated Terminite]
+[04:20:34] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[04:20:34] [Server thread/INFO]: whitehairguy left the game
+[04:21:23] [Server thread/INFO]: whitehairguy[/127.0.0.1:56706] logged in with entity id 117773 at (-954.3388911983096, 55.0, -17.581613132287618)
+[04:21:23] [Server thread/INFO]: Loading config from file...
+[04:21:23] [Server thread/INFO]: whitehairguy joined the game
+[04:21:34] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[04:21:34] [Server thread/INFO]: whitehairguy left the game
+[04:23:03] [Server thread/INFO]: whitehairguy[/127.0.0.1:35072] logged in with entity id 117971 at (-953.795974208157, 55.0, -16.658440267005354)
+[04:23:03] [Server thread/INFO]: Loading config from file...
+[04:23:03] [Server thread/INFO]: whitehairguy joined the game
+[04:24:56] [Server thread/INFO]: whitehairguy has made the advancement [Shining with Terminite]
+[04:33:48] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[04:33:48] [Server thread/INFO]: whitehairguy left the game
+[05:03:45] [Server thread/INFO]: Stopping server
+[05:03:46] [Server thread/INFO]: Saving players
+[05:03:46] [Server thread/INFO]: Saving worlds

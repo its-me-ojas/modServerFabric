@@ -5078,6 +5078,7 @@
   "betterend:all_the_biomes": {
     "criteria": {
       "betterend:lush_aurora_cave": "2024-08-16 19:27:48 +0530",
+      "betterend:jade_cave": "2024-08-19 03:27:29 +0530",
       "betterend:dragon_graveyards": "2024-08-16 07:28:18 +0530",
       "betterend:megalake_grove": "2024-08-17 22:41:04 +0530",
       "betterend:dry_shrubland": "2024-08-16 21:32:00 +0530",
@@ -7059,6 +7060,594 @@
   "minecraft:adventure/summon_iron_golem": {
     "criteria": {
       "summoned_golem": "2024-08-18 22:10:02 +0530"
+    },
+    "done": true
+  },
+  "adco:first_join": {
+    "criteria": {
+      "requirement": "2024-08-19 02:12:54 +0530"
+    },
+    "done": true
+  },
+  "global:2mal3": {
+    "criteria": {
+      "trigger": "2024-08-19 02:12:54 +0530"
+    },
+    "done": true
+  },
+  "2mal3:adco/installed": {
+    "criteria": {
+      "trigger": "2024-08-19 02:12:54 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/mossy_glowshroom_bark": {
+    "criteria": {
+      "has_mossy_glowshroom_log": "2024-08-19 02:36:52 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_composter": {
+    "criteria": {
+      "has_mossy_glowshroom_slab": "2024-08-19 02:42:00 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_brick_weathered_from_moss": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-08-19 03:09:26 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_brick_cracked_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-08-19 03:09:26 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_brick_weathered_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-08-19 03:09:26 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/endstone_flower_pot": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-08-19 03:09:26 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_brick_cracked_smelting": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-08-19 03:09:26 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_ingot_furnace_raw_blasting": {
+    "criteria": {
+      "has_thallasium_raw": "2024-08-19 03:26:35 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_ingot_furnace_raw_smelting": {
+    "criteria": {
+      "has_thallasium_raw": "2024-08-19 03:26:35 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_nuggets_from_ingot": {
+    "criteria": {
+      "has_thallasium_ingot": "2024-08-19 03:34:08 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_chandelier": {
+    "criteria": {
+      "has_thallasium_ingot": "2024-08-19 03:34:08 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_bulb_lantern": {
+    "criteria": {
+      "has_thallasium_ingot": "2024-08-19 03:34:08 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_pressure_plate": {
+    "criteria": {
+      "has_thallasium_ingot": "2024-08-19 03:34:08 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_bars": {
+    "criteria": {
+      "has_thallasium_ingot": "2024-08-19 03:34:08 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_block": {
+    "criteria": {
+      "has_thallasium_ingot": "2024-08-19 03:34:08 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_trapdoor": {
+    "criteria": {
+      "has_thallasium_ingot": "2024-08-19 03:34:08 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_chain": {
+    "criteria": {
+      "has_thallasium_ingot": "2024-08-19 03:34:08 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_anvil": {
+    "criteria": {
+      "has_thallasium_ingot": "2024-08-19 03:34:08 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_door": {
+    "criteria": {
+      "has_thallasium_ingot": "2024-08-19 03:34:08 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_ingot_from_block": {
+    "criteria": {
+      "has_thallasium_block": "2024-08-19 03:34:21 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_tile": {
+    "criteria": {
+      "has_thallasium_block": "2024-08-19 03:34:21 +0530"
+    },
+    "done": true
+  },
+  "betterend:thallasium_anvil": {
+    "criteria": {
+      "got_thallasium_anvil": "2024-08-19 03:34:31 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_bricks_stonecutting": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-08-19 03:39:22 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_tiles_stonecutting": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-08-19 03:39:22 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_pressure_plate": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-08-19 03:39:22 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_button": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-08-19 03:39:22 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_slab": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-08-19 03:39:22 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_brick_slab_stonecutting": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-08-19 03:39:22 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_brick_wall_stonecutting": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-08-19 03:39:22 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_polished_stonecutting": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-08-19 03:39:22 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_furnace": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-08-19 03:39:22 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_pillar_stonecutting": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-08-19 03:39:22 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_wall_stonecutting": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-08-19 03:39:22 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_bricks": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-08-19 03:39:22 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_stairs_stonecutting": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-08-19 03:39:22 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_wall": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-08-19 03:39:22 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_brick_stair_stonecutting": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-08-19 03:39:22 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_stairs": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-08-19 03:39:22 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_slab_stonecutting": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-08-19 03:39:22 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_pressure_plate": {
+    "criteria": {
+      "has_terminite_ingot": "2024-08-19 03:47:03 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_door": {
+    "criteria": {
+      "has_terminite_ingot": "2024-08-19 03:47:03 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_trapdoor": {
+    "criteria": {
+      "has_terminite_ingot": "2024-08-19 03:47:03 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_block": {
+    "criteria": {
+      "has_terminite_ingot": "2024-08-19 03:47:03 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_ingot": {
+    "criteria": {
+      "has_the_recipe": "2024-08-19 03:47:03 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_chain": {
+    "criteria": {
+      "has_terminite_ingot": "2024-08-19 03:47:03 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_anvil": {
+    "criteria": {
+      "has_terminite_ingot": "2024-08-19 03:47:03 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern": {
+    "criteria": {
+      "has_terminite_ingot": "2024-08-19 03:47:03 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_chandelier": {
+    "criteria": {
+      "has_terminite_ingot": "2024-08-19 03:47:03 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_nuggets_from_ingot": {
+    "criteria": {
+      "has_terminite_ingot": "2024-08-19 03:47:03 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bars": {
+    "criteria": {
+      "has_terminite_ingot": "2024-08-19 03:47:03 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_bricks_stairs": {
+    "criteria": {
+      "has_sandy_jadestone_bricks": "2024-08-19 03:51:59 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_bricks_slab": {
+    "criteria": {
+      "has_sandy_jadestone_bricks": "2024-08-19 03:51:59 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_flower_pot": {
+    "criteria": {
+      "has_sandy_jadestone_bricks": "2024-08-19 03:51:59 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_brick_stair_from_sandy_jadestone_brick_stonecutting": {
+    "criteria": {
+      "has_sandy_jadestone_bricks": "2024-08-19 03:51:59 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_polished": {
+    "criteria": {
+      "has_sandy_jadestone_bricks": "2024-08-19 03:51:59 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_brick_slabs_from_sandy_jadestone_brick_stonecutting": {
+    "criteria": {
+      "has_sandy_jadestone_bricks": "2024-08-19 03:51:59 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_brick_wall_from_sandy_jadestone_brick_stonecutting": {
+    "criteria": {
+      "has_sandy_jadestone_bricks": "2024-08-19 03:51:59 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_bricks_wall": {
+    "criteria": {
+      "has_sandy_jadestone_bricks": "2024-08-19 03:51:59 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aeternium_ingot": {
+    "criteria": {
+      "has_the_recipe": "2024-08-19 03:57:17 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aeternium_block": {
+    "criteria": {
+      "has_aeternium_ingot": "2024-08-19 03:57:20 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/sheep_smithing": {
+    "criteria": {
+      "has_sheep": "2024-08-19 04:02:51 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_leggings": {
+    "criteria": {
+      "has_thallasium_forged_plate": "2024-08-19 04:07:39 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_chestplate": {
+    "criteria": {
+      "has_thallasium_forged_plate": "2024-08-19 04:07:39 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_helmet": {
+    "criteria": {
+      "has_thallasium_forged_plate": "2024-08-19 04:07:39 +0530"
+    },
+    "done": true
+  },
+  "betterend:thallasium_plate": {
+    "criteria": {
+      "got_thallasium_plate": "2024-08-19 04:07:39 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_boots": {
+    "criteria": {
+      "has_thallasium_forged_plate": "2024-08-19 04:07:39 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_chestplate_nugget_blasting": {
+    "criteria": {
+      "has_thallasium_chestplate": "2024-08-19 04:08:45 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_chestplate_nugget_smelting": {
+    "criteria": {
+      "has_thallasium_chestplate": "2024-08-19 04:08:45 +0530"
+    },
+    "done": true
+  },
+  "betterend:thallasium_armor": {
+    "criteria": {
+      "got_thallasium_chestplate": "2024-08-19 04:08:45 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_helmet_nugget_blasting": {
+    "criteria": {
+      "has_thallasium_helmet": "2024-08-19 04:08:48 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_helmet_nugget_smelting": {
+    "criteria": {
+      "has_thallasium_helmet": "2024-08-19 04:08:48 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_leggings_nugget_smelting": {
+    "criteria": {
+      "has_thallasium_leggings": "2024-08-19 04:08:51 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_leggings_nugget_blasting": {
+    "criteria": {
+      "has_thallasium_leggings": "2024-08-19 04:08:51 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_boots_nugget_smelting": {
+    "criteria": {
+      "has_thallasium_boots": "2024-08-19 04:08:55 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_boots_nugget_blasting": {
+    "criteria": {
+      "has_thallasium_boots": "2024-08-19 04:08:55 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_tile": {
+    "criteria": {
+      "has_terminite_block": "2024-08-19 04:16:35 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_ingot_from_block": {
+    "criteria": {
+      "has_terminite_block": "2024-08-19 04:16:35 +0530"
+    },
+    "done": true
+  },
+  "betterend:terminite_anvil": {
+    "criteria": {
+      "got_terminite_anvil": "2024-08-19 04:16:38 +0530"
+    },
+    "done": true
+  },
+  "betterend:terminite_plate": {
+    "criteria": {
+      "got_erminite_plate": "2024-08-19 04:20:23 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_boots": {
+    "criteria": {
+      "has_terminite_forged_plate": "2024-08-19 04:20:23 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_leggings": {
+    "criteria": {
+      "has_terminite_forged_plate": "2024-08-19 04:20:23 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_helmet": {
+    "criteria": {
+      "has_terminite_forged_plate": "2024-08-19 04:20:23 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_chestplate": {
+    "criteria": {
+      "has_terminite_forged_plate": "2024-08-19 04:20:23 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aeternium_block_to_ingot": {
+    "criteria": {
+      "has_aeternium_block": "2024-08-19 04:25:38 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_helmet_nugget_smelting": {
+    "criteria": {
+      "has_terminite_helmet": "2024-08-19 04:24:56 +0530"
+    },
+    "done": true
+  },
+  "betterend:terminite_armor": {
+    "criteria": {
+      "got_terminite_helmet": "2024-08-19 04:24:56 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_leggings_nugget_blasting": {
+    "criteria": {
+      "has_terminite_leggings": "2024-08-19 04:24:58 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_chestplate_nugget_blasting": {
+    "criteria": {
+      "has_terminite_chestplate": "2024-08-19 04:25:04 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_leggings_nugget_smelting": {
+    "criteria": {
+      "has_terminite_leggings": "2024-08-19 04:24:58 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_chestplate_nugget_smelting": {
+    "criteria": {
+      "has_terminite_chestplate": "2024-08-19 04:25:04 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_pillar": {
+    "criteria": {
+      "has_sandy_jadestone_slab": "2024-08-19 04:26:53 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_boots_nugget_blasting": {
+    "criteria": {
+      "has_terminite_boots": "2024-08-19 04:25:01 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_helmet_nugget_blasting": {
+    "criteria": {
+      "has_terminite_helmet": "2024-08-19 04:24:56 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_boots_nugget_smelting": {
+    "criteria": {
+      "has_terminite_boots": "2024-08-19 04:25:01 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_pedestal": {
+    "criteria": {
+      "has_sandy_jadestone_slab": "2024-08-19 04:26:53 +0530"
     },
     "done": true
   },
