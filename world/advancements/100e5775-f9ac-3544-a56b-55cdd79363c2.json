@@ -5405,25 +5405,7 @@
     },
     "done": true
   },
-  "vanillatweaks:confetti_creepers": {
-    "criteria": {
-      "tick": "2024-08-15 00:41:21 +0530"
-    },
-    "done": true
-  },
-  "vanillatweaks:armored_elytra": {
-    "criteria": {
-      "tick": "2024-08-15 00:41:21 +0530"
-    },
-    "done": true
-  },
   "graves:check_death_markers_later_in_tick": {
-    "criteria": {
-      "tick": "2024-08-15 00:41:21 +0530"
-    },
-    "done": true
-  },
-  "vanillatweaks:xp_management": {
     "criteria": {
       "tick": "2024-08-15 00:41:21 +0530"
     },
@@ -5843,18 +5825,6 @@
   "travelersbackpack:recipes/misc/wolf": {
     "criteria": {
       "has_bone": "2024-08-16 08:04:35 +0530"
-    },
-    "done": true
-  },
-  "ketket_furnitures:adv_main": {
-    "criteria": {
-      "requirement": "2024-08-16 20:33:57 +0530"
-    },
-    "done": true
-  },
-  "ketkets:main": {
-    "criteria": {
-      "requirement": "2024-08-16 20:33:57 +0530"
     },
     "done": true
   },
@@ -7139,6 +7109,24 @@
   "minecraft:recipes/decorations/flower_pot": {
     "criteria": {
       "has_brick": "2024-08-17 18:15:16 +0530"
+    },
+    "done": true
+  },
+  "adco:first_join": {
+    "criteria": {
+      "requirement": "2024-08-19 23:23:47 +0530"
+    },
+    "done": true
+  },
+  "global:2mal3": {
+    "criteria": {
+      "trigger": "2024-08-19 23:23:47 +0530"
+    },
+    "done": true
+  },
+  "2mal3:adco/installed": {
+    "criteria": {
+      "trigger": "2024-08-19 23:23:47 +0530"
     },
     "done": true
   },
