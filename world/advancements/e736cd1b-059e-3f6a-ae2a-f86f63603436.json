@@ -5047,9 +5047,11 @@
   },
   "betterend:all_elytras": {
     "criteria": {
+      "crystalite": "2024-08-20 01:37:02 +0530",
+      "armored": "2024-08-20 01:21:47 +0530",
       "vanilla": "2024-08-16 06:24:40 +0530"
     },
-    "done": false
+    "done": true
   },
   "chunkloaders:recipes/misc/basic_chunk_loader": {
     "criteria": {
@@ -8242,6 +8244,114 @@
   "betterend:portal_travel": {
     "criteria": {
       "travel": "2024-08-19 13:34:15 +0530"
+    },
+    "done": true
+  },
+  "betterend:village": {
+    "criteria": {
+      "end_village": "2024-08-20 00:25:23 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aeternium_axe": {
+    "criteria": {
+      "has_item.betterend.leather_handle_attachment_smithing_template": "2024-08-20 00:28:33 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aeternium_hammer": {
+    "criteria": {
+      "has_item.betterend.leather_handle_attachment_smithing_template": "2024-08-20 00:28:33 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aeternium_shovel": {
+    "criteria": {
+      "has_item.betterend.leather_handle_attachment_smithing_template": "2024-08-20 00:28:33 +0530"
+    },
+    "done": true
+  },
+  "betterend:all_the_templates": {
+    "criteria": {
+      "got_netherite": "2024-08-20 00:38:58 +0530",
+      "got_leather": "2024-08-20 00:28:33 +0530",
+      "got_plate": "2024-08-20 00:31:39 +0530",
+      "got_aeternium": "2024-08-20 00:38:56 +0530"
+    },
+    "done": false
+  },
+  "betterend:recipes/misc/aeternium_hoe": {
+    "criteria": {
+      "has_item.betterend.leather_handle_attachment_smithing_template": "2024-08-20 00:28:33 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aeternium_pickaxe": {
+    "criteria": {
+      "has_item.betterend.leather_handle_attachment_smithing_template": "2024-08-20 00:28:33 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aeternium_chestplate": {
+    "criteria": {
+      "has_item.betterend.plate_upgrade_smithing_template": "2024-08-20 00:31:39 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aeternium_leggings": {
+    "criteria": {
+      "has_item.betterend.plate_upgrade_smithing_template": "2024-08-20 00:31:39 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aeternium_boots": {
+    "criteria": {
+      "has_item.betterend.plate_upgrade_smithing_template": "2024-08-20 00:31:39 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aeternium_helmet": {
+    "criteria": {
+      "has_item.betterend.plate_upgrade_smithing_template": "2024-08-20 00:31:39 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/armored_elytra": {
+    "criteria": {
+      "has_item.betterend.aeternium_upgrade_smithing_template": "2024-08-20 00:38:56 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_anvil_updrade": {
+    "criteria": {
+      "has_item.betterend.aeternium_upgrade_smithing_template": "2024-08-20 00:38:56 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/netherite_hammer": {
+    "criteria": {
+      "has_item.betterend.netherite_upgrade_smithing_template": "2024-08-20 00:38:58 +0530"
+    },
+    "done": true
+  },
+  "betterend:aeternium_anvil": {
+    "criteria": {
+      "got_aeternium_anvil": "2024-08-20 01:12:56 +0530"
+    },
+    "done": true
+  },
+  "betterend:aeternium_plate": {
+    "criteria": {
+      "got_aeternium_plate": "2024-08-20 01:14:29 +0530"
+    },
+    "done": true
+  },
+  "betterend:aeternium_armor": {
+    "criteria": {
+      "got_aeternium_boots": "2024-08-20 01:16:12 +0530",
+      "got_aeternium_chestplate": "2024-08-20 01:15:59 +0530",
+      "got_aeternium_helmet": "2024-08-20 01:15:55 +0530",
+      "got_aeternium_leggings": "2024-08-20 01:16:06 +0530"
     },
     "done": true
   },
