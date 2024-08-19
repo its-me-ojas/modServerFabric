@@ -1,10 +1,11 @@
-[00:05:42] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.2
-[00:05:42] [ForkJoinPool-1-worker-3/WARN]: Mod travelersbackpack uses the version fabric-1.21-10.0.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[00:05:42] [main/INFO]: Loading 108 mods:
+[04:38:23] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.2
+[04:38:23] [ForkJoinPool-1-worker-2/WARN]: Mod travelersbackpack uses the version fabric-1.21-10.0.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[04:38:23] [main/INFO]: Loading 111 mods:
 	- accessories 1.0.0-beta.26+1.21
 	   |-- io_wispforest_endec 0.1.5
 	   |-- io_wispforest_endec_gson 0.1.3
 	   \-- io_wispforest_endec_netty 0.1.2
+	- adventurez 1.4.21
 	- bclib 21.0.13
 	- betterend 21.0.9
 	- cardinal-components 6.1.1
@@ -95,6 +96,7 @@
 	- mr_dungeons_andtavernsstrongholdrework 1-v2.1
 	- mr_dungeons_andtavernsswamphutoverhaul 1-v2
 	- mr_dungeons_andtavernswoodlandmansionoverhaul 1-v1.1
+	- mr_true_ending 1-v1.1.2b
 	- mr_warp_portals 1.4.0
 	- supermartijn642configlib 1.1.8
 	- supermartijn642corelib 1.1.17+b
@@ -103,6 +105,7 @@
 	   |-- com_electronwill_night-config_toml 3.6.7
 	   \-- net_jodah_typetools 0.6.3
 	- travelersbackpack fabric-1.21-10.0.6
+	- trinkets 3.10.0
 	- wooltostring 1.0.1
 	- wover 21.0.13
 	   |-- wover-biome 21.0.13
@@ -124,165 +127,168 @@
 	   \-- wunderlib 21.0.8
 	- xaerominimap 24.2.1
 	- xaeroworldmap 1.38.8
-[00:05:43] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/modServerFabric/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[00:05:43] [main/INFO]: Compatibility level set to JAVA_17
-[00:05:43] [main/INFO]: Compatibility level set to JAVA_21
-[00:05:44] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[00:05:44] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
-[00:05:44] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
-[00:05:46] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[00:05:46] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[00:05:47] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zzn000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[00:06:07] [main/INFO]: Registering Listeners!
-[00:06:10] [main/INFO]: Loading Collective version 7.84.
-[00:06:10] [main/INFO]: Registered synced config with path toughasnails/thirst.toml
-[00:06:10] [main/INFO]: Registered synced config with path toughasnails/temperature.toml
-[00:06:11] [main/ERROR]: No data fixer registered for water_purifier
-[00:06:11] [main/ERROR]: No data fixer registered for temperature_gauge
-[00:06:11] [main/ERROR]: No data fixer registered for thermoregulator
-[00:06:11] [main/INFO]: morevanillashields: This mod runs without a config file. Coming Soon in next updates!
-[00:06:11] [main/INFO]: Registering Mod Items for morevanillashields
-[00:06:11] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
-[00:06:11] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
-[00:06:11] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
-[00:06:11] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
-[00:06:12] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[00:06:12] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[00:06:12] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:06:12] [main/INFO]: Ignoring Patch{ModCore: bclib (bclib):3.0.11:196619}
-[00:06:12] [main/INFO]: Running Pre Patchers on ./world/.
-[00:06:12] [main/INFO]: Everything up to date
-[00:06:13] [main/INFO]: Processing wover.datapack.registry Entrypoints
-[00:06:13] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
-[00:06:13] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
-[00:06:13] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
-[00:06:13] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
-[00:06:13] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
-[00:06:15] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (6e6b91d2)
-[00:06:15] [main/INFO]: Unable to build Biome List yet
-[00:06:15] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[00:06:15] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (449666f7)
-[00:06:15] [main/INFO]: Unable to build Biome List yet
-[00:06:15] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[00:06:15] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (47ff2270)
-[00:06:15] [main/INFO]: Unable to build Biome List yet
-[00:06:15] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[00:06:15] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (569e577b)
-[00:06:15] [main/INFO]: Unable to build Biome List yet
-[00:06:15] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[00:06:15] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (30fafdb)
-[00:06:15] [main/INFO]: Unable to build Biome List yet
-[00:06:15] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[00:06:15] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (67a258ab)
-[00:06:15] [main/INFO]: Unable to build Biome List yet
-[00:06:15] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:chorus_forest
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dust_wastelands
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
-[00:06:16] [main/INFO]: Adding Small End Island Biome to Fabric: betterend:ice_starfield
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
-[00:06:16] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
-[00:06:16] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (7317eddb)
-[00:06:16] [main/INFO]: Unable to build Biome List yet
-[00:06:16] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[00:06:16] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (29d48d43)
-[00:06:16] [main/INFO]: Unable to build Biome List yet
-[00:06:16] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[00:06:19] [main/INFO]: Disabling Recipe: bclib:test_star
-[00:06:20] [main/INFO]: Loaded 2321 recipes
-[00:06:20] [main/INFO]: Added 0 recipes in 4ms
-[00:06:21] [main/ERROR]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[00:06:21] [main/INFO]: Loaded 2480 advancements
-[00:06:21] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
-[00:06:24] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (1a033b0f)
-[00:06:24] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[00:06:24] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2ad63ae7)
-[00:06:24] [main/INFO]: Added 5 Biomes
-[00:06:24] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[00:06:24] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[00:06:24] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[00:06:24] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[00:06:24] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[00:06:24] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[00:06:24] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[00:06:24] [main/INFO]: Added Tags for 1 fabric biomes in 12.40 ms
-[00:06:24] [main/INFO]: Added 6 biomes to wover:is_end/highland in 5.290 ms
-[00:06:24] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2ad63ae7)
-[00:06:24] [main/INFO]: Added 5 Biomes
-[00:06:24] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[00:06:24] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[00:06:24] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[00:06:24] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[00:06:24] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[00:06:24] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[00:06:24] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (29d48d43)
-[00:06:24] [main/INFO]: Added 5 Biomes
-[00:06:24] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[00:06:24] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[00:06:24] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[00:06:24] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[00:06:24] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[00:06:24] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[00:06:24] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (29d48d43)
-[00:06:24] [main/INFO]: Added 5 Biomes
-[00:06:24] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[00:06:24] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[00:06:24] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[00:06:24] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[00:06:24] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[00:06:24] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[00:06:24] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (1a033b0f)
-[00:06:24] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (7317eddb)
-[00:06:24] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (7317eddb)
-[00:06:24] [main/INFO]: Applied 3 biome modifications and added 0 tags to 3 of 89 biomes in 30.85 ms
-[00:06:24] [main/INFO]: Applied 0 biome modifications to 0 of 89 new biomes in 3.702 ms
-[00:06:25] [Server thread/INFO]: Starting minecraft server version 1.21
-[00:06:25] [Server thread/INFO]: Loading properties
-[00:06:25] [Server thread/INFO]: Default game type: SURVIVAL
-[00:06:25] [Server thread/INFO]: Generating keypair
-[00:06:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:06:25] [Server thread/INFO]: Using epoll channel type
-[00:06:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:06:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:06:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:06:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:06:26] [Server thread/INFO]: Preparing level "world"
-[00:06:26] [Server thread/INFO]: World Dimensions: 
+[04:38:23] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/modServerFabric/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[04:38:24] [main/INFO]: Compatibility level set to JAVA_17
+[04:38:24] [main/INFO]: Compatibility level set to JAVA_21
+[04:38:24] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:38:24] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
+[04:38:24] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
+[04:38:25] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[04:38:25] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[04:38:25] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zzn000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[04:38:37] [main/INFO]: Registering Listeners!
+[04:38:39] [main/INFO]: Loading Collective version 7.84.
+[04:38:40] [main/INFO]: Registered synced config with path toughasnails/thirst.toml
+[04:38:40] [main/INFO]: Registered synced config with path toughasnails/temperature.toml
+[04:38:40] [main/ERROR]: No data fixer registered for water_purifier
+[04:38:40] [main/ERROR]: No data fixer registered for temperature_gauge
+[04:38:40] [main/ERROR]: No data fixer registered for thermoregulator
+[04:38:40] [main/INFO]: morevanillashields: This mod runs without a config file. Coming Soon in next updates!
+[04:38:40] [main/INFO]: Registering Mod Items for morevanillashields
+[04:38:40] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[04:38:40] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[04:38:40] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[04:38:40] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[04:38:41] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[04:38:41] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[04:38:41] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:38:41] [main/INFO]: Ignoring Patch{ModCore: bclib (bclib):3.0.11:196619}
+[04:38:41] [main/INFO]: Running Pre Patchers on ./world/.
+[04:38:41] [main/INFO]: Everything up to date
+[04:38:41] [main/WARN]: Missing data pack frostiful
+[04:38:41] [main/WARN]: Missing data pack scorchful
+[04:38:41] [main/WARN]: Missing data pack thermoo
+[04:38:42] [main/INFO]: Processing wover.datapack.registry Entrypoints
+[04:38:42] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
+[04:38:42] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
+[04:38:42] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
+[04:38:42] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
+[04:38:42] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
+[04:38:43] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (1736f5b3)
+[04:38:43] [main/INFO]: Unable to build Biome List yet
+[04:38:43] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[04:38:43] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (7c70ba11)
+[04:38:43] [main/INFO]: Unable to build Biome List yet
+[04:38:43] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[04:38:43] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (43eb8840)
+[04:38:43] [main/INFO]: Unable to build Biome List yet
+[04:38:43] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[04:38:43] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (4bc1cd99)
+[04:38:43] [main/INFO]: Unable to build Biome List yet
+[04:38:43] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[04:38:43] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (15ba57aa)
+[04:38:43] [main/INFO]: Unable to build Biome List yet
+[04:38:43] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[04:38:43] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (4bca4850)
+[04:38:43] [main/INFO]: Unable to build Biome List yet
+[04:38:43] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:chorus_forest
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dust_wastelands
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
+[04:38:44] [main/INFO]: Adding Small End Island Biome to Fabric: betterend:ice_starfield
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
+[04:38:44] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
+[04:38:44] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (bd7e90c)
+[04:38:44] [main/INFO]: Unable to build Biome List yet
+[04:38:44] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[04:38:44] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (6aae0b45)
+[04:38:44] [main/INFO]: Unable to build Biome List yet
+[04:38:44] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[04:38:46] [main/INFO]: Disabling Recipe: bclib:test_star
+[04:38:47] [main/INFO]: Loaded 2354 recipes
+[04:38:47] [main/INFO]: Added 0 recipes in 4ms
+[04:38:47] [main/ERROR]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[04:38:47] [main/INFO]: Loaded 2502 advancements
+[04:38:47] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
+[04:38:50] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (2a00e4cd)
+[04:38:50] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[04:38:50] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (56d7b73)
+[04:38:50] [main/INFO]: Added 5 Biomes
+[04:38:50] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[04:38:50] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[04:38:50] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[04:38:50] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[04:38:50] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[04:38:50] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[04:38:50] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[04:38:50] [main/INFO]: Added Tags for 1 fabric biomes in 11.53 ms
+[04:38:50] [main/INFO]: Added 6 biomes to wover:is_end/highland in 5.901 ms
+[04:38:50] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (56d7b73)
+[04:38:50] [main/INFO]: Added 5 Biomes
+[04:38:50] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[04:38:50] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[04:38:50] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[04:38:50] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[04:38:50] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[04:38:50] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[04:38:50] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (6aae0b45)
+[04:38:50] [main/INFO]: Added 5 Biomes
+[04:38:50] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[04:38:50] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[04:38:50] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[04:38:50] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[04:38:50] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[04:38:50] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[04:38:50] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (6aae0b45)
+[04:38:50] [main/INFO]: Added 5 Biomes
+[04:38:50] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[04:38:50] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[04:38:50] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[04:38:50] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[04:38:50] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[04:38:50] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[04:38:50] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (2a00e4cd)
+[04:38:50] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (bd7e90c)
+[04:38:50] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (bd7e90c)
+[04:38:50] [main/INFO]: Applied 3 biome modifications and added 0 tags to 3 of 89 biomes in 12.33 ms
+[04:38:50] [main/INFO]: Applied 68 biome modifications to 45 of 89 new biomes in 21.26 ms
+[04:38:51] [Server thread/INFO]: Starting minecraft server version 1.21
+[04:38:51] [Server thread/INFO]: Loading properties
+[04:38:51] [Server thread/INFO]: Default game type: SURVIVAL
+[04:38:51] [Server thread/INFO]: Generating keypair
+[04:38:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:38:51] [Server thread/INFO]: Using epoll channel type
+[04:38:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:38:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:38:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:38:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:38:51] [Server thread/INFO]: Preparing level "world"
+[04:38:51] [Server thread/INFO]: World Dimensions: 
  - minecraft:the_end: 
-     WoVer - Chunk Generator (7480e7e2)
+     WoVer - Chunk Generator (57ea2215)
          preset     = none
          noise      = minecraft:end
          features   = minecraft(5), betterend(127)
-     WoVer - The End  BiomeSource (29d48d43)
+     WoVer - The End  BiomeSource (6aae0b45)
          biomes     = 24
          namespaces = betterend(19), minecraft(5)
          seed       = 1988232152129346940
@@ -290,209 +296,755 @@
          deciders   = 0
          config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
  - minecraft:overworld: 
-     class_3754 (59054d11)
+     class_3754 (2335d53)
          preset     = none
          noise      = minecraft:overworld
          features   = minecraft(151)
-     class_4766 (6278191b)
+     class_4766 (65c70963)
          biomes     = 53
          namespaces = minecraft(53)
  - minecraft:the_nether: 
-     WoVer - Chunk Generator (491f13e9)
+     WoVer - Chunk Generator (75257dc)
          preset     = none
          noise      = minecraft:nether
          features   = minecraft(37)
-     WoVer - Nether BiomeSource (7317eddb)
+     WoVer - Nether BiomeSource (bd7e90c)
          biomes     = 5
          namespaces = minecraft(5)
          seed       = 1988232152129346940
          height     = 128
          config     = NetherConfig{mapVersion=hex, useVerticalBiomes=true, biomeSize=16, biomeSizeVertical=5}
-[00:06:26] [Server thread/INFO]: Merged 19 additional Surface Rules for Dimension minecraft:the_end => 20 (1.333 ms) using WoVer - The End  BiomeSource (29d48d43)
+[04:38:51] [Server thread/INFO]: Merged 19 additional Surface Rules for Dimension minecraft:the_end => 20 (1.447 ms) using WoVer - The End  BiomeSource (6aae0b45)
     biomes     = 24
     namespaces = betterend(19), minecraft(5)
     seed       = 1988232152129346940
     height     = 128
     deciders   = 0
     config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
-[00:06:27] [Server thread/INFO]: Added 2 Biomes
-[00:06:27] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
-[00:06:27] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
-[00:06:39] [Server thread/INFO]: Added 2 Biomes
-[00:06:39] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
-[00:06:39] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
-[00:06:45] [Server thread/INFO]: Added 2 Biomes
-[00:06:45] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
-[00:06:45] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
-[00:06:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:06:50] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:06:50] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:06:50] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:06:50] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:06:50] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:06:50] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:06:50] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:06:50] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:06:50] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:06:50] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[00:06:50] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[00:06:51] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[00:06:51] [Worker-Main-4/INFO]: Preparing spawn area: 100%
-[00:06:52] [Server thread/INFO]: Time elapsed: 6838 ms
-[00:06:52] [Server thread/INFO]: Done (26.622s)! For help, type "help"
-[00:06:52] [Server thread/INFO]: morevanillashields: This mod is now running on a server. Please report any error or bugs.
-[00:06:52] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[00:06:52] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[00:06:56] [Server thread/WARN]: UUID of added entity already exists: class_8122['Item Display'/174, l='ServerLevel[world]', x=0.50, y=0.00, z=0.50]
-[00:07:02] [Server thread/INFO]: whitehairguy[/127.0.0.1:57032] logged in with entity id 260 at (-93.69999998807907, 75.0, 0.46687670481235366)
-[00:07:02] [Server thread/INFO]: Loading config from file...
-[00:07:03] [Server thread/INFO]: whitehairguy joined the game
-[00:07:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2780ms or 55 ticks behind
-[00:07:14] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[00:07:14] [Server thread/INFO]: whitehairguy left the game
-[00:07:21] [Server thread/INFO]: whitehairguy[/127.91.184.42:52505] logged in with entity id 381 at (-95.51025583172525, 75.0, 1.300000011920929)
-[00:07:21] [Server thread/INFO]: Loading config from file...
-[00:07:21] [Server thread/INFO]: whitehairguy joined the game
-[00:07:24] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[00:07:24] [Server thread/INFO]: whitehairguy left the game
-[00:09:32] [Server thread/INFO]: Rad1108[/127.40.216.174:52685] logged in with entity id 681 at (4242.709521093724, 71.0, -8390.683407707424)
-[00:09:32] [Server thread/INFO]: Loading config from file...
-[00:09:32] [Server thread/INFO]: Rad1108 joined the game
-[00:09:36] [Server thread/INFO]: Rad1108 lost connection: Disconnected
-[00:09:36] [Server thread/INFO]: Rad1108 left the game
-[00:12:05] [Server thread/INFO]: whitehairguy[/127.0.0.1:47424] logged in with entity id 1068 at (-95.51025583172525, 75.0, 1.300000011920929)
-[00:12:05] [Server thread/INFO]: Loading config from file...
-[00:12:05] [Server thread/INFO]: whitehairguy joined the game
-[00:18:03] [Server thread/INFO]: [Not Secure] <whitehairguy> 900 59 366
-[00:24:04] [Worker-Main-8/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:24:05] [Worker-Main-11/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:24:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2281ms or 45 ticks behind
-[00:24:20] [Server thread/WARN]: whitehairguy moved too quickly! -0.32109706565415763,0.0,26.16402959387142
-[00:24:21] [Server thread/WARN]: whitehairguy moved too quickly! -0.32109706565415763,0.0,26.16402959387142
-[00:24:24] [Server thread/WARN]: whitehairguy moved too quickly! -0.32109706565415763,0.0,26.16402959387142
-[00:24:25] [Server thread/WARN]: whitehairguy moved too quickly! -0.32109706565415763,0.0,26.16402959387142
-[00:24:28] [Server thread/WARN]: whitehairguy moved too quickly! -0.32109706565415763,0.0,26.16402959387142
-[00:24:28] [Server thread/WARN]: whitehairguy moved too quickly! -0.26758088804513136,0.0,21.80335799489285
-[00:24:58] [Server thread/WARN]: whitehairguy moved too quickly! 0.7725469074716784,0.0,26.154517501383452
-[00:25:17] [Server thread/WARN]: whitehairguy moved too quickly! -3.5959982946108084,0.0,25.91772270056481
-[00:25:17] [Server thread/WARN]: whitehairguy moved too quickly! -2.996665245509007,0.0,21.598102250470674
-[00:25:23] [Server thread/INFO]: whitehairguy has reached the goal [Countryside]
-[00:26:08] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[00:26:08] [Server thread/INFO]: whitehairguy left the game
-[00:26:50] [Server thread/INFO]: whitehairguy[/127.0.0.1:53956] logged in with entity id 4732 at (918.34890098126, 65.0, 3650.5258359949135)
-[00:26:50] [Server thread/INFO]: Loading config from file...
-[00:26:50] [Server thread/INFO]: whitehairguy joined the game
-[00:31:24] [Worker-Main-13/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:31:24] [Worker-Main-13/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:31:24] [Worker-Main-13/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:31:27] [Worker-Main-14/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:31:27] [Worker-Main-14/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:31:27] [Worker-Main-14/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:43:19] [Server thread/WARN]: whitehairguy moved wrongly!
-[00:45:02] [Worker-Main-8/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:45:02] [Worker-Main-8/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:45:02] [Worker-Main-8/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:45:03] [Worker-Main-18/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:45:03] [Worker-Main-15/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:45:03] [Worker-Main-15/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:45:17] [Server thread/WARN]: whitehairguy moved too quickly! -12.442838520843253,0.0,-23.018151812895667
-[00:45:22] [Worker-Main-8/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:45:22] [Worker-Main-4/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:45:22] [Worker-Main-4/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:45:23] [Worker-Main-4/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:45:23] [Server thread/WARN]: whitehairguy moved too quickly! -12.445045376207986,0.0,-23.016958707345566
-[00:45:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2219ms or 44 ticks behind
-[00:45:24] [Server thread/WARN]: whitehairguy moved too quickly! -12.445045376207986,0.0,-23.016958707345566
-[00:45:24] [Server thread/WARN]: whitehairguy moved too quickly! -10.370871146839988,0.0,-19.18079892278797
-[00:45:28] [Server thread/WARN]: whitehairguy moved too quickly! -12.445045376207986,0.0,-23.016958707345566
-[00:45:28] [Server thread/WARN]: whitehairguy moved too quickly! -10.370871146839988,0.0,-19.18079892278797
-[00:45:33] [Server thread/WARN]: whitehairguy moved too quickly! -11.333918891656936,0.0,-7.054415013592461
-[00:45:45] [Server thread/WARN]: whitehairguy moved too quickly! 0.4326604276541275,0.0,-13.075843399990276
-[00:45:45] [Server thread/WARN]: whitehairguy moved too quickly! 0.4330783070245161,0.0,-13.075829623390177
-[00:45:53] [Server thread/WARN]: whitehairguy moved too quickly! -0.4213775871744474,0.0,-13.076212248961014
-[00:45:54] [Server thread/WARN]: whitehairguy moved too quickly! -0.4226312740238427,0.0,-13.076171698968466
-[00:56:58] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[00:56:58] [Server thread/INFO]: whitehairguy left the game
-[00:58:33] [Server thread/INFO]: whitehairguy[/127.0.0.1:33418] logged in with entity id 12538 at (-1315.373004936795, 73.0, -37.95846271108715)
-[00:58:33] [Server thread/INFO]: Loading config from file...
-[00:58:33] [Server thread/INFO]: whitehairguy joined the game
-[01:01:42] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[01:01:42] [Server thread/INFO]: whitehairguy left the game
-[01:10:11] [Server thread/INFO]: whitehairguy[/127.0.0.1:49200] logged in with entity id 14041 at (-1322.6418445758386, 73.0, -42.69999998807907)
-[01:10:11] [Server thread/INFO]: Loading config from file...
-[01:10:11] [Server thread/INFO]: whitehairguy joined the game
-[01:11:18] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[01:11:18] [Server thread/INFO]: whitehairguy left the game
-[01:11:39] [Server thread/INFO]: whitehairguy[/127.0.0.1:47278] logged in with entity id 14548 at (-1316.0917663201028, 73.0, -36.59203585815413)
-[01:11:39] [Server thread/INFO]: Loading config from file...
-[01:11:39] [Server thread/INFO]: whitehairguy joined the game
-[01:12:56] [Server thread/INFO]: whitehairguy has completed the challenge [The End of all Smithing]
-[01:14:29] [Server thread/INFO]: whitehairguy has reached the goal [Tough Plating]
-[01:16:12] [Server thread/INFO]: whitehairguy has completed the challenge [Tough as can be]
-[01:17:00] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[01:17:00] [Server thread/INFO]: whitehairguy left the game
-[01:17:29] [Server thread/INFO]: whitehairguy[/127.0.0.1:58526] logged in with entity id 15758 at (-1314.7253996360869, 60.0, -39.5633398449436)
-[01:17:29] [Server thread/INFO]: Loading config from file...
-[01:17:29] [Server thread/INFO]: whitehairguy joined the game
-[01:32:01] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[01:32:01] [Server thread/INFO]: whitehairguy left the game
-[01:32:01] [Server thread/WARN]: handleDisconnection() called twice
-[01:32:36] [Server thread/INFO]: whitehairguy[/127.0.0.1:48550] logged in with entity id 20273 at (-2258.8079022818574, 58.0, 145.386021951223)
-[01:32:36] [Server thread/INFO]: Loading config from file...
-[01:32:36] [Server thread/INFO]: whitehairguy joined the game
-[01:37:02] [Server thread/INFO]: whitehairguy has reached the goal [Airshow]
-[01:39:57] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[01:39:57] [Server thread/INFO]: whitehairguy left the game
-[01:40:26] [Server thread/INFO]: whitehairguy[/127.0.0.1:58088] logged in with entity id 21294 at (-2262.6476270316766, 58.875, 146.49467726781833)
-[01:40:26] [Server thread/INFO]: Loading config from file...
-[01:40:26] [Server thread/INFO]: whitehairguy joined the game
-[01:46:38] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[01:46:38] [Server thread/INFO]: whitehairguy left the game
-[01:47:17] [Server thread/INFO]: whitehairguy[/127.0.0.1:52582] logged in with entity id 22317 at (-2263.3359414965053, 58.875, 148.57164967344698)
-[01:47:17] [Server thread/INFO]: Loading config from file...
-[01:47:17] [Server thread/INFO]: whitehairguy joined the game
-[01:54:05] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[01:54:05] [Server thread/INFO]: whitehairguy left the game
-[01:55:18] [Server thread/INFO]: whitehairguy[/127.0.0.1:35712] logged in with entity id 24150 at (-1316.5640810722705, 73.0, -37.97870496203198)
-[01:55:18] [Server thread/INFO]: Loading config from file...
-[01:55:18] [Server thread/INFO]: whitehairguy joined the game
-[01:56:38] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[01:56:38] [Server thread/INFO]: whitehairguy left the game
-[01:57:16] [Server thread/INFO]: whitehairguy[/127.0.0.1:39052] logged in with entity id 24691 at (-1315.8600661272042, 73.0, -37.910497251444525)
-[01:57:16] [Server thread/INFO]: Loading config from file...
-[01:57:16] [Server thread/INFO]: whitehairguy joined the game
-[02:01:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2070ms or 41 ticks behind
-[02:03:15] [Server thread/WARN]: whitehairguy moved too quickly! 20.84982517963499,3.0,-15.565020159848473
-[02:03:15] [Server thread/WARN]: whitehairguy moved too quickly! 17.039204352254387,3.0,-13.444291809688139
-[02:03:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2046ms or 40 ticks behind
-[02:03:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2952ms or 59 ticks behind
-[02:04:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2125ms or 42 ticks behind
-[02:04:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2074ms or 41 ticks behind
-[02:05:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
-[02:10:28] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[02:10:28] [Server thread/INFO]: whitehairguy left the game
-[02:12:11] [Server thread/INFO]: whitehairguy[/127.0.0.1:49688] logged in with entity id 30890 at (4256.308880838518, 71.9375, -8427.081447863828)
-[02:12:11] [Server thread/INFO]: Loading config from file...
-[02:12:11] [Server thread/INFO]: whitehairguy joined the game
-[02:21:01] [Server thread/WARN]: whitehairguy moved too quickly! 9.675730346410091,0.0,-4.7451190942210815
-[02:21:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
-[02:21:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2872ms or 57 ticks behind
-[02:22:57] [Worker-Main-46/ERROR]: Block-attached entity at invalid position: class_2338{x=-4, y=59, z=19}
-[02:23:45] [Server thread/WARN]: whitehairguy moved too quickly! 10.799202447366952,0.0,-2.0921810240251943
-[02:23:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2293ms or 45 ticks behind
-[02:24:07] [Server thread/WARN]: whitehairguy moved too quickly! -18.81325201652362,0.0,-5.837187635788723
-[02:24:07] [Server thread/WARN]: whitehairguy moved too quickly! -15.677710013769683,0.0,-4.864323029823936
-[02:25:12] [Server thread/WARN]: whitehairguy moved too quickly! 4.079081305785621,3.0,-8.964591417885458
-[02:25:21] [Server thread/WARN]: whitehairguy moved too quickly! 11.954576936177546,0.0,2.747308243830048
-[02:25:40] [Server thread/WARN]: whitehairguy moved too quickly! -11.79226235535225,0.0,5.770861988670731
-[02:25:40] [Server thread/WARN]: whitehairguy moved too quickly! -11.796166994919076,0.0,5.763313847230165
-[02:25:44] [Server thread/WARN]: whitehairguy moved too quickly! -11.671522227326932,0.0,6.018719131272519
-[02:29:16] [Server thread/WARN]: whitehairguy moved too quickly! -12.879005302680525,0.0,2.5608293097084243
-[02:29:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2177ms or 43 ticks behind
-[02:29:18] [Server thread/WARN]: whitehairguy moved too quickly! -9.482199973436764,0.0,17.71818779791647
-[02:29:18] [Server thread/WARN]: whitehairguy moved too quickly! -7.957098024397965,0.0,14.735477035044823
-[02:30:50] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[02:30:50] [Server thread/INFO]: whitehairguy left the game
-[02:30:53] [Server thread/INFO]: Stopping server
-[02:30:53] [Server thread/INFO]: Saving players
-[02:30:53] [Server thread/INFO]: Saving worlds
+[04:38:52] [Server thread/INFO]: Added 2 Biomes
+[04:38:52] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[04:38:52] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[04:39:04] [Server thread/INFO]: Added 2 Biomes
+[04:39:04] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[04:39:04] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[04:39:08] [Server thread/INFO]: Added 2 Biomes
+[04:39:08] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[04:39:08] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[04:39:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:39:11] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[04:39:11] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"sustaining"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:39:12] [Server thread/INFO]: Time elapsed: 3667 ms
+[04:39:12] [Server thread/INFO]: Done (20.772s)! For help, type "help"
+[04:39:12] [Server thread/INFO]: morevanillashields: This mod is now running on a server. Please report any error or bugs.
+[04:39:12] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[04:39:12] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[04:39:12] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:12] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:12] [Server thread/WARN]: Failed to deserialize component: unregistered key frostiful:living_entity
+[04:39:12] [Server thread/WARN]: Failed to deserialize component: unregistered key thermoo:temperature
+[04:39:12] [Server thread/WARN]: Failed to deserialize component: unregistered key thermoo:wetness
+[04:39:12] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:12] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:12] [Server thread/WARN]: Failed to deserialize component: unregistered key frostiful:living_entity
+[04:39:12] [Server thread/WARN]: Failed to deserialize component: unregistered key thermoo:temperature
+[04:39:12] [Server thread/WARN]: Failed to deserialize component: unregistered key thermoo:wetness
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/WARN]: Failed to deserialize component: unregistered key frostiful:living_entity
+[04:39:13] [Server thread/WARN]: Failed to deserialize component: unregistered key thermoo:temperature
+[04:39:13] [Server thread/WARN]: Failed to deserialize component: unregistered key thermoo:wetness
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/WARN]: Failed to deserialize component: unregistered key frostiful:living_entity
+[04:39:13] [Server thread/WARN]: Failed to deserialize component: unregistered key thermoo:temperature
+[04:39:13] [Server thread/WARN]: Failed to deserialize component: unregistered key thermoo:wetness
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/WARN]: Failed to deserialize component: unregistered key frostiful:living_entity (last warning for this component)
+[04:39:13] [Server thread/WARN]: Failed to deserialize component: unregistered key thermoo:temperature (last warning for this component)
+[04:39:13] [Server thread/WARN]: Failed to deserialize component: unregistered key thermoo:wetness (last warning for this component)
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"}'
+[04:39:13] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"}'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/WARN]: UUID of added entity already exists: class_8122['Item Display'/31, l='ServerLevel[world]', x=0.50, y=0.00, z=0.50]
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:14] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:14] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:24] [Server thread/WARN]: Ignored advancement 'frostiful:recipes/combat/armor/ice_skates' in progress file ./world/advancements/e736cd1b-059e-3f6a-ae2a-f86f63603436.json - it doesn't exist anymore?
+[04:39:24] [Server thread/WARN]: Ignored advancement 'scorchful:recipes/sun_hat' in progress file ./world/advancements/e736cd1b-059e-3f6a-ae2a-f86f63603436.json - it doesn't exist anymore?
+[04:39:24] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.frost_resistance'
+[04:39:24] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.heat_resistance'
+[04:39:24] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:24] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:24] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"} missed input: {"minecraft:container":[{item:{components:{"minecraft:custom_name":'"Iron Golem Head"',"minecraft:note_block_sound":"minecraft:entity.iron_golem.hurt","minecraft:profile":{id:[I;2092362149,-1722859307,-1677964379,-677981666],name:"iron_golem",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkwOTFkNzllYTBmNTllZjdlZjk0ZDdiYmE2ZTVmMTdmMmY3ZDQ1NzJjNDRmOTBmNzZjNDgxOWE3MTQifX19"}]}},count:2,id:"minecraft:player_head"},slot:0},{item:{components:{"minecraft:custom_name":'"Brown Horse Head"',"minecraft:note_block_sound":"minecraft:entity.horse.ambient","minecraft:profile":{id:[I;768298837,-1417328454,-1210942633,-739476486],name:"brown_horse",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE1ZmFiYmNiYzU0ODE5NzZmYjkzOGE1MTllYWQ1OWVlZWUyYTA3MWRmMjk3Mzg0YThmZTk2Nzg4YTlkZjVhNiJ9fX0="}]}},count:1,id:"minecraft:player_head"},slot:1},{item:{components:{"minecraft:custom_name":'"Polar Bear Head"',"minecraft:note_block_sound":"minecraft:entity.polar_bear.ambient","minecraft:profile":{id:[I;-2026748828,385894031,-2093750409,-1631010274],name:"polar_bear",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ2ZDIzZjA0ODQ2MzY5ZmEyYTM3MDJjMTBmNzU5MTAxYWY3YmZlODQxOTk2NjQyOTUzM2NkODFhMTFkMmIifX19"}]}},count:1,id:"minecraft:player_head"},slot:2},{item:{components:{"minecraft:custom_name":'"Wither Head"',"minecraft:note_block_sound":"minecraft:entity.wither.ambient","minecraft:profile":{id:[I;295450395,-367638583,-1384176717,-661368310],name:"wither",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RmNzRlMzIzZWQ0MTQzNjk2NWY1YzU3ZGRmMjgxNWQ1MzMyZmU5OTllNjhmYmI5ZDZjZjVjOGJkNDEzOWYifX19"}]}},count:2,id:"minecraft:player_head"},slot:3},{item:{components:{"minecraft:custom_name":'"Snow Golem Head"',"minecraft:note_block_sound":"minecraft:entity.snow_golem.hurt","minecraft:profile":{id:[I;1274469215,-165458401,-1997100372,1951960082],name:"snow_golem",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTNhZDc5MjA3YzNmOGJiZjRiMWQ1MzJjZmU4NmRjY2I1N2QyYzk3YWVlYjUxZWYwMGE2NjBhZmRjZWFiNWZhOSJ9fX0="}]}},count:2,id:"minecraft:player_head"},slot:4},{item:{components:{"minecraft:custom_name":'"Endermite Head"',"minecraft:note_block_sound":"minecraft:entity.endermite.ambient","minecraft:profile":{id:[I;868492731,-1567339007,-1688491859,1697363407],name:"endermite",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODRhYWZmYTRjMDllMmVhZmI4NWQzNTIyMTIyZGIwYWE0NTg3NGJlYTRlM2Y1ZTc1NjZiNGQxNjZjN2RmOCJ9fX0="}]}},count:5,id:"minecraft:player_head"},slot:5},{item:{components:{"minecraft:custom_name":'"Bogged Head"',"minecraft:note_block_sound":"minecraft:entity.bogged.ambient","minecraft:profile":{id:[I;1565737524,-1843770786,-1232181453,433123778],name:"bogged",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTNiOTAwM2JhMmQwNTU2MmM3NTExOWI4YTYyMTg1YzY3MTMwZTkyODJmN2FjYmFjNGJjMjgyNGMyMWViOTVkOSJ9fX0="}]}},count:3,id:"minecraft:player_head"},slot:6},{item:{components:{"minecraft:custom_name":'"Breeze Head"',"minecraft:note_block_sound":"minecraft:entity.breeze.wind_burst","minecraft:profile":{id:[I;-1448533537,1470778645,-1193497444,343109422],name:"breeze",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI3NTcyOGFmN2U2YTI5Yzg4MTI1YjY3NWEzOWQ4OGFlOTkxOWJiNjFmZGMyMDAzMzdmZWQ2YWIwYzQ5ZDY1YyJ9fX0="}]}},count:5,id:"minecraft:player_head"},slot:7},{item:{components:{"minecraft:custom_name":'"Guardian Head"',"minecraft:note_block_sound":"minecraft:entity.elder_guardian.flop","minecraft:profile":{id:[I;-444704576,-1147384656,-1599946441,-540470940],name:"guardian",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGZiNjc1Y2I1YTdlM2ZkMjVlMjlkYTgyNThmMjRmYzAyMGIzZmE5NTAzNjJiOGJjOGViMjUyZTU2ZTc0In19fQ=="}]}},count:1,id:"minecraft:player_head"},slot:8},{item:{components:{"scorchful:drink_level":"refreshing"},count:1,id:"minecraft:pufferfish"},slot:9},{item:{components:{"minecraft:custom_name":'"Elder Guardian Head"',"minecraft:note_block_sound":"minecraft:entity.elder_guardian.flop","minecraft:profile":{id:[I;-219597913,1632584928,-1088935781,270599339],name:"elder_guardian",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM3OTc0ODJhMTRiZmNiODc3MjU3Y2IyY2ZmMWI2ZTZhOGI4NDEzMzM2ZmZiNGMyOWE2MTM5Mjc4YjQzNmIifX19"}]}},count:16,id:"minecraft:player_head"},slot:10},{item:{components:{"minecraft:custom_name":'"Evoker Head"',"minecraft:note_block_sound":"minecraft:entity.evoker.prepare_attack","minecraft:profile":{id:[I;921599579,-1064154963,-1770837389,-1331410097],name:"evoker",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTAwZDNmZmYxNmMyZGNhNTliOWM1OGYwOTY1MjVjODY5NzExNjZkYmFlMTMzYjFiMDUwZTVlZTcxNjQ0MyJ9fX0="}]}},count:1,id:"minecraft:player_head"},slot:11},{item:{components:{"minecraft:custom_name":'"Drowned Head"',"minecraft:note_block_sound":"minecraft:entity.drowned.ambient","minecraft:profile":{id:[I;-1943150917,724453901,-1528537058,1492972198],name:"drowned",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg0ZGY3OWM0OTEwNGIxOThjZGFkNmQ5OWZkMGQwYmNmMTUzMWM5MmQ0YWI2MjY5ZTQwYjdkM2NiYmI4ZTk4YyJ9fX0="}]}},count:6,id:"minecraft:player_head"},slot:12},{item:{components:{"minecraft:custom_name":'"Warden Head"',"minecraft:note_block_sound":"minecraft:entity.warden.ambient","minecraft:profile":{id:[I;1531857479,-78233159,-1681038604,1859460671],name:"warden",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNmMzY3NGIyZGRjMGVmN2MzOWUzYjljNmI1ODY3N2RlNWNmMzc3ZDJlYjA3M2YyZjNmZTUwOTE5YjFjYTRjOSJ9fX0="}]}},count:1,id:"minecraft:player_head"},slot:13}]}'
+[04:39:24] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"} missed input: {"minecraft:container":[{item:{count:64,id:"minecraft:obsidian"},slot:0},{item:{count:62,id:"minecraft:obsidian"},slot:1},{item:{count:25,id:"minecraft:crying_obsidian"},slot:2},{item:{count:1,id:"minecraft:water_bucket"},slot:3},{item:{count:1,id:"minecraft:respawn_anchor"},slot:4},{item:{count:44,id:"minecraft:lead"},slot:5},{item:{count:64,id:"minecraft:shulker_shell"},slot:6},{item:{components:{"minecraft:banner_patterns":[{color:"cyan",pattern:"minecraft:rhombus"},{color:"light_gray",pattern:"minecraft:stripe_bottom"},{color:"gray",pattern:"minecraft:stripe_center"},{color:"light_gray",pattern:"minecraft:border"},{color:"black",pattern:"minecraft:stripe_middle"},{color:"light_gray",pattern:"minecraft:half_horizontal"},{color:"light_gray",pattern:"minecraft:circle"},{color:"black",pattern:"minecraft:border"}],"minecraft:hide_additional_tooltip":{},"minecraft:item_name":'{"color":"gold","translate":"block.minecraft.ominous_banner"}'},count:16,id:"minecraft:white_banner"},slot:7},{item:{components:{"minecraft:banner_patterns":[{color:"black",pattern:"minecraft:gradient"},{color:"black",pattern:"minecraft:gradient_up"},{color:"red",pattern:"minecraft:globe"}]},count:12,id:"minecraft:red_banner"},slot:8},{item:{components:{"minecraft:repair_cost":1},count:1,id:"minecraft:elytra"},slot:9},{item:{count:64,id:"minecraft:obsidian"},slot:10},{item:{components:{"scorchful:drink_level":"refreshing"},count:48,id:"minecraft:golden_apple"},slot:11},{item:{components:{"scorchful:drink_level":"refreshing"},count:37,id:"minecraft:enchanted_golden_apple"},slot:12},{item:{count:42,id:"minecraft:glowstone"},slot:13},{item:{components:{"minecraft:banner_patterns":[{color:"light_blue",pattern:"minecraft:gradient_up"},{color:"cyan",pattern:"minecraft:triangle_bottom"},{color:"light_blue",pattern:"minecraft:triangles_bottom"},{color:"black",pattern:"minecraft:skull"}],"minecraft:base_color":"gray","minecraft:damage":276},count:1,id:"minecraft:shield"},slot:14},{item:{components:{"minecraft:banner_patterns":[{color:"cyan",pattern:"minecraft:rhombus"},{color:"light_gray",pattern:"minecraft:stripe_bottom"},{color:"gray",pattern:"minecraft:stripe_center"},{color:"light_gray",pattern:"minecraft:border"},{color:"black",pattern:"minecraft:stripe_middle"},{color:"light_gray",pattern:"minecraft:half_horizontal"},{color:"light_gray",pattern:"minecraft:circle"},{color:"black",pattern:"minecraft:border"}],"minecraft:hide_additional_tooltip":{},"minecraft:item_name":'{"color":"gold","translate":"block.minecraft.ominous_banner"}'},count:4,id:"minecraft:white_banner"},slot:15},{item:{components:{"minecraft:banner_patterns":[{color:"black",pattern:"minecraft:triangle_top"},{color:"black",pattern:"minecraft:triangle_bottom"}]},count:8,id:"minecraft:magenta_banner"},slot:16},{item:{components:{"minecraft:banner_patterns":[{color:"magenta",pattern:"minecraft:gradient"},{color:"black",pattern:"minecraft:circle"},{color:"magenta",pattern:"minecraft:diagonal_left"},{color:"purple",pattern:"minecraft:gradient_up"},{color:"black",pattern:"minecraft:triangle_top"},{color:"black",pattern:"minecraft:triangle_bottom"},{color:"magenta",pattern:"minecraft:flower"}],"minecraft:custom_name":'{"color":"light_purple","text":"End Castle Banner"}'},count:1,id:"minecraft:magenta_banner"},slot:17},{item:{count:1,id:"minecraft:elytra"},slot:18},{item:{count:40,id:"minecraft:stick"},slot:20},{item:{count:1,id:"minecraft:lodestone"},slot:21},{item:{count:2,id:"minecraft:nether_star"},slot:22},{item:{count:37,id:"minecraft:end_crystal"},slot:23},{item:{count:38,id:"minecraft:chain"},slot:24},{item:{components:{"minecraft:banner_patterns":[{color:"black",pattern:"minecraft:gradient"},{color:"black",pattern:"minecraft:skull"}]},count:4,id:"minecraft:red_banner"},slot:25},{item:{components:{"minecraft:banner_patterns":[{color:"cyan",pattern:"minecraft:rhombus"},{color:"light_gray",pattern:"minecraft:stripe_bottom"},{color:"gray",pattern:"minecraft:stripe_center"},{color:"light_gray",pattern:"minecraft:border"},{color:"black",pattern:"minecraft:stripe_middle"},{color:"light_gray",pattern:"minecraft:half_horizontal"},{color:"light_gray",pattern:"minecraft:circle"},{color:"black",pattern:"minecraft:border"}],"minecraft:hide_additional_tooltip":{},"minecraft:item_name":'{"color":"gold","translate":"block.minecraft.ominous_banner"}'},count:16,id:"minecraft:white_banner"},slot:26}]}'
+[04:39:24] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"} missed input: {"minecraft:container":[{item:{components:{"minecraft:item_name":'"Splash Potion of Levitation"',"minecraft:potion_contents":{custom_color:13565951,custom_effects:[{duration:400,id:"minecraft:levitation",show_icon:1b}]}},count:1,id:"minecraft:splash_potion"},slot:0},{item:{components:{"minecraft:item_name":'"Lingering Potion of Levitation"',"minecraft:potion_contents":{custom_color:13565951,custom_effects:[{duration:400,id:"minecraft:levitation",show_icon:1b}]}},count:1,id:"minecraft:lingering_potion"},slot:1},{item:{components:{"minecraft:item_name":'"Potion of Levitation"',"minecraft:potion_contents":{custom_color:13565951,custom_effects:[{duration:200,id:"minecraft:levitation",show_icon:1b}]},"scorchful:drink_level":"hydrating"},count:1,id:"minecraft:potion"},slot:2},{item:{components:{"minecraft:potion_contents":{potion:"minecraft:regeneration"}},count:1,id:"minecraft:splash_potion"},slot:3},{item:{components:{"minecraft:potion_contents":{potion:"minecraft:strong_regeneration"}},count:1,id:"minecraft:splash_potion"},slot:4},{item:{components:{"minecraft:potion_contents":{potion:"minecraft:strong_regeneration"},"scorchful:drink_level":"hydrating"},count:1,id:"minecraft:potion"},slot:5},{item:{components:{"minecraft:potion_contents":{potion:"minecraft:strong_regeneration"},"scorchful:drink_level":"hydrating"},count:1,id:"minecraft:potion"},slot:6},{item:{components:{"minecraft:item_name":'"Arrow of Nausea"',"minecraft:potion_contents":{custom_color:5578058,custom_effects:[{duration:200,id:"minecraft:nausea",show_icon:1b}]}},count:6,id:"minecraft:tipped_arrow"},slot:7},{item:{count:28,id:"minecraft:arrow"},slot:8},{item:{components:{"minecraft:ominous_bottle_amplifier":4,"scorchful:drink_level":"hydrating"},count:18,id:"minecraft:ominous_bottle"},slot:9},{item:{components:{"minecraft:potion_contents":{potion:"minecraft:long_regeneration"}},count:1,id:"minecraft:splash_potion"},slot:10},{item:{components:{"minecraft:potion_contents":{potion:"minecraft:long_regeneration"}},count:1,id:"minecraft:splash_potion"},slot:11},{item:{components:{"minecraft:potion_contents":{potion:"minecraft:strong_strength"},"scorchful:drink_level":"hydrating"},count:1,id:"minecraft:potion"},slot:12},{item:{components:{"minecraft:potion_contents":{potion:"minecraft:strong_regeneration"}},count:1,id:"minecraft:splash_potion"},slot:13},{item:{components:{"minecraft:item_name":'"Potion of Levitation"',"minecraft:potion_contents":{custom_color:13565951,custom_effects:[{duration:200,id:"minecraft:levitation",show_icon:1b}]},"scorchful:drink_level":"hydrating"},count:1,id:"minecraft:potion"},slot:14},{item:{components:{"minecraft:item_name":'{"translate":"item.minecraft.splash_potion.effect.water_breathing"}',"minecraft:potion_contents":{custom_color:10017472,custom_effects:[{duration:2400,id:"minecraft:water_breathing",show_icon:1b}]}},count:1,id:"minecraft:splash_potion"},slot:15},{item:{components:{"minecraft:potion_contents":{potion:"minecraft:strong_harming"}},count:15,id:"minecraft:tipped_arrow"},slot:16},{item:{components:{"minecraft:item_name":'"Arrow of Levitation"',"minecraft:potion_contents":{custom_color:13565951,custom_effects:[{duration:80,id:"minecraft:levitation",show_icon:1b}]}},count:18,id:"minecraft:tipped_arrow"},slot:17},{item:{components:{"minecraft:ominous_bottle_amplifier":4,"scorchful:drink_level":"hydrating"},count:63,id:"minecraft:ominous_bottle"},slot:18},{item:{components:{"minecraft:item_name":'"Splash Potion of Levitation"',"minecraft:potion_contents":{custom_color:13565951,custom_effects:[{duration:400,id:"minecraft:levitation",show_icon:1b}]}},count:1,id:"minecraft:splash_potion"},slot:19},{item:{components:{"minecraft:item_name":'{"translate":"item.minecraft.splash_potion.effect.water_breathing"}',"minecraft:potion_contents":{custom_color:10017472,custom_effects:[{duration:2400,id:"minecraft:water_breathing",show_icon:1b}]}},count:1,id:"minecraft:splash_potion"},slot:20},{item:{count:2,id:"minecraft:spectral_arrow"},slot:21},{item:{components:{"minecraft:item_name":'{"translate":"item.minecraft.splash_potion.effect.water_breathing"}',"minecraft:potion_contents":{custom_color:10017472,custom_effects:[{duration:2400,id:"minecraft:water_breathing",show_icon:1b}]}},count:1,id:"minecraft:splash_potion"},slot:22},{item:{components:{"minecraft:potion_contents":{potion:"minecraft:strong_regeneration"},"scorchful:drink_level":"hydrating"},count:1,id:"minecraft:potion"},slot:23},{item:{components:{"minecraft:potion_contents":{potion:"minecraft:strength"},"scorchful:drink_level":"hydrating"},count:1,id:"minecraft:potion"},slot:24},{item:{components:{"minecraft:ominous_bottle_amplifier":1,"scorchful:drink_level":"hydrating"},count:1,id:"minecraft:ominous_bottle"},slot:25},{item:{count:64,id:"minecraft:spectral_arrow"},slot:26}]}'
+[04:39:24] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"} missed input: {"minecraft:container":[{item:{count:30,id:"minecraft:bone_block"},slot:0},{item:{count:4,id:"minecraft:tnt"},slot:1},{item:{count:27,id:"minecraft:gilded_blackstone"},slot:2},{item:{count:23,id:"minecraft:emerald"},slot:3},{item:{components:{"minecraft:instrument":"minecraft:seek_goat_horn"},count:1,id:"minecraft:goat_horn"},slot:4},{item:{components:{"scorchful:drink_level":"refreshing"},count:3,id:"minecraft:potato"},slot:5},{item:{count:4,id:"minecraft:honey_bottle"},slot:6},{item:{count:1,id:"minecraft:saddle"},slot:7},{item:{count:1,id:"minecraft:fermented_spider_eye"},slot:8},{item:{count:12,id:"minecraft:paper"},slot:9},{item:{count:1,id:"minecraft:music_disc_otherside"},slot:10},{item:{components:{"scorchful:drink_level":"refreshing"},count:1,id:"minecraft:carrot"},slot:11},{item:{count:1,id:"minecraft:lodestone"},slot:12},{item:{components:{"minecraft:damage":170},count:1,id:"minecraft:iron_axe"},slot:13},{item:{components:{"minecraft:charged_projectiles":[{count:1,id:"minecraft:arrow"}],"minecraft:damage":296},count:1,id:"minecraft:crossbow"},slot:14},{item:{count:1,id:"minecraft:water_bucket"},slot:15},{item:{components:{"minecraft:damage":2,"minecraft:enchantments":{levels:{"minecraft:efficiency":4}}},count:1,id:"minecraft:iron_pickaxe"},slot:17},{item:{components:{"minecraft:banner_patterns":[{color:"cyan",pattern:"minecraft:rhombus"},{color:"light_gray",pattern:"minecraft:stripe_bottom"},{color:"gray",pattern:"minecraft:stripe_center"},{color:"light_gray",pattern:"minecraft:border"},{color:"black",pattern:"minecraft:stripe_middle"},{color:"light_gray",pattern:"minecraft:half_horizontal"},{color:"light_gray",pattern:"minecraft:circle"},{color:"black",pattern:"minecraft:border"}],"minecraft:base_color":"white","minecraft:damage":20},count:1,id:"minecraft:shield"},slot:18},{item:{count:8,id:"minecraft:name_tag"},slot:19},{item:{count:7,id:"minecraft:decorated_pot"},slot:20},{item:{count:21,id:"minecraft:arrow"},slot:21},{item:{count:48,id:"minecraft:stick"},slot:22},{item:{components:{"minecraft:enchantments":{levels:{"minecraft:mending":1}}},count:1,id:"minecraft:diamond_pickaxe"},slot:23},{item:{count:2,id:"minecraft:netherrack"},slot:24},{item:{count:19,id:"minecraft:iron_ingot"},slot:25},{item:{count:2,id:"minecraft:bone"},slot:26}]}'
+[04:39:24] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"} missed input: {"minecraft:container":[{item:{count:64,id:"minecraft:sculk"},slot:0},{item:{count:1,id:"minecraft:sculk_vein"},slot:1},{item:{count:13,id:"minecraft:echo_shard"},slot:2},{item:{count:64,id:"minecraft:sculk_shrieker"},slot:3},{item:{components:{"minecraft:potion_contents":{potion:"minecraft:strong_regeneration"},"scorchful:drink_level":"hydrating"},count:1,id:"minecraft:potion"},slot:4},{item:{count:17,id:"minecraft:sculk_shrieker"},slot:5},{item:{count:2,id:"minecraft:redstone_block"},slot:6},{item:{components:{"minecraft:potion_contents":{potion:"minecraft:strong_regeneration"},"scorchful:drink_level":"hydrating"},count:1,id:"minecraft:potion"},slot:7},{item:{count:4,id:"minecraft:dragon_breath"},slot:8},{item:{count:61,id:"minecraft:sculk"},slot:9},{item:{components:{"scorchful:drink_level":"refreshing"},count:4,id:"minecraft:glow_berries"},slot:10},{item:{components:{"minecraft:potion_contents":{potion:"minecraft:strong_regeneration"},"scorchful:drink_level":"hydrating"},count:1,id:"minecraft:potion"},slot:11},{item:{count:4,id:"minecraft:sculk_catalyst"},slot:12},{item:{components:{"minecraft:damage":172,"minecraft:enchantments":{levels:{"minecraft:efficiency":5,"minecraft:mending":1,"minecraft:silk_touch":1,"minecraft:unbreaking":3}}},count:1,id:"minecraft:diamond_axe"},slot:13},{item:{count:31,id:"minecraft:sculk_sensor"},slot:14},{item:{count:64,id:"minecraft:sculk"},slot:15},{item:{count:36,id:"minecraft:bone"},slot:16},{item:{count:16,id:"minecraft:coal"},slot:17},{item:{components:{"minecraft:damage":1},count:1,id:"minecraft:diamond_hoe"},slot:18},{item:{components:{"minecraft:stored_enchantments":{levels:{"minecraft:swift_sneak":3}}},count:1,id:"minecraft:enchanted_book"},slot:19},{item:{count:3,id:"minecraft:disc_fragment_5"},slot:20},{item:{components:{"minecraft:potion_contents":{potion:"minecraft:strong_regeneration"},"scorchful:drink_level":"hydrating"},count:1,id:"minecraft:potion"},slot:21},{item:{components:{"minecraft:damage":122,"minecraft:enchantments":{levels:{"minecraft:protection":4}},"minecraft:repair_cost":1},count:1,id:"minecraft:diamond_leggings"},slot:23},{item:{components:{"minecraft:damage":195,"minecraft:enchantments":{levels:{"minecraft:efficiency":5,"minecraft:mending":1,"minecraft:unbreaking":3}}},count:1,id:"minecraft:diamond_hoe"},slot:25},{item:{components:{"minecraft:stored_enchantments":{levels:{"minecraft:breach":4}}},count:1,id:"minecraft:enchanted_book"},slot:26}]}'
+[04:39:24] [Server thread/ERROR]: Tried to load unrecognized recipe: scorchful:sun_hat removed now.
+[04:39:24] [Server thread/ERROR]: Tried to load unrecognized recipe: frostiful:smithing/ice_skates_upgrade removed now.
+[04:39:24] [Server thread/ERROR]: Tried to load unrecognized recipe: scorchful:sun_hat removed now.
+[04:39:24] [Server thread/ERROR]: Tried to load unrecognized recipe: frostiful:smithing/ice_skates_upgrade removed now.
+[04:39:24] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"} missed input: {"travelersbackpack:backpack_container":[{item:{count:2,id:"betterend:blossom_berry_jelly"},slot:0},{item:{count:3,id:"betterend:leather_wrapped_stick"},slot:1},{item:{count:2,id:"betterend:mossy_glowshroom_cap"},slot:2},{item:{count:2,id:"betterend:mossy_glowshroom_planks"},slot:3},{item:{count:23,id:"betterend:mossy_glowshroom_sapling"},slot:4},{item:{count:2,id:"betterend:mossy_glowshroom_sign"},slot:5},{item:{components:{"minecraft:damage":719},count:1,id:"betterend:netherite_hammer"},slot:6},{item:{count:5,id:"betterend:sandy_jadestone_bricks"},slot:7},{item:{count:4,id:"betterend:sandy_jadestone_pillar"},slot:8},{item:{count:1,id:"betterend:sandy_jadestone"},slot:9},{item:{count:7,id:"betterend:shadow_plant"},slot:10},{item:{count:8,id:"chunkloaders:single_chunk_loader"},slot:11},{item:{count:8,id:"minecraft:arrow"},slot:12},{item:{count:12,id:"minecraft:blaze_rod"},slot:13},{item:{count:4,id:"minecraft:brick"},slot:14},{item:{count:6,id:"minecraft:bucket"},slot:15},{item:{components:{"scorchful:drink_level":"refreshing"},count:2,id:"minecraft:carrot"},slot:16},{item:{count:17,id:"minecraft:chest"},slot:17},{item:{count:3,id:"minecraft:coal"},slot:18},{item:{count:2,id:"minecraft:cooked_beef"},slot:19},{item:{count:5,id:"minecraft:diamond"},slot:20},{item:{count:9,id:"minecraft:dirt"},slot:21},{item:{count:2,id:"minecraft:dried_kelp"},slot:22},{item:{count:17,id:"minecraft:emerald"},slot:23},{item:{count:1,id:"minecraft:ender_chest"},slot:24},{item:{count:4,id:"minecraft:ender_eye"},slot:25},{item:{count:7,id:"minecraft:ender_pearl"},slot:26},{item:{components:{"scorchful:drink_level":"refreshing"},count:2,id:"minecraft:golden_apple"},slot:27},{item:{count:1,id:"minecraft:grass_block"},slot:28},{item:{count:10,id:"minecraft:iron_ingot"},slot:29},{item:{count:1,id:"minecraft:lava_bucket"},slot:30},{item:{count:21,id:"minecraft:magma_cream"},slot:31},{item:{count:3,id:"minecraft:nautilus_shell"},slot:32},{item:{count:45,id:"minecraft:netherite_ingot"},slot:33},{item:{components:{"minecraft:custom_name":'"Iron Golem Head"',"minecraft:note_block_sound":"minecraft:entity.iron_golem.hurt","minecraft:profile":{id:[I;2092362149,-1722859307,-1677964379,-677981666],name:"iron_golem",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkwOTFkNzllYTBmNTllZjdlZjk0ZDdiYmE2ZTVmMTdmMmY3ZDQ1NzJjNDRmOTBmNzZjNDgxOWE3MTQifX19"}]}},count:1,id:"minecraft:player_head"},slot:34},{item:{components:{"minecraft:custom_name":'"Magma Cube Head"',"minecraft:note_block_sound":"minecraft:entity.magma_cube.squish","minecraft:profile":{id:[I;-1767051932,1535462297,-1205513267,2057279270],name:"magma_cube",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5NTdkNTAyM2M5MzdjNGM0MWFhMjQxMmQ0MzQxMGJkYTIzY2Y3OWE5ZjZhYjM2Yjc2ZmVmMmQ3YzQyOSJ9fX0="}]}},count:7,id:"minecraft:player_head"},slot:35},{item:{components:{"minecraft:potion_contents":{potion:"minecraft:water"},"scorchful:drink_level":"hydrating"},count:1,id:"minecraft:potion"},slot:36},{item:{components:{"minecraft:potion_contents":{potion:"minecraft:water"},"scorchful:drink_level":"hydrating"},count:1,id:"minecraft:potion"},slot:37},{item:{count:1,id:"minecraft:redstone"},slot:38},{item:{count:45,id:"minecraft:rotten_flesh"},slot:39},{item:{components:{"minecraft:damage":1},count:1,id:"minecraft:shears"},slot:40},{item:{count:15,id:"minecraft:slime_ball"},slot:41},{item:{count:2,id:"minecraft:small_dripleaf"},slot:42},{item:{count:64,id:"minecraft:spectral_arrow"},slot:43},{item:{count:39,id:"minecraft:spectral_arrow"},slot:44},{item:{count:35,id:"minecraft:sponge"},slot:45},{item:{count:26,id:"minecraft:spruce_planks"},slot:46},{item:{count:62,id:"minecraft:stick"},slot:47},{item:{components:{"minecraft:damage":102},count:1,id:"minecraft:stone_sword"},slot:48},{item:{count:1,id:"minecraft:totem_of_undying"},slot:49},{item:{components:{"minecraft:custom_model_data":718,"minecraft:item_name":'"Piglin Outstation Key"'},count:2,id:"minecraft:trial_key"},slot:50},{item:{components:{"minecraft:custom_name":'{"bold":true,"color":"red","extra":[{"color":"gray","text":"&"},{"bold":true,"color":"blue","text":"Cold "},{"bold":false,"color":"gray","italic":false,"text":"    Temp: 37°C | Wet: 0%"}],"text":" Heat"}',"minecraft:lore":['"Body temp: 37°C"','"Wetness: 0%"'],"minecraft:written_book_content":{author:"Heat&Cold",pages:[{raw:'{"extra":[{"color":"#FF3729","text":"      Heat"},"&",{"color":"#3392FF","text":"Cold"},"\\n\\nMade by: ",{"clickEvent":{"action":"open_url","value":"https://modrinth.com/user/Kathezel"},"hoverEvent":{"action":"show_text","contents":"Click to get to the Modrinth page."},"italic":true,"text":"Kathezel"},"\\n\\n\\nThis book helps you to survive in the Cold or warm biomes.","\\n\\n\\n\\nNext Page: Chapters"],"text":""}'},{raw:'{"extra":[{"bold":true,"text":"Biomes:"},{"clickEvent":{"action":"change_page","value":"4"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n4 - Cold"},{"clickEvent":{"action":"change_page","value":"5"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n5 - Warm"},{"bold":true,"text":"\\nTemp. effects:"},{"clickEvent":{"action":"change_page","value":"6"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n6 - Cold"},{"clickEvent":{"action":"change_page","value":"7"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n7 - Warm "},{"bold":true,"text":"\\nDrinks:"},{"clickEvent":{"action":"change_page","value":"8"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n8 - Water"},{"clickEvent":{"action":"change_page","value":"9"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n9 - Tea"},{"clickEvent":{"action":"change_page","value":"10"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n10 - Tea crafting"},{"clickEvent":{"action":"change_page","value":"10"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n10 - Drinkinginfo"},{"bold":true,"text":"\\n\\nMore next page ->"}],"text":""}'},{raw:'{"extra":[{"bold":true,"text":"Effects:"},{"bold":false,"clickEvent":{"action":"change_page","value":"11"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n11 - Temp effects"},{"clickEvent":{"action":"change_page","value":"12"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n12 - \\"Player voice\\""},{"bold":true,"text":"\\nOther recipes:\\n"},{"clickEvent":{"action":"change_page","value":"13"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"13 - String"},{"bold":true,"text":"\\nLeather making:\\n"},{"clickEvent":{"action":"change_page","value":"14"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"14 - Build Rack"},{"clickEvent":{"action":"change_page","value":"15"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n15 - Use it"},{"clickEvent":{"action":"change_page","value":"16"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n16 - Drying"},{"bold":true,"text":"\\nWetness:\\n"},{"clickEvent":{"action":"change_page","value":"17"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"17-18 - Rain"},{"clickEvent":{"action":"change_page","value":"19"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n19 - Drying"},{"clickEvent":{"action":"change_page","value":"20"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n20 - stages"}],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"color":"#3392FF","text":"Cold Biomes:\\n","underlined":true},{"color":"black","text":"Deep Cold Ocean\\nDeep Frozen Ocean\\nCold Ocean\\nFrozen Ocean\\nRozen Peaks\\nFrozen River\\nGrove\\nIce Spikes\\nJagged Peaks\\nSnowy Beach\\nSnowy Plains\\nSnowy Slopes\\nSnowy Taiga","underlined":false}],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"color":"#FF3E17","text":"Warm Biomes:","underlined":true},{"color":"black","text":"\\n\\nBadlands\\nDesert\\nEroded Badlands\\nSavanna\\nSavanna Plateau\\nwindswept Savanna\\nWooded Badlands","underlined":false},{"color":"#FF0800","text":"\\n\\nNether (Balanced)","underlined":false},{"color":"#EE57FF","text":"\\n\\nThe Desert will get also cold at night!","underlined":false}],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Cold:"},"\\n1. Campfire and active furnaces can heat up the player.\\n2. Iron/Gold/Diamond armor cools down the player if worn.\\n3. If it is raining, the player gets cold even faster.\\n4. Underground is chilly but nor cold\\n- Good to hide there in early game."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Hot:\\n\\n"},"1. All armor types heats up the player more.\\n2. Underground is warm but not hot.\\n- Good to hide there in early game.\\n3. Water cools down and caps max heat.\\n4. Soul campfire are cooling the player down."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Water:\\n\\n"},"If the player drinks water in warm biomes, he will cool downa little.\\n\\nAfter drinking there is a 30 sec cooldown for drinking and also the player is not getting hotter."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Tea:\\n\\n"},"If the player drinks tea he will warm up a little.\\n\\nAfter drinking there is a 30 sec cooldown for drinking and also the player is not getting hotter.",{"color":"#055703","italic":true,"text":"\\n\\nCraftig, next page."}],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Tea Craftig:\\n\\n"},"By throwing a water bottle and 5 sweat berries at the same spot next to a campfire it will turn into \\"Sweet berry tea\\"\\n\\n","Info:\\nDrinking outside warm or cold biomes, will not do anything."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Temp effects:\\n"},"57°C 1dmg/5sec.\\n50°C Hunger\\n45°C slowness 2\\n40°C slowness 1",{"bold":true,"text":"\\n39°C\\nNormal\\n35°C"},"\\n34°C slowness 1\\n29°C slowness 2\\n24°C Hunger\\n17°C 1dmg/5sec."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Player Voice:\\n\\n"},"The player will tell you if he gets colder/warmer with a probt in the chat\\n\\nAlso he will do the same if for example he is cold and is warming up."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Strings:\\n\\n"},"By putting any wolltype into a crafting grid, you get a few strings.\\n\\n","- Woll carpets also give string."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Build a drying rack:\\n\\n"},"Throw ",{"bold":true,"text":"exact 5 Sticks and 3 Stings "},"on the ground at the same spot.\\n\\n","doing this will build a drying rack, where you can turn rotten flesh into leather."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Using the drying rack:\\n\\n"},"Hold exact ",{"bold":true,"text":"5 rotten flesh in mainhand"}," and ",{"bold":true,"text":"3 Strings in offhand.\\n\\n "},"Right click the rack to start converting it into leather."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Drying:\\n\\n"},"After the rotten flesh is on the rack it will take 10 minutes to turn it into ",{"bold":true,"text":"1 Leather"},".\\n\\n","If there is leather on the rack, just simple right click the rack again to take it off."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Rain:\\n\\n"},"If the player is standing in the rain, they will get wet.","\\nThe more wet the player is, the faster they gets cold.","\\nEven in normal biomes, if the player is completely wet, they will get cold."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]\\n"},"Wet Players will drip water from them.\\n\\n","Jumping in water will drastically increase how wet the player is.\\n","50% - Just feet\\n100% - Completely underwater"],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Drying:\\n\\n"},"Go inside, seek shelter or stand near a campfire to dry you off."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Stages:\\n\\n"},"Every effect is stacking. \\n\\n","0-19% No effect\\n","20-39% -4temp/sec\\n","40-59% -4temp/sec\\n","60-79% -4temp/sec\\n","80-100% -5temp/sec\\n"],"text":""}'}],title:{raw:"Heat&Cold"}}},count:1,id:"minecraft:written_book"},slot:51},{item:{components:{"minecraft:damage":479},count:1,id:"morevanillashields:netherite_shield"},slot:52},{item:{components:{"minecraft:damage":8},count:1,id:"toughasnails:netherite_purified_water_canteen"},slot:53}]}'
+[04:39:24] [Server thread/INFO]: whitehairguy[/127.0.0.1:47918] logged in with entity id 71 at (151.08967493901173, 82.79495602238923, 455.68601220035396)
+[04:39:24] [Server thread/INFO]: Loading config from file...
+[04:39:24] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"}; No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"refreshing"} missed input: {"travelersbackpack:backpack_container":[{item:{count:2,id:"betterend:blossom_berry_jelly"},slot:0},{item:{count:3,id:"betterend:leather_wrapped_stick"},slot:1},{item:{count:2,id:"betterend:mossy_glowshroom_cap"},slot:2},{item:{count:2,id:"betterend:mossy_glowshroom_planks"},slot:3},{item:{count:23,id:"betterend:mossy_glowshroom_sapling"},slot:4},{item:{count:2,id:"betterend:mossy_glowshroom_sign"},slot:5},{item:{components:{"minecraft:damage":719},count:1,id:"betterend:netherite_hammer"},slot:6},{item:{count:5,id:"betterend:sandy_jadestone_bricks"},slot:7},{item:{count:4,id:"betterend:sandy_jadestone_pillar"},slot:8},{item:{count:1,id:"betterend:sandy_jadestone"},slot:9},{item:{count:7,id:"betterend:shadow_plant"},slot:10},{item:{count:8,id:"chunkloaders:single_chunk_loader"},slot:11},{item:{count:8,id:"minecraft:arrow"},slot:12},{item:{count:12,id:"minecraft:blaze_rod"},slot:13},{item:{count:4,id:"minecraft:brick"},slot:14},{item:{count:6,id:"minecraft:bucket"},slot:15},{item:{components:{"scorchful:drink_level":"refreshing"},count:2,id:"minecraft:carrot"},slot:16},{item:{count:17,id:"minecraft:chest"},slot:17},{item:{count:3,id:"minecraft:coal"},slot:18},{item:{count:2,id:"minecraft:cooked_beef"},slot:19},{item:{count:5,id:"minecraft:diamond"},slot:20},{item:{count:9,id:"minecraft:dirt"},slot:21},{item:{count:2,id:"minecraft:dried_kelp"},slot:22},{item:{count:17,id:"minecraft:emerald"},slot:23},{item:{count:1,id:"minecraft:ender_chest"},slot:24},{item:{count:4,id:"minecraft:ender_eye"},slot:25},{item:{count:7,id:"minecraft:ender_pearl"},slot:26},{item:{components:{"scorchful:drink_level":"refreshing"},count:2,id:"minecraft:golden_apple"},slot:27},{item:{count:1,id:"minecraft:grass_block"},slot:28},{item:{count:10,id:"minecraft:iron_ingot"},slot:29},{item:{count:1,id:"minecraft:lava_bucket"},slot:30},{item:{count:21,id:"minecraft:magma_cream"},slot:31},{item:{count:3,id:"minecraft:nautilus_shell"},slot:32},{item:{count:45,id:"minecraft:netherite_ingot"},slot:33},{item:{components:{"minecraft:custom_name":'"Iron Golem Head"',"minecraft:note_block_sound":"minecraft:entity.iron_golem.hurt","minecraft:profile":{id:[2092362149,-1722859307,-1677964379,-677981666],name:"iron_golem",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkwOTFkNzllYTBmNTllZjdlZjk0ZDdiYmE2ZTVmMTdmMmY3ZDQ1NzJjNDRmOTBmNzZjNDgxOWE3MTQifX19"}]}},count:1,id:"minecraft:player_head"},slot:34},{item:{components:{"minecraft:custom_name":'"Magma Cube Head"',"minecraft:note_block_sound":"minecraft:entity.magma_cube.squish","minecraft:profile":{id:[-1767051932,1535462297,-1205513267,2057279270],name:"magma_cube",properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5NTdkNTAyM2M5MzdjNGM0MWFhMjQxMmQ0MzQxMGJkYTIzY2Y3OWE5ZjZhYjM2Yjc2ZmVmMmQ3YzQyOSJ9fX0="}]}},count:7,id:"minecraft:player_head"},slot:35},{item:{components:{"minecraft:potion_contents":{potion:"minecraft:water"},"scorchful:drink_level":"hydrating"},count:1,id:"minecraft:potion"},slot:36},{item:{components:{"minecraft:potion_contents":{potion:"minecraft:water"},"scorchful:drink_level":"hydrating"},count:1,id:"minecraft:potion"},slot:37},{item:{count:1,id:"minecraft:redstone"},slot:38},{item:{count:45,id:"minecraft:rotten_flesh"},slot:39},{item:{components:{"minecraft:damage":1},count:1,id:"minecraft:shears"},slot:40},{item:{count:15,id:"minecraft:slime_ball"},slot:41},{item:{count:2,id:"minecraft:small_dripleaf"},slot:42},{item:{count:64,id:"minecraft:spectral_arrow"},slot:43},{item:{count:39,id:"minecraft:spectral_arrow"},slot:44},{item:{count:35,id:"minecraft:sponge"},slot:45},{item:{count:26,id:"minecraft:spruce_planks"},slot:46},{item:{count:62,id:"minecraft:stick"},slot:47},{item:{components:{"minecraft:damage":102},count:1,id:"minecraft:stone_sword"},slot:48},{item:{count:1,id:"minecraft:totem_of_undying"},slot:49},{item:{components:{"minecraft:custom_model_data":718,"minecraft:item_name":'"Piglin Outstation Key"'},count:2,id:"minecraft:trial_key"},slot:50},{item:{components:{"minecraft:custom_name":'{"bold":true,"color":"red","extra":[{"color":"gray","text":"&"},{"bold":true,"color":"blue","text":"Cold "},{"bold":false,"color":"gray","italic":false,"text":"    Temp: 37°C | Wet: 0%"}],"text":" Heat"}',"minecraft:lore":['"Body temp: 37°C"','"Wetness: 0%"'],"minecraft:written_book_content":{author:"Heat&Cold",pages:[{raw:'{"extra":[{"color":"#FF3729","text":"      Heat"},"&",{"color":"#3392FF","text":"Cold"},"\\n\\nMade by: ",{"clickEvent":{"action":"open_url","value":"https://modrinth.com/user/Kathezel"},"hoverEvent":{"action":"show_text","contents":"Click to get to the Modrinth page."},"italic":true,"text":"Kathezel"},"\\n\\n\\nThis book helps you to survive in the Cold or warm biomes.","\\n\\n\\n\\nNext Page: Chapters"],"text":""}'},{raw:'{"extra":[{"bold":true,"text":"Biomes:"},{"clickEvent":{"action":"change_page","value":"4"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n4 - Cold"},{"clickEvent":{"action":"change_page","value":"5"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n5 - Warm"},{"bold":true,"text":"\\nTemp. effects:"},{"clickEvent":{"action":"change_page","value":"6"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n6 - Cold"},{"clickEvent":{"action":"change_page","value":"7"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n7 - Warm "},{"bold":true,"text":"\\nDrinks:"},{"clickEvent":{"action":"change_page","value":"8"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n8 - Water"},{"clickEvent":{"action":"change_page","value":"9"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n9 - Tea"},{"clickEvent":{"action":"change_page","value":"10"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n10 - Tea crafting"},{"clickEvent":{"action":"change_page","value":"10"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n10 - Drinkinginfo"},{"bold":true,"text":"\\n\\nMore next page ->"}],"text":""}'},{raw:'{"extra":[{"bold":true,"text":"Effects:"},{"bold":false,"clickEvent":{"action":"change_page","value":"11"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n11 - Temp effects"},{"clickEvent":{"action":"change_page","value":"12"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n12 - \\"Player voice\\""},{"bold":true,"text":"\\nOther recipes:\\n"},{"clickEvent":{"action":"change_page","value":"13"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"13 - String"},{"bold":true,"text":"\\nLeather making:\\n"},{"clickEvent":{"action":"change_page","value":"14"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"14 - Build Rack"},{"clickEvent":{"action":"change_page","value":"15"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n15 - Use it"},{"clickEvent":{"action":"change_page","value":"16"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n16 - Drying"},{"bold":true,"text":"\\nWetness:\\n"},{"clickEvent":{"action":"change_page","value":"17"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"17-18 - Rain"},{"clickEvent":{"action":"change_page","value":"19"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n19 - Drying"},{"clickEvent":{"action":"change_page","value":"20"},"hoverEvent":{"action":"show_text","contents":"click to jump to page"},"text":"\\n20 - stages"}],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"color":"#3392FF","text":"Cold Biomes:\\n","underlined":true},{"color":"black","text":"Deep Cold Ocean\\nDeep Frozen Ocean\\nCold Ocean\\nFrozen Ocean\\nRozen Peaks\\nFrozen River\\nGrove\\nIce Spikes\\nJagged Peaks\\nSnowy Beach\\nSnowy Plains\\nSnowy Slopes\\nSnowy Taiga","underlined":false}],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"color":"#FF3E17","text":"Warm Biomes:","underlined":true},{"color":"black","text":"\\n\\nBadlands\\nDesert\\nEroded Badlands\\nSavanna\\nSavanna Plateau\\nwindswept Savanna\\nWooded Badlands","underlined":false},{"color":"#FF0800","text":"\\n\\nNether (Balanced)","underlined":false},{"color":"#EE57FF","text":"\\n\\nThe Desert will get also cold at night!","underlined":false}],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Cold:"},"\\n1. Campfire and active furnaces can heat up the player.\\n2. Iron/Gold/Diamond armor cools down the player if worn.\\n3. If it is raining, the player gets cold even faster.\\n4. Underground is chilly but nor cold\\n- Good to hide there in early game."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Hot:\\n\\n"},"1. All armor types heats up the player more.\\n2. Underground is warm but not hot.\\n- Good to hide there in early game.\\n3. Water cools down and caps max heat.\\n4. Soul campfire are cooling the player down."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Water:\\n\\n"},"If the player drinks water in warm biomes, he will cool downa little.\\n\\nAfter drinking there is a 30 sec cooldown for drinking and also the player is not getting hotter."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Tea:\\n\\n"},"If the player drinks tea he will warm up a little.\\n\\nAfter drinking there is a 30 sec cooldown for drinking and also the player is not getting hotter.",{"color":"#055703","italic":true,"text":"\\n\\nCraftig, next page."}],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Tea Craftig:\\n\\n"},"By throwing a water bottle and 5 sweat berries at the same spot next to a campfire it will turn into \\"Sweet berry tea\\"\\n\\n","Info:\\nDrinking outside warm or cold biomes, will not do anything."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Temp effects:\\n"},"57°C 1dmg/5sec.\\n50°C Hunger\\n45°C slowness 2\\n40°C slowness 1",{"bold":true,"text":"\\n39°C\\nNormal\\n35°C"},"\\n34°C slowness 1\\n29°C slowness 2\\n24°C Hunger\\n17°C 1dmg/5sec."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Player Voice:\\n\\n"},"The player will tell you if he gets colder/warmer with a probt in the chat\\n\\nAlso he will do the same if for example he is cold and is warming up."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Strings:\\n\\n"},"By putting any wolltype into a crafting grid, you get a few strings.\\n\\n","- Woll carpets also give string."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Build a drying rack:\\n\\n"},"Throw ",{"bold":true,"text":"exact 5 Sticks and 3 Stings "},"on the ground at the same spot.\\n\\n","doing this will build a drying rack, where you can turn rotten flesh into leather."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Using the drying rack:\\n\\n"},"Hold exact ",{"bold":true,"text":"5 rotten flesh in mainhand"}," and ",{"bold":true,"text":"3 Strings in offhand.\\n\\n "},"Right click the rack to start converting it into leather."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Drying:\\n\\n"},"After the rotten flesh is on the rack it will take 10 minutes to turn it into ",{"bold":true,"text":"1 Leather"},".\\n\\n","If there is leather on the rack, just simple right click the rack again to take it off."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Rain:\\n\\n"},"If the player is standing in the rain, they will get wet.","\\nThe more wet the player is, the faster they gets cold.","\\nEven in normal biomes, if the player is completely wet, they will get cold."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]\\n"},"Wet Players will drip water from them.\\n\\n","Jumping in water will drastically increase how wet the player is.\\n","50% - Just feet\\n100% - Completely underwater"],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Drying:\\n\\n"},"Go inside, seek shelter or stand near a campfire to dry you off."],"text":""}'},{raw:'{"extra":[{"bold":true,"clickEvent":{"action":"change_page","value":"2"},"color":"#B40ACF","hoverEvent":{"action":"show_text","contents":"Back to Chapters page."},"text":"[↪]"},{"bold":true,"text":"Stages:\\n\\n"},"Every effect is stacking. \\n\\n","0-19% No effect\\n","20-39% -4temp/sec\\n","40-59% -4temp/sec\\n","60-79% -4temp/sec\\n","80-100% -5temp/sec\\n"],"text":""}'}],title:{raw:"Heat&Cold"}}},count:1,id:"minecraft:written_book"},slot:51},{item:{components:{"minecraft:damage":479},count:1,id:"morevanillashields:netherite_shield"},slot:52},{item:{components:{"minecraft:damage":8},count:1,id:"toughasnails:netherite_purified_water_canteen"},slot:53}]}'
+[04:39:24] [Server thread/INFO]: whitehairguy joined the game
+[04:39:25] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[04:39:25] [Server thread/INFO]: whitehairguy left the game
+[04:39:29] [Server thread/INFO]: whitehairguy[/127.0.0.1:47924] logged in with entity id 77 at (151.08967493901173, 82.79495602238923, 455.68601220035396)
+[04:39:29] [Server thread/INFO]: Loading config from file...
+[04:39:29] [Server thread/INFO]: whitehairguy joined the game
+[04:39:30] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[04:39:30] [Server thread/INFO]: whitehairguy left the game
+[04:39:30] [Server thread/WARN]: handleDisconnection() called twice
+[04:39:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:39:33] [Server thread/INFO]: whitehairguy[/127.0.0.1:38406] logged in with entity id 144 at (151.08967493901173, 82.79495602238923, 455.68601220035396)
+[04:39:33] [Server thread/INFO]: Loading config from file...
+[04:39:33] [Server thread/INFO]: whitehairguy joined the game
+[04:39:34] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[04:39:34] [Server thread/INFO]: whitehairguy left the game
+[04:39:34] [Server thread/WARN]: handleDisconnection() called twice
+[04:39:34] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:39:34] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:49] [Server thread/INFO]: whitehairguy[/127.0.0.1:40022] logged in with entity id 285 at (151.08967493901173, 82.79495602238923, 455.68601220035396)
+[04:40:49] [Server thread/INFO]: Loading config from file...
+[04:40:49] [Server thread/INFO]: whitehairguy joined the game
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:50] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:51] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.heat_resistance'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:52] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:53] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:53] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:53] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:53] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:53] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:53] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:53] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:53] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:53] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:53] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:53] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:53] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:53] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:53] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:54] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:55] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:55] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:55] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:55] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:55] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:55] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:55] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:55] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:55] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:55] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:55] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:55] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:56] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:56] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:56] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:56] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:56] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:56] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:56] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:56] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:56] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:56] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:56] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:56] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:56] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:56] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:56] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:56] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:57] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:58] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:58] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:58] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:58] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:58] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:58] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:58] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:58] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:58] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:58] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:58] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:58] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:58] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:58] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:58] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:58] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:40:59] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:40:59] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:01] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:01] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:01] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:01] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:02] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:02] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:02] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:02] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:02] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:02] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:02] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:02] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:03] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:03] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:03] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:03] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:04] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:04] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:04] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:04] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:05] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:05] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:05] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:05] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:05] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:05] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:05] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:05] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:05] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:05] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:06] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:06] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:08] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:08] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:09] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:09] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:10] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:10] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:11] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:11] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:11] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:11] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:12] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:12] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:13] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:14] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:14] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:15] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:15] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:15] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:15] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:15] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:15] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:15] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:15] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:15] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:15] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:15] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:15] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:15] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:15] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:15] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:15] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:17] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:17] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:18] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:18] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:18] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:18] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:18] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:18] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:18] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:18] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:18] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:18] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:18] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:18] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:18] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:18] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:18] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:18] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:18] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:18] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:18] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:18] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:19] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:19] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:19] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:19] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:20] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:20] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:20] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:20] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:22] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:22] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:22] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:22] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:27] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:27] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:27] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:27] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:29] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:29] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:29] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:29] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:29] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:29] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:29] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:29] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:29] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:29] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:29] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:29] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:29] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:29] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:29] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:29] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:29] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:29] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:29] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:29] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:30] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:31] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:31] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:31] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:31] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:31] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:31] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:31] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:31] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:31] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:31] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:31] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:31] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:31] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:31] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:31] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:31] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:31] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:31] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:32] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:32] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:32] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:32] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:32] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:32] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:32] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:32] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:32] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:32] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:32] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:32] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:32] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:32] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:33] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:33] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:33] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:33] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:33] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:33] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:33] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:33] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:35] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:35] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:35] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:35] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:35] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:35] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:42] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:42] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:42] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:42] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:42] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:42] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:43] [Server thread/WARN]: whitehairguy moved wrongly!
+[04:41:43] [Server thread/WARN]: whitehairguy moved wrongly!
+[04:41:43] [Server thread/WARN]: whitehairguy moved wrongly!
+[04:41:43] [Server thread/WARN]: whitehairguy moved wrongly!
+[04:41:44] [Server thread/WARN]: whitehairguy moved wrongly!
+[04:41:44] [Server thread/WARN]: whitehairguy moved wrongly!
+[04:41:44] [Server thread/WARN]: whitehairguy moved wrongly!
+[04:41:44] [Server thread/WARN]: whitehairguy moved wrongly!
+[04:41:44] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:44] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:44] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:44] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:44] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:44] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:44] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:44] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:45] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:45] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:45] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:45] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:45] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:45] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:46] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:41:46] [Server thread/ERROR]: Tried to load invalid item: 'No component with type: 'scorchful:drink_level'; No component with type: 'scorchful:drink_level' missed input: {"scorchful:drink_level":"hydrating"}'
+[04:41:46] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:46] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:46] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:46] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:46] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.min_temperature'
+[04:41:46] [Server thread/WARN]: Ignoring unknown attribute 'thermoo:generic.max_temperature'
+[04:41:49] [Server thread/WARN]: whitehairguy moved too quickly! 4.424177659430029,0.0,-9.830312859410242
+[04:43:22] [Server thread/WARN]: whitehairguy moved wrongly!
+[04:43:22] [Server thread/WARN]: whitehairguy moved wrongly!
+[04:44:58] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[04:44:58] [Server thread/INFO]: whitehairguy left the game
+[04:47:31] [Server thread/INFO]: whitehairguy[/127.0.0.1:60918] logged in with entity id 4265 at (4233.960961604654, 72.0, -8397.237308550672)
+[04:47:31] [Server thread/INFO]: Loading config from file...
+[04:47:31] [Server thread/INFO]: whitehairguy joined the game
+[04:49:45] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[04:49:45] [Server thread/INFO]: whitehairguy left the game
+[04:50:22] [Server thread/INFO]: whitehairguy[/127.0.0.1:59216] logged in with entity id 5226 at (4233.547125815762, 72.0, -8397.784059428017)
+[04:50:22] [Server thread/INFO]: Loading config from file...
+[04:50:22] [Server thread/INFO]: whitehairguy joined the game
+[04:56:19] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[04:56:19] [Server thread/INFO]: whitehairguy left the game
