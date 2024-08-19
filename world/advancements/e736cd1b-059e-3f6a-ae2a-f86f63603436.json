@@ -7579,12 +7579,6 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/aeternium_block_to_ingot": {
-    "criteria": {
-      "has_aeternium_block": "2024-08-19 04:25:38 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/misc/terminite_helmet_nugget_smelting": {
     "criteria": {
       "has_terminite_helmet": "2024-08-19 04:24:56 +0530"
@@ -7597,15 +7591,15 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/terminite_leggings_nugget_blasting": {
+  "betterend:recipes/misc/terminite_helmet_nugget_blasting": {
     "criteria": {
-      "has_terminite_leggings": "2024-08-19 04:24:58 +0530"
+      "has_terminite_helmet": "2024-08-19 04:24:56 +0530"
     },
     "done": true
   },
-  "betterend:recipes/misc/terminite_chestplate_nugget_blasting": {
+  "betterend:recipes/misc/terminite_leggings_nugget_blasting": {
     "criteria": {
-      "has_terminite_chestplate": "2024-08-19 04:25:04 +0530"
+      "has_terminite_leggings": "2024-08-19 04:24:58 +0530"
     },
     "done": true
   },
@@ -7615,27 +7609,9 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/terminite_chestplate_nugget_smelting": {
-    "criteria": {
-      "has_terminite_chestplate": "2024-08-19 04:25:04 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/sandy_jadestone_pillar": {
-    "criteria": {
-      "has_sandy_jadestone_slab": "2024-08-19 04:26:53 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/misc/terminite_boots_nugget_blasting": {
     "criteria": {
       "has_terminite_boots": "2024-08-19 04:25:01 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/terminite_helmet_nugget_blasting": {
-    "criteria": {
-      "has_terminite_helmet": "2024-08-19 04:24:56 +0530"
     },
     "done": true
   },
@@ -7645,9 +7621,213 @@
     },
     "done": true
   },
+  "betterend:recipes/misc/terminite_chestplate_nugget_blasting": {
+    "criteria": {
+      "has_terminite_chestplate": "2024-08-19 04:25:04 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_chestplate_nugget_smelting": {
+    "criteria": {
+      "has_terminite_chestplate": "2024-08-19 04:25:04 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aeternium_block_to_ingot": {
+    "criteria": {
+      "has_aeternium_block": "2024-08-19 04:25:38 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_pillar": {
+    "criteria": {
+      "has_sandy_jadestone_slab": "2024-08-19 04:26:53 +0530"
+    },
+    "done": true
+  },
   "betterend:recipes/misc/sandy_jadestone_pedestal": {
     "criteria": {
       "has_sandy_jadestone_slab": "2024-08-19 04:26:53 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/bolux_mushroom_smoker": {
+    "criteria": {
+      "has_bolux_mushroom": "2024-08-19 12:02:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:thallasium_tool": {
+    "criteria": {
+      "got_thallasium_pickaxe": "2024-08-19 12:02:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/bolux_mushroom_campfire": {
+    "criteria": {
+      "has_bolux_mushroom": "2024-08-19 12:02:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_pickaxe_nugget_smelting": {
+    "criteria": {
+      "has_thallasium_pickaxe": "2024-08-19 12:02:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_pickaxe_nugget_blasting": {
+    "criteria": {
+      "has_thallasium_pickaxe": "2024-08-19 12:02:42 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_crafting_table": {
+    "criteria": {
+      "has_lucernia_planks": "2024-08-19 12:03:05 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_chest": {
+    "criteria": {
+      "has_lucernia_planks": "2024-08-19 12:03:05 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/lucernia_slab": {
+    "criteria": {
+      "has_lucernia_planks": "2024-08-19 12:03:05 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_barrel": {
+    "criteria": {
+      "has_lucernia_planks": "2024-08-19 12:03:05 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/lucernia_door": {
+    "criteria": {
+      "has_lucernia_planks": "2024-08-19 12:03:05 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/lucernia_plate": {
+    "criteria": {
+      "has_lucernia_planks": "2024-08-19 12:03:05 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_hoe_nugget_smelting": {
+    "criteria": {
+      "has_thallasium_hoe": "2024-08-19 12:03:05 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/lucernia_trapdoor": {
+    "criteria": {
+      "has_lucernia_planks": "2024-08-19 12:03:05 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/lucernia_stairs": {
+    "criteria": {
+      "has_lucernia_planks": "2024-08-19 12:03:05 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/lucernia_button": {
+    "criteria": {
+      "has_lucernia_planks": "2024-08-19 12:03:05 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_hoe_nugget_blasting": {
+    "criteria": {
+      "has_thallasium_hoe": "2024-08-19 12:03:05 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/lucernia_wall": {
+    "criteria": {
+      "has_lucernia_planks": "2024-08-19 12:03:05 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_sword_nugget_smelting": {
+    "criteria": {
+      "has_thallasium_sword": "2024-08-19 12:03:06 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_sword_nugget_blasting": {
+    "criteria": {
+      "has_thallasium_sword": "2024-08-19 12:03:06 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/amber_block": {
+    "criteria": {
+      "has_amber_gem": "2024-08-19 12:05:34 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_crafting_table": {
+    "criteria": {
+      "has_umbrella_tree_planks": "2024-08-19 12:36:31 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/umbrella_tree_stairs": {
+    "criteria": {
+      "has_umbrella_tree_planks": "2024-08-19 12:36:31 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/umbrella_tree_door": {
+    "criteria": {
+      "has_umbrella_tree_planks": "2024-08-19 12:36:31 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/umbrella_tree_button": {
+    "criteria": {
+      "has_umbrella_tree_planks": "2024-08-19 12:36:31 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/umbrella_tree_plate": {
+    "criteria": {
+      "has_umbrella_tree_planks": "2024-08-19 12:36:31 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/umbrella_tree_trapdoor": {
+    "criteria": {
+      "has_umbrella_tree_planks": "2024-08-19 12:36:31 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_barrel": {
+    "criteria": {
+      "has_umbrella_tree_planks": "2024-08-19 12:36:31 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_chest": {
+    "criteria": {
+      "has_umbrella_tree_planks": "2024-08-19 12:36:31 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbrella_tree_wall": {
+    "criteria": {
+      "has_umbrella_tree_planks": "2024-08-19 12:36:31 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/umbrella_tree_slab": {
+    "criteria": {
+      "has_umbrella_tree_planks": "2024-08-19 12:36:31 +0530"
     },
     "done": true
   },
