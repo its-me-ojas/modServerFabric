@@ -8392,5 +8392,29 @@
     },
     "done": true
   },
+  "adventurez:recipes/warthog_shell_piece_recipe": {
+    "criteria": {
+      "got_the_warthog_piece": "2024-08-22 00:16:10 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_berry_campfire": {
+    "criteria": {
+      "has_shadow_berry_raw": "2024-08-22 00:30:18 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_berry_smoker": {
+    "criteria": {
+      "has_shadow_berry_raw": "2024-08-22 00:30:18 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/shadow_berry_seeds": {
+    "criteria": {
+      "has_shadow_berry_raw": "2024-08-22 00:30:18 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }

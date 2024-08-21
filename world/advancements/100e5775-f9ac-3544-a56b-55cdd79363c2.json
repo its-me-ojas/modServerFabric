@@ -5533,9 +5533,11 @@
   },
   "betterend:all_elytras": {
     "criteria": {
+      "crystalite": "2024-08-22 00:09:11 +0530",
+      "armored": "2024-08-22 00:18:08 +0530",
       "vanilla": "2024-08-16 06:26:52 +0530"
     },
-    "done": false
+    "done": true
   },
   "chunkloaders:recipes/misc/basic_chunk_loader": {
     "criteria": {
@@ -5571,8 +5573,10 @@
     "criteria": {
       "betterend:umbrella_jungle": "2024-08-16 06:44:43 +0530",
       "betterend:dragon_graveyards": "2024-08-16 06:45:47 +0530",
+      "betterend:megalake_grove": "2024-08-22 00:24:22 +0530",
       "betterend:umbra_valley": "2024-08-16 07:12:04 +0530",
       "betterend:painted_mountains": "2024-08-16 07:08:07 +0530",
+      "betterend:megalake": "2024-08-22 00:08:38 +0530",
       "betterend:foggy_mushroomland": "2024-08-16 06:51:00 +0530",
       "betterend:chorus_forest": "2024-08-16 06:53:02 +0530",
       "betterend:shadow_forest": "2024-08-16 06:51:50 +0530",
@@ -7133,6 +7137,61 @@
   "adventurez:recipes/ender_flute_recipe": {
     "criteria": {
       "got_the_ender_pearl": "2024-08-21 22:33:37 +0530"
+    },
+    "done": true
+  },
+  "betterend:portal": {
+    "criteria": {
+      "eternal_portal": "2024-08-22 00:25:08 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/shadow_plant_dye": {
+    "criteria": {
+      "has_shadow_plant": "2024-08-22 00:30:38 +0530"
+    },
+    "done": true
+  },
+  "betterend:aeternium_armor": {
+    "criteria": {
+      "got_aeternium_chestplate": "2024-08-22 00:15:00 +0530",
+      "got_aeternium_helmet": "2024-08-22 00:14:59 +0530"
+    },
+    "done": false
+  },
+  "betterend:portal_travel": {
+    "criteria": {
+      "travel": "2024-08-22 00:25:59 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2024-08-22 00:23:05 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2024-08-22 00:23:05 +0530"
+    },
+    "done": true
+  },
+  "betterend:portal_on": {
+    "criteria": {
+      "turn_on": "2024-08-22 00:25:38 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/respawn_obelisk": {
+    "criteria": {
+      "has_eternal_crystal": "2024-08-22 00:25:37 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2024-08-22 00:23:05 +0530"
     },
     "done": true
   },
