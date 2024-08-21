@@ -1,99 +1,430 @@
-[00:00:00] [Server thread/INFO]: Rad1108[/127.0.0.1:54245] logged in with entity id 810 at (4238.1886376007515, 72.63228365384616, -8397.93524858011)
-[00:00:00] [Server thread/INFO]: Loading config from file...
-[00:00:00] [Server thread/INFO]: Rad1108 joined the game
-[00:02:31] [Server thread/INFO]: Rad1108 was slain by whitehairguy
-[00:02:31] [Server thread/INFO]: Created new backpack backup file for Rad1108 with unique ID travelersbackpack.blaze_22.08.2024-00.02.31.dat
-[00:02:31] [Server thread/INFO]: Your backpack has been placed at X: 4238 Y: 76 Z: -8398
-[00:04:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2169ms or 43 ticks behind
-[00:13:20] [Worker-Main-5/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:13:54] [Worker-Main-14/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:13:54] [Worker-Main-14/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:13:54] [Worker-Main-14/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:13:54] [Worker-Main-14/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:13:55] [Worker-Main-5/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:13:55] [Worker-Main-5/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:16:34] [Worker-Main-2/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:16:34] [Worker-Main-2/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:16:34] [Worker-Main-2/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:16:34] [Worker-Main-2/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:17:12] [Server thread/WARN]: whitehairguy moved too quickly! 22.45664255784004,0.0,-6.876972234424898
-[00:17:26] [Server thread/WARN]: whitehairguy moved too quickly! -14.166902487108473,0.0,-10.755291072230307
-[00:17:32] [Worker-Main-1/ERROR]: Tried to load invalid item: 'Item must not be minecraft:air'
-[00:17:37] [Server thread/WARN]: whitehairguy moved too quickly! 13.206682911320513,0.0,11.910770395704617
-[00:17:38] [Server thread/WARN]: whitehairguy moved too quickly! 13.248930337779711,0.0,11.866468678548586
-[00:17:38] [Server thread/WARN]: whitehairguy moved too quickly! 13.248930337779711,0.0,11.866468678548586
-[00:17:58] [Server thread/WARN]: whitehairguy moved too quickly! 7.621719576065743,0.0,9.755387706391843
-[00:18:08] [Server thread/INFO]: Rad1108 has reached the goal [Airshow]
-[00:19:08] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[00:19:08] [Server thread/INFO]: whitehairguy left the game
-[00:22:14] [Server thread/INFO]: whitehairguy[/127.52.238.219:54430] logged in with entity id 8955 at (-1771.7561007438635, 93.0, -195.46449615105396)
-[00:22:14] [Server thread/INFO]: Loading config from file...
-[00:22:14] [Server thread/INFO]: whitehairguy joined the game
-[00:22:14] [Server thread/INFO]: [Not Secure] <Rad1108> -2278 126 pedestals location
-[00:22:29] [Server thread/WARN]: whitehairguy moved too quickly! -18.475657323201176,0.0,1.3094284103170253
-[00:24:09] [Server thread/INFO]: [Not Secure] <whitehairguy> xaero-waypoint:Eternal Portal:EP:-2271:58:128:1:false:0:Internal-the-end-waypoints
-[00:25:08] [Server thread/INFO]: Rad1108 has reached the goal [On Eternal Paths]
-[00:25:37] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@1a43c931, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2338.method_10074()" because "center" is null
-	at org.betterx.betterend.rituals.EternalRitual.removePortal(EternalRitual.java:363) ~[better-end-21.0.9.jar:?]
-	at org.betterx.betterend.rituals.EternalRitual.disablePortal(EternalRitual.java:358) ~[better-end-21.0.9.jar:?]
-	at org.betterx.betterend.blocks.EternalPedestal.checkRitual(EternalPedestal.java:83) ~[better-end-21.0.9.jar:?]
-	at org.betterx.betterend.blocks.basis.PedestalBlock.method_55765(PedestalBlock.java:133) ~[better-end-21.0.9.jar:?]
-	at net.minecraft.class_4970$class_4971.method_55780(class_4970.java:1169) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:348) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18857(class_1255.java:145) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:810) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:815) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:25:38] [Server thread/INFO]: Rad1108 has made the advancement [Eternal Light]
-[00:25:45] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@7b4775c5, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2338.method_10074()" because "center" is null
-	at org.betterx.betterend.rituals.EternalRitual.removePortal(EternalRitual.java:363) ~[better-end-21.0.9.jar:?]
-	at org.betterx.betterend.rituals.EternalRitual.disablePortal(EternalRitual.java:358) ~[better-end-21.0.9.jar:?]
-	at org.betterx.betterend.blocks.EternalPedestal.checkRitual(EternalPedestal.java:83) ~[better-end-21.0.9.jar:?]
-	at org.betterx.betterend.blocks.basis.PedestalBlock.method_55765(PedestalBlock.java:133) ~[better-end-21.0.9.jar:?]
-	at net.minecraft.class_4970$class_4971.method_55780(class_4970.java:1169) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:348) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18857(class_1255.java:145) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:810) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:815) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[00:25:59] [Server thread/INFO]: Rad1108 has completed the challenge [Eternal Ways]
-[00:26:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2046ms or 40 ticks behind
-[00:31:31] [Server thread/INFO]: [Not Secure] <Rad1108> helooooo
-[00:31:35] [Server thread/INFO]: [Not Secure] <Rad1108> so rha mai bro
-[00:31:39] [Server thread/INFO]: [Not Secure] <Rad1108> base chalo
-[00:31:46] [Server thread/INFO]: [Not Secure] <whitehairguy> heloo
-[00:32:11] [Server thread/INFO]: [Not Secure] <whitehairguy> oe
-[00:33:35] [Server thread/INFO]: Rad1108 lost connection: Disconnected
-[00:33:35] [Server thread/INFO]: Rad1108 left the game
-[00:33:43] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[00:33:43] [Server thread/INFO]: whitehairguy left the game
+[01:32:34] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.2
+[01:32:34] [ForkJoinPool-1-worker-8/WARN]: Mod travelersbackpack uses the version fabric-1.21-10.0.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[01:32:34] [main/INFO]: Loading 111 mods:
+	- accessories 1.0.0-beta.26+1.21
+	   |-- io_wispforest_endec 0.1.5
+	   |-- io_wispforest_endec_gson 0.1.3
+	   \-- io_wispforest_endec_netty 0.1.2
+	- adventurez 1.4.21
+	- bclib 21.0.13
+	- betterend 21.0.9
+	- cardinal-components 6.1.1
+	   |-- cardinal-components-base 6.1.1
+	   |-- cardinal-components-block 6.1.1
+	   |-- cardinal-components-chunk 6.1.1
+	   |-- cardinal-components-entity 6.1.1
+	   |-- cardinal-components-item 6.1.1
+	   |-- cardinal-components-level 6.1.1
+	   |-- cardinal-components-scoreboard 6.1.1
+	   \-- cardinal-components-world 6.1.1
+	- carryon 2.2.1
+	- chunkloaders 1.2.8
+	- cloth-config 15.0.130
+	   \-- cloth-basic-math 0.6.1
+	- collective 7.84
+	- fabric-api 0.102.0+1.21
+	   |-- fabric-api-base 0.4.42+6573ed8cd1
+	   |-- fabric-api-lookup-api-v1 1.6.68+b5597344d1
+	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bcd1
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a7d1
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8cd1
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a7d1
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8cd1
+	   |-- fabric-command-api-v1 1.2.49+f71b366fd1
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd9d1
+	   |-- fabric-commands-v0 0.2.66+df3654b3d1
+	   |-- fabric-content-registries-v0 8.0.16+b5597344d1
+	   |-- fabric-convention-tags-v1 2.0.19+7f945d5bd1
+	   |-- fabric-convention-tags-v2 2.5.0+c5e2b5c6d1
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a7d1
+	   |-- fabric-data-attachment-api-v1 1.1.27+6a6dfa19d1
+	   |-- fabric-data-generation-api-v1 20.2.16+16c4ae25d1
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b99d1
+	   |-- fabric-entity-events-v1 1.6.12+6fc22b99d1
+	   |-- fabric-events-interaction-v0 0.7.12+ba9dae06d1
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd9d1
+	   |-- fabric-item-api-v1 11.0.0+afdfc921d1
+	   |-- fabric-item-group-api-v1 4.1.4+78017270d1
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a7d1
+	   |-- fabric-keybindings-v0 0.2.45+df3654b3d1
+	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df360d1
+	   |-- fabric-loot-api-v2 3.0.14+3f89f5a5d1
+	   |-- fabric-loot-api-v3 1.0.2+3f89f5a5d1
+	   |-- fabric-message-api-v1 6.0.13+6573ed8cd1
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6bd1
+	   |-- fabric-networking-api-v1 4.2.2+60c3209bd1
+	   |-- fabric-object-builder-api-v1 15.2.0+a551f7a4d1
+	   |-- fabric-particles-v1 4.0.2+6573ed8cd1
+	   |-- fabric-recipe-api-v1 5.0.12+65089712d1
+	   |-- fabric-registry-sync-v0 5.1.2+60c3209bd1
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49cd1
+	   |-- fabric-renderer-indigo 1.7.0+c705a49cd1
+	   |-- fabric-renderer-registries-v1 3.2.68+df3654b3d1
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2ed1
+	   |-- fabric-rendering-fluids-v1 3.1.6+b5597344d1
+	   |-- fabric-rendering-v0 1.1.71+df3654b3d1
+	   |-- fabric-rendering-v1 5.0.5+df16efd0d1
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b1d1
+	   |-- fabric-resource-loader-v0 1.3.0+56599129d1
+	   |-- fabric-screen-api-v1 2.0.24+b5597344d1
+	   |-- fabric-screen-handler-api-v1 1.3.86+b5597344d1
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8cd1
+	   |-- fabric-transfer-api-v1 5.1.16+3dccd343d1
+	   \-- fabric-transitive-access-wideners-v1 6.1.0+176f9036d1
+	- fabricloader 0.16.2
+	   \-- mixinextras 0.4.1
+	- ferritecore 7.0.0
+	- glitchcore 2.0.0.2
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   \-- net_jodah_typetools 0.6.3
+	- guardvillagers 2.1.2-1.21
+	   \-- midnightlib 1.5.7
+	- java 21
+	- justmobheads 8.3
+	- minecraft 1.21
+	- morevanillashields 1.0.2-1.21
+	- mr_advancement_count 1-v1.2.0c
+	- mr_dungeons_andtaverns 1-v4.3
+	- mr_dungeons_andtavernsancientcityoverhaul 1-v2
+	- mr_dungeons_andtavernsdeserttempleoverhaul 1-v1.1
+	- mr_dungeons_andtavernsendcastlestandalone 1-v1
+	- mr_dungeons_andtavernsjungletempleoverhaul 1-v1.1
+	- mr_dungeons_andtavernsnetherfortressoverhaul 1-v2.1
+	- mr_dungeons_andtavernsoceanmonumentoverhaul 1-v1.1
+	- mr_dungeons_andtavernspillageroutpostoverhaul 1-v2.2
+	- mr_dungeons_andtavernsstrongholdrework 1-v2.1
+	- mr_dungeons_andtavernsswamphutoverhaul 1-v2
+	- mr_dungeons_andtavernswoodlandmansionoverhaul 1-v1.1
+	- mr_true_ending 1-v1.1.2b
+	- mr_warp_portals 1.4.0
+	- supermartijn642configlib 1.1.8
+	- supermartijn642corelib 1.1.17+b
+	- toughasnails 10.0.0.5
+	   |-- com_electronwill_night-config_core 3.6.7
+	   |-- com_electronwill_night-config_toml 3.6.7
+	   \-- net_jodah_typetools 0.6.3
+	- travelersbackpack fabric-1.21-10.0.6
+	- trinkets 3.10.0
+	- wooltostring 1.0.1
+	- wover 21.0.13
+	   |-- wover-biome 21.0.13
+	   |-- wover-block 21.0.13
+	   |-- wover-common 21.0.13
+	   |-- wover-core 21.0.13
+	   |-- wover-datagen 21.0.13
+	   |-- wover-events 21.0.13
+	   |-- wover-feature 21.0.13
+	   |-- wover-generator 21.0.13
+	   |-- wover-item 21.0.13
+	   |-- wover-math 21.0.13
+	   |-- wover-preset 21.0.13
+	   |-- wover-recipe 21.0.13
+	   |-- wover-structure 21.0.13
+	   |-- wover-surface 21.0.13
+	   |-- wover-tag 21.0.13
+	   |-- wover-ui 21.0.13
+	   \-- wunderlib 21.0.8
+	- xaerominimap 24.2.1
+	- xaeroworldmap 1.38.8
+[01:32:35] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/modServerFabric/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[01:32:35] [main/INFO]: Compatibility level set to JAVA_17
+[01:32:35] [main/INFO]: Compatibility level set to JAVA_21
+[01:32:36] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:32:36] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
+[01:32:36] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
+[01:32:38] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[01:32:39] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[01:32:40] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zzn000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[01:32:59] [main/INFO]: Registering Listeners!
+[01:33:02] [main/INFO]: Loading Collective version 7.84.
+[01:33:03] [main/INFO]: Registered synced config with path toughasnails/thirst.toml
+[01:33:03] [main/INFO]: Registered synced config with path toughasnails/temperature.toml
+[01:33:03] [main/ERROR]: No data fixer registered for water_purifier
+[01:33:03] [main/ERROR]: No data fixer registered for temperature_gauge
+[01:33:03] [main/ERROR]: No data fixer registered for thermoregulator
+[01:33:03] [main/INFO]: morevanillashields: This mod runs without a config file. Coming Soon in next updates!
+[01:33:03] [main/INFO]: Registering Mod Items for morevanillashields
+[01:33:03] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[01:33:03] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[01:33:03] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[01:33:03] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[01:33:04] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[01:33:04] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[01:33:04] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:33:05] [main/INFO]: Ignoring Patch{ModCore: bclib (bclib):3.0.11:196619}
+[01:33:05] [main/INFO]: Running Pre Patchers on ./world/.
+[01:33:05] [main/INFO]: Everything up to date
+[01:33:05] [main/INFO]: Processing wover.datapack.registry Entrypoints
+[01:33:05] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
+[01:33:05] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
+[01:33:05] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
+[01:33:05] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
+[01:33:05] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
+[01:33:07] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (d05e909)
+[01:33:07] [main/INFO]: Unable to build Biome List yet
+[01:33:07] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[01:33:07] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (76dbdde0)
+[01:33:07] [main/INFO]: Unable to build Biome List yet
+[01:33:07] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[01:33:07] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (34452bc9)
+[01:33:07] [main/INFO]: Unable to build Biome List yet
+[01:33:07] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[01:33:07] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (7cb3d76d)
+[01:33:07] [main/INFO]: Unable to build Biome List yet
+[01:33:07] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[01:33:07] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (728c6590)
+[01:33:07] [main/INFO]: Unable to build Biome List yet
+[01:33:07] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[01:33:07] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (5230c14)
+[01:33:07] [main/INFO]: Unable to build Biome List yet
+[01:33:07] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:chorus_forest
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dust_wastelands
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
+[01:33:08] [main/INFO]: Adding Small End Island Biome to Fabric: betterend:ice_starfield
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
+[01:33:08] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
+[01:33:08] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (19bc5b7f)
+[01:33:08] [main/INFO]: Unable to build Biome List yet
+[01:33:08] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[01:33:08] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (575410c0)
+[01:33:08] [main/INFO]: Unable to build Biome List yet
+[01:33:08] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[01:33:11] [main/INFO]: Disabling Recipe: bclib:test_star
+[01:33:11] [main/INFO]: Loaded 2354 recipes
+[01:33:11] [main/INFO]: Added 0 recipes in 6ms
+[01:33:12] [main/ERROR]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[01:33:12] [main/INFO]: Loaded 2502 advancements
+[01:33:12] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
+[01:33:15] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (9b3de70)
+[01:33:15] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[01:33:15] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2e6f2818)
+[01:33:15] [main/INFO]: Added 5 Biomes
+[01:33:15] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[01:33:15] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[01:33:15] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[01:33:15] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[01:33:15] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[01:33:15] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[01:33:15] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[01:33:15] [main/INFO]: Added Tags for 1 fabric biomes in 9.708 ms
+[01:33:15] [main/INFO]: Added 6 biomes to wover:is_end/highland in 5.093 ms
+[01:33:15] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2e6f2818)
+[01:33:15] [main/INFO]: Added 5 Biomes
+[01:33:15] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[01:33:15] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[01:33:15] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[01:33:15] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[01:33:15] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[01:33:15] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[01:33:15] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (575410c0)
+[01:33:15] [main/INFO]: Added 5 Biomes
+[01:33:15] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[01:33:15] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[01:33:15] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[01:33:15] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[01:33:15] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[01:33:15] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[01:33:15] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (575410c0)
+[01:33:15] [main/INFO]: Added 5 Biomes
+[01:33:15] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[01:33:15] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[01:33:15] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[01:33:15] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[01:33:15] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[01:33:15] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[01:33:15] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (9b3de70)
+[01:33:15] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (19bc5b7f)
+[01:33:15] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (19bc5b7f)
+[01:33:15] [main/INFO]: Applied 3 biome modifications and added 0 tags to 3 of 89 biomes in 11.77 ms
+[01:33:15] [main/INFO]: Applied 68 biome modifications to 45 of 89 new biomes in 26.04 ms
+[01:33:15] [Server thread/INFO]: Starting minecraft server version 1.21
+[01:33:15] [Server thread/INFO]: Loading properties
+[01:33:15] [Server thread/INFO]: Default game type: SURVIVAL
+[01:33:15] [Server thread/INFO]: Generating keypair
+[01:33:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:33:16] [Server thread/INFO]: Using epoll channel type
+[01:33:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:33:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:33:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:33:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:33:16] [Server thread/INFO]: Preparing level "world"
+[01:33:16] [Server thread/INFO]: World Dimensions: 
+ - minecraft:the_end: 
+     WoVer - Chunk Generator (57ea2215)
+         preset     = none
+         noise      = minecraft:end
+         features   = minecraft(5), betterend(127)
+     WoVer - The End  BiomeSource (575410c0)
+         biomes     = 24
+         namespaces = minecraft(5), betterend(19)
+         seed       = 1988232152129346940
+         height     = 128
+         deciders   = 0
+         config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
+ - minecraft:the_nether: 
+     WoVer - Chunk Generator (2335d53)
+         preset     = none
+         noise      = minecraft:nether
+         features   = minecraft(37)
+     WoVer - Nether BiomeSource (19bc5b7f)
+         biomes     = 5
+         namespaces = minecraft(5)
+         seed       = 1988232152129346940
+         height     = 128
+         config     = NetherConfig{mapVersion=hex, useVerticalBiomes=true, biomeSize=16, biomeSizeVertical=5}
+ - minecraft:overworld: 
+     class_3754 (34d37166)
+         preset     = none
+         noise      = minecraft:overworld
+         features   = minecraft(151)
+     class_4766 (1d78f6d8)
+         biomes     = 53
+         namespaces = minecraft(53)
+[01:33:16] [Server thread/INFO]: Merged 19 additional Surface Rules for Dimension minecraft:the_end => 20 (1.404 ms) using WoVer - The End  BiomeSource (575410c0)
+    biomes     = 24
+    namespaces = minecraft(5), betterend(19)
+    seed       = 1988232152129346940
+    height     = 128
+    deciders   = 0
+    config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
+[01:33:17] [Server thread/INFO]: Added 2 Biomes
+[01:33:17] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[01:33:17] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[01:33:31] [Server thread/INFO]: Added 2 Biomes
+[01:33:31] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[01:33:31] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[01:33:38] [Server thread/INFO]: Added 2 Biomes
+[01:33:38] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[01:33:38] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[01:33:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:33:42] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[01:33:42] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[01:33:42] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[01:33:42] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[01:33:42] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[01:33:42] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[01:33:42] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[01:33:42] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[01:33:43] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:33:43] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:33:43] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[01:33:43] [Worker-Main-2/INFO]: Preparing spawn area: 46%
+[01:33:44] [Server thread/INFO]: Time elapsed: 5876 ms
+[01:33:44] [Server thread/INFO]: Done (27.524s)! For help, type "help"
+[01:33:44] [Server thread/INFO]: morevanillashields: This mod is now running on a server. Please report any error or bugs.
+[01:33:44] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[01:33:44] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[01:33:47] [Server thread/WARN]: UUID of added entity already exists: class_8122['Item Display'/134, l='ServerLevel[world]', x=0.50, y=0.00, z=0.50]
+[01:34:05] [Server thread/INFO]: whitehairguy[/127.0.0.1:35968] logged in with entity id 218 at (4236.988763830834, 72.5625, -8396.729984697708)
+[01:34:05] [Server thread/INFO]: Loading config from file...
+[01:34:06] [Server thread/INFO]: whitehairguy joined the game
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:25] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:26] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:26] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:26] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:26] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:28] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:28] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:28] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:28] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:28] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:28] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:28] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:34:29] [Server thread/WARN]: Skipping Entity with id weeping_angels:weeping_angel
+[01:39:04] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[01:39:04] [Server thread/INFO]: whitehairguy left the game
+[01:39:12] [Server thread/INFO]: whitehairguy[/127.0.0.1:40146] logged in with entity id 3006 at (4230.895022425895, 72.0, -8405.597401751224)
+[01:39:12] [Server thread/INFO]: Connection closed during protocol change
+[01:39:12] [Server thread/INFO]: Loading config from file...
+[01:39:12] [Server thread/INFO]: whitehairguy joined the game
+[01:39:12] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[01:39:12] [Server thread/INFO]: whitehairguy left the game
