@@ -27,11 +27,14 @@
     "criteria": {
       "minecraft:forest": "2024-07-29 11:56:09 +0530",
       "minecraft:taiga": "2024-07-29 12:05:43 +0530",
+      "minecraft:sparse_jungle": "2024-08-23 22:14:07 +0530",
       "minecraft:cherry_grove": "2024-07-29 12:06:10 +0530",
       "minecraft:lukewarm_ocean": "2024-07-29 12:05:16 +0530",
+      "minecraft:river": "2024-08-23 22:29:55 +0530",
       "minecraft:meadow": "2024-08-22 03:36:52 +0530",
       "minecraft:birch_forest": "2024-07-29 12:26:35 +0530",
       "minecraft:stony_shore": "2024-07-29 12:03:14 +0530",
+      "minecraft:dripstone_caves": "2024-08-23 22:12:26 +0530",
       "minecraft:wooded_badlands": "2024-08-22 03:26:05 +0530",
       "minecraft:plains": "2024-07-29 12:05:36 +0530"
     },
@@ -236,6 +239,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-08-22 03:44:16 +0530",
+      "minecraft:skeleton": "2024-08-23 22:31:54 +0530",
       "minecraft:piglin": "2024-08-22 02:10:20 +0530",
       "minecraft:vindicator": "2024-08-22 03:45:59 +0530",
       "minecraft:zombified_piglin": "2024-08-22 02:37:38 +0530",
@@ -1222,15 +1226,87 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_bricks": {
+  "minecraft:end/respawn_dragon": {
     "criteria": {
-      "has_stone": "2024-08-22 03:39:24 +0530"
+      "summoned_dragon": "2024-08-22 02:51:17 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/blaze_smithing": {
+    "criteria": {
+      "has_blaze": "2024-08-22 02:55:12 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-08-22 02:56:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2024-08-22 02:56:40 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_furnace": {
+    "criteria": {
+      "has_end_stone": "2024-08-22 02:56:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-08-22 02:56:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-08-22 02:56:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-08-22 02:56:40 +0530"
     },
     "done": true
   },
   "adventurez:recipes/ender_flute_recipe": {
     "criteria": {
       "got_the_ender_pearl": "2024-08-22 03:02:11 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_perl_to_block": {
+    "criteria": {
+      "has_ender_pearl": "2024-08-22 03:02:11 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/enderman": {
+    "criteria": {
+      "has_ender_pearl": "2024-08-22 03:02:11 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_eye_amber": {
+    "criteria": {
+      "has_ender_pearl": "2024-08-22 03:02:11 +0530"
+    },
+    "done": true
+  },
+  "chunkloaders:recipes/misc/basic_chunk_loader": {
+    "criteria": {
+      "recipe_condition": "2024-08-22 03:02:11 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/infusion_pedestal": {
+    "criteria": {
+      "has_ender_pearl": "2024-08-22 03:02:11 +0530"
     },
     "done": true
   },
@@ -1253,15 +1329,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+  "toughasnails:recipes/food/sweet_berry_juice": {
     "criteria": {
-      "has_end_stone": "2024-08-22 02:56:40 +0530"
+      "has_sweet_berries": "2024-08-22 03:27:52 +0530"
     },
     "done": true
   },
-  "minecraft:adventure/whos_the_pillager_now": {
+  "betterend:all_elytras": {
     "criteria": {
-      "kill_pillager": "2024-08-22 03:49:50 +0530"
+      "vanilla": "2024-08-22 03:33:29 +0530"
+    },
+    "done": false
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2024-08-22 03:33:29 +0530"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_pillager_outpost": {
+    "criteria": {
+      "minecraft:pillager_outpost": "2024-08-22 03:35:28 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2024-08-22 03:39:24 +0530"
     },
     "done": true
   },
@@ -1271,33 +1365,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/painting": {
-    "criteria": {
-      "has_wool": "2024-08-22 03:45:09 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
       "has_stone": "2024-08-22 03:39:24 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_bricks": {
-    "criteria": {
-      "has_end_stone": "2024-08-22 02:56:40 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/end_stone_furnace": {
-    "criteria": {
-      "has_end_stone": "2024-08-22 02:56:40 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/emerald_block": {
-    "criteria": {
-      "has_emerald": "2024-08-22 03:49:14 +0530"
     },
     "done": true
   },
@@ -1307,33 +1377,9 @@
     },
     "done": true
   },
-  "minecraft:adventure/voluntary_exile": {
-    "criteria": {
-      "voluntary_exile": "2024-08-22 03:44:16 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
-    "criteria": {
-      "has_dandelion": "2024-08-22 03:51:11 +0530"
-    },
-    "done": true
-  },
-  "betterend:portal": {
-    "criteria": {
-      "eternal_portal": "2024-08-22 04:22:01 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/stone_button": {
     "criteria": {
       "has_stone": "2024-08-22 03:39:24 +0530"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/emerald": {
-    "criteria": {
-      "has_emerald": "2024-08-22 03:49:14 +0530"
     },
     "done": true
   },
@@ -1349,69 +1395,15 @@
     },
     "done": true
   },
-  "toughasnails:recipes/food/sweet_berry_juice": {
-    "criteria": {
-      "has_sweet_berries": "2024-08-22 03:27:52 +0530"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/decorations/white_sleeping_bag": {
-    "criteria": {
-      "has_white_wool": "2024-08-22 03:45:09 +0530"
-    },
-    "done": true
-  },
-  "minecraft:adventure/hero_of_the_village": {
-    "criteria": {
-      "hero_of_the_village": "2024-08-22 04:02:08 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
       "has_stone": "2024-08-22 03:39:24 +0530"
     },
     "done": true
   },
-  "toughasnails:recipes/combat/wool_helmet": {
-    "criteria": {
-      "has_wool": "2024-08-22 03:45:09 +0530"
-    },
-    "done": true
-  },
-  "betterend:all_the_biomes": {
-    "criteria": {
-      "betterend:megalake_grove": "2024-08-22 04:20:31 +0530",
-      "betterend:megalake": "2024-08-22 04:20:21 +0530",
-      "betterend:foggy_mushroomland": "2024-08-22 04:13:02 +0530",
-      "betterend:shadow_forest": "2024-08-22 04:21:31 +0530",
-      "betterend:glowing_grasslands": "2024-08-22 04:21:19 +0530",
-      "betterend:blossoming_spires": "2024-08-22 04:20:51 +0530",
-      "betterend:amber_land": "2024-08-22 04:21:26 +0530"
-    },
-    "done": false
-  },
-  "betterend:recipes/misc/ender_perl_to_block": {
-    "criteria": {
-      "has_ender_pearl": "2024-08-22 03:02:11 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_carpet": {
-    "criteria": {
-      "has_white_wool": "2024-08-22 03:45:09 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2024-08-22 03:39:24 +0530"
-    },
-    "done": true
-  },
-  "minecraft:nether/distract_piglin": {
-    "criteria": {
-      "distract_piglin": "2024-08-22 04:05:16 +0530"
     },
     "done": true
   },
@@ -1427,21 +1419,57 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/blaze_smithing": {
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
     "criteria": {
-      "has_blaze": "2024-08-22 02:55:12 +0530"
+      "has_stone": "2024-08-22 03:39:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-08-22 03:39:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2024-08-22 03:39:24 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-08-22 03:44:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2024-08-22 03:45:09 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/decorations/white_sleeping_bag": {
+    "criteria": {
+      "has_white_wool": "2024-08-22 03:45:09 +0530"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/combat/wool_helmet": {
+    "criteria": {
+      "has_wool": "2024-08-22 03:45:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2024-08-22 03:45:09 +0530"
     },
     "done": true
   },
   "toughasnails:recipes/combat/wool_boots": {
     "criteria": {
       "has_wool": "2024-08-22 03:45:09 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2024-08-22 03:39:24 +0530"
     },
     "done": true
   },
@@ -1457,87 +1485,9 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/enderman": {
-    "criteria": {
-      "has_ender_pearl": "2024-08-22 03:02:11 +0530"
-    },
-    "done": true
-  },
-  "minecraft:end/enter_end_gateway": {
-    "criteria": {
-      "entered_end_gateway": "2024-08-22 04:12:29 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/ender_eye_amber": {
-    "criteria": {
-      "has_ender_pearl": "2024-08-22 03:02:11 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2024-08-22 02:56:40 +0530"
-    },
-    "done": true
-  },
-  "betterend:all_elytras": {
-    "criteria": {
-      "vanilla": "2024-08-22 03:33:29 +0530"
-    },
-    "done": false
-  },
-  "minecraft:end/respawn_dragon": {
-    "criteria": {
-      "summoned_dragon": "2024-08-22 02:51:17 +0530"
-    },
-    "done": true
-  },
-  "minecraft:end/elytra": {
-    "criteria": {
-      "elytra": "2024-08-22 03:33:29 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
-    "criteria": {
-      "has_stone": "2024-08-22 03:39:24 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/cave_pumpkin_pie": {
-    "criteria": {
-      "has_sugar": "2024-08-22 03:59:58 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/white_bed": {
     "criteria": {
       "has_white_wool": "2024-08-22 03:45:09 +0530"
-    },
-    "done": true
-  },
-  "chunkloaders:recipes/misc/basic_chunk_loader": {
-    "criteria": {
-      "recipe_condition": "2024-08-22 03:02:11 +0530"
-    },
-    "done": true
-  },
-  "nova_structures:adventure/find_pillager_outpost": {
-    "criteria": {
-      "minecraft:pillager_outpost": "2024-08-22 03:35:28 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2024-08-22 02:56:40 +0530"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2024-08-22 02:56:40 +0530"
     },
     "done": true
   },
@@ -1553,15 +1503,81 @@
     },
     "done": true
   },
-  "betterend:recipes/misc/infusion_pedestal": {
+  "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
-      "has_ender_pearl": "2024-08-22 03:02:11 +0530"
+      "has_emerald": "2024-08-22 03:49:14 +0530"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_stairs": {
+  "travelersbackpack:recipes/misc/emerald": {
     "criteria": {
-      "has_stone": "2024-08-22 03:39:24 +0530"
+      "has_emerald": "2024-08-22 03:49:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/whos_the_pillager_now": {
+    "criteria": {
+      "kill_pillager": "2024-08-22 03:49:50 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2024-08-22 03:51:11 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/cave_pumpkin_pie": {
+    "criteria": {
+      "has_sugar": "2024-08-22 03:59:58 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2024-08-22 04:02:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/distract_piglin": {
+    "criteria": {
+      "distract_piglin": "2024-08-22 04:05:16 +0530"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2024-08-22 04:12:29 +0530"
+    },
+    "done": true
+  },
+  "betterend:all_the_biomes": {
+    "criteria": {
+      "betterend:megalake_grove": "2024-08-22 04:20:31 +0530",
+      "betterend:megalake": "2024-08-22 04:20:21 +0530",
+      "betterend:foggy_mushroomland": "2024-08-22 04:13:02 +0530",
+      "betterend:shadow_forest": "2024-08-22 04:21:31 +0530",
+      "betterend:glowing_grasslands": "2024-08-22 04:21:19 +0530",
+      "betterend:blossoming_spires": "2024-08-22 04:20:51 +0530",
+      "betterend:amber_land": "2024-08-22 04:21:26 +0530"
+    },
+    "done": false
+  },
+  "betterend:portal": {
+    "criteria": {
+      "eternal_portal": "2024-08-22 04:22:01 +0530"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_shrine": {
+    "criteria": {
+      "shrine_combat": "2024-08-23 22:30:18 +0530"
+    },
+    "done": true
+  },
+  "betterend:portal_travel": {
+    "criteria": {
+      "travel": "2024-08-23 22:12:26 +0530"
     },
     "done": true
   },
