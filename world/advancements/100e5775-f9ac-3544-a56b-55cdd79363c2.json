@@ -7140,30 +7140,12 @@
     },
     "done": true
   },
-  "betterend:portal": {
-    "criteria": {
-      "eternal_portal": "2024-08-22 00:25:08 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/shadow_plant_dye": {
-    "criteria": {
-      "has_shadow_plant": "2024-08-22 00:30:38 +0530"
-    },
-    "done": true
-  },
   "betterend:aeternium_armor": {
     "criteria": {
       "got_aeternium_chestplate": "2024-08-22 00:15:00 +0530",
       "got_aeternium_helmet": "2024-08-22 00:14:59 +0530"
     },
     "done": false
-  },
-  "betterend:portal_travel": {
-    "criteria": {
-      "travel": "2024-08-22 00:25:59 +0530"
-    },
-    "done": true
   },
   "minecraft:recipes/tools/lead": {
     "criteria": {
@@ -7177,9 +7159,15 @@
     },
     "done": true
   },
-  "betterend:portal_on": {
+  "minecraft:recipes/redstone/slime_block": {
     "criteria": {
-      "turn_on": "2024-08-22 00:25:38 +0530"
+      "has_slime_ball": "2024-08-22 00:23:05 +0530"
+    },
+    "done": true
+  },
+  "betterend:portal": {
+    "criteria": {
+      "eternal_portal": "2024-08-22 00:25:08 +0530"
     },
     "done": true
   },
@@ -7189,9 +7177,63 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/slime_block": {
+  "betterend:portal_on": {
     "criteria": {
-      "has_slime_ball": "2024-08-22 00:23:05 +0530"
+      "turn_on": "2024-08-22 00:25:38 +0530"
+    },
+    "done": true
+  },
+  "betterend:portal_travel": {
+    "criteria": {
+      "travel": "2024-08-22 00:25:59 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/shadow_plant_dye": {
+    "criteria": {
+      "has_shadow_plant": "2024-08-22 00:30:38 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crafter": {
+    "criteria": {
+      "has_dropper": "2024-08-24 00:35:14 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/bee_smithing": {
+    "criteria": {
+      "has_bee": "2024-08-24 00:39:52 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/snow_smithing": {
+    "criteria": {
+      "has_snow": "2024-08-24 00:40:02 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/lapis": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-08-24 01:05:18 +0530"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/tools/empty_leather_canteen": {
+    "criteria": {
+      "has_leather": "2024-08-24 01:22:40 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/leather_to_stripes": {
+    "criteria": {
+      "has_leather": "2024-08-24 01:22:40 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/horse": {
+    "criteria": {
+      "has_leather": "2024-08-24 01:22:40 +0530"
     },
     "done": true
   },
