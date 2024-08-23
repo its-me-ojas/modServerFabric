@@ -7237,5 +7237,83 @@
     },
     "done": true
   },
+  "adventurez:recipes/chiseled_polished_blackstone_holder_recipe": {
+    "criteria": {
+      "got_blackstone": "2024-08-24 02:36:40 +0530"
+    },
+    "done": true
+  },
+  "adventurez:recipes/blackstone_golem_arm_recipe": {
+    "criteria": {
+      "got_the_heart": "2024-08-24 02:37:29 +0530"
+    },
+    "done": true
+  },
+  "tooltrims:adventure/shiny_tools": {
+    "criteria": {
+      "crafted_frost_diamond": "2024-08-24 02:37:31 +0530"
+    },
+    "done": true
+  },
+  "tooltrims:adventure/tools_of_all_styles": {
+    "criteria": {
+      "crafted_frost_diamond": "2024-08-24 02:37:31 +0530"
+    },
+    "done": false
+  },
+  "travelersbackpack:recipes/misc/quartz": {
+    "criteria": {
+      "has_quartz": "2024-08-24 02:50:17 +0530"
+    },
+    "done": true
+  },
+  "adventurez:blackstone_golem_advancement": {
+    "criteria": {
+      "golemkill": "2024-08-24 03:18:39 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cactus": {
+    "criteria": {
+      "has_cactus": "2024-08-24 04:03:08 +0530"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/food/cactus_juice": {
+    "criteria": {
+      "has_cactus": "2024-08-24 04:03:08 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_green_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-08-24 04:07:48 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/hydralux_petal_block_green": {
+    "criteria": {
+      "has_green_dye": "2024-08-24 04:07:48 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_green": {
+    "criteria": {
+      "has_green_dye": "2024-08-24 04:07:48 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_bulb_lantern_green": {
+    "criteria": {
+      "has_green_dye": "2024-08-24 04:07:48 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_bulb_lantern_green": {
+    "criteria": {
+      "has_green_dye": "2024-08-24 04:07:48 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
