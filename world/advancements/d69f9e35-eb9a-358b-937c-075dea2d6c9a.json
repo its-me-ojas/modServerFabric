@@ -423,7 +423,8 @@
     "criteria": {
       "minecraft:crimson_forest": "2024-08-22 02:05:06 +0530",
       "minecraft:soul_sand_valley": "2024-08-22 02:02:38 +0530",
-      "minecraft:basalt_deltas": "2024-08-24 03:51:10 +0530"
+      "minecraft:basalt_deltas": "2024-08-24 03:51:10 +0530",
+      "minecraft:warped_forest": "2024-08-25 02:09:29 +0530"
     },
     "done": false
   },
@@ -4589,6 +4590,36 @@
   "adventurez:recipes/handbook_recipe": {
     "criteria": {
       "got_the_ender_eye": "2024-08-24 20:02:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2024-08-25 02:18:18 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-08-25 02:27:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-08-25 02:27:40 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/lapis": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-08-25 02:27:40 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2024-08-25 02:38:31 +0530"
     },
     "done": true
   },
