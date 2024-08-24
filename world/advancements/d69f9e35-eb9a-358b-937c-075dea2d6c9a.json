@@ -37,6 +37,7 @@
       "minecraft:frozen_river": "2024-08-24 01:27:39 +0530",
       "minecraft:deep_frozen_ocean": "2024-08-24 01:43:16 +0530",
       "minecraft:ocean": "2024-08-24 01:01:52 +0530",
+      "minecraft:jungle": "2024-08-25 04:26:06 +0530",
       "minecraft:cherry_grove": "2024-07-29 12:06:10 +0530",
       "minecraft:sunflower_plains": "2024-08-24 01:17:41 +0530",
       "minecraft:birch_forest": "2024-07-29 12:26:35 +0530",
@@ -4620,6 +4621,12 @@
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2024-08-25 02:38:31 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2024-08-25 04:32:40 +0530"
     },
     "done": true
   },
