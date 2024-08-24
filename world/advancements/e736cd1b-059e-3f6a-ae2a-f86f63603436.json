@@ -4881,18 +4881,6 @@
     },
     "done": true
   },
-  "graves:check_death_markers_later_in_tick": {
-    "criteria": {
-      "tick": "2024-08-14 20:44:52 +0530"
-    },
-    "done": true
-  },
-  "vanillatweaks:graves": {
-    "criteria": {
-      "tick": "2024-08-14 20:44:52 +0530"
-    },
-    "done": true
-  },
   "vanillatweaks:name_colors": {
     "criteria": {
       "tick": "2024-08-14 20:44:52 +0530"
@@ -8588,6 +8576,18 @@
   "minecraft:nether/create_beacon": {
     "criteria": {
       "beacon": "2024-08-24 04:21:44 +0530"
+    },
+    "done": true
+  },
+  "utility_belt:recipes/tools/utility_belt": {
+    "criteria": {
+      "has_leather": "2024-08-24 16:34:10 +0530"
+    },
+    "done": true
+  },
+  "utility_belt:obtain_utility_belt": {
+    "criteria": {
+      "obtain_belt": "2024-08-24 16:35:37 +0530"
     },
     "done": true
   },
