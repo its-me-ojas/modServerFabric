@@ -8591,5 +8591,11 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/squid": {
+    "criteria": {
+      "has_ink_sac": "2024-08-24 19:45:14 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
