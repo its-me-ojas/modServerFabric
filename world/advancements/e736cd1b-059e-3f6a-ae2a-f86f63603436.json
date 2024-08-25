@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:snowy_slopes": "2024-08-15 00:02:44 +0530",
       "minecraft:old_growth_pine_taiga": "2024-07-21 01:38:46 +0530",
+      "minecraft:mushroom_fields": "2024-08-25 20:00:33 +0530",
       "minecraft:taiga": "2024-07-20 06:53:30 +0530",
       "minecraft:deep_ocean": "2024-07-19 05:45:35 +0530",
       "minecraft:eroded_badlands": "2024-07-23 09:55:01 +0530",
@@ -8607,6 +8608,102 @@
   "global:inkorthe2nd": {
     "criteria": {
       "trigger": "2024-08-25 17:51:12 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/hydralux_petal_block_black": {
+    "criteria": {
+      "has_black_dye": "2024-08-25 20:35:52 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/lacugrove_door": {
+    "criteria": {
+      "has_lacugrove_planks": "2024-08-25 20:42:26 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_black_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-08-25 20:35:52 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/lacugrove_plate": {
+    "criteria": {
+      "has_lacugrove_planks": "2024-08-25 20:42:26 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_barrel": {
+    "criteria": {
+      "has_lacugrove_planks": "2024-08-25 20:42:26 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_chest": {
+    "criteria": {
+      "has_lacugrove_planks": "2024-08-25 20:42:26 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/lacugrove_planks": {
+    "criteria": {
+      "has_the_recipe": "2024-08-25 20:42:24 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/lacugrove_trapdoor": {
+    "criteria": {
+      "has_lacugrove_planks": "2024-08-25 20:42:26 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_crafting_table": {
+    "criteria": {
+      "has_lacugrove_planks": "2024-08-25 20:42:26 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_black": {
+    "criteria": {
+      "has_black_dye": "2024-08-25 20:35:52 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_bulb_lantern_black": {
+    "criteria": {
+      "has_black_dye": "2024-08-25 20:35:52 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/lacugrove_stairs": {
+    "criteria": {
+      "has_lacugrove_planks": "2024-08-25 20:42:26 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/lacugrove_button": {
+    "criteria": {
+      "has_lacugrove_planks": "2024-08-25 20:42:26 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/lacugrove_wall": {
+    "criteria": {
+      "has_lacugrove_planks": "2024-08-25 20:42:26 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/lacugrove_slab": {
+    "criteria": {
+      "has_lacugrove_planks": "2024-08-25 20:42:26 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_bulb_lantern_black": {
+    "criteria": {
+      "has_black_dye": "2024-08-25 20:35:52 +0530"
     },
     "done": true
   },
