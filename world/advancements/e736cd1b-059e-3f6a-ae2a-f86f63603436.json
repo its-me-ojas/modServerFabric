@@ -9771,21 +9771,9 @@
     },
     "done": true
   },
-  "knightquest:recipes/misc/khopesh": {
-    "criteria": {
-      "has_filled_goblet": "2024-08-26 03:31:56 +0530"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/cooking/noodle_soup": {
     "criteria": {
       "has_any_ingredient": "2024-08-26 03:30:32 +0530"
-    },
-    "done": true
-  },
-  "knightquest:recipes/misc/paladin_sword": {
-    "criteria": {
-      "has_filled_goblet": "2024-08-26 03:31:56 +0530"
     },
     "done": true
   },
@@ -9795,21 +9783,9 @@
     },
     "done": true
   },
-  "knightquest:recipes/misc/khopesh_claymore": {
-    "criteria": {
-      "has_filled_goblet": "2024-08-26 03:31:56 +0530"
-    },
-    "done": true
-  },
   "farmersdelight:recipes/combat/golden_knife": {
     "criteria": {
       "has_gold_ingot": "2024-08-26 03:30:32 +0530"
-    },
-    "done": true
-  },
-  "knightquest:recipes/misc/chainmail_helmet": {
-    "criteria": {
-      "has_filled_goblet": "2024-08-26 03:31:56 +0530"
     },
     "done": true
   },
@@ -9822,6 +9798,78 @@
   "farmersdelight:recipes/cooking/bone_broth": {
     "criteria": {
       "has_bone": "2024-08-26 03:30:32 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/khopesh": {
+    "criteria": {
+      "has_filled_goblet": "2024-08-26 03:31:56 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/paladin_sword": {
+    "criteria": {
+      "has_filled_goblet": "2024-08-26 03:31:56 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/khopesh_claymore": {
+    "criteria": {
+      "has_filled_goblet": "2024-08-26 03:31:56 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/chainmail_helmet": {
+    "criteria": {
+      "has_filled_goblet": "2024-08-26 03:31:56 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dog_food": {
+    "criteria": {
+      "has_any_ingredient": "2024-08-26 03:42:56 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_rice": {
+    "criteria": {
+      "has_any_ingredient": "2024-08-26 03:42:17 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/rabbit_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-08-26 03:42:17 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-08-26 03:42:17 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2024-08-26 03:42:17 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "brown_mushroom": "2024-08-26 03:43:55 +0530"
+    },
+    "done": false
+  },
+  "endrem:main/eyes_recipe": {
+    "criteria": {
+      "eyes": "2024-08-26 03:47:47 +0530"
+    },
+    "done": true
+  },
+  "adventurez:recipes/handbook_recipe": {
+    "criteria": {
+      "got_the_ender_eye": "2024-08-26 03:47:47 +0530"
     },
     "done": true
   },
