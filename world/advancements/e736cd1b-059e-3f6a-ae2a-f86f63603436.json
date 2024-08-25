@@ -9723,6 +9723,18 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/steel_sword": {
+    "criteria": {
+      "has_charcoal": "2024-08-26 01:15:16 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/steel_axe": {
+    "criteria": {
+      "has_charcoal": "2024-08-26 01:15:16 +0530"
+    },
+    "done": true
+  },
   "knightquest:recipes/misc/cleaver_heavy_axe": {
     "criteria": {
       "has_ink_sac": "2024-08-26 01:26:10 +0530"
@@ -9735,15 +9747,81 @@
     },
     "done": true
   },
-  "knightquest:recipes/misc/steel_sword": {
+  "knightquest:recipes/misc/nail_sword": {
     "criteria": {
-      "has_charcoal": "2024-08-26 01:15:16 +0530"
+      "has_iron_block": "2024-08-26 03:07:56 +0530"
     },
     "done": true
   },
-  "knightquest:recipes/misc/steel_axe": {
+  "knightquest:recipes/misc/nail_glaive": {
     "criteria": {
-      "has_charcoal": "2024-08-26 01:15:16 +0530"
+      "has_iron_block": "2024-08-26 03:07:56 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/chainmail_helmet2": {
+    "criteria": {
+      "has_wheat_seeds": "2024-08-26 03:08:32 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/diamond_knife": {
+    "criteria": {
+      "has_diamond": "2024-08-26 03:30:32 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/khopesh": {
+    "criteria": {
+      "has_filled_goblet": "2024-08-26 03:31:56 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/noodle_soup": {
+    "criteria": {
+      "has_any_ingredient": "2024-08-26 03:30:32 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/paladin_sword": {
+    "criteria": {
+      "has_filled_goblet": "2024-08-26 03:31:56 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pumpkin_soup": {
+    "criteria": {
+      "has_any_ingredient": "2024-08-26 03:30:32 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/khopesh_claymore": {
+    "criteria": {
+      "has_filled_goblet": "2024-08-26 03:31:56 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/golden_knife": {
+    "criteria": {
+      "has_gold_ingot": "2024-08-26 03:30:32 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/chainmail_helmet": {
+    "criteria": {
+      "has_filled_goblet": "2024-08-26 03:31:56 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2024-08-26 03:30:32 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/bone_broth": {
+    "criteria": {
+      "has_bone": "2024-08-26 03:30:32 +0530"
     },
     "done": true
   },

@@ -21,6 +21,7 @@
 	climate_clemency_duration = 6000
 	#Number of ticks to delay changing the player's temperature after their temperature changes when rebounding from an extreme temperature.
 	extremity_rebound_temperature_change_delay = 250
+
 [altitude]
 	#Y level to drop the temperature at when above
 	temperature_drop_altitude = 160
@@ -28,6 +29,7 @@
 	temperature_rise_altitude = -32
 	#Y level above which environmental modifiers are applied
 	environmental_modifier_altitude = 50
+
 [immersion]
 	#Number of ticks a player stays wet for after touching water, rain or snow.
 	wet_ticks = 40
@@ -39,12 +41,15 @@
 	wet_temperature_change = -1
 	#Amount to change the temperature by when on fire.
 	on_fire_temperature_change = 2
+
 [blocks]
 	#The proximity which constitutes near a heat or cool source
 	near_heat_cool_proximity = 8
+
 [toggles]
 	#Enable or disable temperature.
 	enable_temperature = true
+
 [time]
 	#Amount to change the temperature at night when the original temperature is hot.
 	night_hot_temperature_change = -2
