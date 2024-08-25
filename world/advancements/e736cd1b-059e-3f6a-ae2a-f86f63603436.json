@@ -8617,15 +8617,39 @@
     },
     "done": true
   },
-  "betterend:recipes/redstone/lacugrove_door": {
-    "criteria": {
-      "has_lacugrove_planks": "2024-08-25 20:42:26 +0530"
-    },
-    "done": true
-  },
   "travelersbackpack:recipes/building_blocks/dye_black_sleeping_bag": {
     "criteria": {
       "has_needed_dye": "2024-08-25 20:35:52 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_black": {
+    "criteria": {
+      "has_black_dye": "2024-08-25 20:35:52 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_bulb_lantern_black": {
+    "criteria": {
+      "has_black_dye": "2024-08-25 20:35:52 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_bulb_lantern_black": {
+    "criteria": {
+      "has_black_dye": "2024-08-25 20:35:52 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/lacugrove_planks": {
+    "criteria": {
+      "has_the_recipe": "2024-08-25 20:42:24 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/lacugrove_door": {
+    "criteria": {
+      "has_lacugrove_planks": "2024-08-25 20:42:26 +0530"
     },
     "done": true
   },
@@ -8647,12 +8671,6 @@
     },
     "done": true
   },
-  "betterend:recipes/building_blocks/lacugrove_planks": {
-    "criteria": {
-      "has_the_recipe": "2024-08-25 20:42:24 +0530"
-    },
-    "done": true
-  },
   "betterend:recipes/redstone/lacugrove_trapdoor": {
     "criteria": {
       "has_lacugrove_planks": "2024-08-25 20:42:26 +0530"
@@ -8662,18 +8680,6 @@
   "betterend:recipes/decorations/lacugrove_crafting_table": {
     "criteria": {
       "has_lacugrove_planks": "2024-08-25 20:42:26 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/terminite_bulb_lantern_black": {
-    "criteria": {
-      "has_black_dye": "2024-08-25 20:35:52 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/iron_bulb_lantern_black": {
-    "criteria": {
-      "has_black_dye": "2024-08-25 20:35:52 +0530"
     },
     "done": true
   },
@@ -8698,12 +8704,6 @@
   "betterend:recipes/building_blocks/lacugrove_slab": {
     "criteria": {
       "has_lacugrove_planks": "2024-08-25 20:42:26 +0530"
-    },
-    "done": true
-  },
-  "betterend:recipes/misc/thallasium_bulb_lantern_black": {
-    "criteria": {
-      "has_black_dye": "2024-08-25 20:35:52 +0530"
     },
     "done": true
   },
