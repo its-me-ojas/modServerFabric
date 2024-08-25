@@ -1,489 +1,820 @@
-[22:44:14] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.2
-[22:44:14] [ForkJoinPool-1-worker-2/WARN]: Mod travelersbackpack uses the version fabric-1.21-10.0.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[22:44:15] [main/INFO]: Loading 144 mods:
-	- accessories 1.0.0-beta.26+1.21
-	   |-- io_wispforest_endec 0.1.5
-	   |-- io_wispforest_endec_gson 0.1.3
-	   \-- io_wispforest_endec_netty 0.1.2
-	- adventurez 1.4.21
-	- amplified_nether 1.2.5
-	- architectury 13.0.6
-	- bclib 21.0.13
-	- betterbeaconplacement 3.4
-	- betterend 21.0.9
-	- cardinal-components 6.1.1
-	   |-- cardinal-components-base 6.1.1
-	   |-- cardinal-components-block 6.1.1
-	   |-- cardinal-components-chunk 6.1.1
-	   |-- cardinal-components-entity 6.1.1
-	   |-- cardinal-components-item 6.1.1
-	   |-- cardinal-components-level 6.1.1
-	   |-- cardinal-components-scoreboard 6.1.1
-	   \-- cardinal-components-world 6.1.1
-	- carryon 2.2.1
-	- chunkloaders 1.2.8
-	- cloth-config 15.0.130
-	   \-- cloth-basic-math 0.6.1
-	- collective 7.84
-	- cristellib 1.2.7
-	   \-- blue_endless_jankson 1.2.3
-	- customizableelytra 2.2.7+1.21
-	- fabric-api 0.102.0+1.21
-	   |-- fabric-api-base 0.4.42+6573ed8cd1
-	   |-- fabric-api-lookup-api-v1 1.6.68+b5597344d1
-	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bcd1
-	   |-- fabric-block-api-v1 1.0.22+0af3f5a7d1
-	   |-- fabric-block-view-api-v2 1.0.10+6573ed8cd1
-	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a7d1
-	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8cd1
-	   |-- fabric-command-api-v1 1.2.49+f71b366fd1
-	   |-- fabric-command-api-v2 2.2.28+6ced4dd9d1
-	   |-- fabric-commands-v0 0.2.66+df3654b3d1
-	   |-- fabric-content-registries-v0 8.0.16+b5597344d1
-	   |-- fabric-convention-tags-v1 2.0.19+7f945d5bd1
-	   |-- fabric-convention-tags-v2 2.5.0+c5e2b5c6d1
-	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a7d1
-	   |-- fabric-data-attachment-api-v1 1.1.27+6a6dfa19d1
-	   |-- fabric-data-generation-api-v1 20.2.16+16c4ae25d1
-	   |-- fabric-dimensions-v1 4.0.0+6fc22b99d1
-	   |-- fabric-entity-events-v1 1.6.12+6fc22b99d1
-	   |-- fabric-events-interaction-v0 0.7.12+ba9dae06d1
-	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd9d1
-	   |-- fabric-item-api-v1 11.0.0+afdfc921d1
-	   |-- fabric-item-group-api-v1 4.1.4+78017270d1
-	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a7d1
-	   |-- fabric-keybindings-v0 0.2.45+df3654b3d1
-	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df360d1
-	   |-- fabric-loot-api-v2 3.0.14+3f89f5a5d1
-	   |-- fabric-loot-api-v3 1.0.2+3f89f5a5d1
-	   |-- fabric-message-api-v1 6.0.13+6573ed8cd1
-	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6bd1
-	   |-- fabric-networking-api-v1 4.2.2+60c3209bd1
-	   |-- fabric-object-builder-api-v1 15.2.0+a551f7a4d1
-	   |-- fabric-particles-v1 4.0.2+6573ed8cd1
-	   |-- fabric-recipe-api-v1 5.0.12+65089712d1
-	   |-- fabric-registry-sync-v0 5.1.2+60c3209bd1
-	   |-- fabric-renderer-api-v1 3.4.0+c705a49cd1
-	   |-- fabric-renderer-indigo 1.7.0+c705a49cd1
-	   |-- fabric-renderer-registries-v1 3.2.68+df3654b3d1
-	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2ed1
-	   |-- fabric-rendering-fluids-v1 3.1.6+b5597344d1
-	   |-- fabric-rendering-v0 1.1.71+df3654b3d1
-	   |-- fabric-rendering-v1 5.0.5+df16efd0d1
-	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b1d1
-	   |-- fabric-resource-loader-v0 1.3.0+56599129d1
-	   |-- fabric-screen-api-v1 2.0.24+b5597344d1
-	   |-- fabric-screen-handler-api-v1 1.3.86+b5597344d1
-	   |-- fabric-sound-api-v1 1.0.23+6573ed8cd1
-	   |-- fabric-transfer-api-v1 5.1.16+3dccd343d1
-	   \-- fabric-transitive-access-wideners-v1 6.1.0+176f9036d1
-	- fabricloader 0.16.2
-	   \-- mixinextras 0.4.1
-	- ferritecore 7.0.0
-	- glitchcore 2.0.0.2
-	   |-- com_electronwill_night-config_core 3.6.7
-	   |-- com_electronwill_night-config_toml 3.6.7
-	   \-- net_jodah_typetools 0.6.3
-	- guardvillagers 2.1.2-1.21
-	   \-- midnightlib 1.5.7
-	- items_displayed 1.2.2
-	- jamlib 1.0.11+1.21
-	   \-- blue_endless_jankson 1.2.3
-	- java 21
-	- justmobheads 8.3
-	- lithium 0.13.0
-	- minecraft 1.21
-	- morevanillashields 1.0.2-1.21
-	- mr_advancement_count 1-v1.2.0c
-	- mr_amplified_netherheight 1.1
-	- mr_dungeons_andtaverns 1-v4.3
-	- mr_dungeons_andtavernsancientcityoverhaul 1-v2
-	- mr_dungeons_andtavernsdeserttempleoverhaul 1-v1.1
-	- mr_dungeons_andtavernsendcastlestandalone 1-v1
-	- mr_dungeons_andtavernsjungletempleoverhaul 1-v1.1
-	- mr_dungeons_andtavernsnetherfortressoverhaul 1-v2.1
-	- mr_dungeons_andtavernsoceanmonumentoverhaul 1-v1.1
-	- mr_dungeons_andtavernspillageroutpostoverhaul 1-v2.2
-	- mr_dungeons_andtavernsstrongholdrework 1-v2.1
-	- mr_dungeons_andtavernsswamphutoverhaul 1-v2
-	- mr_dungeons_andtavernswoodlandmansionoverhaul 1-v1.1
-	- mr_netherweather 1.1.1
-	- mr_tablist_healthindicator 2
-	- mr_true_ending 1-v1.1.2b
-	- mr_warp_portals 1.4.0
-	- netheriteextras 0.4.0+mc1.21
-	- owo 0.12.11+1.21
-	   |-- io_wispforest_endec 0.1.5
-	   |-- io_wispforest_endec_gson 0.1.3
-	   |-- io_wispforest_endec_jankson 0.1.3
-	   \-- io_wispforest_endec_netty 0.1.2
-	- supermartijn642configlib 1.1.8
-	- supermartijn642corelib 1.1.17+b
-	- t_and_t 1.13.2
-	- terralith 2.5.4
-	- toughasnails 10.0.0.5
-	   |-- com_electronwill_night-config_core 3.6.7
-	   |-- com_electronwill_night-config_toml 3.6.7
-	   \-- net_jodah_typetools 0.6.3
-	- travelersbackpack fabric-1.21-10.0.6
-	- trinkets 3.10.0
-	- universal-graves 3.4.3+1.21
-	   |-- common-protection-api 1.0.0
-	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
-	   |-- placeholder-api 2.4.1+1.21
-	   |-- polymer-core 0.9.8+1.21
-	   |    |-- polymer-networking 0.9.8+1.21
-	   |    |    \-- polymer-common 0.9.8+1.21
-	   |    |         \-- packet_tweaker 0.5.5+1.21
-	   |    \-- polymer-registry-sync-manipulator 0.9.8+1.21
-	   |-- polymer-resource-pack 0.9.8+1.21
-	   |    \-- polymer-common 0.9.8+1.21
-	   |         \-- packet_tweaker 0.5.5+1.21
-	   |-- polymer-virtual-entity 0.9.8+1.21
-	   |    \-- polymer-common 0.9.8+1.21
-	   |         \-- packet_tweaker 0.5.5+1.21
-	   |-- predicate-api 0.5.1+1.21
-	   |-- server_translations_api 2.3.1+1.21-pre2
-	   \-- sgui 1.6.0+1.21
-	- utility_belt 2.4.3+1.21
-	- villagernames 8.1
-	- wooltostring 1.0.1
-	- wover 21.0.13
-	   |-- wover-biome 21.0.13
-	   |-- wover-block 21.0.13
-	   |-- wover-common 21.0.13
-	   |-- wover-core 21.0.13
-	   |-- wover-datagen 21.0.13
-	   |-- wover-events 21.0.13
-	   |-- wover-feature 21.0.13
-	   |-- wover-generator 21.0.13
-	   |-- wover-item 21.0.13
-	   |-- wover-math 21.0.13
-	   |-- wover-preset 21.0.13
-	   |-- wover-recipe 21.0.13
-	   |-- wover-structure 21.0.13
-	   |-- wover-surface 21.0.13
-	   |-- wover-tag 21.0.13
-	   |-- wover-ui 21.0.13
-	   \-- wunderlib 21.0.8
-	- xaerominimap 24.2.1
-	- xaeroworldmap 1.38.8
-[22:44:15] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/modServerFabric/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[22:44:15] [main/INFO]: Compatibility level set to JAVA_17
-[22:44:15] [main/INFO]: Compatibility level set to JAVA_21
-[22:44:15] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 1 override(s) found
-[22:44:15] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[22:44:15] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
-[22:44:15] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
-[22:44:16] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[22:44:16] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
-[22:44:16] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
-[22:44:16] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
-[22:44:16] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
-[22:44:16] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
-[22:44:17] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[22:44:17] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[22:44:18] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zzn000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[22:44:28] [main/INFO]: Registering Listeners!
-[22:44:29] [main/INFO]: Loading Collective version 7.84.
-[22:44:29] [main/INFO]: Registered synced config with path toughasnails/thirst.toml
-[22:44:29] [main/INFO]: Registered synced config with path toughasnails/temperature.toml
-[22:44:29] [main/ERROR]: No data fixer registered for water_purifier
-[22:44:29] [main/ERROR]: No data fixer registered for temperature_gauge
-[22:44:29] [main/ERROR]: No data fixer registered for thermoregulator
-[22:44:29] [main/INFO]: Registering configs
-[22:44:29] [main/INFO]: Registering blocks
-[22:44:29] [main/INFO]: Registering items
-[22:44:29] [main/INFO]: Registering item groups
-[22:44:29] [main/INFO]: Registering entities
-[22:44:29] [main/INFO]: Registering tags
-[22:44:29] [main/INFO]: Registering event handlers
-[22:44:29] [main/INFO]: Initializing JamLib on Fabric
-[22:44:29] [main/INFO]: morevanillashields: This mod runs without a config file. Coming Soon in next updates!
-[22:44:29] [main/INFO]: Registering Mod Items for morevanillashields
-[22:44:30] [main/INFO]: blod: I think I need to take a book out of your page
-[22:44:30] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
-[22:44:30] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
-[22:44:30] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
-[22:44:30] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
-[22:44:30] [main/INFO]: Registering C2S receiver with id utility_belt:update_state
-[22:44:30] [main/INFO]: Registering C2S receiver with id utility_belt:open_screen
-[22:44:30] [main/INFO]: Utility Belt initialized on Fabric
-[22:44:30] [main/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
-[22:44:30] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[22:44:30] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[22:44:30] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
-[22:44:30] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
-[22:44:30] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:44:30] [main/INFO]: Ignoring Patch{ModCore: bclib (bclib):3.0.11:196619}
-[22:44:30] [main/INFO]: Running Pre Patchers on ./world/.
-[22:44:30] [main/INFO]: Everything up to date
-[22:44:31] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
-[22:44:31] [main/INFO]: Processing wover.datapack.registry Entrypoints
-[22:44:31] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
-[22:44:31] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
-[22:44:31] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
-[22:44:31] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
-[22:44:31] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
-[22:44:32] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (40d4fa9d)
-[22:44:32] [main/INFO]: Unable to build Biome List yet
-[22:44:32] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[22:44:32] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (188e54de)
-[22:44:32] [main/INFO]: Unable to build Biome List yet
-[22:44:32] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[22:44:32] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (3cb419b9)
-[22:44:32] [main/INFO]: Unable to build Biome List yet
-[22:44:32] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[22:44:32] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (4d2265b5)
-[22:44:32] [main/INFO]: Unable to build Biome List yet
-[22:44:32] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[22:44:32] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (7a36323f)
-[22:44:32] [main/INFO]: Unable to build Biome List yet
-[22:44:32] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[22:44:32] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (320e4b43)
-[22:44:32] [main/INFO]: Unable to build Biome List yet
-[22:44:32] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:chorus_forest
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dust_wastelands
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
-[22:44:32] [main/INFO]: Adding Small End Island Biome to Fabric: betterend:ice_starfield
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
-[22:44:32] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
-[22:44:32] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (6db3c9d4)
-[22:44:32] [main/INFO]: Unable to build Biome List yet
-[22:44:32] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[22:44:32] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (46bf439f)
-[22:44:32] [main/INFO]: Unable to build Biome List yet
-[22:44:32] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[22:44:33] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called graves:entities/player
-[22:44:34] [main/INFO]: Disabling Recipe: bclib:test_star
-[22:44:34] [main/INFO]: Loaded 2375 recipes
-[22:44:34] [main/INFO]: Added 0 recipes in 5ms
-[22:44:35] [main/ERROR]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[22:44:35] [main/INFO]: Loaded 2501 advancements
-[22:44:35] [ForkJoinPool.commonPool-worker-3/INFO]: Loaded 58 translation keys
-[22:44:35] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
-[22:44:36] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.basis.StoneLanternBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[22:44:36] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.BrimstoneBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_638. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[22:44:36] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.bclib.blocks.BaseLeavesBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_793. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[22:44:36] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.TenaneaFlowersBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[22:44:36] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.HelixTreeLeavesBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[22:44:36] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.JellyshroomCapBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[22:44:36] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.HydraluxPetalColoredBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[22:44:36] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.bclib.blocks.BaseOreBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_793. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[22:44:36] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.BulbVineLanternColoredBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[22:44:36] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.AuroraCrystalBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[22:44:36] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.RespawnObeliskBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[22:44:36] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.EndPortalBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[22:44:36] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (5c512488)
-[22:44:36] [main/INFO]: Added 5 Biomes
-[22:44:36] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[22:44:36] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[22:44:36] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[22:44:36] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[22:44:36] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[22:44:36] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[22:44:36] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[22:44:36] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (72d7267b)
-[22:44:36] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[22:44:36] [main/INFO]: Added Tags for 1 fabric biomes in 7.861 ms
-[22:44:36] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (72d7267b)
-[22:44:36] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (46bf439f)
-[22:44:36] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (46bf439f)
-[22:44:36] [main/INFO]: Added 6 biomes to wover:is_end/highland in 3.078 ms
-[22:44:36] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (5c512488)
-[22:44:36] [main/INFO]: Added 5 Biomes
-[22:44:36] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[22:44:36] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[22:44:36] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[22:44:36] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[22:44:36] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[22:44:36] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[22:44:36] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (6db3c9d4)
-[22:44:36] [main/INFO]: Added 5 Biomes
-[22:44:36] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[22:44:36] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[22:44:36] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[22:44:36] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[22:44:36] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[22:44:36] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[22:44:36] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (6db3c9d4)
-[22:44:36] [main/INFO]: Added 5 Biomes
-[22:44:36] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[22:44:36] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[22:44:36] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[22:44:36] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[22:44:36] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[22:44:36] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[22:44:37] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (46bf439f)
-[22:44:37] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (6db3c9d4)
-[22:44:37] [main/INFO]: Added 5 Biomes
-[22:44:37] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[22:44:37] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[22:44:37] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[22:44:37] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[22:44:37] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[22:44:37] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[22:44:37] [main/INFO]: Applied 92 biome modifications and added 89 tags to 92 of 183 biomes in 15.85 ms
-[22:44:37] [main/INFO]: Applied 112 biome modifications to 86 of 183 new biomes in 16.02 ms
-[22:44:37] [Server thread/INFO]: Starting minecraft server version 1.21
-[22:44:37] [Server thread/INFO]: Loading properties
-[22:44:37] [Server thread/INFO]: Default game type: SURVIVAL
-[22:44:37] [Server thread/INFO]: Generating keypair
-[22:44:38] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:44:38] [Server thread/INFO]: Using epoll channel type
-[22:44:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:44:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:44:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:44:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:44:38] [Server thread/INFO]: Preparing level "world"
-[22:44:38] [Server thread/INFO]: World Dimensions: 
- - minecraft:the_nether: 
-     WoVer - Chunk Generator (1233f4c4)
-         preset     = none
-         noise      = minecraft:nether
-         features   = minecraft(37)
-     WoVer - Nether BiomeSource (46bf439f)
-         biomes     = 5
-         namespaces = minecraft(5)
-         seed       = 1988232152129346940
-         height     = 256
-         config     = NetherConfig{mapVersion=hex, useVerticalBiomes=true, biomeSize=16, biomeSizeVertical=5}
- - minecraft:the_end: 
-     WoVer - Chunk Generator (7ee04460)
-         preset     = none
-         noise      = minecraft:end
-         features   = minecraft(5), betterend(127)
-     WoVer - The End  BiomeSource (6db3c9d4)
-         biomes     = 24
-         namespaces = minecraft(5), betterend(19)
-         seed       = 1988232152129346940
-         height     = 128
-         deciders   = 0
-         config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
- - minecraft:overworld: 
-     class_3754 (238c6a36)
-         preset     = none
-         noise      = minecraft:overworld
-         features   = terralith(384), minecraft(153)
-     class_4766 (7e58ca88)
-         biomes     = 147
-         namespaces = minecraft(53), terralith(94)
-[22:44:38] [Server thread/INFO]: Merged 19 additional Surface Rules for Dimension minecraft:the_end => 20 (688.5 μs) using WoVer - The End  BiomeSource (6db3c9d4)
-    biomes     = 24
-    namespaces = minecraft(5), betterend(19)
-    seed       = 1988232152129346940
-    height     = 128
-    deciders   = 0
-    config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
-[22:44:39] [Server thread/INFO]: Added 2 Biomes
-[22:44:39] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
-[22:44:39] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
-[22:44:47] [Server thread/INFO]: Added 2 Biomes
-[22:44:47] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
-[22:44:47] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
-[22:44:47] [Server thread/INFO]: Added 2 Biomes
-[22:44:47] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
-[22:44:47] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
-[22:44:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:44:53] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[22:44:53] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[22:44:53] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[22:44:53] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[22:44:53] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[22:44:53] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[22:44:53] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[22:44:53] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[22:44:53] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[22:44:53] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[22:44:53] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[22:44:53] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[22:44:53] [Worker-Main-5/INFO]: Preparing spawn area: 32%
-[22:44:53] [Server thread/INFO]: Time elapsed: 6345 ms
-[22:44:53] [Server thread/INFO]: Done (15.081s)! For help, type "help"
-[22:44:53] [Server thread/INFO]: morevanillashields: This mod is now running on a server. Please report any error or bugs.
-[22:44:53] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[22:44:53] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[22:44:54] [Server thread/WARN]: UUID of added entity already exists: class_8122['Item Display'/42, l='ServerLevel[world]', x=0.50, y=0.00, z=0.50]
-[22:45:01] [Server thread/INFO]: whitehairguy[/127.0.0.1:58858] logged in with entity id 72 at (1662.3971675275031, 66.0, -720.3223180656197)
-[22:45:01] [Server thread/INFO]: Sending server config values to client
-[22:45:01] [Server thread/INFO]: Loading config from file...
-[22:45:01] [Server thread/INFO]: whitehairguy joined the game
-[22:45:02] [Server thread/INFO]: Receiving client config
-[22:45:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7189ms or 143 ticks behind
-[22:46:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[22:46:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6405ms or 128 ticks behind
-[22:46:52] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[22:46:52] [Server thread/INFO]: whitehairguy left the game
-[22:46:52] [Server thread/WARN]: handleDisconnection() called twice
-[22:49:41] [Server thread/INFO]: BrownNiggar[/127.128.77.100:49643] logged in with entity id 1335 at (1886.0406176932354, 173.90574881932233, -868.1972945994402)
-[22:49:41] [Server thread/INFO]: Sending server config values to client
-[22:49:41] [Server thread/INFO]: Loading config from file...
-[22:49:41] [Server thread/INFO]: BrownNiggar joined the game
-[22:49:43] [Server thread/INFO]: Receiving client config
-[22:49:46] [Server thread/INFO]: whitehairguy[/127.0.0.1:51792] logged in with entity id 1758 at (1685.8972668667338, 98.0, -694.2005497652999)
-[22:49:46] [Server thread/INFO]: Sending server config values to client
-[22:49:46] [Server thread/INFO]: Loading config from file...
-[22:49:46] [Server thread/INFO]: whitehairguy joined the game
-[22:49:46] [Server thread/INFO]: Receiving client config
-[22:50:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[22:50:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12217ms or 244 ticks behind
-[22:50:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13799ms or 275 ticks behind
-[22:51:10] [Server thread/WARN]: BrownNiggar moved too quickly! -7.270768026284713,7.567166768043251,-14.454859685764632
-[22:51:12] [Server thread/WARN]: BrownNiggar moved too quickly! -16.407025070159307,0.2375996692036324,7.462126738286543
-[22:51:14] [Server thread/WARN]: BrownNiggar moved too quickly! 0.11681062812476739,11.568503872126314,13.854057672372164
-[22:51:16] [Server thread/WARN]: BrownNiggar moved too quickly! 14.036038782624018,-1.668920675889865,-11.813828799534122
-[22:51:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22239ms or 444 ticks behind
-[22:51:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3269ms or 65 ticks behind
-[22:52:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4747ms or 94 ticks behind
-[22:52:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13423ms or 268 ticks behind
-[22:52:56] [Server thread/INFO]: [Not Secure] <whitehairguy> xaero-waypoint:Piglin Doujin:PD:1686:98:-694:7:false:0:Internal-the-nether-waypoints
-[22:53:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10609ms or 212 ticks behind
-[22:53:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
-[22:53:36] [Server thread/WARN]: BrownNiggar moved too quickly! -11.906168819320328,-1.7278906672351582,14.275743204794026
-[22:53:38] [Server thread/WARN]: BrownNiggar moved too quickly! -13.558168019628056,-2.107582539754361,12.735204586879036
-[22:53:39] [Server thread/WARN]: BrownNiggar moved too quickly! -12.52417782538464,-2.229275894300997,13.209167355148224
-[22:53:49] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
-[22:53:49] [Server thread/INFO]: BrownNiggar left the game
-[22:54:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14396ms or 287 ticks behind
-[22:54:12] [Server thread/INFO]: BrownNiggar[/127.35.110.253:60685] logged in with entity id 2859 at (1711.699999988079, 143.0, -742.617246874954)
-[22:54:12] [Server thread/INFO]: Sending server config values to client
-[22:54:12] [Server thread/INFO]: Loading config from file...
-[22:54:12] [Server thread/INFO]: BrownNiggar joined the game
-[22:54:12] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[22:54:12] [Server thread/INFO]: whitehairguy left the game
-[22:54:14] [Server thread/INFO]: Receiving client config
-[22:54:20] [Server thread/INFO]: Stopping server
-[22:54:20] [Server thread/INFO]: Saving players
-[22:54:20] [Server thread/INFO]: BrownNiggar lost connection: Server closed
-[22:54:20] [Server thread/INFO]: BrownNiggar left the game
-[22:54:20] [Server thread/INFO]: Saving worlds
+[00:00:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.26, y=44.20, z=-701.13]
+[00:00:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.46, y=44.20, z=-699.87]
+[00:00:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.20, y=44.20, z=-699.67]
+[00:00:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.00, y=44.20, z=-700.93]
+[00:00:08] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.80, y=44.20, z=-701.30]
+[00:00:08] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.33]
+[00:00:08] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.66, y=44.20, z=-699.50]
+[00:00:08] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.47]
+[00:00:09] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.62, y=44.20, z=-699.51]
+[00:00:09] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.51]
+[00:00:09] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.84, y=44.20, z=-701.29]
+[00:00:09] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.29]
+[00:00:10] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.03, y=44.20, z=-701.25]
+[00:00:10] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.58, y=44.20, z=-700.10]
+[00:00:10] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.43, y=44.20, z=-699.55]
+[00:00:10] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.88, y=44.20, z=-700.70]
+[00:00:11] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.37, y=44.20, z=-699.58]
+[00:00:11] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.91, y=44.20, z=-700.76]
+[00:00:11] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.09, y=44.20, z=-701.22]
+[00:00:11] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.55, y=44.20, z=-700.04]
+[00:00:12] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.58, y=44.20, z=-700.10]
+[00:00:12] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.43, y=44.20, z=-699.55]
+[00:00:12] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.88, y=44.20, z=-700.70]
+[00:00:12] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.03, y=44.20, z=-701.25]
+[00:00:13] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.02, y=44.20, z=-699.84]
+[00:00:13] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.17, y=44.20, z=-701.11]
+[00:00:13] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.43, y=44.20, z=-700.96]
+[00:00:13] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.29, y=44.20, z=-699.69]
+[00:00:14] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.02, y=44.20, z=-701.25]
+[00:00:14] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.58, y=44.20, z=-700.11]
+[00:00:14] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.44, y=44.20, z=-699.55]
+[00:00:14] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.88, y=44.20, z=-700.69]
+[00:00:15] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.27, y=44.20, z=-699.63]
+[00:00:15] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.95, y=44.20, z=-700.86]
+[00:00:15] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.19, y=44.20, z=-701.17]
+[00:00:15] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.50, y=44.20, z=-699.94]
+[00:00:16] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.09, y=44.20, z=-701.22]
+[00:00:16] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.55, y=44.20, z=-700.04]
+[00:00:16] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.37, y=44.20, z=-699.58]
+[00:00:16] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.91, y=44.20, z=-700.76]
+[00:00:17] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.33, y=44.20, z=-699.59]
+[00:00:17] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.92, y=44.20, z=-700.80]
+[00:00:17] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.12, y=44.20, z=-701.21]
+[00:00:17] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.54, y=44.20, z=-700.00]
+[00:00:18] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.16, y=44.20, z=-701.19]
+[00:00:18] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.52, y=44.20, z=-699.97]
+[00:00:18] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.30, y=44.20, z=-699.61]
+[00:00:18] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.94, y=44.20, z=-700.83]
+[00:00:19] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.27, y=44.20, z=-699.63]
+[00:00:19] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.96, y=44.20, z=-700.86]
+[00:00:19] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.19, y=44.20, z=-701.17]
+[00:00:19] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.50, y=44.20, z=-699.94]
+[00:00:25] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.91, y=44.20, z=-700.02]
+[00:00:25] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.35, y=44.20, z=-701.22]
+[00:00:25] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.55, y=44.20, z=-700.78]
+[00:00:25] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.11, y=44.20, z=-699.58]
+[00:00:26] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.52]
+[00:00:26] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.85, y=44.20, z=-699.51]
+[00:00:26] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.28]
+[00:00:26] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.61, y=44.20, z=-701.29]
+[00:00:27] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.04, y=44.20, z=-699.82]
+[00:00:27] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.15, y=44.20, z=-701.09]
+[00:00:27] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.42, y=44.20, z=-700.98]
+[00:00:27] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.31, y=44.20, z=-699.71]
+[00:00:28] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.44, y=44.20, z=-700.95]
+[00:00:28] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.28, y=44.20, z=-699.69]
+[00:00:28] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.02, y=44.20, z=-699.85]
+[00:00:28] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.18, y=44.20, z=-701.11]
+[00:00:29] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.99, y=44.20, z=-699.88]
+[00:00:29] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.21, y=44.20, z=-701.13]
+[00:00:29] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.46, y=44.20, z=-700.92]
+[00:00:29] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.25, y=44.20, z=-699.67]
+[00:00:30] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.48, y=44.20, z=-700.89]
+[00:00:30] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.22, y=44.20, z=-699.65]
+[00:00:30] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.97, y=44.20, z=-699.91]
+[00:00:30] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.24, y=44.20, z=-701.15]
+[00:00:32] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.95, y=44.20, z=-699.94]
+[00:00:32] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.27, y=44.20, z=-701.17]
+[00:00:32] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.50, y=44.20, z=-700.86]
+[00:00:32] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.19, y=44.20, z=-699.63]
+[00:00:32] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.13, y=44.20, z=-701.20]
+[00:00:32] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.53, y=44.20, z=-699.99]
+[00:00:32] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.32, y=44.20, z=-699.60]
+[00:00:32] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.93, y=44.20, z=-700.81]
+[00:00:33] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.92, y=44.20, z=-700.01]
+[00:00:33] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.34, y=44.20, z=-701.21]
+[00:00:33] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.54, y=44.20, z=-700.79]
+[00:00:33] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.12, y=44.20, z=-699.59]
+[00:00:34] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.45, y=44.20, z=-700.94]
+[00:00:34] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.27, y=44.20, z=-699.68]
+[00:00:34] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.01, y=44.20, z=-699.86]
+[00:00:34] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.19, y=44.20, z=-701.12]
+[00:00:35] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.89, y=44.20, z=-700.08]
+[00:00:35] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.41, y=44.20, z=-701.24]
+[00:00:35] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.57, y=44.20, z=-700.72]
+[00:00:35] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.05, y=44.20, z=-699.56]
+[00:00:36] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.46]
+[00:00:36] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.79, y=44.20, z=-699.50]
+[00:00:36] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.34]
+[00:00:36] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.67, y=44.20, z=-701.30]
+[00:00:37] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.63, y=44.20, z=-701.29]
+[00:00:37] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.50]
+[00:00:37] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.83, y=44.20, z=-699.51]
+[00:00:37] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.30]
+[00:00:38] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.75, y=44.20, z=-701.30]
+[00:00:38] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.38]
+[00:00:38] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.71, y=44.20, z=-699.50]
+[00:00:38] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.42]
+[00:00:39] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.85, y=44.20, z=-700.22]
+[00:00:39] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.55, y=44.20, z=-701.28]
+[00:00:39] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.61, y=44.20, z=-700.58]
+[00:00:39] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.91, y=44.20, z=-699.52]
+[00:00:40] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.54]
+[00:00:40] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.87, y=44.20, z=-699.51]
+[00:00:40] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.26]
+[00:00:40] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.59, y=44.20, z=-701.29]
+[00:00:41] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.29]
+[00:00:41] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.62, y=44.20, z=-701.29]
+[00:00:41] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.51]
+[00:00:41] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.84, y=44.20, z=-699.51]
+[00:00:42] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.55, y=44.20, z=-700.77]
+[00:00:42] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.10, y=44.20, z=-699.58]
+[00:00:42] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.91, y=44.20, z=-700.03]
+[00:00:42] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.36, y=44.20, z=-701.22]
+[00:00:43] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.24, y=44.20, z=-699.64]
+[00:00:43] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.97, y=44.20, z=-700.89]
+[00:00:43] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.22, y=44.20, z=-701.16]
+[00:00:43] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.48, y=44.20, z=-699.91]
+[00:00:44] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.40]
+[00:00:44] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.72, y=44.20, z=-699.50]
+[00:00:44] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.40]
+[00:00:44] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.73, y=44.20, z=-701.30]
+[00:00:45] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.44]
+[00:00:45] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.77, y=44.20, z=-701.30]
+[00:00:45] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.36]
+[00:00:45] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.69, y=44.20, z=-699.50]
+[00:01:05] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.19, y=44.20, z=-699.68]
+[00:01:05] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.01, y=44.20, z=-700.94]
+[00:01:05] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.27, y=44.20, z=-701.12]
+[00:01:05] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.45, y=44.20, z=-699.86]
+[00:01:06] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.28, y=44.20, z=-699.68]
+[00:01:06] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.01, y=44.20, z=-699.85]
+[00:01:06] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.18, y=44.20, z=-701.12]
+[00:01:06] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.44, y=44.20, z=-700.95]
+[00:01:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.56]
+[00:01:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.89, y=44.20, z=-701.29]
+[00:01:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.24]
+[00:01:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.57, y=44.20, z=-699.51]
+[00:01:19] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.55]
+[00:01:19] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.88, y=44.20, z=-699.51]
+[00:01:19] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.25]
+[00:01:19] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.58, y=44.20, z=-701.29]
+[00:01:22] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.86, y=44.20, z=-700.18]
+[00:01:22] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.51, y=44.20, z=-701.27]
+[00:01:22] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.60, y=44.20, z=-700.62]
+[00:01:22] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.95, y=44.20, z=-699.53]
+[00:01:24] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.64, y=44.20, z=-699.50]
+[00:01:24] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.49]
+[00:01:24] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.81, y=44.20, z=-701.30]
+[00:01:24] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.31]
+[00:01:25] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.85, y=44.20, z=-701.29]
+[00:01:25] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.28]
+[00:01:25] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.61, y=44.20, z=-699.51]
+[00:01:25] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.52]
+[00:01:26] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.79, y=44.20, z=-699.50]
+[00:01:26] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.34]
+[00:01:26] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.67, y=44.20, z=-701.30]
+[00:01:26] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.46]
+[00:01:27] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.71, y=44.20, z=-701.30]
+[00:01:27] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.42]
+[00:01:27] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.75, y=44.20, z=-699.50]
+[00:01:27] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.38]
+[00:01:28] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.71, y=44.20, z=-699.50]
+[00:01:28] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.42]
+[00:01:28] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.75, y=44.20, z=-701.30]
+[00:01:28] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.38]
+[00:01:30] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.84, y=44.20, z=-701.29]
+[00:01:30] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.29]
+[00:01:30] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.61, y=44.20, z=-699.51]
+[00:01:30] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.51]
+[00:01:30] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.47, y=44.20, z=-699.89]
+[00:01:30] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.22, y=44.20, z=-699.66]
+[00:01:30] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.99, y=44.20, z=-700.91]
+[00:01:30] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.24, y=44.20, z=-701.14]
+[00:01:31] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.07, y=44.20, z=-701.23]
+[00:01:31] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.56, y=44.20, z=-700.06]
+[00:01:31] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.39, y=44.20, z=-699.57]
+[00:01:31] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.89, y=44.20, z=-700.74]
+[00:01:33] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.36, y=44.20, z=-699.58]
+[00:01:33] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.91, y=44.20, z=-700.77]
+[00:01:33] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.10, y=44.20, z=-701.22]
+[00:01:33] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.55, y=44.20, z=-700.03]
+[00:01:34] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.14, y=44.20, z=-701.20]
+[00:01:34] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.53, y=44.20, z=-699.99]
+[00:01:34] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.32, y=44.20, z=-699.60]
+[00:01:34] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.93, y=44.20, z=-700.81]
+[00:01:34] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.43, y=44.20, z=-699.55]
+[00:01:34] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.88, y=44.20, z=-700.70]
+[00:01:34] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.03, y=44.20, z=-701.25]
+[00:01:34] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.58, y=44.20, z=-700.10]
+[00:01:35] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.37, y=44.20, z=-701.23]
+[00:01:35] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.55, y=44.20, z=-700.76]
+[00:01:35] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.09, y=44.20, z=-699.57]
+[00:01:35] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.90, y=44.20, z=-700.04]
+[00:01:36] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.23, y=44.20, z=-699.65]
+[00:01:36] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.98, y=44.20, z=-700.90]
+[00:01:36] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.23, y=44.20, z=-701.15]
+[00:01:36] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.48, y=44.20, z=-699.90]
+[00:01:37] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.09, y=44.20, z=-701.22]
+[00:01:37] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.55, y=44.20, z=-700.04]
+[00:01:37] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.37, y=44.20, z=-699.58]
+[00:01:37] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.90, y=44.20, z=-700.76]
+[00:01:38] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.33, y=44.20, z=-699.59]
+[00:01:38] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.92, y=44.20, z=-700.80]
+[00:01:38] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.12, y=44.20, z=-701.21]
+[00:01:38] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.54, y=44.20, z=-700.00]
+[00:01:39] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.32, y=44.20, z=-701.08]
+[00:01:39] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.41, y=44.20, z=-699.81]
+[00:01:39] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.14, y=44.20, z=-699.72]
+[00:01:39] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.05, y=44.20, z=-700.99]
+[00:01:40] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.75, y=44.20, z=-699.50]
+[00:01:40] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.38]
+[00:01:40] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.71, y=44.20, z=-701.30]
+[00:01:40] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.42]
+[00:01:41] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.90, y=44.20, z=-701.28]
+[00:01:41] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.61, y=44.20, z=-700.23]
+[00:01:41] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.56, y=44.20, z=-699.52]
+[00:01:41] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.85, y=44.20, z=-700.57]
+[00:01:42] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.13, y=44.20, z=-699.60]
+[00:01:42] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.93, y=44.20, z=-699.99]
+[00:01:42] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.32, y=44.20, z=-701.20]
+[00:01:42] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.53, y=44.20, z=-700.81]
+[00:01:43] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.25, y=44.20, z=-701.13]
+[00:01:43] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.46, y=44.20, z=-699.88]
+[00:01:43] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.20, y=44.20, z=-699.67]
+[00:01:43] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.00, y=44.20, z=-700.92]
+[00:01:44] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.33, y=44.20, z=-699.73]
+[00:01:44] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.06, y=44.20, z=-699.80]
+[00:01:44] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.13, y=44.20, z=-701.07]
+[00:01:44] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.40, y=44.20, z=-701.00]
+[00:01:45] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.31, y=44.20, z=-701.09]
+[00:01:45] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.41, y=44.20, z=-699.82]
+[00:01:45] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.15, y=44.20, z=-699.71]
+[00:01:45] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.04, y=44.20, z=-700.98]
+[00:01:46] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.97, y=44.20, z=-699.92]
+[00:01:46] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.25, y=44.20, z=-701.16]
+[00:01:46] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.49, y=44.20, z=-700.88]
+[00:01:46] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.21, y=44.20, z=-699.64]
+[00:01:47] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.51, y=44.20, z=-700.85]
+[00:01:47] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.18, y=44.20, z=-699.62]
+[00:01:47] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.95, y=44.20, z=-699.95]
+[00:01:47] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.28, y=44.20, z=-701.18]
+[00:01:48] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.93, y=44.20, z=-699.98]
+[00:01:48] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.31, y=44.20, z=-701.20]
+[00:01:48] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.53, y=44.20, z=-700.82]
+[00:01:48] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.14, y=44.20, z=-699.60]
+[00:01:49] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.54, y=44.20, z=-700.78]
+[00:01:49] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.11, y=44.20, z=-699.59]
+[00:01:49] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.91, y=44.20, z=-700.02]
+[00:01:49] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.35, y=44.20, z=-701.21]
+[00:01:50] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.90, y=44.20, z=-700.05]
+[00:01:50] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.38, y=44.20, z=-701.23]
+[00:01:50] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.56, y=44.20, z=-700.75]
+[00:01:50] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.08, y=44.20, z=-699.57]
+[00:01:51] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.57, y=44.20, z=-700.71]
+[00:01:51] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.04, y=44.20, z=-699.56]
+[00:01:51] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.89, y=44.20, z=-700.09]
+[00:01:51] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.42, y=44.20, z=-701.24]
+[00:01:52] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.02, y=44.20, z=-699.85]
+[00:01:52] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.18, y=44.20, z=-701.11]
+[00:01:52] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.44, y=44.20, z=-700.95]
+[00:01:52] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.28, y=44.20, z=-699.69]
+[00:01:53] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.43, y=44.20, z=-700.97]
+[00:01:53] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.30, y=44.20, z=-699.70]
+[00:01:53] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.03, y=44.20, z=-699.83]
+[00:01:53] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.16, y=44.20, z=-701.10]
+[00:01:54] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.88, y=44.20, z=-700.10]
+[00:01:54] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.43, y=44.20, z=-701.25]
+[00:01:54] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.58, y=44.20, z=-700.70]
+[00:01:54] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.03, y=44.20, z=-699.55]
+[00:01:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.61, y=44.20, z=-700.57]
+[00:01:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.90, y=44.20, z=-699.52]
+[00:01:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.85, y=44.20, z=-700.23]
+[00:01:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.56, y=44.20, z=-701.28]
+[00:01:56] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.86, y=44.20, z=-700.62]
+[00:01:56] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.95, y=44.20, z=-701.27]
+[00:01:56] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.60, y=44.20, z=-700.18]
+[00:01:56] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.51, y=44.20, z=-699.53]
+[00:01:57] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.26]
+[00:01:57] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.59, y=44.20, z=-699.51]
+[00:01:57] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.54]
+[00:01:57] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.87, y=44.20, z=-701.29]
+[00:01:58] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.34]
+[00:01:58] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.67, y=44.20, z=-701.30]
+[00:01:58] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.46]
+[00:01:58] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.79, y=44.20, z=-699.50]
+[00:01:59] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.26]
+[00:01:59] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.59, y=44.20, z=-699.51]
+[00:01:59] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.54]
+[00:01:59] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.87, y=44.20, z=-701.29]
+[00:02:00] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.42]
+[00:02:00] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.75, y=44.20, z=-701.30]
+[00:02:00] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.38]
+[00:02:00] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.71, y=44.20, z=-699.50]
+[00:02:01] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.35]
+[00:02:01] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.68, y=44.20, z=-699.50]
+[00:02:01] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.45]
+[00:02:01] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.78, y=44.20, z=-701.30]
+[00:02:02] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.49]
+[00:02:02] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.82, y=44.20, z=-701.30]
+[00:02:02] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.31]
+[00:02:02] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.64, y=44.20, z=-699.50]
+[00:02:03] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.27]
+[00:02:03] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.60, y=44.20, z=-699.51]
+[00:02:03] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.53]
+[00:02:03] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.86, y=44.20, z=-701.29]
+[00:02:04] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.56]
+[00:02:04] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.89, y=44.20, z=-701.28]
+[00:02:04] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.61, y=44.20, z=-700.24]
+[00:02:04] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.56, y=44.20, z=-699.52]
+[00:02:05] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.61, y=44.20, z=-700.20]
+[00:02:05] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.53, y=44.20, z=-699.52]
+[00:02:05] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.85, y=44.20, z=-700.60]
+[00:02:05] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.93, y=44.20, z=-701.28]
+[00:02:06] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.86, y=44.20, z=-700.64]
+[00:02:06] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.97, y=44.20, z=-701.27]
+[00:02:06] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.60, y=44.20, z=-700.16]
+[00:02:06] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.49, y=44.20, z=-699.53]
+[00:02:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.59, y=44.20, z=-700.13]
+[00:02:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.46, y=44.20, z=-699.54]
+[00:02:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.87, y=44.20, z=-700.67]
+[00:02:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.00, y=44.20, z=-701.26]
+[00:02:08] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.88, y=44.20, z=-700.71]
+[00:02:08] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.04, y=44.20, z=-701.25]
+[00:02:08] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.57, y=44.20, z=-700.09]
+[00:02:08] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.42, y=44.20, z=-699.55]
+[00:02:09] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.56, y=44.20, z=-700.06]
+[00:02:09] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.39, y=44.20, z=-699.57]
+[00:02:09] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.90, y=44.20, z=-700.74]
+[00:02:09] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.07, y=44.20, z=-701.23]
+[00:02:10] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.91, y=44.20, z=-700.78]
+[00:02:10] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.11, y=44.20, z=-701.22]
+[00:02:10] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.55, y=44.20, z=-700.02]
+[00:02:10] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.35, y=44.20, z=-699.58]
+[00:02:11] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.53, y=44.20, z=-699.99]
+[00:02:11] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.32, y=44.20, z=-699.60]
+[00:02:11] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.93, y=44.20, z=-700.81]
+[00:02:11] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.14, y=44.20, z=-701.20]
+[00:02:12] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.95, y=44.20, z=-700.84]
+[00:02:12] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.17, y=44.20, z=-701.18]
+[00:02:12] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.51, y=44.20, z=-699.96]
+[00:02:12] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.28, y=44.20, z=-699.62]
+[00:02:13] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.49, y=44.20, z=-699.92]
+[00:02:13] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.25, y=44.20, z=-699.64]
+[00:02:13] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.97, y=44.20, z=-700.88]
+[00:02:13] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.21, y=44.20, z=-701.16]
+[00:02:14] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.99, y=44.20, z=-700.91]
+[00:02:14] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.24, y=44.20, z=-701.14]
+[00:02:14] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.47, y=44.20, z=-699.89]
+[00:02:14] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.22, y=44.20, z=-699.66]
+[00:02:15] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.45, y=44.20, z=-699.86]
+[00:02:15] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.19, y=44.20, z=-699.68]
+[00:02:15] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.01, y=44.20, z=-700.94]
+[00:02:15] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.27, y=44.20, z=-701.12]
+[00:02:17] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.03, y=44.20, z=-700.97]
+[00:02:17] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.30, y=44.20, z=-701.10]
+[00:02:17] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.43, y=44.20, z=-699.83]
+[00:02:17] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.16, y=44.20, z=-699.70]
+[00:02:17] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.40, y=44.20, z=-699.80]
+[00:02:17] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.13, y=44.20, z=-699.73]
+[00:02:17] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.05, y=44.20, z=-701.00]
+[00:02:17] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.33, y=44.20, z=-701.07]
+[00:02:18] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.08, y=44.20, z=-701.02]
+[00:02:18] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.35, y=44.20, z=-701.05]
+[00:02:18] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.38, y=44.20, z=-699.78]
+[00:02:18] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.11, y=44.20, z=-699.75]
+[00:02:19] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.35, y=44.20, z=-699.75]
+[00:02:19] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.08, y=44.20, z=-699.78]
+[00:02:19] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.11, y=44.20, z=-701.05]
+[00:02:19] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.38, y=44.20, z=-701.02]
+[00:02:20] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.45, y=44.20, z=-701.25]
+[00:02:20] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.58, y=44.20, z=-700.68]
+[00:02:20] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.01, y=44.20, z=-699.55]
+[00:02:20] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.87, y=44.20, z=-700.12]
+[00:02:21] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.98, y=44.20, z=-699.53]
+[00:02:21] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.86, y=44.20, z=-700.15]
+[00:02:21] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.48, y=44.20, z=-701.27]
+[00:02:21] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.59, y=44.20, z=-700.65]
+[00:02:22] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.52, y=44.20, z=-701.27]
+[00:02:22] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.60, y=44.20, z=-700.61]
+[00:02:22] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.94, y=44.20, z=-699.53]
+[00:02:22] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.85, y=44.20, z=-700.19]
+[00:02:23] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.95, y=44.20, z=-699.53]
+[00:02:23] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.86, y=44.20, z=-700.18]
+[00:02:23] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.51, y=44.20, z=-701.27]
+[00:02:23] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.60, y=44.20, z=-700.62]
+[00:02:24] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.32, y=44.20, z=-701.08]
+[00:02:24] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.41, y=44.20, z=-699.81]
+[00:02:24] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.14, y=44.20, z=-699.72]
+[00:02:24] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.05, y=44.20, z=-700.99]
+[00:02:25] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.17, y=44.20, z=-699.62]
+[00:02:25] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.95, y=44.20, z=-699.96]
+[00:02:25] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.29, y=44.20, z=-701.18]
+[00:02:25] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.51, y=44.20, z=-700.84]
+[00:02:26] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.32, y=44.20, z=-701.20]
+[00:02:26] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.53, y=44.20, z=-700.81]
+[00:02:26] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.14, y=44.20, z=-699.60]
+[00:02:26] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.93, y=44.20, z=-699.99]
+[00:02:27] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[00:02:27] [Server thread/INFO]: whitehairguy left the game
+[00:02:27] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.11, y=44.20, z=-699.58]
+[00:02:27] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.91, y=44.20, z=-700.02]
+[00:02:27] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.35, y=44.20, z=-701.22]
+[00:02:27] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.55, y=44.20, z=-700.78]
+[00:02:28] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.39, y=44.20, z=-701.23]
+[00:02:28] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.56, y=44.20, z=-700.74]
+[00:02:28] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.07, y=44.20, z=-699.57]
+[00:02:28] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.90, y=44.20, z=-700.06]
+[00:02:29] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.04, y=44.20, z=-699.55]
+[00:02:29] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.88, y=44.20, z=-700.09]
+[00:02:29] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.42, y=44.20, z=-701.25]
+[00:02:29] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.57, y=44.20, z=-700.71]
+[00:02:30] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.46, y=44.20, z=-701.26]
+[00:02:30] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.59, y=44.20, z=-700.67]
+[00:02:30] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.00, y=44.20, z=-699.54]
+[00:02:30] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.87, y=44.20, z=-700.13]
+[00:02:31] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.97, y=44.20, z=-699.53]
+[00:02:31] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.86, y=44.20, z=-700.16]
+[00:02:31] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.49, y=44.20, z=-701.27]
+[00:02:31] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.60, y=44.20, z=-700.64]
+[00:02:32] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.53, y=44.20, z=-701.28]
+[00:02:32] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.61, y=44.20, z=-700.60]
+[00:02:32] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.93, y=44.20, z=-699.52]
+[00:02:32] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.85, y=44.20, z=-700.20]
+[00:02:33] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.89, y=44.20, z=-699.51]
+[00:02:33] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.24]
+[00:02:33] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.57, y=44.20, z=-701.29]
+[00:02:33] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.61, y=44.20, z=-700.56]
+[00:02:34] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.60, y=44.20, z=-701.29]
+[00:02:34] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.53]
+[00:02:34] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.86, y=44.20, z=-699.51]
+[00:02:34] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.27]
+[00:02:35] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.82, y=44.20, z=-699.50]
+[00:02:35] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.31]
+[00:02:35] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.64, y=44.20, z=-701.30]
+[00:02:35] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.49]
+[00:02:36] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.68, y=44.20, z=-701.30]
+[00:02:36] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.45]
+[00:02:36] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.78, y=44.20, z=-699.50]
+[00:02:36] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.35]
+[00:02:37] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.74, y=44.20, z=-699.50]
+[00:02:37] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.38]
+[00:02:37] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.71, y=44.20, z=-701.30]
+[00:02:37] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.42]
+[00:02:38] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.75, y=44.20, z=-701.30]
+[00:02:38] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.38]
+[00:02:38] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.71, y=44.20, z=-699.50]
+[00:02:38] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.42]
+[00:02:39] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.67, y=44.20, z=-699.50]
+[00:02:39] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.46]
+[00:02:39] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.79, y=44.20, z=-701.30]
+[00:02:39] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.34]
+[00:02:40] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.83, y=44.20, z=-701.29]
+[00:02:40] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.30]
+[00:02:40] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.63, y=44.20, z=-699.51]
+[00:02:40] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.50]
+[00:02:41] [Server thread/INFO]: whitehairguy[/127.52.238.219:52945] logged in with entity id 14857 at (1680.0078827776535, 82.0, -822.9319772052493)
+[00:02:41] [Server thread/INFO]: Sending server config values to client
+[00:02:41] [Server thread/INFO]: Loading config from file...
+[00:02:41] [Server thread/INFO]: whitehairguy joined the game
+[00:02:41] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.60, y=44.20, z=-699.51]
+[00:02:41] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.53]
+[00:02:41] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.86, y=44.20, z=-701.29]
+[00:02:41] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.27]
+[00:02:42] [Server thread/INFO]: Receiving client config
+[00:02:42] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.90, y=44.20, z=-701.28]
+[00:02:42] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.61, y=44.20, z=-700.23]
+[00:02:42] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.56, y=44.20, z=-699.52]
+[00:02:42] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.85, y=44.20, z=-700.57]
+[00:02:43] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.52, y=44.20, z=-699.52]
+[00:02:43] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.85, y=44.20, z=-700.61]
+[00:02:43] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.94, y=44.20, z=-701.28]
+[00:02:43] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.60, y=44.20, z=-700.19]
+[00:02:44] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.97, y=44.20, z=-701.27]
+[00:02:44] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.60, y=44.20, z=-700.16]
+[00:02:44] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.49, y=44.20, z=-699.53]
+[00:02:44] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.86, y=44.20, z=-700.64]
+[00:02:45] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.45, y=44.20, z=-699.54]
+[00:02:45] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.87, y=44.20, z=-700.68]
+[00:02:45] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.01, y=44.20, z=-701.26]
+[00:02:45] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.58, y=44.20, z=-700.12]
+[00:02:46] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.04, y=44.20, z=-701.24]
+[00:02:46] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.57, y=44.20, z=-700.09]
+[00:02:46] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.41, y=44.20, z=-699.56]
+[00:02:46] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.89, y=44.20, z=-700.71]
+[00:02:47] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.38, y=44.20, z=-699.57]
+[00:02:47] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.90, y=44.20, z=-700.75]
+[00:02:47] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.08, y=44.20, z=-701.23]
+[00:02:47] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.56, y=44.20, z=-700.05]
+[00:02:48] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.11, y=44.20, z=-701.21]
+[00:02:48] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.54, y=44.20, z=-700.02]
+[00:02:48] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.35, y=44.20, z=-699.59]
+[00:02:48] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.91, y=44.20, z=-700.78]
+[00:02:50] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.85, y=44.20, z=-700.60]
+[00:02:50] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.92, y=44.20, z=-701.28]
+[00:02:50] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.61, y=44.20, z=-700.20]
+[00:02:50] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.53, y=44.20, z=-699.52]
+[00:02:50] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.36, y=44.20, z=-701.04]
+[00:02:50] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.37, y=44.20, z=-699.76]
+[00:02:50] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.09, y=44.20, z=-699.76]
+[00:02:50] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.09, y=44.20, z=-701.04]
+[00:02:51] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.25, y=44.20, z=-699.64]
+[00:02:51] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.97, y=44.20, z=-700.88]
+[00:02:51] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.21, y=44.20, z=-701.16]
+[00:02:51] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.49, y=44.20, z=-699.92]
+[00:02:52] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.24, y=44.20, z=-701.14]
+[00:02:52] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.47, y=44.20, z=-699.89]
+[00:02:52] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.22, y=44.20, z=-699.66]
+[00:02:52] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.99, y=44.20, z=-700.91]
+[00:02:53] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.19, y=44.20, z=-699.68]
+[00:02:53] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.01, y=44.20, z=-700.94]
+[00:02:53] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.27, y=44.20, z=-701.12]
+[00:02:53] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.45, y=44.20, z=-699.86]
+[00:02:54] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.30, y=44.20, z=-701.09]
+[00:02:54] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.42, y=44.20, z=-699.83]
+[00:02:54] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.16, y=44.20, z=-699.71]
+[00:02:54] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.03, y=44.20, z=-700.97]
+[00:02:55] [Server thread/INFO]: BrownNiggar lost connection: Disconnected
+[00:02:55] [Server thread/INFO]: BrownNiggar left the game
+[00:02:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.13, y=44.20, z=-699.73]
+[00:02:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.06, y=44.20, z=-701.00]
+[00:02:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.33, y=44.20, z=-701.07]
+[00:02:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.40, y=44.20, z=-699.80]
+[00:02:56] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.36, y=44.20, z=-701.04]
+[00:02:56] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.37, y=44.20, z=-699.77]
+[00:02:56] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.10, y=44.20, z=-699.76]
+[00:02:56] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.08, y=44.20, z=-701.03]
+[00:02:57] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.08, y=44.20, z=-699.78]
+[00:02:57] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.11, y=44.20, z=-701.05]
+[00:02:57] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.38, y=44.20, z=-701.02]
+[00:02:57] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.35, y=44.20, z=-699.75]
+[00:02:58] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.41, y=44.20, z=-700.99]
+[00:02:58] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.32, y=44.20, z=-699.72]
+[00:02:58] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.05, y=44.20, z=-699.81]
+[00:02:58] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.14, y=44.20, z=-701.08]
+[00:03:01] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.98, y=44.20, z=-699.90]
+[00:03:01] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.23, y=44.20, z=-701.15]
+[00:03:01] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.48, y=44.20, z=-700.90]
+[00:03:01] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.23, y=44.20, z=-699.65]
+[00:03:02] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.50, y=44.20, z=-700.87]
+[00:03:02] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.20, y=44.20, z=-699.63]
+[00:03:02] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.96, y=44.20, z=-699.93]
+[00:03:02] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.26, y=44.20, z=-701.17]
+[00:03:05] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.91, y=44.20, z=-700.03]
+[00:03:05] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.36, y=44.20, z=-701.22]
+[00:03:05] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.55, y=44.20, z=-700.77]
+[00:03:05] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.10, y=44.20, z=-699.58]
+[00:03:06] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.56, y=44.20, z=-700.74]
+[00:03:06] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.07, y=44.20, z=-699.57]
+[00:03:06] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.89, y=44.20, z=-700.06]
+[00:03:06] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.39, y=44.20, z=-701.23]
+[00:03:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.95, y=44.20, z=-699.96]
+[00:03:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.28, y=44.20, z=-701.18]
+[00:03:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.51, y=44.20, z=-700.84]
+[00:03:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.17, y=44.20, z=-699.62]
+[00:03:08] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.39, y=44.20, z=-701.23]
+[00:03:08] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.56, y=44.20, z=-700.74]
+[00:03:08] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.07, y=44.20, z=-699.57]
+[00:03:08] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.90, y=44.20, z=-700.06]
+[00:03:09] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.86, y=44.20, z=-700.17]
+[00:03:09] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.50, y=44.20, z=-701.27]
+[00:03:09] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.60, y=44.20, z=-700.63]
+[00:03:09] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.96, y=44.20, z=-699.53]
+[00:03:12] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.52]
+[00:03:12] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.85, y=44.20, z=-699.51]
+[00:03:12] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.28]
+[00:03:12] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.61, y=44.20, z=-701.29]
+[00:03:13] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.32]
+[00:03:13] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.65, y=44.20, z=-701.30]
+[00:03:13] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.48]
+[00:03:13] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.81, y=44.20, z=-699.50]
+[00:03:14] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.45]
+[00:03:14] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.78, y=44.20, z=-699.50]
+[00:03:14] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.35]
+[00:03:14] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.68, y=44.20, z=-701.30]
+[00:03:15] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.39]
+[00:03:15] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.72, y=44.20, z=-701.30]
+[00:03:15] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.41]
+[00:03:15] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.74, y=44.20, z=-699.50]
+[00:03:17] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.47]
+[00:03:17] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.79, y=44.20, z=-701.30]
+[00:03:17] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.33]
+[00:03:17] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.66, y=44.20, z=-699.50]
+[00:03:18] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.30]
+[00:03:18] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.63, y=44.20, z=-699.51]
+[00:03:18] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.50]
+[00:03:18] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.83, y=44.20, z=-701.29]
+[00:03:19] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.54]
+[00:03:19] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.87, y=44.20, z=-701.29]
+[00:03:19] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.26]
+[00:03:19] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.59, y=44.20, z=-699.51]
+[00:03:30] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.18, y=44.20, z=-699.68]
+[00:03:30] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.01, y=44.20, z=-700.95]
+[00:03:30] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.28, y=44.20, z=-701.12]
+[00:03:30] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.44, y=44.20, z=-699.85]
+[00:03:31] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.18, y=44.20, z=-701.11]
+[00:03:31] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.44, y=44.20, z=-700.95]
+[00:03:31] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.28, y=44.20, z=-699.69]
+[00:03:31] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.02, y=44.20, z=-699.85]
+[00:03:32] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.42, y=44.20, z=-699.82]
+[00:03:32] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.15, y=44.20, z=-699.71]
+[00:03:32] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.04, y=44.20, z=-700.98]
+[00:03:32] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.31, y=44.20, z=-701.09]
+[00:03:33] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.06, y=44.20, z=-701.00]
+[00:03:33] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.33, y=44.20, z=-701.07]
+[00:03:33] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.40, y=44.20, z=-699.80]
+[00:03:33] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.12, y=44.20, z=-699.73]
+[00:03:34] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.79, y=44.20, z=-699.50]
+[00:03:34] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.34]
+[00:03:34] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.67, y=44.20, z=-701.30]
+[00:03:34] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.46]
+[00:03:35] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.60, y=44.20, z=-701.29]
+[00:03:35] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.53]
+[00:03:35] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.85, y=44.20, z=-699.51]
+[00:03:35] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.27]
+[00:03:36] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.32, y=44.20, z=-699.72]
+[00:03:36] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.05, y=44.20, z=-699.81]
+[00:03:36] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.14, y=44.20, z=-701.08]
+[00:03:36] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.41, y=44.20, z=-700.99]
+[00:03:37] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.17, y=44.20, z=-701.11]
+[00:03:37] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.44, y=44.20, z=-700.96]
+[00:03:37] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.29, y=44.20, z=-699.69]
+[00:03:37] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.02, y=44.20, z=-699.84]
+[00:03:38] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.26, y=44.20, z=-699.67]
+[00:03:38] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.00, y=44.20, z=-699.87]
+[00:03:38] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.20, y=44.20, z=-701.13]
+[00:03:38] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.46, y=44.20, z=-700.93]
+[00:03:39] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.23, y=44.20, z=-701.15]
+[00:03:39] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.48, y=44.20, z=-700.90]
+[00:03:39] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.23, y=44.20, z=-699.65]
+[00:03:39] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.98, y=44.20, z=-699.90]
+[00:03:40] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.32, y=44.20, z=-699.72]
+[00:03:40] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.05, y=44.20, z=-699.81]
+[00:03:40] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.14, y=44.20, z=-701.08]
+[00:03:40] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.41, y=44.20, z=-700.99]
+[00:03:41] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.30, y=44.20, z=-701.19]
+[00:03:41] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.52, y=44.20, z=-700.83]
+[00:03:41] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.16, y=44.20, z=-699.61]
+[00:03:41] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.94, y=44.20, z=-699.97]
+[00:03:42] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.13, y=44.20, z=-699.59]
+[00:03:42] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.92, y=44.20, z=-700.00]
+[00:03:42] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.33, y=44.20, z=-701.21]
+[00:03:42] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.54, y=44.20, z=-700.80]
+[00:03:43] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.36, y=44.20, z=-701.22]
+[00:03:43] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.55, y=44.20, z=-700.77]
+[00:03:43] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.10, y=44.20, z=-699.58]
+[00:03:43] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.91, y=44.20, z=-700.03]
+[00:03:44] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.06, y=44.20, z=-699.56]
+[00:03:44] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.89, y=44.20, z=-700.07]
+[00:03:44] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.40, y=44.20, z=-701.24]
+[00:03:44] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.57, y=44.20, z=-700.73]
+[00:03:45] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.43, y=44.20, z=-701.25]
+[00:03:45] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.58, y=44.20, z=-700.70]
+[00:03:45] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.03, y=44.20, z=-699.55]
+[00:03:45] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.88, y=44.20, z=-700.10]
+[00:03:46] [Server thread/WARN]: whitehairguy moved wrongly!
+[00:03:46] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.99, y=44.20, z=-699.54]
+[00:03:46] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.87, y=44.20, z=-700.14]
+[00:03:46] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.47, y=44.20, z=-701.26]
+[00:03:46] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.59, y=44.20, z=-700.66]
+[00:03:47] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.31, y=44.20, z=-701.08]
+[00:03:47] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.41, y=44.20, z=-699.82]
+[00:03:47] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.14, y=44.20, z=-699.72]
+[00:03:47] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.04, y=44.20, z=-700.98]
+[00:03:48] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.93, y=44.20, z=-699.99]
+[00:03:48] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.32, y=44.20, z=-701.20]
+[00:03:48] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.53, y=44.20, z=-700.81]
+[00:03:48] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.14, y=44.20, z=-699.60]
+[00:03:49] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.58, y=44.20, z=-701.29]
+[00:03:49] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.55]
+[00:03:49] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.88, y=44.20, z=-699.51]
+[00:03:49] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.25]
+[00:03:50] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.84, y=44.20, z=-699.51]
+[00:03:50] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.28]
+[00:03:50] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.61, y=44.20, z=-701.29]
+[00:03:50] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.52]
+[00:03:51] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.65, y=44.20, z=-701.30]
+[00:03:51] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.48]
+[00:03:51] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.81, y=44.20, z=-699.50]
+[00:03:51] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.32]
+[00:03:52] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.77, y=44.20, z=-699.50]
+[00:03:52] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.36]
+[00:03:52] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.69, y=44.20, z=-701.30]
+[00:03:52] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.44]
+[00:03:53] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.73, y=44.20, z=-701.30]
+[00:03:53] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.40]
+[00:03:53] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.73, y=44.20, z=-699.50]
+[00:03:53] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.40]
+[00:03:54] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.70, y=44.20, z=-699.50]
+[00:03:54] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.43]
+[00:03:54] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.76, y=44.20, z=-701.30]
+[00:03:54] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.37]
+[00:03:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.80, y=44.20, z=-701.30]
+[00:03:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.33]
+[00:03:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.66, y=44.20, z=-699.50]
+[00:03:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.47]
+[00:03:56] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.62, y=44.20, z=-699.51]
+[00:03:56] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.51]
+[00:03:56] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.84, y=44.20, z=-701.29]
+[00:03:56] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.29]
+[00:03:57] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.87, y=44.20, z=-701.29]
+[00:03:57] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.62, y=44.20, z=-700.25]
+[00:03:57] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.58, y=44.20, z=-699.51]
+[00:03:57] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.84, y=44.20, z=-700.55]
+[00:03:58] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.55, y=44.20, z=-699.52]
+[00:03:58] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.85, y=44.20, z=-700.58]
+[00:03:58] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.91, y=44.20, z=-701.28]
+[00:03:58] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.61, y=44.20, z=-700.22]
+[00:03:59] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.95, y=44.20, z=-701.27]
+[00:03:59] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.60, y=44.20, z=-700.18]
+[00:03:59] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.51, y=44.20, z=-699.53]
+[00:03:59] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.86, y=44.20, z=-700.62]
+[00:04:00] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.47, y=44.20, z=-699.54]
+[00:04:00] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.87, y=44.20, z=-700.65]
+[00:04:00] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.98, y=44.20, z=-701.26]
+[00:04:00] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.59, y=44.20, z=-700.15]
+[00:04:01] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.02, y=44.20, z=-701.25]
+[00:04:01] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.58, y=44.20, z=-700.11]
+[00:04:01] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.44, y=44.20, z=-699.55]
+[00:04:01] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.88, y=44.20, z=-700.69]
+[00:04:02] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.40, y=44.20, z=-699.56]
+[00:04:02] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.89, y=44.20, z=-700.73]
+[00:04:02] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.05, y=44.20, z=-701.24]
+[00:04:02] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.57, y=44.20, z=-700.07]
+[00:04:03] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.09, y=44.20, z=-701.22]
+[00:04:03] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.55, y=44.20, z=-700.04]
+[00:04:03] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.37, y=44.20, z=-699.58]
+[00:04:03] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.90, y=44.20, z=-700.76]
+[00:04:04] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.34, y=44.20, z=-699.59]
+[00:04:04] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.92, y=44.20, z=-700.79]
+[00:04:04] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.12, y=44.20, z=-701.21]
+[00:04:04] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.54, y=44.20, z=-700.01]
+[00:04:05] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.16, y=44.20, z=-701.19]
+[00:04:05] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.52, y=44.20, z=-699.97]
+[00:04:05] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.30, y=44.20, z=-699.61]
+[00:04:05] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.94, y=44.20, z=-700.83]
+[00:04:06] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.03, y=44.20, z=-699.83]
+[00:04:06] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.16, y=44.20, z=-701.10]
+[00:04:06] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.43, y=44.20, z=-700.97]
+[00:04:06] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.30, y=44.20, z=-699.70]
+[00:04:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.40, y=44.20, z=-701.00]
+[00:04:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.33, y=44.20, z=-699.73]
+[00:04:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.06, y=44.20, z=-699.80]
+[00:04:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.13, y=44.20, z=-701.07]
+[00:04:08] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.37, y=44.20, z=-699.57]
+[00:04:08] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1677.90, y=44.20, z=-700.75]
+[00:04:08] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.08, y=44.20, z=-701.23]
+[00:04:08] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.56, y=44.20, z=-700.05]
+[00:04:09] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.12, y=44.20, z=-701.21]
+[00:04:09] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.54, y=44.20, z=-700.01]
+[00:04:09] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.34, y=44.20, z=-699.59]
+[00:04:09] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1677.92, y=44.20, z=-700.79]
+[00:04:10] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1678.15, y=44.20, z=-699.71]
+[00:04:10] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.04, y=44.20, z=-700.98]
+[00:04:10] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.31, y=44.20, z=-701.09]
+[00:04:10] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.42, y=44.20, z=-699.82]
+[00:04:11] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.44, y=44.20, z=-700.95]
+[00:04:11] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.28, y=44.20, z=-699.69]
+[00:04:11] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.01, y=44.20, z=-699.85]
+[00:04:11] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.18, y=44.20, z=-701.11]
+[00:04:12] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.90, y=44.20, z=-700.04]
+[00:04:12] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.37, y=44.20, z=-701.23]
+[00:04:12] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.55, y=44.20, z=-700.76]
+[00:04:12] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.09, y=44.20, z=-699.57]
+[00:04:13] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.39, y=44.20, z=-701.01]
+[00:04:13] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.34, y=44.20, z=-699.74]
+[00:04:13] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1678.07, y=44.20, z=-699.79]
+[00:04:13] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.12, y=44.20, z=-701.06]
+[00:04:14] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.88, y=44.20, z=-700.09]
+[00:04:14] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.42, y=44.20, z=-701.24]
+[00:04:14] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.57, y=44.20, z=-700.71]
+[00:04:14] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.04, y=44.20, z=-699.56]
+[00:04:15] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.59, y=44.20, z=-700.14]
+[00:04:15] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.46, y=44.20, z=-699.54]
+[00:04:15] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.87, y=44.20, z=-700.66]
+[00:04:15] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.99, y=44.20, z=-701.26]
+[00:04:16] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.83, y=44.20, z=-700.39]
+[00:04:16] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.72, y=44.20, z=-701.30]
+[00:04:16] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.63, y=44.20, z=-700.41]
+[00:04:16] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.74, y=44.20, z=-699.50]
+[00:04:17] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.48, y=44.20, z=-700.89]
+[00:04:17] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.22, y=44.20, z=-699.65]
+[00:04:17] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.98, y=44.20, z=-699.91]
+[00:04:17] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.24, y=44.20, z=-701.15]
+[00:04:18] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.96, y=44.20, z=-699.94]
+[00:04:18] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.27, y=44.20, z=-701.17]
+[00:04:18] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.50, y=44.20, z=-700.86]
+[00:04:18] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.19, y=44.20, z=-699.63]
+[00:04:19] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.52, y=44.20, z=-700.83]
+[00:04:19] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.16, y=44.20, z=-699.61]
+[00:04:19] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.94, y=44.20, z=-699.97]
+[00:04:19] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.30, y=44.20, z=-701.19]
+[00:04:20] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.92, y=44.20, z=-700.01]
+[00:04:20] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.33, y=44.20, z=-701.21]
+[00:04:20] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.54, y=44.20, z=-700.79]
+[00:04:20] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.12, y=44.20, z=-699.59]
+[00:04:21] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.55, y=44.20, z=-700.76]
+[00:04:21] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.09, y=44.20, z=-699.58]
+[00:04:21] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.90, y=44.20, z=-700.04]
+[00:04:21] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.37, y=44.20, z=-701.22]
+[00:04:22] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1677.89, y=44.20, z=-700.07]
+[00:04:22] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1678.40, y=44.20, z=-701.24]
+[00:04:22] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1679.57, y=44.20, z=-700.73]
+[00:04:22] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1679.06, y=44.20, z=-699.56]
+[00:04:23] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7202, l='ServerLevel[world]', x=1679.58, y=44.20, z=-700.69]
+[00:04:23] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7203, l='ServerLevel[world]', x=1679.02, y=44.20, z=-699.55]
+[00:04:23] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7204, l='ServerLevel[world]', x=1677.88, y=44.20, z=-700.11]
+[00:04:23] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/7205, l='ServerLevel[world]', x=1678.44, y=44.20, z=-701.25]
+[00:04:23] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[00:04:23] [Server thread/INFO]: whitehairguy left the game

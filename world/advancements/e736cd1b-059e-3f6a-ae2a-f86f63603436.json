@@ -260,6 +260,7 @@
       "minecraft:blaze": "2024-07-19 20:08:01 +0530",
       "minecraft:skeleton": "2024-07-19 04:58:30 +0530",
       "minecraft:elder_guardian": "2024-08-17 16:34:55 +0530",
+      "minecraft:zoglin": "2024-08-25 23:45:06 +0530",
       "minecraft:ravager": "2024-07-23 09:47:10 +0530",
       "minecraft:bogged": "2024-08-17 02:23:49 +0530",
       "minecraft:ghast": "2024-07-19 20:10:45 +0530",
@@ -1602,10 +1603,11 @@
   "nova_structures:nether/find_piglins": {
     "criteria": {
       "nova_structures:piglin_outstation": "2024-07-20 03:05:30 +0530",
+      "nova_structures:piglin_donjon": "2024-08-25 23:01:08 +0530",
       "nova_structures:piglin_camp": "2024-07-20 01:30:53 +0530",
       "nova_structures:hamlet": "2024-07-20 06:24:51 +0530"
     },
-    "done": false
+    "done": true
   },
   "minecraft:nether/loot_bastion": {
     "criteria": {
@@ -8704,6 +8706,18 @@
   "betterend:recipes/building_blocks/lacugrove_slab": {
     "criteria": {
       "has_lacugrove_planks": "2024-08-25 20:42:26 +0530"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_donjon": {
+    "criteria": {
+      "nova_structures:piglin_donjon": "2024-08-25 23:01:08 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/pig": {
+    "criteria": {
+      "has_porkchop": "2024-08-25 23:49:51 +0530"
     },
     "done": true
   },

@@ -236,6 +236,7 @@
       "golden_apple": "2024-08-22 02:19:31 +0530",
       "rotten_flesh": "2024-07-29 12:25:37 +0530",
       "suspicious_stew": "2024-08-24 07:31:52 +0530",
+      "enchanted_golden_apple": "2024-08-25 23:44:38 +0530",
       "cooked_mutton": "2024-08-24 08:21:50 +0530",
       "cooked_beef": "2024-08-22 03:45:29 +0530",
       "baked_potato": "2024-08-22 03:51:00 +0530"
@@ -271,6 +272,7 @@
       "minecraft:pillager": "2024-08-22 03:44:16 +0530",
       "minecraft:blaze": "2024-08-24 02:47:28 +0530",
       "minecraft:skeleton": "2024-08-23 22:31:54 +0530",
+      "minecraft:zoglin": "2024-08-25 23:45:41 +0530",
       "minecraft:phantom": "2024-08-24 03:55:06 +0530",
       "minecraft:zombified_piglin": "2024-08-22 02:37:38 +0530",
       "minecraft:witch": "2024-08-22 03:50:15 +0530",
@@ -4665,6 +4667,48 @@
   "travelersbackpack:recipes/misc/nether": {
     "criteria": {
       "has_nether_wart": "2024-08-25 17:43:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2024-08-25 23:28:29 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2024-08-25 23:34:59 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2024-08-25 23:31:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2024-08-25 23:28:29 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2024-08-25 23:31:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2024-08-25 23:28:29 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2024-08-25 23:30:47 +0530"
     },
     "done": true
   },
