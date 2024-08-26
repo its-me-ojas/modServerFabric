@@ -1,9 +1,9 @@
-[17:17:57] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.2
-[17:17:58] [ForkJoinPool-1-worker-3/WARN]: Mod travelersbackpack uses the version fabric-1.21-10.0.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[17:17:58] [main/WARN]: Warnings were found!
+[19:41:23] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.2
+[19:41:23] [ForkJoinPool-1-worker-1/WARN]: Mod travelersbackpack uses the version fabric-1.21-10.0.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:41:23] [main/WARN]: Warnings were found!
  - Mod 'Forge Config API Port' (forgeconfigapiport) 21.0.8 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[17:17:58] [main/INFO]: Loading 178 mods:
+[19:41:23] [main/INFO]: Loading 178 mods:
 	- accessories 1.0.0-beta.26+1.21
 	   |-- io_wispforest_endec 0.1.5
 	   |-- io_wispforest_endec_gson 0.1.3
@@ -219,384 +219,469 @@
 	   \-- wunderlib 21.0.8
 	- xaerominimap 24.2.1
 	- xaeroworldmap 1.38.8
-[17:17:58] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/modServerFabric/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[17:17:58] [main/INFO]: Compatibility level set to JAVA_17
-[17:17:58] [main/INFO]: Compatibility level set to JAVA_21
-[17:17:59] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:17:59] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 1 override(s) found
-[17:17:59] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[17:17:59] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
-[17:17:59] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
-[17:17:59] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
-[17:17:59] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
-[17:17:59] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[17:17:59] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_item_abilities.mixins.json:FishingHookRendererMixin from mod porting_lib_item_abilities
-[17:17:59] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
-[17:17:59] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
-[17:18:00] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[17:18:00] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
-[17:18:00] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
-[17:18:00] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
-[17:18:00] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
-[17:18:00] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
-[17:18:00] [main/WARN]: @Mixin target net.minecraft.class_638 was not found porting_lib_level_events.mixins.json:client.ClientLevelMixin from mod porting_lib_level_events
-[17:18:00] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
-[17:18:01] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[17:18:01] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
-[17:18:01] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
-[17:18:01] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[17:18:02] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zfd000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[17:18:14] [main/INFO]: Registering Listeners!
-[17:18:16] [main/INFO]: Loading Collective version 7.84.
-[17:18:16] [main/ERROR]: No data fixer registered for chain_knot
-[17:18:16] [main/INFO]: Initialized entity types.
-[17:18:16] [main/INFO]: Register Custom Payloads for Networking.
-[17:18:16] [main/INFO]: Constructing common components for easyanvils:main
-[17:18:16] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
-[17:18:16] [main/INFO]: Constructing common components for easymagic:main
-[17:18:16] [main/INFO]: End Remastered config loaded with success
-[17:18:16] [main/INFO]: End Remastered eyes loaded with success
-[17:18:16] [main/ERROR]: No data fixer registered for rotten_tomato
-[17:18:16] [main/INFO]: Registered synced config with path toughasnails/thirst.toml
-[17:18:16] [main/INFO]: Registered synced config with path toughasnails/temperature.toml
-[17:18:17] [main/ERROR]: No data fixer registered for water_purifier
-[17:18:17] [main/ERROR]: No data fixer registered for temperature_gauge
-[17:18:17] [main/ERROR]: No data fixer registered for thermoregulator
-[17:18:17] [main/INFO]: Registering C2S receiver with id item-placer:item_place
-[17:18:17] [main/INFO]: Registering C2S receiver with id item-placer:item_rotate
-[17:18:17] [main/INFO]: Registering configs
-[17:18:17] [main/INFO]: Registering blocks
-[17:18:17] [main/INFO]: Registering items
-[17:18:17] [main/INFO]: Registering item groups
-[17:18:17] [main/INFO]: Registering entities
-[17:18:17] [main/INFO]: Registering tags
-[17:18:17] [main/INFO]: Registering event handlers
-[17:18:17] [main/INFO]: Initializing JamLib on Fabric
-[17:18:17] [main/ERROR]: No data fixer registered for gremlin
-[17:18:17] [main/ERROR]: No data fixer registered for eldbomb
-[17:18:17] [main/ERROR]: No data fixer registered for eldknight
-[17:18:17] [main/ERROR]: No data fixer registered for samhain
-[17:18:17] [main/ERROR]: No data fixer registered for swampman
-[17:18:17] [main/ERROR]: No data fixer registered for ratman
-[17:18:17] [main/ERROR]: No data fixer registered for lizzy
-[17:18:17] [main/ERROR]: No data fixer registered for bad_patch
-[17:18:17] [main/ERROR]: No data fixer registered for ghastling
-[17:18:17] [main/ERROR]: No data fixer registered for ghosty
-[17:18:17] [main/ERROR]: No data fixer registered for netherman
-[17:18:17] [main/ERROR]: No data fixer registered for netherman_clone
-[17:18:17] [main/ERROR]: No data fixer registered for netherman_teleport_charge
-[17:18:17] [main/INFO]: Registering Item Group: knightquest
-[17:18:17] [main/INFO]: Registering sounds for knightquest...
-[17:18:17] [main/INFO]: Registering entities for knightquest
-[17:18:17] [main/INFO]: Definitely not up to no good
-[17:18:17] [main/INFO]: morevanillashields: This mod runs without a config file. Coming Soon in next updates!
-[17:18:17] [main/INFO]: Registering Mod Items for morevanillashields
-[17:18:17] [main/INFO]: assume less - mald more
-[17:18:17] [main/INFO]: Constructing common components for puzzleslib:main
-[17:18:17] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
-[17:18:17] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
-[17:18:17] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
-[17:18:17] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
-[17:18:17] [main/INFO]: Registering C2S receiver with id utility_belt:update_state
-[17:18:17] [main/INFO]: Registering C2S receiver with id utility_belt:open_screen
-[17:18:17] [main/INFO]: Utility Belt initialized on Fabric
-[17:18:17] [main/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
-[17:18:17] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[17:18:17] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[17:18:18] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
-[17:18:18] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
-[17:18:18] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:18:18] [main/INFO]: Ignoring Patch{ModCore: bclib (bclib):3.0.11:196619}
-[17:18:18] [main/INFO]: Running Pre Patchers on ./world/.
-[17:18:18] [main/INFO]: Everything up to date
-[17:18:18] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
-[17:18:18] [main/INFO]: Processing wover.datapack.registry Entrypoints
-[17:18:18] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
-[17:18:18] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
-[17:18:18] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
-[17:18:18] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
-[17:18:18] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
-[17:18:20] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (35d7d962)
-[17:18:20] [main/INFO]: Unable to build Biome List yet
-[17:18:20] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[17:18:20] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (31bb1436)
-[17:18:20] [main/INFO]: Unable to build Biome List yet
-[17:18:20] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[17:18:20] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (13e7cb64)
-[17:18:20] [main/INFO]: Unable to build Biome List yet
-[17:18:20] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[17:18:20] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (377f0095)
-[17:18:20] [main/INFO]: Unable to build Biome List yet
-[17:18:20] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[17:18:20] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (78aa7d6a)
-[17:18:20] [main/INFO]: Unable to build Biome List yet
-[17:18:20] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[17:18:20] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (47ea6953)
-[17:18:20] [main/INFO]: Unable to build Biome List yet
-[17:18:20] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:chorus_forest
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dust_wastelands
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
-[17:18:20] [main/INFO]: Adding Small End Island Biome to Fabric: betterend:ice_starfield
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
-[17:18:20] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
-[17:18:20] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (4e44193a)
-[17:18:20] [main/INFO]: Unable to build Biome List yet
-[17:18:20] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[17:18:20] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (3a5fc1e0)
-[17:18:20] [main/INFO]: Unable to build Biome List yet
-[17:18:20] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[17:18:21] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called graves:entities/player
-[17:18:22] [main/INFO]: Disabling Recipe: bclib:test_star
-[17:18:22] [main/INFO]: Loaded 2877 recipes
-[17:18:22] [main/INFO]: Added 0 recipes in 3ms
-[17:18:22] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/great_chalice: No key criteria in MapLike[{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"item":"minecraft:copper_ingot"}},"pattern":["# #","# #","###"],"result":{"item":"knightquest:great_chalice","count":1},"show_notification":true}]
-[17:18:22] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/great_essence_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"knightquest:great_essence"}],"result":{"item":"knightquest:small_essence","count":4}}]
-[17:18:23] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/totem_of_undying_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:totem_of_undying"}],"result":{"item":"knightquest:great_essence","count":1}}]
-[17:18:23] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/empty_goblet: No key criteria in MapLike[{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"item":"minecraft:copper_ingot"}},"pattern":["# #"," # "],"result":{"count":2,"item":"knightquest:empty_goblet"},"show_notification":true}]
-[17:18:23] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/small_essence_to_great_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shaped","category":"misc","pattern":["## ","## ","   "],"key":{"#":{"item":"knightquest:small_essence"}},"result":{"item":"knightquest:great_essence"}}]
-[17:18:23] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/elytra_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:elytra"}],"result":{"item":"knightquest:great_essence","count":2}}]
-[17:18:23] [main/ERROR]: Parsing error loading custom advancement knightquest:knightquest: No key id in MapLike[{"item":"knightquest:paladin_sword"}]
-[17:18:23] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/nether_star_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:nether_star"}],"result":{"item":"knightquest:great_essence","count":1}}]
-[17:18:23] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/heart_of_the_sea_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:heart_of_the_sea"}],"result":{"item":"knightquest:small_essence","count":2}}]
-[17:18:23] [main/ERROR]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[17:18:23] [main/INFO]: Loaded 2910 advancements
-[17:18:23] [ForkJoinPool.commonPool-worker-2/INFO]: Loaded 58 translation keys
-[17:18:23] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
-[17:18:24] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.basis.StoneLanternBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[17:18:24] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.BrimstoneBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_638. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[17:18:24] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.bclib.blocks.BaseLeavesBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_793. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[17:18:24] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.TenaneaFlowersBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[17:18:24] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.HelixTreeLeavesBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[17:18:24] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.JellyshroomCapBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[17:18:24] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.HydraluxPetalColoredBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[17:18:24] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.bclib.blocks.BaseOreBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_793. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[17:18:24] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.BulbVineLanternColoredBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[17:18:24] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.AuroraCrystalBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[17:18:24] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.RespawnObeliskBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[17:18:24] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.EndPortalBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[17:18:25] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (65346d95)
-[17:18:25] [main/INFO]: Added 5 Biomes
-[17:18:25] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[17:18:25] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[17:18:25] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[17:18:25] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[17:18:25] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[17:18:25] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[17:18:25] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[17:18:25] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (2962a381)
-[17:18:25] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[17:18:25] [main/INFO]: Added Tags for 1 fabric biomes in 11.74 ms
-[17:18:25] [main/INFO]: Added 6 biomes to wover:is_end/highland in 4.919 ms
-[17:18:25] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (65346d95)
-[17:18:25] [main/INFO]: Added 5 Biomes
-[17:18:25] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[17:18:25] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[17:18:25] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[17:18:25] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[17:18:25] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[17:18:25] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[17:18:25] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (4e44193a)
-[17:18:25] [main/INFO]: Added 5 Biomes
-[17:18:25] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[17:18:25] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[17:18:25] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[17:18:25] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[17:18:25] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[17:18:25] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[17:18:25] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (4e44193a)
-[17:18:25] [main/INFO]: Added 5 Biomes
-[17:18:25] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[17:18:25] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[17:18:25] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[17:18:25] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[17:18:25] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[17:18:25] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[17:18:25] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (2962a381)
-[17:18:25] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (3a5fc1e0)
-[17:18:25] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (3a5fc1e0)
-[17:18:25] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (3a5fc1e0)
-[17:18:25] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (4e44193a)
-[17:18:25] [main/INFO]: Added 5 Biomes
-[17:18:25] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[17:18:25] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[17:18:25] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[17:18:25] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[17:18:25] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[17:18:25] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[17:18:25] [main/INFO]: Applied 92 biome modifications and added 89 tags to 92 of 183 biomes in 15.29 ms
-[17:18:25] [main/INFO]: Applied 357 biome modifications to 158 of 183 new biomes in 27.75 ms
-[17:18:25] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
-[17:18:25] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
-[17:18:26] [Server thread/INFO]: Starting minecraft server version 1.21
-[17:18:26] [Server thread/INFO]: Loading properties
-[17:18:26] [Server thread/INFO]: Default game type: SURVIVAL
-[17:18:26] [Server thread/INFO]: Generating keypair
-[17:18:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:18:26] [Server thread/INFO]: Using epoll channel type
-[17:18:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:18:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:18:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:18:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:18:26] [Server thread/INFO]: Preparing level "world"
-[17:18:26] [Server thread/INFO]: World Dimensions: 
+[19:41:24] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/raksh/Documents/GitHub/modServerFabric/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:41:24] [main/INFO]: Compatibility level set to JAVA_17
+[19:41:24] [main/INFO]: Compatibility level set to JAVA_21
+[19:41:24] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:41:25] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 1 override(s) found
+[19:41:25] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[19:41:25] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[19:41:25] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[19:41:25] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[19:41:25] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[19:41:25] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[19:41:25] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_item_abilities.mixins.json:FishingHookRendererMixin from mod porting_lib_item_abilities
+[19:41:25] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
+[19:41:25] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
+[19:41:25] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[19:41:26] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[19:41:26] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[19:41:26] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[19:41:26] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[19:41:26] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
+[19:41:26] [main/WARN]: @Mixin target net.minecraft.class_638 was not found porting_lib_level_events.mixins.json:client.ClientLevelMixin from mod porting_lib_level_events
+[19:41:26] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[19:41:26] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[19:41:26] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[19:41:26] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
+[19:41:26] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[19:41:27] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zfd000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[19:41:40] [main/INFO]: Registering Listeners!
+[19:41:41] [main/INFO]: Loading Collective version 7.84.
+[19:41:41] [main/ERROR]: No data fixer registered for chain_knot
+[19:41:41] [main/INFO]: Initialized entity types.
+[19:41:41] [main/INFO]: Register Custom Payloads for Networking.
+[19:41:41] [main/INFO]: Constructing common components for easyanvils:main
+[19:41:41] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
+[19:41:41] [main/INFO]: Constructing common components for easymagic:main
+[19:41:41] [main/INFO]: End Remastered config loaded with success
+[19:41:41] [main/INFO]: End Remastered eyes loaded with success
+[19:41:42] [main/ERROR]: No data fixer registered for rotten_tomato
+[19:41:42] [main/INFO]: Registered synced config with path toughasnails/thirst.toml
+[19:41:42] [main/INFO]: Registered synced config with path toughasnails/temperature.toml
+[19:41:42] [main/ERROR]: No data fixer registered for water_purifier
+[19:41:42] [main/ERROR]: No data fixer registered for temperature_gauge
+[19:41:42] [main/ERROR]: No data fixer registered for thermoregulator
+[19:41:42] [main/INFO]: Registering C2S receiver with id item-placer:item_place
+[19:41:42] [main/INFO]: Registering C2S receiver with id item-placer:item_rotate
+[19:41:42] [main/INFO]: Registering configs
+[19:41:42] [main/INFO]: Registering blocks
+[19:41:42] [main/INFO]: Registering items
+[19:41:42] [main/INFO]: Registering item groups
+[19:41:42] [main/INFO]: Registering entities
+[19:41:42] [main/INFO]: Registering tags
+[19:41:42] [main/INFO]: Registering event handlers
+[19:41:42] [main/INFO]: Initializing JamLib on Fabric
+[19:41:42] [main/ERROR]: No data fixer registered for gremlin
+[19:41:42] [main/ERROR]: No data fixer registered for eldbomb
+[19:41:42] [main/ERROR]: No data fixer registered for eldknight
+[19:41:42] [main/ERROR]: No data fixer registered for samhain
+[19:41:42] [main/ERROR]: No data fixer registered for swampman
+[19:41:42] [main/ERROR]: No data fixer registered for ratman
+[19:41:42] [main/ERROR]: No data fixer registered for lizzy
+[19:41:42] [main/ERROR]: No data fixer registered for bad_patch
+[19:41:42] [main/ERROR]: No data fixer registered for ghastling
+[19:41:42] [main/ERROR]: No data fixer registered for ghosty
+[19:41:42] [main/ERROR]: No data fixer registered for netherman
+[19:41:42] [main/ERROR]: No data fixer registered for netherman_clone
+[19:41:42] [main/ERROR]: No data fixer registered for netherman_teleport_charge
+[19:41:42] [main/INFO]: Registering Item Group: knightquest
+[19:41:42] [main/INFO]: Registering sounds for knightquest...
+[19:41:42] [main/INFO]: Registering entities for knightquest
+[19:41:42] [main/INFO]: Definitely not up to no good
+[19:41:42] [main/INFO]: morevanillashields: This mod runs without a config file. Coming Soon in next updates!
+[19:41:42] [main/INFO]: Registering Mod Items for morevanillashields
+[19:41:42] [main/INFO]: glisco makes a dollar, I make a dime, that's why I mald on company time
+[19:41:42] [main/INFO]: Constructing common components for puzzleslib:main
+[19:41:42] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[19:41:42] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[19:41:42] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[19:41:42] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[19:41:42] [main/INFO]: Registering C2S receiver with id utility_belt:update_state
+[19:41:42] [main/INFO]: Registering C2S receiver with id utility_belt:open_screen
+[19:41:42] [main/INFO]: Utility Belt initialized on Fabric
+[19:41:42] [main/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
+[19:41:43] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[19:41:43] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[19:41:43] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
+[19:41:43] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
+[19:41:43] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:41:43] [main/INFO]: Ignoring Patch{ModCore: bclib (bclib):3.0.11:196619}
+[19:41:43] [main/INFO]: Running Pre Patchers on .\world\.
+[19:41:43] [main/INFO]: Everything up to date
+[19:41:43] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
+[19:41:43] [main/INFO]: Processing wover.datapack.registry Entrypoints
+[19:41:43] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
+[19:41:43] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
+[19:41:44] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
+[19:41:44] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
+[19:41:44] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
+[19:41:44] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (449c3e4b)
+[19:41:44] [main/INFO]: Unable to build Biome List yet
+[19:41:45] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[19:41:45] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (16dda05e)
+[19:41:45] [main/INFO]: Unable to build Biome List yet
+[19:41:45] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[19:41:45] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (3bd7c441)
+[19:41:45] [main/INFO]: Unable to build Biome List yet
+[19:41:45] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[19:41:45] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (60769079)
+[19:41:45] [main/INFO]: Unable to build Biome List yet
+[19:41:45] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[19:41:45] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (6b9e5263)
+[19:41:45] [main/INFO]: Unable to build Biome List yet
+[19:41:45] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[19:41:45] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (3e0006f6)
+[19:41:45] [main/INFO]: Unable to build Biome List yet
+[19:41:45] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:chorus_forest
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dust_wastelands
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
+[19:41:45] [main/INFO]: Adding Small End Island Biome to Fabric: betterend:ice_starfield
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
+[19:41:45] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
+[19:41:45] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (e4fefca)
+[19:41:45] [main/INFO]: Unable to build Biome List yet
+[19:41:45] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[19:41:45] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (2677cb40)
+[19:41:45] [main/INFO]: Unable to build Biome List yet
+[19:41:45] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[19:41:46] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called graves:entities/player
+[19:41:47] [main/INFO]: Disabling Recipe: bclib:test_star
+[19:41:47] [main/INFO]: Loaded 2877 recipes
+[19:41:47] [main/INFO]: Added 0 recipes in 10ms
+[19:41:47] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/great_chalice: No key criteria in MapLike[{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"item":"minecraft:copper_ingot"}},"pattern":["# #","# #","###"],"result":{"item":"knightquest:great_chalice","count":1},"show_notification":true}]
+[19:41:47] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/great_essence_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"knightquest:great_essence"}],"result":{"item":"knightquest:small_essence","count":4}}]
+[19:41:47] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/totem_of_undying_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:totem_of_undying"}],"result":{"item":"knightquest:great_essence","count":1}}]
+[19:41:47] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/empty_goblet: No key criteria in MapLike[{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"item":"minecraft:copper_ingot"}},"pattern":["# #"," # "],"result":{"count":2,"item":"knightquest:empty_goblet"},"show_notification":true}]
+[19:41:47] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/small_essence_to_great_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shaped","category":"misc","pattern":["## ","## ","   "],"key":{"#":{"item":"knightquest:small_essence"}},"result":{"item":"knightquest:great_essence"}}]
+[19:41:47] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/elytra_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:elytra"}],"result":{"item":"knightquest:great_essence","count":2}}]
+[19:41:47] [main/ERROR]: Parsing error loading custom advancement knightquest:knightquest: No key id in MapLike[{"item":"knightquest:paladin_sword"}]
+[19:41:47] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/nether_star_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:nether_star"}],"result":{"item":"knightquest:great_essence","count":1}}]
+[19:41:47] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/heart_of_the_sea_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:heart_of_the_sea"}],"result":{"item":"knightquest:small_essence","count":2}}]
+[19:41:47] [main/ERROR]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[19:41:47] [main/INFO]: Loaded 2910 advancements
+[19:41:47] [ForkJoinPool.commonPool-worker-2/INFO]: Loaded 58 translation keys
+[19:41:47] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
+[19:41:48] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.basis.StoneLanternBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_326. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[19:41:48] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.BrimstoneBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_638. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[19:41:48] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.bclib.blocks.BaseLeavesBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_793. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[19:41:48] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.TenaneaFlowersBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_326. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[19:41:48] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.HelixTreeLeavesBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_326. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[19:41:48] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.JellyshroomCapBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_326. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[19:41:48] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.HydraluxPetalColoredBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_326. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[19:41:48] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.bclib.blocks.BaseOreBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_793. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[19:41:48] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.BulbVineLanternColoredBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_326. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[19:41:48] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.AuroraCrystalBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_326. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[19:41:48] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.RespawnObeliskBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_326. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[19:41:48] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.EndPortalBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_326. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[19:41:48] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2eb17a7c)
+[19:41:48] [main/INFO]: Added 5 Biomes
+[19:41:48] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[19:41:48] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[19:41:48] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[19:41:48] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[19:41:48] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[19:41:48] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[19:41:48] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[19:41:48] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (3c27411a)
+[19:41:48] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[19:41:48] [main/INFO]: Added Tags for 1 fabric biomes in 8.938 ms
+[19:41:48] [main/INFO]: Added 6 biomes to wover:is_end/highland in 2.943 ms
+[19:41:48] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2eb17a7c)
+[19:41:48] [main/INFO]: Added 5 Biomes
+[19:41:48] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[19:41:48] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[19:41:48] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[19:41:48] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[19:41:48] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[19:41:48] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[19:41:48] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (e4fefca)
+[19:41:48] [main/INFO]: Added 5 Biomes
+[19:41:48] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[19:41:48] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[19:41:48] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[19:41:48] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[19:41:48] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[19:41:48] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[19:41:48] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (e4fefca)
+[19:41:48] [main/INFO]: Added 5 Biomes
+[19:41:48] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[19:41:48] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[19:41:48] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[19:41:48] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[19:41:48] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[19:41:48] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[19:41:48] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (3c27411a)
+[19:41:48] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (2677cb40)
+[19:41:48] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (2677cb40)
+[19:41:49] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (2677cb40)
+[19:41:49] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (e4fefca)
+[19:41:49] [main/INFO]: Added 5 Biomes
+[19:41:49] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[19:41:49] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[19:41:49] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[19:41:49] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[19:41:49] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[19:41:49] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[19:41:49] [main/INFO]: Applied 92 biome modifications and added 89 tags to 92 of 183 biomes in 20.76 ms
+[19:41:49] [main/INFO]: Applied 357 biome modifications to 158 of 183 new biomes in 34.94 ms
+[19:41:49] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
+[19:41:49] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[19:41:50] [Server thread/INFO]: Starting minecraft server version 1.21
+[19:41:50] [Server thread/INFO]: Loading properties
+[19:41:50] [Server thread/INFO]: Default game type: SURVIVAL
+[19:41:50] [Server thread/INFO]: Generating keypair
+[19:41:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:41:50] [Server thread/INFO]: Using default channel type
+[19:41:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:41:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:41:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:41:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:41:50] [Server thread/INFO]: Preparing level "world"
+[19:41:50] [Server thread/INFO]: World Dimensions: 
+ - minecraft:overworld: 
+     class_3754 (238f4f36)
+         preset     = none
+         noise      = minecraft:overworld
+         features   = terralith(384), minecraft(153), farmersdelight(9)
+     class_4766 (71494716)
+         biomes     = 147
+         namespaces = minecraft(53), terralith(94)
  - minecraft:the_end: 
-     WoVer - Chunk Generator (3790ccff)
+     WoVer - Chunk Generator (40222b9b)
          preset     = none
          noise      = minecraft:end
          features   = minecraft(5), betterend(127)
-     WoVer - The End  BiomeSource (4e44193a)
+     WoVer - The End  BiomeSource (e4fefca)
          biomes     = 24
          namespaces = betterend(19), minecraft(5)
          seed       = 1988232152129346940
          height     = 128
          deciders   = 0
          config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
- - minecraft:overworld: 
-     class_3754 (59de592)
-         preset     = none
-         noise      = minecraft:overworld
-         features   = terralith(384), minecraft(153), farmersdelight(9)
-     class_4766 (5aa172d3)
-         biomes     = 147
-         namespaces = minecraft(53), terralith(94)
  - minecraft:the_nether: 
-     WoVer - Chunk Generator (1267993f)
+     WoVer - Chunk Generator (58904f65)
          preset     = none
          noise      = minecraft:nether
          features   = minecraft(37)
-     WoVer - Nether BiomeSource (3a5fc1e0)
+     WoVer - Nether BiomeSource (2677cb40)
          biomes     = 5
          namespaces = minecraft(5)
          seed       = 1988232152129346940
          height     = 256
          config     = NetherConfig{mapVersion=hex, useVerticalBiomes=true, biomeSize=16, biomeSizeVertical=5}
-[17:18:26] [Server thread/INFO]: Merged 19 additional Surface Rules for Dimension minecraft:the_end => 20 (916.6 μs) using WoVer - The End  BiomeSource (4e44193a)
+[19:41:50] [Server thread/INFO]: Merged 19 additional Surface Rules for Dimension minecraft:the_end => 20 (5.643 ms) using WoVer - The End  BiomeSource (e4fefca)
     biomes     = 24
     namespaces = betterend(19), minecraft(5)
     seed       = 1988232152129346940
     height     = 128
     deciders   = 0
     config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
-[17:18:27] [Server thread/INFO]: Added 2 Biomes
-[17:18:27] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
-[17:18:27] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
-[17:18:37] [Server thread/INFO]: Added 2 Biomes
-[17:18:37] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
-[17:18:37] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
-[17:18:43] [Server thread/INFO]: Added 2 Biomes
-[17:18:43] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
-[17:18:43] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
-[17:18:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:18:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[17:18:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[17:18:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[17:18:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[17:18:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[17:18:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[17:18:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[17:18:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[17:18:47] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[17:18:48] [Server thread/INFO]: Time elapsed: 5089 ms
-[17:18:48] [Server thread/INFO]: Done (21.738s)! For help, type "help"
-[17:18:48] [Server thread/INFO]: morevanillashields: This mod is now running on a server. Please report any error or bugs.
-[17:18:48] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[17:18:48] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[17:18:50] [Server thread/WARN]: UUID of added entity already exists: class_8122['Item Display'/76, l='ServerLevel[world]', x=0.50, y=0.00, z=0.50]
-[17:19:05] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
+[19:41:51] [Server thread/INFO]: Added 2 Biomes
+[19:41:51] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[19:41:51] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[19:41:53] [Server thread/INFO]: Added 2 Biomes
+[19:41:53] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[19:41:53] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[19:41:54] [Server thread/INFO]: Added 2 Biomes
+[19:41:54] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[19:41:54] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[19:41:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:41:56] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[19:41:56] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[19:41:56] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[19:41:56] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[19:41:56] [Worker-Main-19/INFO]: Preparing spawn area: 0%
+[19:41:56] [Server thread/INFO]: Time elapsed: 2614 ms
+[19:41:56] [Server thread/INFO]: Done (5.898s)! For help, type "help"
+[19:41:56] [Server thread/INFO]: morevanillashields: This mod is now running on a server. Please report any error or bugs.
+[19:41:56] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[19:41:56] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[19:41:58] [Server thread/WARN]: UUID of added entity already exists: class_8122['Item Display'/185, l='ServerLevel[world]', x=0.50, y=0.00, z=0.50]
+[19:42:13] [Server thread/INFO]: whitehairguy[/127.52.238.219:52319] logged in with entity id 253 at (4237.386726832461, 72.5625, -8396.178588687024)
+[19:42:13] [Server thread/INFO]: Sending server config values to client
+[19:42:13] [Server thread/INFO]: Loading config from file...
+[19:42:14] [Server thread/INFO]: whitehairguy joined the game
+[19:42:14] [Server thread/INFO]: Receiving client config
+[19:42:21] [Server thread/INFO]: Rad1108[/127.0.0.1:52337] logged in with entity id 465 at (4234.612370611521, 72.125, -8399.207971560405)
+[19:42:21] [Server thread/INFO]: Sending server config values to client
+[19:42:21] [Server thread/INFO]: Loading config from file...
+[19:42:21] [Server thread/INFO]: Rad1108 joined the game
+[19:42:22] [Server thread/INFO]: Receiving client config
+[19:52:05] [Server thread/INFO]: Named entity class_3989['Rena'/3335, l='ServerLevel[world]', x=526.53, y=52.00, z=-1056.50] died: Rena was slain by Rad1108 using [Chomper]
+[20:05:59] [Netty Server IO #7/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: Received unknown packet id 3
+	at net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
+	at net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
+	at io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[20:06:00] [Netty Server IO #9/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: Received unknown packet id 3
+	at net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
+	at net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
+	at io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[20:06:01] [Netty Server IO #10/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: Received unknown packet id 3
+	at net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
+	at net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
+	at io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[20:06:29] [Netty Server IO #8/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[17:19:05] [Netty Epoll Server IO #4/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.timeout.ReadTimeoutException: null
-[17:20:05] [Server thread/INFO]: whitehairguy[/127.0.0.1:57228] logged in with entity id 190 at (-0.43260021522210457, 74.0, 1.6637666168016103)
-[17:20:05] [Server thread/INFO]: Sending server config values to client
-[17:20:05] [Server thread/INFO]: Loading config from file...
-[17:20:05] [Server thread/INFO]: whitehairguy joined the game
-[17:20:06] [Server thread/INFO]: Receiving client config
-[17:23:31] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[17:23:31] [Server thread/INFO]: whitehairguy left the game
-[17:24:58] [Server thread/INFO]: whitehairguy[/127.0.0.1:36154] logged in with entity id 1384 at (14.576484637692305, 73.0, 1.8175290196131093)
-[17:24:58] [Server thread/INFO]: Sending server config values to client
-[17:24:58] [Server thread/INFO]: Loading config from file...
-[17:24:58] [Server thread/INFO]: whitehairguy joined the game
-[17:24:59] [Server thread/INFO]: Receiving client config
-[17:25:49] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[17:25:49] [Server thread/INFO]: whitehairguy left the game
-[17:26:29] [Server thread/INFO]: whitehairguy[/127.0.0.1:50446] logged in with entity id 1906 at (15.23129942337008, 73.0, 3.237498041114261)
-[17:26:29] [Server thread/INFO]: Sending server config values to client
-[17:26:29] [Server thread/INFO]: Loading config from file...
-[17:26:29] [Server thread/INFO]: whitehairguy joined the game
-[17:26:29] [Server thread/INFO]: Receiving client config
-[17:28:11] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[17:28:11] [Server thread/INFO]: whitehairguy left the game
-[17:28:43] [Server thread/INFO]: whitehairguy[/127.0.0.1:60270] logged in with entity id 2572 at (12.843572382942499, 73.0, 1.9734989212063012)
-[17:28:43] [Server thread/INFO]: Sending server config values to client
-[17:28:43] [Server thread/INFO]: Loading config from file...
-[17:28:43] [Server thread/INFO]: whitehairguy joined the game
-[17:28:43] [Server thread/INFO]: Receiving client config
-[17:34:18] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[17:34:18] [Server thread/INFO]: whitehairguy left the game
-[17:34:18] [Server thread/WARN]: handleDisconnection() called twice
-[17:36:27] [Server thread/INFO]: whitehairguy[/127.0.0.1:57456] logged in with entity id 4140 at (-0.541917962463609, 77.31161120717262, -5.387691475563616)
-[17:36:27] [Server thread/INFO]: Sending server config values to client
-[17:36:27] [Server thread/INFO]: Loading config from file...
-[17:36:27] [Server thread/INFO]: whitehairguy joined the game
-[17:36:27] [Server thread/INFO]: Receiving client config
-[17:45:34] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[17:45:34] [Server thread/INFO]: whitehairguy left the game
-[17:46:49] [Server thread/INFO]: whitehairguy[/127.0.0.1:36688] logged in with entity id 6547 at (-5.336020602110165, 74.0, 2.6118945842235126)
-[17:46:49] [Server thread/INFO]: Sending server config values to client
-[17:46:49] [Server thread/INFO]: Loading config from file...
-[17:46:49] [Server thread/INFO]: whitehairguy joined the game
-[17:46:49] [Server thread/INFO]: Receiving client config
-[18:00:16] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[18:00:16] [Server thread/INFO]: whitehairguy left the game
-[18:01:06] [Server thread/INFO]: whitehairguy[/127.0.0.1:44122] logged in with entity id 10059 at (3.3075389052051616, 79.5, 2.5251303966558947)
-[18:01:06] [Server thread/INFO]: Sending server config values to client
-[18:01:06] [Server thread/INFO]: Loading config from file...
-[18:01:06] [Server thread/INFO]: whitehairguy joined the game
-[18:01:07] [Server thread/INFO]: Receiving client config
-[18:01:33] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[18:01:33] [Server thread/INFO]: whitehairguy left the game
-[18:01:52] [Server thread/INFO]: whitehairguy[/127.0.0.1:44966] logged in with entity id 10468 at (3.3075389052051616, 79.5, 2.5251303966558947)
-[18:01:52] [Server thread/INFO]: Sending server config values to client
-[18:01:52] [Server thread/INFO]: Loading config from file...
-[18:01:52] [Server thread/INFO]: whitehairguy joined the game
-[18:01:52] [Server thread/INFO]: Receiving client config
-[18:21:16] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[18:21:16] [Server thread/INFO]: whitehairguy left the game
-[18:22:27] [Server thread/INFO]: whitehairguy[/127.0.0.1:42618] logged in with entity id 15060 at (0.4027469574961157, 79.0, 7.01480049639594)
-[18:22:27] [Server thread/INFO]: Sending server config values to client
-[18:22:27] [Server thread/INFO]: Loading config from file...
-[18:22:27] [Server thread/INFO]: whitehairguy joined the game
-[18:22:28] [Server thread/INFO]: Receiving client config
-[18:22:36] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[18:22:36] [Server thread/INFO]: whitehairguy left the game
+[20:15:27] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[20:15:27] [Server thread/INFO]: whitehairguy left the game
+[20:15:49] [Server thread/INFO]: whitehairguy[/127.52.238.219:52616] logged in with entity id 12481 at (-974.0412330089234, 35.0, -2678.8673563916245)
+[20:15:49] [Server thread/INFO]: Sending server config values to client
+[20:15:49] [Server thread/INFO]: Loading config from file...
+[20:15:49] [Server thread/INFO]: whitehairguy joined the game
+[20:15:49] [Server thread/INFO]: Receiving client config
+[20:17:12] [Server thread/INFO]: Rad1108 has made the advancement [A New Protector...]
+[20:17:12] [Server thread/INFO]: Rad1108 has made the advancement [The Beginning of An Adventure]
+[20:17:36] [Server thread/INFO]: whitehairguy has made the advancement [A New Protector...]
+[20:17:36] [Server thread/INFO]: whitehairguy has made the advancement [The Beginning of An Adventure]
+[20:21:15] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[20:21:15] [Server thread/INFO]: Rad1108 left the game
+[20:21:21] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[20:21:21] [Server thread/INFO]: whitehairguy left the game
