@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2024-07-23 09:13:50 +0530",
+      "minecraft:old_growth_pine_taiga": "2024-08-27 02:34:03 +0530",
       "minecraft:forest": "2024-07-19 04:47:28 +0530",
       "minecraft:taiga": "2024-07-20 06:53:32 +0530",
       "minecraft:deep_ocean": "2024-07-19 05:45:35 +0530",
@@ -185,6 +186,7 @@
     "criteria": {
       "pillager_outpost": "2024-07-19 05:51:27 +0530",
       "illager_manor": "2024-07-23 10:05:28 +0530",
+      "swamp_hut": "2024-08-27 02:51:20 +0530",
       "illager_camp": "2024-07-19 04:50:50 +0530",
       "badland_miner_outpost": "2024-07-23 09:32:19 +0530",
       "illager_hideout": "2024-07-26 03:57:07 +0530",
@@ -724,6 +726,7 @@
       "minecraft:skeleton": "2024-07-19 05:00:49 +0530",
       "minecraft:elder_guardian": "2024-08-17 16:45:40 +0530",
       "minecraft:ravager": "2024-07-24 03:32:40 +0530",
+      "minecraft:bogged": "2024-08-27 03:12:15 +0530",
       "minecraft:ghast": "2024-07-20 01:35:54 +0530",
       "minecraft:hoglin": "2024-07-20 03:43:12 +0530",
       "minecraft:guardian": "2024-08-17 16:37:08 +0530",
@@ -5667,7 +5670,8 @@
   },
   "nova_structures:adventure/kill_all_minibosses": {
     "criteria": {
-      "kill_phantom_boss": "2024-08-16 07:16:10 +0530"
+      "kill_phantom_boss": "2024-08-16 07:16:10 +0530",
+      "kill_guardian_boss": "2024-08-27 01:34:52 +0530"
     },
     "done": false
   },
@@ -7598,12 +7602,6 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/combat/flint_knife": {
-    "criteria": {
-      "has_stick": "2024-08-26 18:44:42 +0530"
-    },
-    "done": true
-  },
   "knightquest:recipes/misc/polar_leggings": {
     "criteria": {
       "has_netherite_leggings": "2024-08-26 18:44:42 +0530"
@@ -8156,12 +8154,6 @@
     },
     "done": true
   },
-  "farmersdelight:main/root": {
-    "criteria": {
-      "seeds": "2024-08-26 18:44:42 +0530"
-    },
-    "done": true
-  },
   "knightquest:recipes/misc/bamboo_blue_chestplate": {
     "criteria": {
       "has_netherite_chestplate": "2024-08-26 18:44:42 +0530"
@@ -8324,12 +8316,6 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/decorations/cutting_board": {
-    "criteria": {
-      "has_stick": "2024-08-26 18:44:42 +0530"
-    },
-    "done": true
-  },
   "knightquest:recipes/misc/squire_chestplate": {
     "criteria": {
       "has_netherite_chestplate": "2024-08-26 18:44:42 +0530"
@@ -8432,12 +8418,6 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/horse_feed": {
-    "criteria": {
-      "has_golden_carrot": "2024-08-26 18:44:42 +0530"
-    },
-    "done": true
-  },
   "netherweather:netherweather": {
     "criteria": {
       "trigger": "2024-08-26 18:44:43 +0530"
@@ -8492,18 +8472,6 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/dog_food": {
-    "criteria": {
-      "has_any_ingredient": "2024-08-26 19:03:34 +0530"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
-    "criteria": {
-      "has_rotten_flesh": "2024-08-26 19:03:34 +0530"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/yellow_dye_from_sunflower": {
     "criteria": {
       "has_sunflower": "2024-08-26 19:04:40 +0530"
@@ -8513,12 +8481,6 @@
   "knightquest:recipes/misc/steel_sword": {
     "criteria": {
       "has_iron_sword": "2024-08-26 19:07:04 +0530"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/bone_broth": {
-    "criteria": {
-      "has_bone": "2024-08-26 19:21:33 +0530"
     },
     "done": true
   },
@@ -8534,24 +8496,6 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/decorations/cooking_pot": {
-    "criteria": {
-      "has_iron_ingot": "2024-08-26 19:22:23 +0530"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/combat/iron_knife": {
-    "criteria": {
-      "has_iron_ingot": "2024-08-26 19:22:23 +0530"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/skillet": {
-    "criteria": {
-      "has_brick": "2024-08-26 20:12:20 +0530"
-    },
-    "done": true
-  },
   "endrem:main/root": {
     "criteria": {
       "cursed_eye": "2024-08-26 20:17:12 +0530"
@@ -8564,51 +8508,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/combat/golden_knife": {
-    "criteria": {
-      "has_gold_ingot": "2024-08-26 20:18:36 +0530"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/fried_egg_from_smoking": {
-    "criteria": {
-      "fried_egg": "2024-08-26 21:28:20 +0530"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/fried_egg_from_campfire_cooking": {
-    "criteria": {
-      "fried_egg": "2024-08-26 21:28:20 +0530"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/baked_cod_stew": {
-    "criteria": {
-      "has_any_ingredient": "2024-08-26 21:28:20 +0530"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/fried_rice": {
-    "criteria": {
-      "has_any_ingredient": "2024-08-26 21:28:20 +0530"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/fried_egg": {
-    "criteria": {
-      "fried_egg": "2024-08-26 21:28:20 +0530"
-    },
-    "done": true
-  },
   "endrem:main/nether_eye": {
     "criteria": {
       "nether_eye": "2024-08-26 21:32:57 +0530"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/combat/diamond_knife": {
-    "criteria": {
-      "has_diamond": "2024-08-26 21:35:54 +0530"
     },
     "done": true
   },
@@ -8624,12 +8526,6 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/combat/netherite_knife_smithing": {
-    "criteria": {
-      "has_netherite_ingot": "2024-08-26 21:52:30 +0530"
-    },
-    "done": true
-  },
   "endrem:main/wither_eye": {
     "criteria": {
       "wither_eye": "2024-08-26 22:13:59 +0530"
@@ -8642,9 +8538,105 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
+  "nova_structures:adventure/kill_guardian_boss": {
     "criteria": {
-      "has_any_ingredient": "2024-08-26 22:42:46 +0530"
+      "kill__guardian_boss": "2024-08-27 01:34:52 +0530"
+    },
+    "done": true
+  },
+  "endrem:main/guardian_eye": {
+    "criteria": {
+      "guardian_eye": "2024-08-27 01:38:52 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/steel_axe": {
+    "criteria": {
+      "has_iron_axe": "2024-08-27 01:49:27 +0530"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/food/melon_juice": {
+    "criteria": {
+      "has_melon_slice": "2024-08-27 02:09:27 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/melon": {
+    "criteria": {
+      "has_melon_slice": "2024-08-27 02:09:27 +0530"
+    },
+    "done": true
+  },
+  "endrem:main/corrupted_eye": {
+    "criteria": {
+      "corrupted_eye": "2024-08-27 02:33:04 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/sandstone": {
+    "criteria": {
+      "has_sandstone": "2024-08-27 02:48:39 +0530"
+    },
+    "done": true
+  },
+  "endrem:main/black_eye": {
+    "criteria": {
+      "black_eye": "2024-08-27 02:48:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
+    "criteria": {
+      "has_mangrove_roots": "2024-08-27 02:51:45 +0530"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/food/apple_juice": {
+    "criteria": {
+      "has_apple": "2024-08-27 02:59:04 +0530"
+    },
+    "done": true
+  },
+  "adventurez:recipes/deer_venison": {
+    "criteria": {
+      "got_the_venison": "2024-08-27 03:08:06 +0530"
+    },
+    "done": true
+  },
+  "endrem:main/rogue_eye": {
+    "criteria": {
+      "rogue_eye": "2024-08-27 03:17:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wild_armor_trim_smithing_template": {
+    "criteria": {
+      "has_wild_armor_trim_smithing_template": "2024-08-27 03:18:20 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wild_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-08-27 03:18:20 +0530"
+    },
+    "done": true
+  },
+  "endrem:main/witch_eye": {
+    "criteria": {
+      "witch_eye": "2024-08-27 03:21:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raiser_armor_trim_smithing_template": {
+    "criteria": {
+      "has_raiser_armor_trim_smithing_template": "2024-08-27 03:28:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raiser_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-08-27 03:28:55 +0530"
     },
     "done": true
   },
