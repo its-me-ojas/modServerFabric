@@ -9873,5 +9873,125 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2024-08-26 10:01:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2024-08-26 10:01:04 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2024-08-26 10:02:30 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/skillet": {
+    "criteria": {
+      "has_brick": "2024-08-26 10:03:13 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/flint_knife": {
+    "criteria": {
+      "has_stick": "2024-08-26 10:04:03 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/cutting_board": {
+    "criteria": {
+      "has_stick": "2024-08-26 10:04:03 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/kukri_dagger": {
+    "criteria": {
+      "has_iron_ingot": "2024-08-26 10:06:06 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/kukri": {
+    "criteria": {
+      "has_iron_ingot": "2024-08-26 10:06:06 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/cooking_pot": {
+    "criteria": {
+      "has_iron_ingot": "2024-08-26 10:06:06 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/iron_knife": {
+    "criteria": {
+      "has_iron_ingot": "2024-08-26 10:06:06 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_cooking_pot": {
+    "criteria": {
+      "cooking_pot": "2024-08-26 10:10:28 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_deepslate_iron_ore": {
+    "criteria": {
+      "has_deepslate_iron_ore": "2024-08-26 10:45:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_deepslate_iron_ore": {
+    "criteria": {
+      "has_deepslate_iron_ore": "2024-08-26 10:45:43 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall": {
+    "criteria": {
+      "has_bricks": "2024-08-26 12:03:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_bricks": "2024-08-26 12:03:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2024-08-26 12:03:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2024-08-26 12:03:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_bricks": "2024-08-26 12:03:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2024-08-26 12:03:57 +0530"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2024-08-26 12:04:12 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
