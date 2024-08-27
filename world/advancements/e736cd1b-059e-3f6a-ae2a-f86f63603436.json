@@ -10156,5 +10156,101 @@
     },
     "done": true
   },
+  "toughasnails:recipes/food/pumpkin_juice": {
+    "criteria": {
+      "has_pumpkin": "2024-08-28 04:07:31 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_bulb_lantern_yellow": {
+    "criteria": {
+      "has_yellow_dye": "2024-08-28 03:52:38 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_bulb_lantern_purple": {
+    "criteria": {
+      "has_purple_dye": "2024-08-28 04:00:09 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_bulb_lantern_yellow": {
+    "criteria": {
+      "has_yellow_dye": "2024-08-28 03:52:38 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/hydralux_petal_block_yellow": {
+    "criteria": {
+      "has_yellow_dye": "2024-08-28 03:52:38 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_candle": {
+    "criteria": {
+      "has_purple_dye": "2024-08-28 04:00:09 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_purple_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-08-28 04:00:09 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/pumpkin": {
+    "criteria": {
+      "has_pumpkin": "2024-08-28 04:07:31 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/hydralux_petal_block_purple": {
+    "criteria": {
+      "has_purple_dye": "2024-08-28 04:00:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-08-28 04:00:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-08-28 04:00:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-08-28 04:00:09 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_purple": {
+    "criteria": {
+      "has_purple_dye": "2024-08-28 04:00:09 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_yellow_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-08-28 03:52:38 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_bulb_lantern_purple": {
+    "criteria": {
+      "has_purple_dye": "2024-08-28 04:00:09 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_yellow": {
+    "criteria": {
+      "has_yellow_dye": "2024-08-28 03:52:38 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
