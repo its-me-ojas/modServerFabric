@@ -190,6 +190,7 @@
   },
   "nova_structures:adventure/find_all_illager_structures": {
     "criteria": {
+      "swamp_village": "2024-08-27 05:00:03 +0530",
       "pillager_outpost": "2024-07-19 05:51:15 +0530",
       "illager_manor": "2024-07-23 09:59:24 +0530",
       "illager_camp": "2024-07-19 04:48:52 +0530",
@@ -10140,6 +10141,12 @@
   "minecraft:recipes/misc/wild_armor_trim_smithing_template_smithing_trim": {
     "criteria": {
       "has_smithing_trim_template": "2024-08-27 03:33:07 +0530"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_swamp_village": {
+    "criteria": {
+      "minecraft:village_swamp": "2024-08-27 05:00:03 +0530"
     },
     "done": true
   },
