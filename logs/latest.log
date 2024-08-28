@@ -1,9 +1,9 @@
-[04:30:54] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.2
-[04:30:54] [ForkJoinPool-1-worker-2/WARN]: Mod travelersbackpack uses the version fabric-1.21-10.0.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[04:30:54] [main/WARN]: Warnings were found!
+[18:01:15] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.2
+[18:01:15] [ForkJoinPool-1-worker-16/WARN]: Mod travelersbackpack uses the version fabric-1.21-10.0.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[18:01:16] [main/WARN]: Warnings were found!
  - Mod 'Forge Config API Port' (forgeconfigapiport) 21.0.8 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[04:30:54] [main/INFO]: Loading 158 mods:
+[18:01:16] [main/INFO]: Loading 158 mods:
 	- accessories 1.0.0-beta.26+1.21
 	   |-- io_wispforest_endec 0.1.5
 	   |-- io_wispforest_endec_gson 0.1.3
@@ -187,901 +187,408 @@
 	   \-- wunderlib 21.0.8
 	- xaerominimap 24.2.1
 	- xaeroworldmap 1.38.8
-[04:30:54] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/modServerFabric/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[04:30:54] [main/INFO]: Compatibility level set to JAVA_17
-[04:30:54] [main/INFO]: Compatibility level set to JAVA_21
-[04:30:55] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[04:30:55] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 1 override(s) found
-[04:30:55] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[04:30:55] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
-[04:30:55] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
-[04:30:56] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[04:30:56] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
-[04:30:56] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
-[04:30:56] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
-[04:30:56] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
-[04:30:56] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
-[04:30:56] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[04:30:56] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[04:30:57] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zzn000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[04:31:06] [main/INFO]: Registering Listeners!
-[04:31:07] [main/INFO]: Loading Collective version 7.84.
-[04:31:07] [main/ERROR]: No data fixer registered for chain_knot
-[04:31:07] [main/INFO]: Initialized entity types.
-[04:31:07] [main/INFO]: Register Custom Payloads for Networking.
-[04:31:07] [main/INFO]: Constructing common components for easyanvils:main
-[04:31:07] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
-[04:31:07] [main/INFO]: Constructing common components for easymagic:main
-[04:31:07] [main/INFO]: End Remastered config loaded with success
-[04:31:07] [main/INFO]: End Remastered eyes loaded with success
-[04:31:08] [main/INFO]: Registered synced config with path toughasnails/thirst.toml
-[04:31:08] [main/INFO]: Registered synced config with path toughasnails/temperature.toml
-[04:31:08] [main/ERROR]: No data fixer registered for water_purifier
-[04:31:08] [main/ERROR]: No data fixer registered for temperature_gauge
-[04:31:08] [main/ERROR]: No data fixer registered for thermoregulator
-[04:31:08] [main/INFO]: Registering C2S receiver with id item-placer:item_place
-[04:31:08] [main/INFO]: Registering C2S receiver with id item-placer:item_rotate
-[04:31:08] [main/INFO]: Registering configs
-[04:31:08] [main/INFO]: Registering blocks
-[04:31:08] [main/INFO]: Registering items
-[04:31:08] [main/INFO]: Registering item groups
-[04:31:08] [main/INFO]: Registering entities
-[04:31:08] [main/INFO]: Registering tags
-[04:31:08] [main/INFO]: Registering event handlers
-[04:31:08] [main/INFO]: Initializing JamLib on Fabric
-[04:31:08] [main/ERROR]: No data fixer registered for gremlin
-[04:31:08] [main/ERROR]: No data fixer registered for eldbomb
-[04:31:08] [main/ERROR]: No data fixer registered for eldknight
-[04:31:08] [main/ERROR]: No data fixer registered for samhain
-[04:31:08] [main/ERROR]: No data fixer registered for swampman
-[04:31:08] [main/ERROR]: No data fixer registered for ratman
-[04:31:08] [main/ERROR]: No data fixer registered for lizzy
-[04:31:08] [main/ERROR]: No data fixer registered for bad_patch
-[04:31:08] [main/ERROR]: No data fixer registered for ghastling
-[04:31:08] [main/ERROR]: No data fixer registered for ghosty
-[04:31:08] [main/ERROR]: No data fixer registered for netherman
-[04:31:08] [main/ERROR]: No data fixer registered for netherman_clone
-[04:31:08] [main/ERROR]: No data fixer registered for netherman_teleport_charge
-[04:31:08] [main/INFO]: Registering Item Group: knightquest
-[04:31:08] [main/INFO]: Registering sounds for knightquest...
-[04:31:08] [main/INFO]: Registering entities for knightquest
-[04:31:08] [main/INFO]: morevanillashields: This mod runs without a config file. Coming Soon in next updates!
-[04:31:08] [main/INFO]: Registering Mod Items for morevanillashields
-[04:31:08] [main/INFO]: idwtialsimmoedm - I didn't want to install a library so I made my own enchantment descriptions mod
-[04:31:08] [main/INFO]: Constructing common components for puzzleslib:main
-[04:31:08] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
-[04:31:08] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
-[04:31:08] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
-[04:31:08] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
-[04:31:08] [main/INFO]: Registering C2S receiver with id utility_belt:update_state
-[04:31:08] [main/INFO]: Registering C2S receiver with id utility_belt:open_screen
-[04:31:08] [main/INFO]: Utility Belt initialized on Fabric
-[04:31:08] [main/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
-[04:31:08] [main/INFO]: [voicechat] Compatibility version 18
-[04:31:08] [main/INFO]: [voicechat] Loading plugins
-[04:31:08] [main/INFO]: [voicechat] Loaded 1 plugin(s)
-[04:31:08] [main/INFO]: [voicechat] Initializing plugins
-[04:31:08] [main/INFO]: [voicechat] Initialized 1 plugin(s)
-[04:31:08] [main/INFO]: [voicechat] Registering events for 'audioplayer'
-[04:31:09] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[04:31:09] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[04:31:09] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
-[04:31:09] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
-[04:31:09] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04:31:09] [main/INFO]: Ignoring Patch{ModCore: bclib (bclib):3.0.11:196619}
-[04:31:09] [main/INFO]: Running Pre Patchers on ./world/.
-[04:31:09] [main/INFO]: Everything up to date
-[04:31:09] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
-[04:31:09] [main/INFO]: Found new data pack audioplayer, loading it automatically
-[04:31:09] [main/INFO]: Processing wover.datapack.registry Entrypoints
-[04:31:09] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
-[04:31:09] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
-[04:31:09] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
-[04:31:09] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
-[04:31:09] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
-[04:31:11] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2142640b)
-[04:31:11] [main/INFO]: Unable to build Biome List yet
-[04:31:11] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[04:31:11] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (4e1b1c6a)
-[04:31:11] [main/INFO]: Unable to build Biome List yet
-[04:31:11] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[04:31:11] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2f0ed572)
-[04:31:11] [main/INFO]: Unable to build Biome List yet
-[04:31:11] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[04:31:11] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (7b2f1cea)
-[04:31:11] [main/INFO]: Unable to build Biome List yet
-[04:31:11] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[04:31:11] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (38ee0530)
-[04:31:11] [main/INFO]: Unable to build Biome List yet
-[04:31:11] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[04:31:11] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (66cb0c8e)
-[04:31:11] [main/INFO]: Unable to build Biome List yet
-[04:31:11] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:chorus_forest
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dust_wastelands
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
-[04:31:11] [main/INFO]: Adding Small End Island Biome to Fabric: betterend:ice_starfield
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
-[04:31:11] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
-[04:31:11] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (40ecca6c)
-[04:31:11] [main/INFO]: Unable to build Biome List yet
-[04:31:11] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[04:31:11] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (2cf582bb)
-[04:31:11] [main/INFO]: Unable to build Biome List yet
-[04:31:11] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[04:31:12] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called graves:entities/player
-[04:31:13] [main/INFO]: Disabling Recipe: bclib:test_star
-[04:31:13] [main/INFO]: Loaded 2561 recipes
-[04:31:13] [main/INFO]: Added 0 recipes in 5ms
-[04:31:13] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/great_chalice: No key criteria in MapLike[{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"item":"minecraft:copper_ingot"}},"pattern":["# #","# #","###"],"result":{"item":"knightquest:great_chalice","count":1},"show_notification":true}]
-[04:31:13] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/great_essence_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"knightquest:great_essence"}],"result":{"item":"knightquest:small_essence","count":4}}]
-[04:31:14] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/totem_of_undying_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:totem_of_undying"}],"result":{"item":"knightquest:great_essence","count":1}}]
-[04:31:14] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/empty_goblet: No key criteria in MapLike[{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"item":"minecraft:copper_ingot"}},"pattern":["# #"," # "],"result":{"count":2,"item":"knightquest:empty_goblet"},"show_notification":true}]
-[04:31:14] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/small_essence_to_great_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shaped","category":"misc","pattern":["## ","## ","   "],"key":{"#":{"item":"knightquest:small_essence"}},"result":{"item":"knightquest:great_essence"}}]
-[04:31:14] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/elytra_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:elytra"}],"result":{"item":"knightquest:great_essence","count":2}}]
-[04:31:14] [main/ERROR]: Parsing error loading custom advancement knightquest:knightquest: No key id in MapLike[{"item":"knightquest:paladin_sword"}]
-[04:31:14] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/nether_star_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:nether_star"}],"result":{"item":"knightquest:great_essence","count":1}}]
-[04:31:14] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/heart_of_the_sea_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:heart_of_the_sea"}],"result":{"item":"knightquest:small_essence","count":2}}]
-[04:31:14] [main/ERROR]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[04:31:14] [main/INFO]: Loaded 2700 advancements
-[04:31:14] [ForkJoinPool.commonPool-worker-3/INFO]: Loaded 58 translation keys
-[04:31:14] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
-[04:31:15] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.basis.StoneLanternBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[04:31:15] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.BrimstoneBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_638. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[04:31:15] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.bclib.blocks.BaseLeavesBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_793. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[04:31:15] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.TenaneaFlowersBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[04:31:15] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.HelixTreeLeavesBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[04:31:15] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.JellyshroomCapBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[04:31:15] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.HydraluxPetalColoredBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[04:31:15] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.bclib.blocks.BaseOreBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_793. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[04:31:15] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.BulbVineLanternColoredBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[04:31:15] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.AuroraCrystalBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[04:31:15] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.RespawnObeliskBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[04:31:15] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.EndPortalBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[04:31:16] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2c6db4a7)
-[04:31:16] [main/INFO]: Added 5 Biomes
-[04:31:16] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[04:31:16] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[04:31:16] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[04:31:16] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[04:31:16] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[04:31:16] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[04:31:16] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[04:31:16] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (3ac90de8)
-[04:31:16] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[04:31:16] [main/INFO]: Added Tags for 1 fabric biomes in 8.373 ms
-[04:31:16] [main/INFO]: Added 6 biomes to wover:is_end/highland in 3.375 ms
-[04:31:16] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2c6db4a7)
-[04:31:16] [main/INFO]: Added 5 Biomes
-[04:31:16] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[04:31:16] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[04:31:16] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[04:31:16] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[04:31:16] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[04:31:16] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[04:31:16] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (40ecca6c)
-[04:31:16] [main/INFO]: Added 5 Biomes
-[04:31:16] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[04:31:16] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[04:31:16] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[04:31:16] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[04:31:16] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[04:31:16] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[04:31:16] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (40ecca6c)
-[04:31:16] [main/INFO]: Added 5 Biomes
-[04:31:16] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[04:31:16] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[04:31:16] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[04:31:16] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[04:31:16] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[04:31:16] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[04:31:16] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (3ac90de8)
-[04:31:16] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (2cf582bb)
-[04:31:16] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (2cf582bb)
-[04:31:16] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (2cf582bb)
-[04:31:16] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (40ecca6c)
-[04:31:16] [main/INFO]: Added 5 Biomes
-[04:31:16] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
-[04:31:16] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[04:31:16] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
-[04:31:16] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[04:31:16] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
-[04:31:16] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[04:31:16] [main/INFO]: Applied 92 biome modifications and added 89 tags to 92 of 183 biomes in 19.46 ms
-[04:31:16] [main/INFO]: Applied 150 biome modifications to 97 of 183 new biomes in 26.82 ms
-[04:31:16] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
-[04:31:16] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
-[04:31:17] [Server thread/INFO]: Starting minecraft server version 1.21
-[04:31:17] [Server thread/INFO]: Loading properties
-[04:31:17] [Server thread/INFO]: Default game type: SURVIVAL
-[04:31:17] [Server thread/INFO]: Generating keypair
-[04:31:17] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:31:17] [Server thread/INFO]: Using epoll channel type
-[04:31:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:31:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:31:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:31:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:31:17] [Server thread/INFO]: Preparing level "world"
-[04:31:17] [Server thread/INFO]: World Dimensions: 
+[18:01:16] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/raksh/Documents/GitHub/modServerFabric/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[18:01:16] [main/INFO]: Compatibility level set to JAVA_17
+[18:01:16] [main/INFO]: Compatibility level set to JAVA_21
+[18:01:16] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:01:16] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 1 override(s) found
+[18:01:16] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:01:16] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
+[18:01:16] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
+[18:01:17] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[18:01:17] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[18:01:17] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[18:01:17] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[18:01:17] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[18:01:17] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[18:01:17] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[18:01:17] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[18:01:18] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zzn000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[18:01:28] [main/INFO]: Registering Listeners!
+[18:01:30] [main/INFO]: Loading Collective version 7.84.
+[18:01:30] [main/ERROR]: No data fixer registered for chain_knot
+[18:01:30] [main/INFO]: Initialized entity types.
+[18:01:30] [main/INFO]: Register Custom Payloads for Networking.
+[18:01:30] [main/INFO]: Constructing common components for easyanvils:main
+[18:01:31] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
+[18:01:31] [main/INFO]: Constructing common components for easymagic:main
+[18:01:31] [main/INFO]: End Remastered config loaded with success
+[18:01:31] [main/INFO]: End Remastered eyes loaded with success
+[18:01:31] [main/INFO]: Registered synced config with path toughasnails/thirst.toml
+[18:01:31] [main/INFO]: Registered synced config with path toughasnails/temperature.toml
+[18:01:31] [main/ERROR]: No data fixer registered for water_purifier
+[18:01:31] [main/ERROR]: No data fixer registered for temperature_gauge
+[18:01:31] [main/ERROR]: No data fixer registered for thermoregulator
+[18:01:31] [main/INFO]: Registering C2S receiver with id item-placer:item_place
+[18:01:31] [main/INFO]: Registering C2S receiver with id item-placer:item_rotate
+[18:01:31] [main/INFO]: Registering configs
+[18:01:31] [main/INFO]: Registering blocks
+[18:01:31] [main/INFO]: Registering items
+[18:01:31] [main/INFO]: Registering item groups
+[18:01:31] [main/INFO]: Registering entities
+[18:01:31] [main/INFO]: Registering tags
+[18:01:31] [main/INFO]: Registering event handlers
+[18:01:31] [main/INFO]: Initializing JamLib on Fabric
+[18:01:31] [main/ERROR]: No data fixer registered for gremlin
+[18:01:31] [main/ERROR]: No data fixer registered for eldbomb
+[18:01:31] [main/ERROR]: No data fixer registered for eldknight
+[18:01:31] [main/ERROR]: No data fixer registered for samhain
+[18:01:31] [main/ERROR]: No data fixer registered for swampman
+[18:01:31] [main/ERROR]: No data fixer registered for ratman
+[18:01:31] [main/ERROR]: No data fixer registered for lizzy
+[18:01:31] [main/ERROR]: No data fixer registered for bad_patch
+[18:01:31] [main/ERROR]: No data fixer registered for ghastling
+[18:01:31] [main/ERROR]: No data fixer registered for ghosty
+[18:01:31] [main/ERROR]: No data fixer registered for netherman
+[18:01:31] [main/ERROR]: No data fixer registered for netherman_clone
+[18:01:31] [main/ERROR]: No data fixer registered for netherman_teleport_charge
+[18:01:31] [main/INFO]: Registering Item Group: knightquest
+[18:01:31] [main/INFO]: Registering sounds for knightquest...
+[18:01:31] [main/INFO]: Registering entities for knightquest
+[18:01:31] [main/INFO]: morevanillashields: This mod runs without a config file. Coming Soon in next updates!
+[18:01:31] [main/INFO]: Registering Mod Items for morevanillashields
+[18:01:31] [main/INFO]: glisco makes a dollar, I make a dime, that's why I mald on company time
+[18:01:32] [main/INFO]: Constructing common components for puzzleslib:main
+[18:01:32] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[18:01:32] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[18:01:32] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[18:01:32] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[18:01:32] [main/INFO]: Registering C2S receiver with id utility_belt:update_state
+[18:01:32] [main/INFO]: Registering C2S receiver with id utility_belt:open_screen
+[18:01:32] [main/INFO]: Utility Belt initialized on Fabric
+[18:01:32] [main/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
+[18:01:32] [main/INFO]: [voicechat] Compatibility version 18
+[18:01:32] [main/INFO]: [voicechat] Loading plugins
+[18:01:32] [main/INFO]: [voicechat] Loaded 1 plugin(s)
+[18:01:32] [main/INFO]: [voicechat] Initializing plugins
+[18:01:32] [main/INFO]: [voicechat] Initialized 1 plugin(s)
+[18:01:32] [main/INFO]: [voicechat] Registering events for 'audioplayer'
+[18:01:32] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[18:01:33] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[18:01:33] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
+[18:01:33] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
+[18:01:33] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:01:33] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to api.minecraftservices.com
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:108) ~[authlib-6.0.54.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.54.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.54.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.54.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1282) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1123) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1675) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:84) ~[authlib-6.0.54.jar:?]
+	... 9 more
+[18:01:33] [main/INFO]: Ignoring Patch{ModCore: bclib (bclib):3.0.11:196619}
+[18:01:33] [main/INFO]: Running Pre Patchers on .\world\.
+[18:01:33] [main/INFO]: Everything up to date
+[18:01:34] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
+[18:01:34] [main/INFO]: Processing wover.datapack.registry Entrypoints
+[18:01:34] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
+[18:01:34] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
+[18:01:34] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
+[18:01:34] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
+[18:01:34] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
+[18:01:35] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (7407bbd8)
+[18:01:35] [main/INFO]: Unable to build Biome List yet
+[18:01:35] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[18:01:35] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (13da09a6)
+[18:01:35] [main/INFO]: Unable to build Biome List yet
+[18:01:35] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[18:01:35] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (4606f615)
+[18:01:35] [main/INFO]: Unable to build Biome List yet
+[18:01:35] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[18:01:35] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (45cf81c9)
+[18:01:35] [main/INFO]: Unable to build Biome List yet
+[18:01:35] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[18:01:35] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (15e4d2e8)
+[18:01:35] [main/INFO]: Unable to build Biome List yet
+[18:01:35] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[18:01:35] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (6c346ea3)
+[18:01:35] [main/INFO]: Unable to build Biome List yet
+[18:01:35] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:chorus_forest
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dust_wastelands
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
+[18:01:35] [main/INFO]: Adding Small End Island Biome to Fabric: betterend:ice_starfield
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
+[18:01:35] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
+[18:01:35] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (6d938929)
+[18:01:35] [main/INFO]: Unable to build Biome List yet
+[18:01:35] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[18:01:36] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (5382d5f1)
+[18:01:36] [main/INFO]: Unable to build Biome List yet
+[18:01:36] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[18:01:36] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called graves:entities/player
+[18:01:38] [main/INFO]: Disabling Recipe: bclib:test_star
+[18:01:38] [main/INFO]: Loaded 2561 recipes
+[18:01:38] [main/INFO]: Added 0 recipes in 5ms
+[18:01:38] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/great_chalice: No key criteria in MapLike[{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"item":"minecraft:copper_ingot"}},"pattern":["# #","# #","###"],"result":{"item":"knightquest:great_chalice","count":1},"show_notification":true}]
+[18:01:38] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/great_essence_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"knightquest:great_essence"}],"result":{"item":"knightquest:small_essence","count":4}}]
+[18:01:38] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/totem_of_undying_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:totem_of_undying"}],"result":{"item":"knightquest:great_essence","count":1}}]
+[18:01:38] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/empty_goblet: No key criteria in MapLike[{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"item":"minecraft:copper_ingot"}},"pattern":["# #"," # "],"result":{"count":2,"item":"knightquest:empty_goblet"},"show_notification":true}]
+[18:01:38] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/small_essence_to_great_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shaped","category":"misc","pattern":["## ","## ","   "],"key":{"#":{"item":"knightquest:small_essence"}},"result":{"item":"knightquest:great_essence"}}]
+[18:01:38] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/elytra_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:elytra"}],"result":{"item":"knightquest:great_essence","count":2}}]
+[18:01:38] [main/ERROR]: Parsing error loading custom advancement knightquest:knightquest: No key id in MapLike[{"item":"knightquest:paladin_sword"}]
+[18:01:38] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/nether_star_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:nether_star"}],"result":{"item":"knightquest:great_essence","count":1}}]
+[18:01:38] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/heart_of_the_sea_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:heart_of_the_sea"}],"result":{"item":"knightquest:small_essence","count":2}}]
+[18:01:38] [main/ERROR]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[18:01:38] [main/INFO]: Loaded 2700 advancements
+[18:01:38] [ForkJoinPool.commonPool-worker-3/INFO]: Loaded 58 translation keys
+[18:01:38] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
+[18:01:39] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.basis.StoneLanternBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[18:01:39] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.BrimstoneBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_638. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[18:01:39] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.bclib.blocks.BaseLeavesBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_793. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[18:01:39] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.TenaneaFlowersBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[18:01:39] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.HelixTreeLeavesBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[18:01:39] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.JellyshroomCapBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[18:01:39] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.HydraluxPetalColoredBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[18:01:39] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.bclib.blocks.BaseOreBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_793. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[18:01:39] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.BulbVineLanternColoredBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[18:01:39] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.AuroraCrystalBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[18:01:39] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.RespawnObeliskBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[18:01:39] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.EndPortalBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[18:01:39] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (776ec336)
+[18:01:39] [main/INFO]: Added 5 Biomes
+[18:01:39] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[18:01:39] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[18:01:39] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[18:01:39] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[18:01:39] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[18:01:39] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[18:01:39] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[18:01:39] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (2f9400c8)
+[18:01:39] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[18:01:39] [main/INFO]: Added Tags for 1 fabric biomes in 8.083 ms
+[18:01:39] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (2f9400c8)
+[18:01:39] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (5382d5f1)
+[18:01:39] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (5382d5f1)
+[18:01:39] [main/INFO]: Added 6 biomes to wover:is_end/highland in 2.994 ms
+[18:01:39] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (776ec336)
+[18:01:39] [main/INFO]: Added 5 Biomes
+[18:01:39] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[18:01:39] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[18:01:39] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[18:01:39] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[18:01:39] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[18:01:39] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[18:01:39] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (6d938929)
+[18:01:39] [main/INFO]: Added 5 Biomes
+[18:01:39] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[18:01:39] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[18:01:39] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[18:01:39] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[18:01:39] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[18:01:39] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[18:01:39] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (6d938929)
+[18:01:39] [main/INFO]: Added 5 Biomes
+[18:01:39] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[18:01:39] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[18:01:39] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[18:01:39] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[18:01:39] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[18:01:39] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[18:01:40] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (5382d5f1)
+[18:01:40] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (6d938929)
+[18:01:40] [main/INFO]: Added 5 Biomes
+[18:01:40] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[18:01:40] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[18:01:40] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[18:01:40] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[18:01:40] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[18:01:40] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[18:01:40] [main/INFO]: Applied 92 biome modifications and added 89 tags to 92 of 183 biomes in 19.87 ms
+[18:01:40] [main/INFO]: Applied 150 biome modifications to 97 of 183 new biomes in 28.60 ms
+[18:01:40] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
+[18:01:40] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[18:01:41] [Server thread/INFO]: Starting minecraft server version 1.21
+[18:01:41] [Server thread/INFO]: Loading properties
+[18:01:41] [Server thread/INFO]: Default game type: SURVIVAL
+[18:01:41] [Server thread/INFO]: Generating keypair
+[18:01:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:01:41] [Server thread/INFO]: Using default channel type
+[18:01:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:01:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:01:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:01:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:01:42] [Server thread/INFO]: Preparing level "world"
+[18:01:42] [Server thread/INFO]: World Dimensions: 
+ - minecraft:overworld: 
+     class_3754 (1119a65)
+         preset     = none
+         noise      = minecraft:overworld
+         features   = terralith(384), minecraft(153)
+     class_4766 (7b7ea590)
+         biomes     = 147
+         namespaces = minecraft(53), terralith(94)
+ - minecraft:the_nether: 
+     WoVer - Chunk Generator (ccc0ba8)
+         preset     = none
+         noise      = minecraft:nether
+         features   = minecraft(37)
+     WoVer - Nether BiomeSource (5382d5f1)
+         biomes     = 5
+         namespaces = minecraft(5)
+         seed       = 1988232152129346940
+         height     = 256
+         config     = NetherConfig{mapVersion=hex, useVerticalBiomes=true, biomeSize=16, biomeSizeVertical=5}
  - minecraft:the_end: 
-     WoVer - Chunk Generator (17d06d1d)
+     WoVer - Chunk Generator (ce9b75)
          preset     = none
          noise      = minecraft:end
          features   = minecraft(5), betterend(127)
-     WoVer - The End  BiomeSource (40ecca6c)
+     WoVer - The End  BiomeSource (6d938929)
          biomes     = 24
          namespaces = betterend(19), minecraft(5)
          seed       = 1988232152129346940
          height     = 128
          deciders   = 0
          config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
- - minecraft:overworld: 
-     class_3754 (5ea76ab5)
-         preset     = none
-         noise      = minecraft:overworld
-         features   = terralith(384), minecraft(153)
-     class_4766 (22b8449)
-         biomes     = 147
-         namespaces = minecraft(53), terralith(94)
- - minecraft:the_nether: 
-     WoVer - Chunk Generator (42c122b)
-         preset     = none
-         noise      = minecraft:nether
-         features   = minecraft(37)
-     WoVer - Nether BiomeSource (2cf582bb)
-         biomes     = 5
-         namespaces = minecraft(5)
-         seed       = 1988232152129346940
-         height     = 256
-         config     = NetherConfig{mapVersion=hex, useVerticalBiomes=true, biomeSize=16, biomeSizeVertical=5}
-[04:31:17] [Server thread/INFO]: Merged 19 additional Surface Rules for Dimension minecraft:the_end => 20 (898.2 μs) using WoVer - The End  BiomeSource (40ecca6c)
+[18:01:42] [Server thread/INFO]: Merged 19 additional Surface Rules for Dimension minecraft:the_end => 20 (701.9 μs) using WoVer - The End  BiomeSource (6d938929)
     biomes     = 24
     namespaces = betterend(19), minecraft(5)
     seed       = 1988232152129346940
     height     = 128
     deciders   = 0
     config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
-[04:31:18] [Server thread/INFO]: Added 2 Biomes
-[04:31:18] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
-[04:31:18] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
-[04:31:26] [Server thread/INFO]: Added 2 Biomes
-[04:31:26] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
-[04:31:26] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
-[04:31:30] [Server thread/INFO]: Added 2 Biomes
-[04:31:30] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
-[04:31:30] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
-[04:31:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:31:32] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[04:31:32] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[04:31:32] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[04:31:32] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[04:31:32] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[04:31:32] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[04:31:33] [Worker-Main-7/INFO]: Preparing spawn area: 100%
-[04:31:33] [Server thread/INFO]: Time elapsed: 3257 ms
-[04:31:33] [Server thread/INFO]: Done (15.438s)! For help, type "help"
-[04:31:33] [Server thread/INFO]: Loading audio file volume overrides...
-[04:31:33] [Server thread/INFO]: Loading audio file name mappings...
-[04:31:33] [Server thread/INFO]: morevanillashields: This mod is now running on a server. Please report any error or bugs.
-[04:31:33] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[04:31:33] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[04:31:33] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[04:31:33] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[04:31:34] [Server thread/WARN]: UUID of added entity already exists: class_8122['Item Display'/81, l='ServerLevel[world]', x=0.50, y=0.00, z=0.50]
-[04:35:36] [Server thread/INFO]: whitehairguy[/127.0.0.1:37928] logged in with entity id 358 at (4235.523736042449, 73.0, -8395.684718308832)
-[04:35:37] [Server thread/INFO]: Sending server config values to client
-[04:35:37] [Server thread/INFO]: Loading config from file...
-[04:35:37] [Server thread/INFO]: Using Fabric Permissions API
-[04:35:37] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
-[04:35:37] [Server thread/INFO]: whitehairguy joined the game
-[04:35:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2839ms or 56 ticks behind
-[04:35:40] [Server thread/INFO]: Receiving client config
-[04:35:40] [Server thread/INFO]: [voicechat] Received secret request of whitehairguy (18)
-[04:35:40] [Server thread/INFO]: [voicechat] Sent secret to whitehairguy
-[04:35:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e736cd1b-059e-3f6a-ae2a-f86f63603436
-[04:35:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e736cd1b-059e-3f6a-ae2a-f86f63603436
-[04:35:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player whitehairguy (e736cd1b-059e-3f6a-ae2a-f86f63603436) successfully connected to voice chat
-[04:36:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14474ms or 289 ticks behind
-[04:36:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2806ms or 56 ticks behind
-[04:44:36] [AudioPlayerThread/ERROR]: Audio a414a11c-8e84-44b2-9457-718d5f1728b8 was too long to play
-[04:45:09] [AudioPlayerThread/ERROR]: Audio 9ed14d6c-e6db-485b-96ac-c912e1cc0336 was too long to play
-[04:50:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4667ms or 93 ticks behind
-[04:50:14] [Server thread/WARN]: Ignoring unknown attribute 'porting_lib:swim_speed'
-[04:50:31] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@67ccd4cd, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
+[18:01:43] [Server thread/INFO]: Added 2 Biomes
+[18:01:43] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[18:01:43] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[18:01:45] [Server thread/INFO]: Added 2 Biomes
+[18:01:45] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[18:01:45] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[18:01:45] [Server thread/INFO]: Added 2 Biomes
+[18:01:45] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[18:01:45] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[18:01:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:01:48] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:01:48] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:01:48] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:01:48] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:01:48] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[18:01:48] [Server thread/INFO]: Time elapsed: 2695 ms
+[18:01:48] [Server thread/INFO]: Done (6.598s)! For help, type "help"
+[18:01:48] [Server thread/INFO]: Loading audio file volume overrides...
+[18:01:48] [Server thread/INFO]: Loading audio file name mappings...
+[18:01:48] [Server thread/INFO]: morevanillashields: This mod is now running on a server. Please report any error or bugs.
+[18:01:48] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[18:01:48] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[18:01:48] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[18:01:48] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[18:01:49] [Server thread/WARN]: UUID of added entity already exists: class_8122['Item Display'/39, l='ServerLevel[world]', x=0.50, y=0.00, z=0.50]
+[18:02:28] [Server thread/INFO]: Rad1108[/127.0.0.1:50884] logged in with entity id 110 at (-10953.636615470508, 113.0, 4528.176956147661)
+[18:02:28] [Server thread/INFO]: Sending server config values to client
+[18:02:29] [Server thread/INFO]: Loading config from file...
+[18:02:29] [Server thread/INFO]: Using Fabric Permissions API
+[18:02:29] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[18:02:29] [Server thread/INFO]: Rad1108 joined the game
+[18:02:30] [Server thread/INFO]: Receiving client config
+[18:05:55] [Server thread/WARN]: Rad1108 moved too quickly! 18.622541622544304,-2.0276526043600995,0.4410790640195046
+[18:05:58] [Server thread/WARN]: Rad1108 moved too quickly! 16.94520111874226,-5.799052670387539,0.4600820262412526
+[18:05:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2207ms or 44 ticks behind
+[18:06:33] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to api.minecraftservices.com
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:108) ~[authlib-6.0.54.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.54.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.54.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.54.jar:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:50:32] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@135edbc8, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:50:34] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@119f8f57, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:50:34] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@3e92bf9c, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:50:34] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@55355c93, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:50:34] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@68bbf987, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18857(class_1255.java:145) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:810) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:815) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:50:34] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@65f844b8, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:50:35] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@4afcc7a3, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:50:36] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@67ab16d7, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:50:38] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@2141f9e0, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:50:39] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@53180866, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:50:39] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@1366ee1d, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:50:40] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@117cbfc5, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:50:42] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@35b37230, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:50:42] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@2c27e2bd, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:51:09] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@52d75e79, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:51:10] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@3d63f0fe, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:51:11] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@56c6c8cc, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:51:11] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@107a2a80, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:51:13] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@67d2f330, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:51:14] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@9f07a6c, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:51:14] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@5ae5c352, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_5383(class_1255.java:121) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:814) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:51:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 38708ms or 774 ticks behind
-[04:51:53] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[04:51:53] [Server thread/INFO]: whitehairguy left the game
-[04:51:53] [Server thread/INFO]: [voicechat] Disconnecting client whitehairguy
-[04:52:00] [Server thread/INFO]: whitehairguy[/127.0.0.1:52452] logged in with entity id 5708 at (-383.16531666834743, -15.1875, 1522.6015514939459)
-[04:52:00] [Server thread/INFO]: Sending server config values to client
-[04:52:00] [Server thread/INFO]: Loading config from file...
-[04:52:00] [Server thread/INFO]: whitehairguy joined the game
-[04:52:02] [Server thread/INFO]: [voicechat] Received secret request of whitehairguy (18)
-[04:52:02] [Server thread/INFO]: [voicechat] Sent secret to whitehairguy
-[04:52:02] [Server thread/INFO]: Receiving client config
-[04:52:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e736cd1b-059e-3f6a-ae2a-f86f63603436
-[04:52:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e736cd1b-059e-3f6a-ae2a-f86f63603436
-[04:52:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player whitehairguy (e736cd1b-059e-3f6a-ae2a-f86f63603436) successfully connected to voice chat
-[04:55:35] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@4fb3a48f, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18857(class_1255.java:145) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:810) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:815) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[04:55:39] [Server thread/ERROR]: Failed to handle packet net.minecraft.class_2885@485f8576, suppressing error
-java.lang.NullPointerException: Cannot invoke "net.minecraft.class_2700$class_2702.method_11715()" because "blockpattern$patternhelper" is null
-	at com.teamremastered.endrem.block.AncientPortalFrame.isFrameAbsent(AncientPortalFrame.java:115) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at com.teamremastered.endrem.item.EREnderEye.method_7884(EREnderEye.java:77) ~[endrem-fabric-1.21.X-6.0.2.jar:?]
-	at net.minecraft.class_1799.method_7981(class_1799.java:373) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3225.method_14262(class_3225.java:375) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_12046(class_3244.java:1158) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_12547(class_2885.java:42) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2885.method_11054(class_2885.java:10) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2600.method_11072(class_2600.java:27) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18859(class_1255.java:162) ~[server-intermediary.jar:?]
-	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:864) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:173) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_16075(class_1255.java:136) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:846) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:840) ~[server-intermediary.jar:?]
-	at net.minecraft.class_1255.method_18857(class_1255.java:145) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:810) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:815) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:702) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1282) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1123) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1675) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:84) ~[authlib-6.0.54.jar:?]
+	... 9 more
+[18:06:38] [Worker-Main-18/WARN]: Empty or non-existent pool: ships:secondary
+[18:06:40] [Worker-Main-11/WARN]: Empty or non-existent pool: ships:secondary
+[18:06:50] [Worker-Main-7/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[18:07:06] [Worker-Main-1/WARN]: Ignoring unknown attribute 'minecraft:'
+[18:07:07] [Worker-Main-5/WARN]: Ignoring unknown attribute 'minecraft:'
+[18:07:13] [Worker-Main-2/WARN]: Ignoring unknown attribute 'minecraft:'
+[18:07:44] [Worker-Main-7/WARN]: Ignoring unknown attribute 'minecraft:'
+[18:07:45] [Worker-Main-18/WARN]: Ignoring unknown attribute 'minecraft:'
+[18:07:46] [Worker-Main-5/WARN]: Ignoring unknown attribute 'minecraft:'
+[18:08:25] [Server thread/WARN]: Rad1108 moved too quickly! 17.83379825985685,-2.6205444184515443,-2.7748080090505027
+[18:08:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6438ms or 128 ticks behind
+[18:08:49] [Server thread/INFO]: Villager class_1646['Jennine'/16135, l='ServerLevel[world]', x=-6530.30, y=84.56, z=3879.64] died, message: 'Jennine suffocated in a wall'
+[18:08:49] [Server thread/INFO]: Named entity class_1646['Jennine'/16135, l='ServerLevel[world]', x=-6530.30, y=84.56, z=3879.64] died: Jennine suffocated in a wall
+[18:09:41] [Worker-Main-15/WARN]: Empty or non-existent pool: ships:secondary
+[18:11:01] [Worker-Main-16/WARN]: Empty or non-existent pool: ships:secondary
+[18:11:02] [Worker-Main-11/WARN]: Ignoring unknown attribute 'minecraft:'
+[18:11:27] [Worker-Main-5/WARN]: Empty or non-existent pool: ships:secondary
+[18:12:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2110ms or 42 ticks behind
+[18:12:36] [Server thread/WARN]: Rad1108 moved too quickly! 11.321704855624375,-3.1001920324997627,-14.049307635953028
+[18:12:45] [Worker-Main-16/WARN]: Empty or non-existent pool: ships:secondary
+[18:14:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[18:15:22] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[18:15:22] [Server thread/INFO]: Rad1108 left the game
+[18:15:22] [Server thread/INFO]: [voicechat] Disconnecting client Rad1108
