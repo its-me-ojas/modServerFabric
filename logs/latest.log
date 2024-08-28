@@ -1,9 +1,9 @@
-[03:43:42] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.2
-[03:43:43] [ForkJoinPool-1-worker-3/WARN]: Mod travelersbackpack uses the version fabric-1.21-10.0.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[03:43:43] [main/WARN]: Warnings were found!
+[03:52:01] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.2
+[03:52:01] [ForkJoinPool-1-worker-1/WARN]: Mod travelersbackpack uses the version fabric-1.21-10.0.6 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[03:52:02] [main/WARN]: Warnings were found!
  - Mod 'Forge Config API Port' (forgeconfigapiport) 21.0.8 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[03:43:43] [main/INFO]: Loading 158 mods:
+[03:52:02] [main/INFO]: Loading 158 mods:
 	- accessories 1.0.0-beta.26+1.21
 	   |-- io_wispforest_endec 0.1.5
 	   |-- io_wispforest_endec_gson 0.1.3
@@ -187,88 +187,457 @@
 	   \-- wunderlib 21.0.8
 	- xaerominimap 24.2.1
 	- xaeroworldmap 1.38.8
-[03:43:43] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/modServerFabric/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[03:43:44] [main/INFO]: Compatibility level set to JAVA_17
-[03:43:44] [main/INFO]: Compatibility level set to JAVA_21
-[03:43:45] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[03:43:45] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 1 override(s) found
-[03:43:45] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[03:43:45] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
-[03:43:45] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
-[03:43:46] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[03:43:47] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
-[03:43:47] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
-[03:43:47] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
-[03:43:47] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
-[03:43:47] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
-[03:43:48] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[03:43:48] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[03:43:50] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zzn000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[03:44:12] [main/INFO]: Registering Listeners!
-[03:44:15] [main/INFO]: Loading Collective version 7.84.
-[03:44:15] [main/ERROR]: No data fixer registered for chain_knot
-[03:44:15] [main/INFO]: Initialized entity types.
-[03:44:15] [main/INFO]: Register Custom Payloads for Networking.
-[03:44:15] [main/INFO]: Constructing common components for easyanvils:main
-[03:44:15] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
-[03:44:16] [main/INFO]: Constructing common components for easymagic:main
-[03:44:16] [main/INFO]: End Remastered config loaded with success
-[03:44:16] [main/INFO]: End Remastered eyes loaded with success
-[03:44:16] [main/INFO]: Registered synced config with path toughasnails/thirst.toml
-[03:44:16] [main/INFO]: Registered synced config with path toughasnails/temperature.toml
-[03:44:16] [main/ERROR]: No data fixer registered for water_purifier
-[03:44:16] [main/ERROR]: No data fixer registered for temperature_gauge
-[03:44:16] [main/ERROR]: No data fixer registered for thermoregulator
-[03:44:16] [main/INFO]: Registering C2S receiver with id item-placer:item_place
-[03:44:16] [main/INFO]: Registering C2S receiver with id item-placer:item_rotate
-[03:44:16] [main/INFO]: Registering configs
-[03:44:16] [main/INFO]: Registering blocks
-[03:44:16] [main/INFO]: Registering items
-[03:44:16] [main/INFO]: Registering item groups
-[03:44:16] [main/INFO]: Registering entities
-[03:44:16] [main/INFO]: Registering tags
-[03:44:16] [main/INFO]: Registering event handlers
-[03:44:16] [main/INFO]: Initializing JamLib on Fabric
-[03:44:16] [main/ERROR]: No data fixer registered for gremlin
-[03:44:16] [main/ERROR]: No data fixer registered for eldbomb
-[03:44:16] [main/ERROR]: No data fixer registered for eldknight
-[03:44:16] [main/ERROR]: No data fixer registered for samhain
-[03:44:16] [main/ERROR]: No data fixer registered for swampman
-[03:44:16] [main/ERROR]: No data fixer registered for ratman
-[03:44:16] [main/ERROR]: No data fixer registered for lizzy
-[03:44:16] [main/ERROR]: No data fixer registered for bad_patch
-[03:44:16] [main/ERROR]: No data fixer registered for ghastling
-[03:44:16] [main/ERROR]: No data fixer registered for ghosty
-[03:44:16] [main/ERROR]: No data fixer registered for netherman
-[03:44:16] [main/ERROR]: No data fixer registered for netherman_clone
-[03:44:16] [main/ERROR]: No data fixer registered for netherman_teleport_charge
-[03:44:17] [main/INFO]: Registering Item Group: knightquest
-[03:44:17] [main/INFO]: Registering sounds for knightquest...
-[03:44:17] [main/INFO]: Registering entities for knightquest
-[03:44:17] [main/INFO]: morevanillashields: This mod runs without a config file. Coming Soon in next updates!
-[03:44:17] [main/INFO]: Registering Mod Items for morevanillashields
-[03:44:17] [main/INFO]: I think that's not the only reason Spectrum isn't compatible with Quilt
-[03:44:17] [main/INFO]: Constructing common components for puzzleslib:main
-[03:44:17] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
-[03:44:17] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
-[03:44:17] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
-[03:44:17] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
-[03:44:17] [main/INFO]: Registering C2S receiver with id utility_belt:update_state
-[03:44:17] [main/INFO]: Registering C2S receiver with id utility_belt:open_screen
-[03:44:17] [main/INFO]: Utility Belt initialized on Fabric
-[03:44:17] [main/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
-[03:44:17] [main/INFO]: [voicechat] Compatibility version 18
-[03:44:17] [main/INFO]: [voicechat] Loading plugins
-[03:44:17] [main/INFO]: [voicechat] Loaded 1 plugin(s)
-[03:44:17] [main/INFO]: [voicechat] Initializing plugins
-[03:44:17] [main/INFO]: [voicechat] Initialized 1 plugin(s)
-[03:44:17] [main/INFO]: [voicechat] Registering events for 'audioplayer'
-[03:44:18] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[03:44:18] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[03:44:18] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
-[03:44:18] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
-[03:44:18] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:44:19] [main/INFO]: Ignoring Patch{ModCore: bclib (bclib):3.0.11:196619}
-[03:44:19] [main/INFO]: Running Pre Patchers on ./world/.
-[03:44:19] [main/INFO]: Everything up to date
-[03:44:19] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
+[03:52:02] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/modServerFabric/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[03:52:02] [main/INFO]: Compatibility level set to JAVA_17
+[03:52:02] [main/INFO]: Compatibility level set to JAVA_21
+[03:52:03] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[03:52:03] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 1 override(s) found
+[03:52:03] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[03:52:04] [main/WARN]: Error loading class: net/minecraft/class_761 (java.lang.ClassNotFoundException: net/minecraft/class_761)
+[03:52:04] [main/WARN]: @Mixin target net.minecraft.class_761 was not found accessories-common.mixins.json:LevelRendererAccessor from mod accessories
+[03:52:05] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[03:52:05] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[03:52:05] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[03:52:05] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[03:52:05] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[03:52:06] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[03:52:06] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[03:52:06] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[03:52:07] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin from mod accessories::handler$zzn000$accessories$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[03:52:30] [main/INFO]: Registering Listeners!
+[03:52:33] [main/INFO]: Loading Collective version 7.84.
+[03:52:33] [main/ERROR]: No data fixer registered for chain_knot
+[03:52:33] [main/INFO]: Initialized entity types.
+[03:52:33] [main/INFO]: Register Custom Payloads for Networking.
+[03:52:33] [main/INFO]: Constructing common components for easyanvils:main
+[03:52:33] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
+[03:52:33] [main/INFO]: Constructing common components for easymagic:main
+[03:52:33] [main/INFO]: End Remastered config loaded with success
+[03:52:33] [main/INFO]: End Remastered eyes loaded with success
+[03:52:33] [main/INFO]: Registered synced config with path toughasnails/thirst.toml
+[03:52:33] [main/INFO]: Registered synced config with path toughasnails/temperature.toml
+[03:52:34] [main/ERROR]: No data fixer registered for water_purifier
+[03:52:34] [main/ERROR]: No data fixer registered for temperature_gauge
+[03:52:34] [main/ERROR]: No data fixer registered for thermoregulator
+[03:52:34] [main/INFO]: Registering C2S receiver with id item-placer:item_place
+[03:52:34] [main/INFO]: Registering C2S receiver with id item-placer:item_rotate
+[03:52:34] [main/INFO]: Registering configs
+[03:52:34] [main/INFO]: Registering blocks
+[03:52:34] [main/INFO]: Registering items
+[03:52:34] [main/INFO]: Registering item groups
+[03:52:34] [main/INFO]: Registering entities
+[03:52:34] [main/INFO]: Registering tags
+[03:52:34] [main/INFO]: Registering event handlers
+[03:52:34] [main/INFO]: Initializing JamLib on Fabric
+[03:52:34] [main/ERROR]: No data fixer registered for gremlin
+[03:52:34] [main/ERROR]: No data fixer registered for eldbomb
+[03:52:34] [main/ERROR]: No data fixer registered for eldknight
+[03:52:34] [main/ERROR]: No data fixer registered for samhain
+[03:52:34] [main/ERROR]: No data fixer registered for swampman
+[03:52:34] [main/ERROR]: No data fixer registered for ratman
+[03:52:34] [main/ERROR]: No data fixer registered for lizzy
+[03:52:34] [main/ERROR]: No data fixer registered for bad_patch
+[03:52:34] [main/ERROR]: No data fixer registered for ghastling
+[03:52:34] [main/ERROR]: No data fixer registered for ghosty
+[03:52:34] [main/ERROR]: No data fixer registered for netherman
+[03:52:34] [main/ERROR]: No data fixer registered for netherman_clone
+[03:52:34] [main/ERROR]: No data fixer registered for netherman_teleport_charge
+[03:52:34] [main/INFO]: Registering Item Group: knightquest
+[03:52:34] [main/INFO]: Registering sounds for knightquest...
+[03:52:34] [main/INFO]: Registering entities for knightquest
+[03:52:34] [main/INFO]: morevanillashields: This mod runs without a config file. Coming Soon in next updates!
+[03:52:34] [main/INFO]: Registering Mod Items for morevanillashields
+[03:52:34] [main/INFO]: There is a 1% chance that instead of Frog, you get Froge!
+[03:52:34] [main/INFO]: Constructing common components for puzzleslib:main
+[03:52:34] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[03:52:34] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[03:52:34] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[03:52:34] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[03:52:35] [main/INFO]: Registering C2S receiver with id utility_belt:update_state
+[03:52:35] [main/INFO]: Registering C2S receiver with id utility_belt:open_screen
+[03:52:35] [main/INFO]: Utility Belt initialized on Fabric
+[03:52:35] [main/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
+[03:52:35] [main/INFO]: [voicechat] Compatibility version 18
+[03:52:35] [main/INFO]: [voicechat] Loading plugins
+[03:52:35] [main/INFO]: [voicechat] Loaded 1 plugin(s)
+[03:52:35] [main/INFO]: [voicechat] Initializing plugins
+[03:52:35] [main/INFO]: [voicechat] Initialized 1 plugin(s)
+[03:52:35] [main/INFO]: [voicechat] Registering events for 'audioplayer'
+[03:52:35] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[03:52:35] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[03:52:35] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
+[03:52:36] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
+[03:52:36] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:52:36] [main/INFO]: Ignoring Patch{ModCore: bclib (bclib):3.0.11:196619}
+[03:52:36] [main/INFO]: Running Pre Patchers on ./world/.
+[03:52:36] [main/INFO]: Everything up to date
+[03:52:36] [main/WARN]: Pack mr_amplified_netherheight declared support for versions [16, 41] but declared main format is 15, defaulting to 15
+[03:52:36] [main/INFO]: Processing wover.datapack.registry Entrypoints
+[03:52:36] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
+[03:52:36] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
+[03:52:36] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
+[03:52:36] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
+[03:52:36] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
+[03:52:39] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (1693660f)
+[03:52:39] [main/INFO]: Unable to build Biome List yet
+[03:52:39] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[03:52:39] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (bd4f177)
+[03:52:39] [main/INFO]: Unable to build Biome List yet
+[03:52:39] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[03:52:39] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (476c0572)
+[03:52:39] [main/INFO]: Unable to build Biome List yet
+[03:52:39] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[03:52:39] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (2644cab7)
+[03:52:39] [main/INFO]: Unable to build Biome List yet
+[03:52:39] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[03:52:39] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (cc6ed65)
+[03:52:39] [main/INFO]: Unable to build Biome List yet
+[03:52:39] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[03:52:39] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (5b3e64f1)
+[03:52:39] [main/INFO]: Unable to build Biome List yet
+[03:52:39] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:chorus_forest
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dust_wastelands
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
+[03:52:40] [main/INFO]: Adding Small End Island Biome to Fabric: betterend:ice_starfield
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
+[03:52:40] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
+[03:52:40] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (4acd46f3)
+[03:52:40] [main/INFO]: Unable to build Biome List yet
+[03:52:40] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[03:52:40] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (4c70c97b)
+[03:52:40] [main/INFO]: Unable to build Biome List yet
+[03:52:40] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[03:52:41] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called graves:entities/player
+[03:52:43] [main/INFO]: Disabling Recipe: bclib:test_star
+[03:52:43] [main/INFO]: Loaded 2561 recipes
+[03:52:43] [main/INFO]: Added 0 recipes in 4ms
+[03:52:44] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/great_chalice: No key criteria in MapLike[{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"item":"minecraft:copper_ingot"}},"pattern":["# #","# #","###"],"result":{"item":"knightquest:great_chalice","count":1},"show_notification":true}]
+[03:52:44] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/great_essence_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"knightquest:great_essence"}],"result":{"item":"knightquest:small_essence","count":4}}]
+[03:52:44] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/totem_of_undying_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:totem_of_undying"}],"result":{"item":"knightquest:great_essence","count":1}}]
+[03:52:44] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/empty_goblet: No key criteria in MapLike[{"type":"minecraft:crafting_shaped","category":"misc","key":{"#":{"item":"minecraft:copper_ingot"}},"pattern":["# #"," # "],"result":{"count":2,"item":"knightquest:empty_goblet"},"show_notification":true}]
+[03:52:44] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/small_essence_to_great_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shaped","category":"misc","pattern":["## ","## ","   "],"key":{"#":{"item":"knightquest:small_essence"}},"result":{"item":"knightquest:great_essence"}}]
+[03:52:44] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/elytra_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:elytra"}],"result":{"item":"knightquest:great_essence","count":2}}]
+[03:52:44] [main/ERROR]: Parsing error loading custom advancement knightquest:knightquest: No key id in MapLike[{"item":"knightquest:paladin_sword"}]
+[03:52:44] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/nether_star_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:nether_star"}],"result":{"item":"knightquest:great_essence","count":1}}]
+[03:52:44] [main/ERROR]: Parsing error loading custom advancement knightquest:recipes/misc/heart_of_the_sea_to_small_essence: No key criteria in MapLike[{"type":"minecraft:crafting_shapeless","category":"misc","ingredients":[{"item":"minecraft:heart_of_the_sea"}],"result":{"item":"knightquest:small_essence","count":2}}]
+[03:52:44] [main/ERROR]: Couldn't load advancements: [nova_structures:adventure/find_shrine, minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[03:52:44] [main/INFO]: Loaded 2700 advancements
+[03:52:44] [ForkJoinPool.commonPool-worker-3/INFO]: Loaded 58 translation keys
+[03:52:44] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
+[03:52:46] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.basis.StoneLanternBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[03:52:46] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.BrimstoneBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_638. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[03:52:46] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.bclib.blocks.BaseLeavesBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_793. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[03:52:46] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.TenaneaFlowersBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[03:52:46] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.HelixTreeLeavesBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[03:52:46] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.JellyshroomCapBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[03:52:47] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.HydraluxPetalColoredBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[03:52:47] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.bclib.blocks.BaseOreBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_793. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[03:52:47] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.BulbVineLanternColoredBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[03:52:47] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.AuroraCrystalBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[03:52:47] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.RespawnObeliskBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[03:52:47] [main/WARN]: Lithium Class Analysis Error: Class org.betterx.betterend.blocks.EndPortalBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_322. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[03:52:47] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (54be9031)
+[03:52:47] [main/INFO]: Added 5 Biomes
+[03:52:47] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[03:52:47] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[03:52:47] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[03:52:47] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[03:52:47] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[03:52:47] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[03:52:47] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[03:52:47] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (6a2c67b6)
+[03:52:47] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[03:52:47] [main/INFO]: Added Tags for 1 fabric biomes in 11.57 ms
+[03:52:47] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (6a2c67b6)
+[03:52:47] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (4c70c97b)
+[03:52:47] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (4c70c97b)
+[03:52:47] [main/INFO]: Added 6 biomes to wover:is_end/highland in 5.085 ms
+[03:52:47] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (54be9031)
+[03:52:47] [main/INFO]: Added 5 Biomes
+[03:52:47] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[03:52:47] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[03:52:47] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[03:52:47] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[03:52:47] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[03:52:47] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[03:52:47] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (4acd46f3)
+[03:52:47] [main/INFO]: Added 5 Biomes
+[03:52:47] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[03:52:47] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[03:52:47] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[03:52:47] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[03:52:47] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[03:52:47] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[03:52:47] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (4acd46f3)
+[03:52:47] [main/INFO]: Added 5 Biomes
+[03:52:47] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[03:52:47] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[03:52:47] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[03:52:47] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[03:52:47] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[03:52:47] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[03:52:47] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (4c70c97b)
+[03:52:47] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (4acd46f3)
+[03:52:47] [main/INFO]: Added 5 Biomes
+[03:52:47] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[03:52:47] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[03:52:47] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[03:52:47] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[03:52:47] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[03:52:47] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[03:52:47] [main/INFO]: Applied 92 biome modifications and added 89 tags to 92 of 183 biomes in 29.61 ms
+[03:52:47] [main/INFO]: Applied 150 biome modifications to 97 of 183 new biomes in 42.42 ms
+[03:52:48] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
+[03:52:48] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[03:52:48] [Server thread/INFO]: Starting minecraft server version 1.21
+[03:52:48] [Server thread/INFO]: Loading properties
+[03:52:48] [Server thread/INFO]: Default game type: SURVIVAL
+[03:52:48] [Server thread/INFO]: Generating keypair
+[03:52:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:52:49] [Server thread/INFO]: Using epoll channel type
+[03:52:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:52:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:52:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:52:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:52:49] [Server thread/INFO]: Preparing level "world"
+[03:52:49] [Server thread/INFO]: World Dimensions: 
+ - minecraft:the_nether: 
+     WoVer - Chunk Generator (14532eb4)
+         preset     = none
+         noise      = minecraft:nether
+         features   = minecraft(37)
+     WoVer - Nether BiomeSource (4c70c97b)
+         biomes     = 5
+         namespaces = minecraft(5)
+         seed       = 1988232152129346940
+         height     = 256
+         config     = NetherConfig{mapVersion=hex, useVerticalBiomes=true, biomeSize=16, biomeSizeVertical=5}
+ - minecraft:overworld: 
+     class_3754 (413cfee1)
+         preset     = none
+         noise      = minecraft:overworld
+         features   = terralith(384), minecraft(153)
+     class_4766 (65310cdb)
+         biomes     = 147
+         namespaces = minecraft(53), terralith(94)
+ - minecraft:the_end: 
+     WoVer - Chunk Generator (59a738f0)
+         preset     = none
+         noise      = minecraft:end
+         features   = minecraft(5), betterend(127)
+     WoVer - The End  BiomeSource (4acd46f3)
+         biomes     = 24
+         namespaces = minecraft(5), betterend(19)
+         seed       = 1988232152129346940
+         height     = 128
+         deciders   = 0
+         config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
+[03:52:49] [Server thread/INFO]: Merged 19 additional Surface Rules for Dimension minecraft:the_end => 20 (1.033 ms) using WoVer - The End  BiomeSource (4acd46f3)
+    biomes     = 24
+    namespaces = minecraft(5), betterend(19)
+    seed       = 1988232152129346940
+    height     = 128
+    deciders   = 0
+    config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
+[03:52:50] [Server thread/INFO]: Added 2 Biomes
+[03:52:50] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[03:52:50] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[03:53:03] [Server thread/INFO]: Added 2 Biomes
+[03:53:03] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[03:53:03] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[03:53:03] [Server thread/INFO]: Added 2 Biomes
+[03:53:03] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[03:53:03] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[03:53:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[03:53:14] [Worker-Main-7/INFO]: Preparing spawn area: 32%
+[03:53:14] [Server thread/INFO]: Time elapsed: 11216 ms
+[03:53:14] [Server thread/INFO]: Done (24.970s)! For help, type "help"
+[03:53:14] [Server thread/INFO]: Loading audio file volume overrides...
+[03:53:14] [Server thread/INFO]: Loading audio file name mappings...
+[03:53:14] [Server thread/INFO]: morevanillashields: This mod is now running on a server. Please report any error or bugs.
+[03:53:14] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[03:53:14] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[03:53:14] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[03:53:14] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[03:53:17] [Server thread/WARN]: UUID of added entity already exists: class_8122['Item Display'/54, l='ServerLevel[world]', x=0.50, y=0.00, z=0.50]
+[03:53:22] [Server thread/INFO]: whitehairguy[/127.0.0.1:42776] logged in with entity id 91 at (4234.046767716296, 81.0, -8400.31069871069)
+[03:53:22] [Server thread/INFO]: Sending server config values to client
+[03:53:22] [Server thread/INFO]: Loading config from file...
+[03:53:22] [Server thread/INFO]: Using Fabric Permissions API
+[03:53:22] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[03:53:23] [Server thread/INFO]: whitehairguy joined the game
+[03:53:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2129ms or 42 ticks behind
+[03:53:24] [Server thread/INFO]: Receiving client config
+[03:53:24] [Server thread/INFO]: [voicechat] Received secret request of whitehairguy (18)
+[03:53:24] [Server thread/INFO]: [voicechat] Sent secret to whitehairguy
+[03:53:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e736cd1b-059e-3f6a-ae2a-f86f63603436
+[03:53:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e736cd1b-059e-3f6a-ae2a-f86f63603436
+[03:53:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player whitehairguy (e736cd1b-059e-3f6a-ae2a-f86f63603436) successfully connected to voice chat
+[03:53:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8960ms or 179 ticks behind
+[03:54:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3318ms or 66 ticks behind
+[04:00:55] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[04:00:55] [Server thread/INFO]: whitehairguy left the game
+[04:00:55] [Server thread/INFO]: [voicechat] Disconnecting client whitehairguy
+[04:01:27] [Server thread/INFO]: whitehairguy[/127.0.0.1:58820] logged in with entity id 2612 at (4232.862874086251, 72.0, -8397.569845476883)
+[04:01:27] [Server thread/INFO]: Sending server config values to client
+[04:01:27] [Server thread/INFO]: Loading config from file...
+[04:01:27] [Server thread/INFO]: whitehairguy joined the game
+[04:01:27] [Server thread/INFO]: [voicechat] Received secret request of whitehairguy (18)
+[04:01:27] [Server thread/INFO]: [voicechat] Sent secret to whitehairguy
+[04:01:27] [Server thread/INFO]: Receiving client config
+[04:01:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e736cd1b-059e-3f6a-ae2a-f86f63603436
+[04:01:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e736cd1b-059e-3f6a-ae2a-f86f63603436
+[04:01:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player whitehairguy (e736cd1b-059e-3f6a-ae2a-f86f63603436) successfully connected to voice chat
+[04:02:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3496, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00]
+[04:02:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3497, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00]
+[04:02:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3498, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00]
+[04:02:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3499, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00]
+[04:02:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3512, l='ServerLevel[world]', x=532.07, y=63.20, z=-1028.03]
+[04:02:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3513, l='ServerLevel[world]', x=533.29, y=63.20, z=-1027.68]
+[04:02:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3514, l='ServerLevel[world]', x=532.93, y=63.20, z=-1026.45]
+[04:02:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3515, l='ServerLevel[world]', x=531.71, y=63.20, z=-1026.81]
+[04:02:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3536, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00]
+[04:02:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3537, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00]
+[04:02:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3538, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00]
+[04:02:55] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3539, l='ServerLevel[world]', x=0.00, y=0.00, z=0.00]
+[04:02:56] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3512, l='ServerLevel[world]', x=532.90, y=63.20, z=-1026.44]
+[04:02:56] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3513, l='ServerLevel[world]', x=531.69, y=63.20, z=-1026.84]
+[04:02:56] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3514, l='ServerLevel[world]', x=532.10, y=63.20, z=-1028.05]
+[04:02:56] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3515, l='ServerLevel[world]', x=533.31, y=63.20, z=-1027.64]
+[04:02:57] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3512, l='ServerLevel[world]', x=532.13, y=63.20, z=-1028.06]
+[04:02:57] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3513, l='ServerLevel[world]', x=533.32, y=63.20, z=-1027.61]
+[04:02:57] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3514, l='ServerLevel[world]', x=532.87, y=63.20, z=-1026.42]
+[04:02:57] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3515, l='ServerLevel[world]', x=531.68, y=63.20, z=-1026.88]
+[04:02:58] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3512, l='ServerLevel[world]', x=532.83, y=63.20, z=-1026.41]
+[04:02:58] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3513, l='ServerLevel[world]', x=531.66, y=63.20, z=-1026.91]
+[04:02:58] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3514, l='ServerLevel[world]', x=532.17, y=63.20, z=-1028.08]
+[04:02:58] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3515, l='ServerLevel[world]', x=533.34, y=63.20, z=-1027.57]
+[04:02:59] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3512, l='ServerLevel[world]', x=532.20, y=63.20, z=-1028.09]
+[04:02:59] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3513, l='ServerLevel[world]', x=533.35, y=63.20, z=-1027.54]
+[04:02:59] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3514, l='ServerLevel[world]', x=532.80, y=63.20, z=-1026.39]
+[04:02:59] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3515, l='ServerLevel[world]', x=531.65, y=63.20, z=-1026.95]
+[04:03:00] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3512, l='ServerLevel[world]', x=532.76, y=63.20, z=-1026.38]
+[04:03:00] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3513, l='ServerLevel[world]', x=531.64, y=63.20, z=-1026.98]
+[04:03:00] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3514, l='ServerLevel[world]', x=532.24, y=63.20, z=-1028.10]
+[04:03:00] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3515, l='ServerLevel[world]', x=533.36, y=63.20, z=-1027.50]
+[04:03:01] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3512, l='ServerLevel[world]', x=532.27, y=63.20, z=-1028.11]
+[04:03:01] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3513, l='ServerLevel[world]', x=533.37, y=63.20, z=-1027.47]
+[04:03:01] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3514, l='ServerLevel[world]', x=532.73, y=63.20, z=-1026.37]
+[04:03:01] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3515, l='ServerLevel[world]', x=531.63, y=63.20, z=-1027.02]
+[04:03:02] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3512, l='ServerLevel[world]', x=532.69, y=63.20, z=-1026.36]
+[04:03:02] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3513, l='ServerLevel[world]', x=531.62, y=63.20, z=-1027.05]
+[04:03:02] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3514, l='ServerLevel[world]', x=532.31, y=63.20, z=-1028.12]
+[04:03:02] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3515, l='ServerLevel[world]', x=533.38, y=63.20, z=-1027.43]
+[04:03:03] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3512, l='ServerLevel[world]', x=532.35, y=63.20, z=-1028.13]
+[04:03:03] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3513, l='ServerLevel[world]', x=533.39, y=63.20, z=-1027.39]
+[04:03:03] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3514, l='ServerLevel[world]', x=532.65, y=63.20, z=-1026.36]
+[04:03:03] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3515, l='ServerLevel[world]', x=531.61, y=63.20, z=-1027.09]
+[04:03:04] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3512, l='ServerLevel[world]', x=532.46, y=63.20, z=-1026.34]
+[04:03:04] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3513, l='ServerLevel[world]', x=531.60, y=63.20, z=-1027.28]
+[04:03:04] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3514, l='ServerLevel[world]', x=532.54, y=63.20, z=-1028.14]
+[04:03:04] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3515, l='ServerLevel[world]', x=533.40, y=63.20, z=-1027.20]
+[04:03:05] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3512, l='ServerLevel[world]', x=532.66, y=63.20, z=-1028.13]
+[04:03:05] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3513, l='ServerLevel[world]', x=533.39, y=63.20, z=-1027.09]
+[04:03:05] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3514, l='ServerLevel[world]', x=532.34, y=63.20, z=-1026.36]
+[04:03:05] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3515, l='ServerLevel[world]', x=531.61, y=63.20, z=-1027.40]
+[04:03:06] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3512, l='ServerLevel[world]', x=532.54, y=63.20, z=-1026.34]
+[04:03:06] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3513, l='ServerLevel[world]', x=531.60, y=63.20, z=-1027.20]
+[04:03:06] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3514, l='ServerLevel[world]', x=532.46, y=63.20, z=-1028.14]
+[04:03:06] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3515, l='ServerLevel[world]', x=533.40, y=63.20, z=-1027.28]
+[04:03:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3512, l='ServerLevel[world]', x=532.50, y=63.20, z=-1028.14]
+[04:03:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3513, l='ServerLevel[world]', x=533.40, y=63.20, z=-1027.25]
+[04:03:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3514, l='ServerLevel[world]', x=532.50, y=63.20, z=-1026.34]
+[04:03:07] [Server thread/WARN]: UUID of added entity already exists: BlazeGuardianShieldEntity['Blaze Guardian Shield'/3515, l='ServerLevel[world]', x=531.60, y=63.20, z=-1027.24]
+[04:04:59] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[04:04:59] [Server thread/INFO]: whitehairguy left the game
+[04:04:59] [Server thread/INFO]: [voicechat] Disconnecting client whitehairguy
+[04:12:48] [Server thread/INFO]: whitehairguy[/127.0.0.1:60730] logged in with entity id 4651 at (4233.2189234337875, 72.0, -8396.958289313598)
+[04:12:48] [Server thread/INFO]: Sending server config values to client
+[04:12:48] [Server thread/INFO]: Loading config from file...
+[04:12:48] [Server thread/INFO]: whitehairguy joined the game
+[04:12:48] [Server thread/INFO]: [voicechat] Received secret request of whitehairguy (18)
+[04:12:48] [Server thread/INFO]: [voicechat] Sent secret to whitehairguy
+[04:12:48] [Server thread/INFO]: Receiving client config
+[04:12:52] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e736cd1b-059e-3f6a-ae2a-f86f63603436
+[04:12:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e736cd1b-059e-3f6a-ae2a-f86f63603436
+[04:12:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player whitehairguy (e736cd1b-059e-3f6a-ae2a-f86f63603436) successfully connected to voice chat
+[04:26:23] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[04:26:23] [Server thread/INFO]: whitehairguy left the game
+[04:26:23] [Server thread/INFO]: [voicechat] Disconnecting client whitehairguy
+[04:26:51] [Server thread/INFO]: whitehairguy[/127.0.0.1:39854] logged in with entity id 9839 at (4233.776110970896, 72.0, -8397.026264482143)
+[04:26:51] [Server thread/INFO]: Sending server config values to client
+[04:26:51] [Server thread/INFO]: Loading config from file...
+[04:26:51] [Server thread/INFO]: whitehairguy joined the game
+[04:26:51] [Server thread/INFO]: [voicechat] Received secret request of whitehairguy (18)
+[04:26:51] [Server thread/INFO]: [voicechat] Sent secret to whitehairguy
+[04:26:51] [Server thread/INFO]: Receiving client config
+[04:26:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e736cd1b-059e-3f6a-ae2a-f86f63603436
+[04:27:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e736cd1b-059e-3f6a-ae2a-f86f63603436
+[04:27:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player whitehairguy (e736cd1b-059e-3f6a-ae2a-f86f63603436) successfully connected to voice chat
+[04:39:34] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[04:39:34] [Server thread/INFO]: whitehairguy left the game
+[04:39:34] [Server thread/INFO]: [voicechat] Disconnecting client whitehairguy
+[04:40:00] [Server thread/INFO]: whitehairguy[/127.0.0.1:58658] logged in with entity id 14268 at (4238.931084949337, 73.0, -8428.13949538114)
+[04:40:00] [Server thread/INFO]: Sending server config values to client
+[04:40:00] [Server thread/INFO]: Loading config from file...
+[04:40:00] [Server thread/INFO]: whitehairguy joined the game
+[04:40:00] [Server thread/INFO]: [voicechat] Received secret request of whitehairguy (18)
+[04:40:00] [Server thread/INFO]: [voicechat] Sent secret to whitehairguy
+[04:40:00] [Server thread/INFO]: Receiving client config
+[04:40:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e736cd1b-059e-3f6a-ae2a-f86f63603436
+[04:40:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e736cd1b-059e-3f6a-ae2a-f86f63603436
+[04:40:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player whitehairguy (e736cd1b-059e-3f6a-ae2a-f86f63603436) successfully connected to voice chat
+[05:00:43] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[05:00:43] [Server thread/INFO]: whitehairguy left the game
+[05:00:43] [Server thread/INFO]: [voicechat] Disconnecting client whitehairguy
