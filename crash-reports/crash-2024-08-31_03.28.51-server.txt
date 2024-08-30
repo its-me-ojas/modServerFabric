@@ -1,0 +1,332 @@
+---- Minecraft Crash Report ----
+// Ouch. That hurt :(
+
+Time: 2024-08-31 03:28:51
+Description: Ticking entity
+
+java.lang.IndexOutOfBoundsException: Index 7 out of bounds for length 4
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at io.github.jamalam360.utility_belt.UtilityBeltInventory.getItem(UtilityBeltInventory.java:35)
+	at net.minecraft.class_1661.handler$cln000$utility_belt$utilitybelt$getSelectedInUtilityBelt(class_1661.java:2674)
+	at net.minecraft.class_1661.method_7391(class_1661.java)
+	at net.minecraft.class_1657.method_6118(class_1657.java:1905)
+	at net.minecraft.class_1309.method_6047(class_1309.java:1989)
+	at net.minecraft.class_1391.method_6312(class_1391.java:51)
+	at net.minecraft.class_4051.method_18419(class_4051.java:69)
+	at net.minecraft.class_1924.method_18468(class_1924.java:144)
+	at net.minecraft.class_1924.method_18462(class_1924.java:121)
+	at net.minecraft.class_1391.method_6264(class_1391.java:46)
+	at net.minecraft.class_4135.method_6264(class_4135.java:22)
+	at net.minecraft.class_1355.method_6275(class_1355.java:91)
+	at net.minecraft.class_1308.method_6023(class_1308.java:794)
+	at net.minecraft.class_1309.method_6007(class_1309.java:2778)
+	at net.minecraft.class_1308.method_6007(class_1308.java:572)
+	at net.minecraft.class_1296.method_6007(class_1296.java:128)
+	at net.minecraft.class_1429.method_6007(class_1429.java:57)
+	at net.minecraft.class_1309.method_5773(class_1309.java:2507)
+	at net.minecraft.class_1308.method_5773(class_1308.java:372)
+	at net.minecraft.class_4985.method_5773(class_4985.java:329)
+	at net.minecraft.class_3218.mixinextras$bridge$method_5773$224(class_3218.java)
+	at net.minecraft.class_3218.wrapOperation$cil000$puzzleslib$tickNonPassenger(class_3218.java:12297)
+	at net.minecraft.class_3218.method_18762(class_3218.java:770)
+	at net.minecraft.class_1937.method_18472(class_1937.java:498)
+	at net.minecraft.class_3218.method_31420(class_3218.java:408)
+	at net.minecraft.class_5574.method_31791(class_5574.java:54)
+	at net.minecraft.class_3218.method_18765(class_3218.java:372)
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:1021)
+	at net.minecraft.class_3176.method_3813(class_3176.java:299)
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:912)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:697)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302)
+	at java.base/java.util.Objects.checkIndex(Objects.java:385)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at io.github.jamalam360.utility_belt.UtilityBeltInventory.getItem(UtilityBeltInventory.java:35)
+	at net.minecraft.class_1661.handler$cln000$utility_belt$utilitybelt$getSelectedInUtilityBelt(class_1661.java:2674)
+	at net.minecraft.class_1661.method_7391(class_1661.java)
+	at net.minecraft.class_1657.method_6118(class_1657.java:1905)
+	at net.minecraft.class_1309.method_6047(class_1309.java:1989)
+	at net.minecraft.class_1391.method_6312(class_1391.java:51)
+	at net.minecraft.class_4051.method_18419(class_4051.java:69)
+	at net.minecraft.class_1924.method_18468(class_1924.java:144)
+	at net.minecraft.class_1924.method_18462(class_1924.java:121)
+	at net.minecraft.class_1391.method_6264(class_1391.java:46)
+	at net.minecraft.class_4135.method_6264(class_4135.java:22)
+	at net.minecraft.class_1355.method_6275(class_1355.java:91)
+	at net.minecraft.class_1308.method_6023(class_1308.java:794)
+	at net.minecraft.class_1309.method_6007(class_1309.java:2778)
+	at net.minecraft.class_1308.method_6007(class_1308.java:572)
+	at net.minecraft.class_1296.method_6007(class_1296.java:128)
+	at net.minecraft.class_1429.method_6007(class_1429.java:57)
+	at net.minecraft.class_1309.method_5773(class_1309.java:2507)
+	at net.minecraft.class_1308.method_5773(class_1308.java:372)
+	at net.minecraft.class_4985.method_5773(class_4985.java:329)
+	at net.minecraft.class_3218.mixinextras$bridge$method_5773$224(class_3218.java)
+	at net.minecraft.class_3218.wrapOperation$cil000$puzzleslib$tickNonPassenger(class_3218.java:12297)
+	at net.minecraft.class_3218.method_18762(class_3218.java:770)
+	at net.minecraft.class_1937.method_18472(class_1937.java:498)
+	at net.minecraft.class_3218.method_31420(class_3218.java:408)
+	at net.minecraft.class_5574.method_31791(class_5574.java:54)
+
+-- Entity being ticked --
+Details:
+	Entity Type: minecraft:strider (net.minecraft.class_4985)
+	Entity ID: 20280
+	Entity Name: Strider
+	Entity's Exact location: 453.51, 63.50, -965.49
+	Entity's Block location: World: (453,63,-966), Section: (at 5,15,10 in 28,3,-61; chunk contains blocks 448,0,-976 to 463,383,-961), Region: (0,-2; contains chunks 0,-64 to 31,-33, blocks 0,0,-1024 to 511,383,-513)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at net.minecraft.class_1937.method_18472(class_1937.java:498)
+	at net.minecraft.class_3218.method_31420(class_3218.java:408)
+	at net.minecraft.class_5574.method_31791(class_5574.java:54)
+	at net.minecraft.class_3218.method_18765(class_3218.java:372)
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:1021)
+	at net.minecraft.class_3176.method_3813(class_3176.java:299)
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:912)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:697)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+-- Affected level --
+Details:
+	All players: 1 total; [class_3222['whitehairguy'/11442, l='ServerLevel[world]', x=542.39, y=52.11, z=-1058.30]]
+	Chunk stats: 4489
+	Level dimension: minecraft:the_nether
+	Derived: true
+	Level spawn location: World: (48,92,32), Section: (at 0,12,0 in 3,5,2; chunk contains blocks 48,0,32 to 63,383,47), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,383,511)
+	Level time: 16443236 game time, 17974314 day time
+	Level name: world
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Commands: false
+	Level weather: Rain time: 17135 (now: false), thunder time: 58851 (now: false)
+	Known server brands: forge, vanilla, fabric
+	Removed feature flags: 
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+	Loaded entity count: 650
+Stacktrace:
+	at net.minecraft.class_3218.method_8538(class_3218.java:1693)
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:1024)
+	at net.minecraft.class_3176.method_3813(class_3176.java:299)
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:912)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:697)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:281)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21
+	Minecraft Version ID: 1.21
+	Operating System: Linux (amd64) version 6.10.1-zen1-1-zen
+	Java Version: 21.0.4, Arch Linux
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Arch Linux
+	Memory: 2668840376 bytes (2545 MiB) / 5368709120 bytes (5120 MiB) up to 10737418240 bytes (10240 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+	Identifier: Intel64 Family 6 Model 142 Stepping 10
+	Microarchitecture: Coffee Lake
+	Frequency (GHz): 1.60
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: UHD Graphics 620
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MiB): 256.00
+	Graphics card #0 deviceId: 0x5917
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 16136.46
+	Virtual memory used (MiB): 22097.20
+	Swap memory total (MiB): 8192.00
+	Swap memory used (MiB): 6973.60
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 7940.58, total: 7944.47
+	Space in storage for workdir (MiB): available: 19566.52, total: 237302.53
+	JVM Flags: 2 total; -Xms5G -Xmx10G
+	Fabric Mods: 
+		accessories: Accessories 1.0.0-beta.26+1.21
+			io_wispforest_endec: endec 0.1.5
+			io_wispforest_endec_gson: gson 0.1.3
+			io_wispforest_endec_netty: netty 0.1.2
+		adventurez: AdventureZ 1.4.21
+		amplified_nether: Amplified Nether 1.2.5
+		architectury: Architectury 13.0.6
+		audioplayer: AudioPlayer 1.21.1-1.11.0
+			admiral: Admiral 0.4.5+1.21
+			fabric-api-base: Fabric API Base 0.4.42+6573ed8c6a
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.28+6ced4dd96a
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.3.12+6c1df3606a
+		bclib: BCLib 21.0.13
+		betterbeaconplacement: Better Beacon Placement 3.4
+		betterend: Better End 21.0.9
+		cardinal-components: Cardinal Components API 6.1.1
+			cardinal-components-base: Cardinal Components API (base) 6.1.1
+			cardinal-components-block: Cardinal Components API (blocks) 6.1.1
+			cardinal-components-chunk: Cardinal Components API (chunks) 6.1.1
+			cardinal-components-entity: Cardinal Components API (entities) 6.1.1
+			cardinal-components-item: Cardinal Components API (items) 6.1.1
+			cardinal-components-level: Cardinal Components API (world saves) 6.1.1
+			cardinal-components-scoreboard: Cardinal Components API (scoreboard) 6.1.1
+			cardinal-components-world: Cardinal Components API (worlds) 6.1.1
+		carryon: Carry On 2.2.1
+		chunkloaders: Chunk Loaders 1.2.8
+		chunky: Chunky 1.4.16
+		cloth-config: Cloth Config v15 15.0.130
+			cloth-basic-math: cloth-basic-math 0.6.1
+		collective: Collective 7.84
+		connectiblechains: Connectible Chains 2.4.2+1.21.1
+		cristellib: Cristel Lib 1.2.7
+			blue_endless_jankson: jankson 1.2.3
+		customizableelytra: Customizable Elytra 2.2.7+1.21
+		easyanvils: Easy Anvils 21.0.4
+		easymagic: Easy Magic 21.0.2
+		endrem: End Remastered 6.0.2
+		fabric-api: Fabric API 0.102.0+1.21
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.68+b5597344d1
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.29+5bd9f1bcd1
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.22+0af3f5a7d1
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.10+6573ed8cd1
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.49+f71b366fd1
+			fabric-commands-v0: Fabric Commands (v0) 0.2.66+df3654b3d1
+			fabric-content-registries-v0: Fabric Content Registries (v0) 8.0.16+b5597344d1
+			fabric-convention-tags-v1: Fabric Convention Tags 2.0.19+7f945d5bd1
+			fabric-convention-tags-v2: Fabric Convention Tags (v2) 2.5.0+c5e2b5c6d1
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.29+0af3f5a7d1
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.1.27+6a6dfa19d1
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 20.2.16+16c4ae25d1
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 4.0.0+6fc22b99d1
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.6.12+6fc22b99d1
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.7.12+ba9dae06d1
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.53+6ced4dd9d1
+			fabric-item-api-v1: Fabric Item API (v1) 11.0.0+afdfc921d1
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.1.4+78017270d1
+			fabric-loot-api-v2: Fabric Loot API (v2) 3.0.14+3f89f5a5d1
+			fabric-loot-api-v3: Fabric Loot API (v3) 1.0.2+3f89f5a5d1
+			fabric-message-api-v1: Fabric Message API (v1) 6.0.13+6573ed8cd1
+			fabric-networking-api-v1: Fabric Networking API (v1) 4.2.2+60c3209bd1
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 15.2.0+a551f7a4d1
+			fabric-particles-v1: Fabric Particles (v1) 4.0.2+6573ed8cd1
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 5.0.12+65089712d1
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 5.1.2+60c3209bd1
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.48+73761d2ed1
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.1.6+b5597344d1
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 4.3.0+8dc279b1d1
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 1.3.0+56599129d1
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.86+b5597344d1
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 5.1.16+3dccd343d1
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 6.1.0+176f9036d1
+		fabricloader: Fabric Loader 0.16.2
+			mixinextras: MixinExtras 0.4.1
+		ferritecore: FerriteCore 7.0.0
+		forgeconfigapiport: Forge Config API Port 21.0.8
+			com_electronwill_night-config_core: core 3.8.0
+			com_electronwill_night-config_toml: toml 3.8.0
+		geckolib: GeckoLib 4 4.5.8
+		glitchcore: GlitchCore 2.0.0.2
+		guardvillagers: GuardVillagers 2.1.2-1.21
+			midnightlib: MidnightLib 1.5.7
+		item-placer: Item placer 1.9.1
+		items_displayed: Items Displayed 1.2.2
+		jamlib: JamLib 1.0.11+1.21
+		java: OpenJDK 64-Bit Server VM 21
+		jei: Just Enough Items 19.8.2.99
+		justmobheads: Just Mob Heads 8.3
+		knightquest: Knight Quest 1.5.1
+		lithium: Lithium 0.13.0
+		minecraft: Minecraft 1.21
+		morevanillashields: More Vanilla Shields 1.0.2-1.21
+		mr_advancement_count: Advancement Count 1-v1.2.0c
+		mr_amplified_netherheight: Amplified Nether Height 1.1
+		mr_dungeons_andtaverns: Dungeons and Taverns 1-v4.3
+		mr_dungeons_andtavernsancientcityoverhaul: Dungeons and Taverns Ancient City Overhaul 1-v2
+		mr_dungeons_andtavernsdeserttempleoverhaul: Dungeons and Taverns Desert Temple Overhaul 1-v1.1
+		mr_dungeons_andtavernsendcastlestandalone: Dungeons and Taverns End Castle Standalone 1-v1
+		mr_dungeons_andtavernsjungletempleoverhaul: Dungeons and Taverns Jungle Temple Overhaul 1-v1.1
+		mr_dungeons_andtavernsnetherfortressoverhaul: Dungeons and Taverns Nether Fortress Overhaul 1-v2.1
+		mr_dungeons_andtavernsoceanmonumentoverhaul: Dungeons and Taverns Ocean Monument Overhaul 1-v1.1
+		mr_dungeons_andtavernspillageroutpostoverhaul: Dungeons and Taverns Pillager Outpost Overhaul 1-v2.2
+		mr_dungeons_andtavernsstrongholdrework: Dungeons and Taverns Stronghold Rework 1-v2.1
+		mr_dungeons_andtavernsswamphutoverhaul: Dungeons and Taverns Swamp Hut Overhaul 1-v2
+		mr_dungeons_andtavernswoodlandmansionoverhaul: Dungeons and Taverns Woodland Mansion Overhaul 1-v1.1
+		mr_netherweather: Nether Weather 1.1.1
+		mr_tablist_healthindicator: Tablist Health Indicator 2
+		mr_true_ending: True Ending: Ender Dragon Overhaul 1-v1.1.2b
+		mr_warp_portals: Warp Portals ─ Portal teleportation 1.4.0
+		netheriteextras: Netherite Extras 0.4.0+mc1.21
+		owo: oωo 0.12.11+1.21
+			io_wispforest_endec_jankson: jankson 0.1.3
+		puzzleslib: Puzzles Lib 21.0.23
+		supermartijn642configlib: SuperMartijn642's Config Lib 1.1.8
+		supermartijn642corelib: SuperMartijn642's Core Lib 1.1.17+b
+		t_and_t: Towns and Towers 1.13.2
+		terralith: Terralith 2.5.4
+		toughasnails: ToughAsNails 10.0.0.5
+			net_jodah_typetools: typetools 0.6.3
+		travelersbackpack: Traveler's Backpack fabric-1.21-10.0.6
+		trinkets: Trinkets 3.10.0
+		universal-graves: Universal Graves 3.4.3+1.21
+			common-protection-api: Common Protection API 1.0.0
+			fabric-permissions-api-v0: fabric-permissions-api 0.2-SNAPSHOT
+			placeholder-api: Placeholder API 2.4.1+1.21
+			polymer-core: Polymer (Core) 0.9.8+1.21
+				polymer-networking: Polymer (Networking) 0.9.8+1.21
+				polymer-registry-sync-manipulator: Polymer (Registry Sync Manipulator) 0.9.8+1.21
+			polymer-resource-pack: Polymer (Resource Pack) 0.9.8+1.21
+				polymer-common: Polymer (Common) 0.9.8+1.21
+					packet_tweaker: Packet Tweaker 0.5.5+1.21
+			polymer-virtual-entity: Polymer (Virtual Entity) 0.9.8+1.21
+			predicate-api: Predicate API 0.5.1+1.21
+			server_translations_api: Server Translations API 2.3.1+1.21-pre2
+			sgui: sgui 1.6.0+1.21
+		utility_belt: Utility Belt 2.4.3+1.21
+		villagernames: Villager Names 8.1
+		voicechat: Simple Voice Chat 1.21.1-2.5.20
+		wooltostring: Wool to String 1.0.1
+		wover: WorldWeaver 21.0.13
+			wover-biome: WorldWeaver - Biome API 21.0.13
+			wover-block: WorldWeaver - Block and Item API 21.0.13
+			wover-common: WorldWeaver - Common API 21.0.13
+			wover-core: WorldWeaver - Core API 21.0.13
+			wover-datagen: WorldWeaver - Datagen API 21.0.13
+			wover-events: WorldWeaver - Events API 21.0.13
+			wover-feature: WorldWeaver - Feature API 21.0.13
+			wover-generator: WorldWeaver - World Generator API 21.0.13
+			wover-item: WorldWeaver - Item API 21.0.13
+			wover-math: WorldWeaver - Math API 21.0.13
+			wover-preset: WorldWeaver - World Preset API 21.0.13
+			wover-recipe: WorldWeaver - Recipe API 21.0.13
+			wover-structure: WorldWeaver - Structure API 21.0.13
+			wover-surface: WorldWeaver - Surface API 21.0.13
+			wover-tag: WorldWeaver - Tag API 21.0.13
+			wover-ui: WorldWeaver - UI API 21.0.13
+			wunderlib: WunderLib 21.0.8
+		xaerominimap: Xaero's Minimap 24.2.1
+		xaeroworldmap: Xaero's World Map 1.38.8
+	Server Running: true
+	Player Count: 1 / 20; [class_3222['whitehairguy'/11442, l='ServerLevel[world]', x=542.39, y=52.11, z=-1058.30]]
+	Active Data Packs: vanilla, file/name colors v1.0.6 (MC 1.21-1.21.1).zip, file/player head drops v1.1.8 (MC 1.21-1.21.1).zip, file/wandering trader announcements v1.0.1 (MC 1.21-1.21.1).zip, file/timber v2.1.10 (MC 1.21-1.21.1).zip, fabric, accessories, adventurez, amplified_nether (incompatible), audioplayer, bclib, betterend, carryon (incompatible), chunkloaders (incompatible), collective, connectiblechains, customizableelytra (incompatible), easyanvils (incompatible), easymagic (incompatible), endrem (incompatible), fabric-convention-tags-v2, guardvillagers, items_displayed, knightquest, morevanillashields, mr_advancement_count, mr_amplified_netherheight (incompatible), mr_dungeons_andtaverns, mr_dungeons_andtavernsancientcityoverhaul, mr_dungeons_andtavernsdeserttempleoverhaul, mr_dungeons_andtavernsendcastlestandalone, mr_dungeons_andtavernsjungletempleoverhaul, mr_dungeons_andtavernsnetherfortressoverhaul, mr_dungeons_andtavernsoceanmonumentoverhaul, mr_dungeons_andtavernspillageroutpostoverhaul, mr_dungeons_andtavernsstrongholdrework, mr_dungeons_andtavernsswamphutoverhaul, mr_dungeons_andtavernswoodlandmansionoverhaul, mr_netherweather, mr_tablist_healthindicator (incompatible), mr_true_ending, mr_warp_portals, netheriteextras, server_translations_api, supermartijn642corelib (incompatible), t_and_t, terralith, toughasnails (incompatible), travelersbackpack, trinkets, universal-graves, utility_belt, wooltostring, wover-generator, wover-preset, wover-surface, wover-tag, file/Explorify v1.6.0 f10-48.zip, file/Ships 3.0.3.zip (incompatible), file/tool-trims-DP-v2-2-1a.zip, file/Warden With Loot 1.21-1.21.1.zip, file/[DatapackVer.]HopoBetterRuinedPortals-[1.21]-1.4.2.zip, file/tectonic-datapack-v2.4.0a.zip
+	Available Data Packs: accessories, adventurez, amplified_nether (incompatible), audioplayer, bclib, betterend, betterend:nourish_extensions, betterend:patchouli_extensions, bundle, carryon (incompatible), chunkloaders (incompatible), collective, connectiblechains, customizableelytra (incompatible), easyanvils (incompatible), easymagic (incompatible), endrem (incompatible), fabric, fabric-convention-tags-v2, file/Explorify v1.6.0 f10-48.zip, file/Ships 3.0.3.zip (incompatible), file/Warden With Loot 1.21-1.21.1.zip, file/[DatapackVer.]HopoBetterRuinedPortals-[1.21]-1.4.2.zip, file/name colors v1.0.6 (MC 1.21-1.21.1).zip, file/player head drops v1.1.8 (MC 1.21-1.21.1).zip, file/tectonic-datapack-v2.4.0a.zip, file/timber v2.1.10 (MC 1.21-1.21.1).zip, file/tool-trims-DP-v2-2-1a.zip, file/wandering trader announcements v1.0.1 (MC 1.21-1.21.1).zip, guardvillagers, items_displayed, knightquest, morevanillashields, mr_advancement_count, mr_amplified_netherheight (incompatible), mr_dungeons_andtaverns, mr_dungeons_andtavernsancientcityoverhaul, mr_dungeons_andtavernsdeserttempleoverhaul, mr_dungeons_andtavernsendcastlestandalone, mr_dungeons_andtavernsjungletempleoverhaul, mr_dungeons_andtavernsnetherfortressoverhaul, mr_dungeons_andtavernsoceanmonumentoverhaul, mr_dungeons_andtavernspillageroutpostoverhaul, mr_dungeons_andtavernsstrongholdrework, mr_dungeons_andtavernsswamphutoverhaul, mr_dungeons_andtavernswoodlandmansionoverhaul, mr_netherweather, mr_tablist_healthindicator (incompatible), mr_true_ending, mr_warp_portals, netheriteextras, server_translations_api, supermartijn642corelib (incompatible), t_and_t, terralith, toughasnails (incompatible), trade_rebalance, travelersbackpack, trinkets, universal-graves, utility_belt, vanilla, wooltostring, wover-generator, wover-preset, wover-surface, wover-tag
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	World Seed: 1988232152129346940
+	Is Modded: Definitely; Server brand changed to 'fabric'
+	Type: Dedicated Server (map_server.txt)

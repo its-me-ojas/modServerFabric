@@ -5,7 +5,7 @@ max_enchanting_power = 15
 #Add a button in the enchanting screen to allow for re-rolling enchantments.
 #This costs experience levels as well as lapis lazuli, or can be free when the costs are set to 0.
 #Default Value: true
-reroll_enchantments = true
+reroll_enchantments = false
 #Switch re-rolling cost from experience points to full enchantment levels, making re-rolls considerable more expensive.
 #Default Value: false
 rerolling_takes_enchantment_levels = false
