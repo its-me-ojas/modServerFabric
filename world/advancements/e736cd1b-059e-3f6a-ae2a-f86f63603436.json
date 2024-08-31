@@ -10301,5 +10301,11 @@
     },
     "done": true
   },
+  "deeperdarker:recipes/combat/sonorous_staff": {
+    "criteria": {
+      "has_heart_of_the_deep": "2024-09-01 00:39:49 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
