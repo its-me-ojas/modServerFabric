@@ -10307,5 +10307,65 @@
     },
     "done": true
   },
+  "deeperdarker:recipes/combat/warden_leggings_smithing": {
+    "criteria": {
+      "has_reinforced_echo_shard": "2024-09-01 02:47:02 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/combat/warden_sword_smithing": {
+    "criteria": {
+      "has_reinforced_echo_shard": "2024-09-01 02:47:02 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/combat/warden_chestplate_smithing": {
+    "criteria": {
+      "has_reinforced_echo_shard": "2024-09-01 02:47:02 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/tools/warden_shovel_smithing": {
+    "criteria": {
+      "has_reinforced_echo_shard": "2024-09-01 02:47:02 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:main/obtain_reinforced_echo_shard": {
+    "criteria": {
+      "reinforced_echo_shard": "2024-09-01 02:47:02 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/tools/warden_hoe_smithing": {
+    "criteria": {
+      "has_reinforced_echo_shard": "2024-09-01 02:47:02 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/combat/warden_boots_smithing": {
+    "criteria": {
+      "has_reinforced_echo_shard": "2024-09-01 02:47:02 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/combat/warden_helmet_smithing": {
+    "criteria": {
+      "has_reinforced_echo_shard": "2024-09-01 02:47:02 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/tools/warden_pickaxe_smithing": {
+    "criteria": {
+      "has_reinforced_echo_shard": "2024-09-01 02:47:02 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/tools/warden_axe_smithing": {
+    "criteria": {
+      "has_reinforced_echo_shard": "2024-09-01 02:47:02 +0530"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
