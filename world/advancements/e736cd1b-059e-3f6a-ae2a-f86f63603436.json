@@ -6979,7 +6979,8 @@
       "crafted_charge_redstone": "2024-08-18 18:30:48 +0530",
       "crafted_charge_quartz": "2024-08-18 18:28:17 +0530",
       "crafted_frost_diamond": "2024-08-18 18:33:17 +0530",
-      "crafted_linear_redstone": "2024-08-20 04:55:04 +0530"
+      "crafted_linear_redstone": "2024-08-20 04:55:04 +0530",
+      "crafted_frost_redstone": "2024-09-01 06:37:55 +0530"
     },
     "done": false
   },
@@ -10291,7 +10292,13 @@
   },
   "deeperdarker:main/kill_all_sculk_mobs": {
     "criteria": {
-      "warden": "2024-08-31 06:07:39 +0530"
+      "shattered": "2024-09-01 04:59:59 +0530",
+      "phantom": "2024-09-01 05:14:35 +0530",
+      "stalker": "2024-09-01 05:21:20 +0530",
+      "sculk_centipede": "2024-09-01 04:57:40 +0530",
+      "sculk_leech": "2024-09-01 05:12:22 +0530",
+      "warden": "2024-08-31 06:07:39 +0530",
+      "sculk_snapper": "2024-09-01 05:06:49 +0530"
     },
     "done": false
   },
@@ -10364,6 +10371,241 @@
   "deeperdarker:recipes/tools/warden_axe_smithing": {
     "criteria": {
       "has_reinforced_echo_shard": "2024-09-01 02:47:02 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/transportation/echo_boat": {
+    "criteria": {
+      "in_water": "2024-09-01 04:53:31 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/transportation/bloom_boat": {
+    "criteria": {
+      "in_water": "2024-09-01 04:53:31 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:main/root": {
+    "criteria": {
+      "deep_dark": "2024-09-01 04:53:57 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:main/find_ancient_city": {
+    "criteria": {
+      "ancient_city": "2024-09-01 04:54:31 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:main/enter_otherside": {
+    "criteria": {
+      "otherside": "2024-09-01 04:55:25 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:main/explore_otherside": {
+    "criteria": {
+      "overcast_columns": "2024-09-01 04:57:10 +0530",
+      "deeplands": "2024-09-01 04:55:26 +0530"
+    },
+    "done": false
+  },
+  "deeperdarker:recipes/building_blocks/sculk_stone_stairs_from_sculk_stone_stonecutting": {
+    "criteria": {
+      "has_sculk_stone": "2024-09-01 04:58:43 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/smooth_sculk_stone_from_smelting_sculk_stone": {
+    "criteria": {
+      "has_sculk_stone": "2024-09-01 04:58:43 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/sculk_stone_slab": {
+    "criteria": {
+      "has_sculk_stone": "2024-09-01 04:58:43 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/sculk_stone_tiles_from_sculk_stone_stonecutting": {
+    "criteria": {
+      "has_sculk_stone": "2024-09-01 04:58:43 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/sculk_stone_wall_from_sculk_stone_stonecutting": {
+    "criteria": {
+      "has_sculk_stone": "2024-09-01 04:58:43 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/polished_sculk_stone": {
+    "criteria": {
+      "has_sculk_stone": "2024-09-01 04:58:43 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/sculk_stone_wall": {
+    "criteria": {
+      "has_sculk_stone": "2024-09-01 04:58:43 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/polished_sculk_stone_from_sculk_stone_stonecutting": {
+    "criteria": {
+      "has_sculk_stone": "2024-09-01 04:58:43 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/sculk_stone_slab_from_sculk_stone_stonecutting": {
+    "criteria": {
+      "has_sculk_stone": "2024-09-01 04:58:43 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/misc/coal_from_blasting_sculk_stone_coal_ore": {
+    "criteria": {
+      "has_sculk_stone_coal_ore": "2024-09-01 05:01:38 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/misc/coal_from_smelting_sculk_stone_coal_ore": {
+    "criteria": {
+      "has_sculk_stone_coal_ore": "2024-09-01 05:01:38 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/misc/iron_ingot_from_smelting_sculk_stone_iron_ore": {
+    "criteria": {
+      "has_sculk_stone_iron_ore": "2024-09-01 05:01:55 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/misc/iron_ingot_from_blasting_sculk_stone_iron_ore": {
+    "criteria": {
+      "has_sculk_stone_iron_ore": "2024-09-01 05:01:55 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:main/find_ancient_temple": {
+    "criteria": {
+      "ancient_temple": "2024-09-01 05:02:54 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/sculk_grime": {
+    "criteria": {
+      "has_grime_ball": "2024-09-01 05:20:13 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/misc/grime_brick_from_smelting_grime_ball": {
+    "criteria": {
+      "has_grime_ball": "2024-09-01 05:20:13 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/sculk_grime_bricks": {
+    "criteria": {
+      "has_grime_brick": "2024-09-01 05:20:27 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/misc/soundproof_glass": {
+    "criteria": {
+      "has_soul_crystal": "2024-09-01 05:21:25 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:main/obtain_sculk_transmitter": {
+    "criteria": {
+      "sculk_transmitter": "2024-09-01 05:37:33 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:main/obtain_sonorous_staff": {
+    "criteria": {
+      "sonorous_staff": "2024-09-01 05:40:13 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/polished_sculk_stone_stairs": {
+    "criteria": {
+      "has_polished_sculk_stone": "2024-09-01 06:12:36 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/polished_sculk_stone_stairs_from_polished_sculk_stone_stonecutting": {
+    "criteria": {
+      "has_polished_sculk_stone": "2024-09-01 06:12:36 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/polished_sculk_stone_wall_from_polished_sculk_stone": {
+    "criteria": {
+      "has_polished_sculk_stone": "2024-09-01 06:12:36 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/polished_sculk_stone_wall_from_polished_sculk_stone_stonecutting": {
+    "criteria": {
+      "has_polished_sculk_stone": "2024-09-01 06:12:36 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/polished_sculk_stone_slab_from_polished_sculk_stone_stonecutting": {
+    "criteria": {
+      "has_polished_sculk_stone": "2024-09-01 06:12:36 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/polished_sculk_stone_slab_from_polished_sculk_stone": {
+    "criteria": {
+      "has_polished_sculk_stone": "2024-09-01 06:12:36 +0530"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/food/glow_berry_juice": {
+    "criteria": {
+      "has_glow_berries": "2024-09-01 06:14:43 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/sculk_stone_tile_wall_from_sculk_stone_tiles_stonecutting": {
+    "criteria": {
+      "has_sculk_stone_tiles": "2024-09-01 06:28:52 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/sculk_stone_tile_stairs": {
+    "criteria": {
+      "has_sculk_stone_tiles": "2024-09-01 06:28:52 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/sculk_stone_tile_slab_from_sculk_stone_tiles": {
+    "criteria": {
+      "has_sculk_stone_tiles": "2024-09-01 06:28:52 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/sculk_stone_tile_stairs_from_sculk_stone_tiles_stonecutting": {
+    "criteria": {
+      "has_sculk_stone_tiles": "2024-09-01 06:28:52 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/sculk_stone_tile_wall_from_sculk_stone_tiles": {
+    "criteria": {
+      "has_sculk_stone_tiles": "2024-09-01 06:28:52 +0530"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/building_blocks/sculk_stone_tile_slab_from_sculk_stone_tiles_stonecutting": {
+    "criteria": {
+      "has_sculk_stone_tiles": "2024-09-01 06:28:52 +0530"
     },
     "done": true
   },
