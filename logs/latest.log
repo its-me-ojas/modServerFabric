@@ -1,83 +1,70 @@
-[00:00:06] [Worker-Main-12/ERROR]: Block-attached entity at invalid position: class_2338{x=-187, y=-46, z=-151}
-[00:00:06] [Worker-Main-12/ERROR]: Block-attached entity at invalid position: class_2338{x=-187, y=-46, z=-143}
-[00:00:06] [Worker-Main-12/ERROR]: Block-attached entity at invalid position: class_2338{x=-185, y=-46, z=-142}
-[00:01:37] [Worker-Main-4/WARN]: Empty or non-existent pool: ships:secondary
-[00:02:40] [Worker-Main-8/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[00:02:40] [Worker-Main-4/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[00:03:01] [Worker-Main-12/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[00:03:01] [Worker-Main-12/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[00:03:01] [Worker-Main-12/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[00:03:01] [Worker-Main-10/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[00:03:01] [Worker-Main-10/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[00:03:01] [Worker-Main-10/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[00:05:04] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[00:05:04] [Worker-Main-11/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[00:05:15] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=13931, y=-50, z=6041} but found not block entity block Block{minecraft:water}[level=8] at location
-[00:05:15] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:water}[level=8] but failed at location class_2338{x=13931, y=-50, z=6041}
-[00:05:27] [Worker-Main-8/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[00:05:27] [Worker-Main-8/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[00:05:28] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[00:05:28] [Worker-Main-2/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[00:05:28] [Worker-Main-12/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[00:05:28] [Worker-Main-12/WARN]: Ignoring unknown attribute 'forge:entity_gravity'
-[00:10:18] [Server thread/INFO]: SearchWorkerManager a68c1d2e: RandomSpreadSearchWorker starting with 10000 max radius, 100000 max samples
-[00:10:20] [Server thread/INFO]: SearchWorkerManager a68c1d2e: RandomSpreadSearchWorker succeeded with 2778 radius, 36 samples
-[00:10:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12049ms or 240 ticks behind
-[00:11:07] [Worker-Main-12/WARN]: Empty or non-existent pool: ships:secondary
-[00:11:49] [Worker-Main-10/ERROR]: Block-attached entity at invalid position: class_2338{x=-19, y=-53, z=1724}
-[00:12:15] [Worker-Main-8/ERROR]: Block-attached entity at invalid position: class_2338{x=-423, y=-50, z=-211}
-[00:12:15] [Worker-Main-8/ERROR]: Block-attached entity at invalid position: class_2338{x=-193, y=-45, z=-211}
-[00:12:15] [Worker-Main-8/ERROR]: Block-attached entity at invalid position: class_2338{x=-183, y=-57, z=-210}
-[00:12:15] [Worker-Main-8/ERROR]: Block-attached entity at invalid position: class_2338{x=-187, y=-49, z=-219}
-[00:12:15] [Worker-Main-8/ERROR]: Block-attached entity at invalid position: class_2338{x=-189, y=-45, z=-211}
-[00:12:15] [Worker-Main-8/ERROR]: Block-attached entity at invalid position: class_2338{x=-191, y=-45, z=-211}
-[00:12:15] [Worker-Main-8/ERROR]: Block-attached entity at invalid position: class_2338{x=-286, y=-57, z=-393}
-[00:12:15] [Worker-Main-11/ERROR]: Failed to parse vibration listener for Sculk Shrieker: 'No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]'
-[00:12:15] [Worker-Main-11/ERROR]: Block-attached entity at invalid position: class_2338{x=-183, y=-57, z=-201}
-[00:12:15] [Worker-Main-11/ERROR]: Block-attached entity at invalid position: class_2338{x=-183, y=-58, z=-205}
-[00:12:28] [Server thread/INFO]: SearchWorkerManager a68c1d2e: RandomSpreadSearchWorker starting with 10000 max radius, 100000 max samples
-[00:12:30] [Server thread/INFO]: SearchWorkerManager a68c1d2e: RandomSpreadSearchWorker succeeded with 631 radius, 4 samples
-[00:12:31] [Worker-Main-11/ERROR]: Block-attached entity at invalid position: class_2338{x=-418, y=-50, z=-208}
-[00:12:31] [Worker-Main-10/ERROR]: Block-attached entity at invalid position: class_2338{x=-420, y=-50, z=-211}
-[00:12:31] [Worker-Main-10/ERROR]: Block-attached entity at invalid position: class_2338{x=-413, y=-49, z=-217}
-[00:12:31] [Worker-Main-10/ERROR]: Block-attached entity at invalid position: class_2338{x=-284, y=-57, z=-394}
-[00:12:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5453ms or 109 ticks behind
-[00:13:02] [Worker-Main-11/ERROR]: Block-attached entity at invalid position: class_2338{x=-183, y=-57, z=-201}
-[00:13:02] [Worker-Main-11/ERROR]: Block-attached entity at invalid position: class_2338{x=-183, y=-58, z=-205}
-[00:13:02] [Worker-Main-12/ERROR]: Block-attached entity at invalid position: class_2338{x=-283, y=-56, z=-275}
-[00:13:10] [Worker-Main-10/ERROR]: Block-attached entity at invalid position: class_2338{x=-281, y=-50, z=-279}
-[00:13:10] [Worker-Main-10/ERROR]: Block-attached entity at invalid position: class_2338{x=-281, y=-57, z=-280}
-[00:13:10] [Worker-Main-10/ERROR]: Block-attached entity at invalid position: class_2338{x=-193, y=-45, z=-211}
-[00:13:10] [Worker-Main-10/ERROR]: Block-attached entity at invalid position: class_2338{x=-183, y=-57, z=-210}
-[00:13:10] [Worker-Main-10/ERROR]: Block-attached entity at invalid position: class_2338{x=-187, y=-49, z=-219}
-[00:13:10] [Worker-Main-10/ERROR]: Block-attached entity at invalid position: class_2338{x=-189, y=-45, z=-211}
-[00:13:10] [Worker-Main-10/ERROR]: Block-attached entity at invalid position: class_2338{x=-191, y=-45, z=-211}
-[00:13:10] [Worker-Main-10/ERROR]: Block-attached entity at invalid position: class_2338{x=-289, y=-57, z=-281}
-[00:13:10] [Worker-Main-10/ERROR]: Block-attached entity at invalid position: class_2338{x=-287, y=-56, z=-283}
-[00:13:10] [Worker-Main-10/ERROR]: Block-attached entity at invalid position: class_2338{x=-287, y=-57, z=-283}
-[00:13:45] [Worker-Main-4/WARN]: Empty or non-existent pool: ships:secondary
-[00:14:33] [Server thread/INFO]: SearchWorkerManager a68c1d2e: RandomSpreadSearchWorker starting with 10000 max radius, 100000 max samples
-[00:14:38] [Server thread/INFO]: SearchWorkerManager a68c1d2e: RandomSpreadSearchWorker succeeded with 1945 radius, 62 samples
-[00:14:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5123ms or 102 ticks behind
-[00:14:50] [Server thread/INFO]: SearchWorkerManager a68c1d2e: RandomSpreadSearchWorker starting with 10000 max radius, 100000 max samples
-[00:14:50] [Server thread/INFO]: SearchWorkerManager a68c1d2e: RandomSpreadSearchWorker succeeded with 123 radius, 2 samples
-[00:14:53] [Server thread/WARN]: whitehairguy moved too quickly! -125.33880521380524,-260.0,32.94864950812007
-[00:14:53] [Server thread/WARN]: whitehairguy moved too quickly! -125.33880521380524,-260.0,32.94864950812007
-[00:15:08] [Server thread/INFO]: SearchWorkerManager a68c1d2e: RandomSpreadSearchWorker starting with 10000 max radius, 100000 max samples
-[00:15:08] [Server thread/INFO]: SearchWorkerManager a68c1d2e: RandomSpreadSearchWorker succeeded with 10 radius, 1 samples
-[00:23:06] [Server thread/INFO]: whitehairguy lost connection: Disconnected
-[00:23:06] [Server thread/INFO]: whitehairguy left the game
-[00:23:06] [Server thread/INFO]: [voicechat] Disconnecting client whitehairguy
-[01:36:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[02:47:42] [Server thread/INFO]: Stopping server
-[02:47:42] [Server thread/INFO]: Saving players
-[02:47:42] [Server thread/INFO]: Saving worlds
-[02:47:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[02:47:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[02:47:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[02:47:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/deeperdarker:otherside
-[02:47:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[02:47:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[02:47:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[02:47:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (otherside): All chunks are saved
-[02:47:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:00:06] [Server thread/WARN]: Rad1108 moved too quickly! -11.650530001829338,-0.06118812967535092,-13.330942453076204
+[00:00:35] [Server thread/INFO]: [Not Secure] <whitehairguy> brooooooo
+[00:00:43] [Server thread/INFO]: [Not Secure] <Rad1108> hello
+[00:00:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 34627ms or 692 ticks behind
+[00:00:49] [Server thread/INFO]: [Not Secure] <Rad1108> awaz nahi aa rahi ??
+[00:00:53] [Server thread/INFO]: [Not Secure] <whitehairguy> nhi arhi
+[00:01:30] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[00:01:30] [Server thread/INFO]: whitehairguy left the game
+[00:01:30] [Server thread/INFO]: [voicechat] Disconnecting client whitehairguy
+[00:01:31] [Server thread/WARN]: Rad1108 moved too quickly! 11.71666464161217,11.654454963927847,-7.786190810609696
+[00:01:36] [Server thread/WARN]: Rad1108 moved too quickly! 12.363187921909685,-1.7224992687529266,-13.883350289663213
+[00:01:40] [Server thread/INFO]: whitehairguy[/127.43.231.74:53761] logged in with entity id 857643 at (3157.005643611201, 63.0, -15876.580700939805)
+[00:01:40] [Server thread/INFO]: Sending server config values to client
+[00:01:40] [Server thread/INFO]: Loading config from file...
+[00:01:40] [Server thread/INFO]: whitehairguy joined the game
+[00:01:40] [Server thread/INFO]: [voicechat] Received secret request of whitehairguy (18)
+[00:01:40] [Server thread/INFO]: [voicechat] Sent secret to whitehairguy
+[00:01:41] [Server thread/INFO]: Receiving client config
+[00:02:03] [Server Watchdog/ERROR]: A single server tick took 60.00 seconds (should be max 0.05)
+[00:02:03] [Server Watchdog/ERROR]: Considering it to be crashed, server will forcibly shutdown.
+[00:02:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 100e5775-f9ac-3544-a56b-55cdd79363c2 timed out
+[00:02:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player Rad1108
+[00:02:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to Rad1108
+[00:02:32] [Netty Server IO #2/ERROR]: Error sending packet clientbound/minecraft:disconnect
+io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
+	at net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
+	at net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.method_10838(class_2545.java:26) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2545.encode(class_2545.java:12) ~[server-intermediary.jar:?]
+	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535$2.write(class_2535.java:530) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:?]
+	at net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[00:02:33] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[00:02:33] [Server thread/INFO]: Rad1108 left the game
+[00:02:33] [Server thread/INFO]: [voicechat] Disconnecting client Rad1108
+[00:02:33] [Server thread/WARN]: whitehairguy moved too quickly! -7.223866367215123,1.2491870787446828,-7.140340059067967
+[00:02:33] [Server thread/INFO]: [Not Secure] <whitehairguy> awaz nhi arhi
+[00:02:33] [Server Watchdog/ERROR]: This crash report has been saved to: C:\Users\raksh\Documents\GitHub\modServerFabric\crash-reports\crash-2024-09-06_00.02.33-server.txt
