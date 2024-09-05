@@ -1,0 +1,327 @@
+{
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2024-09-06 02:09:36 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/redstone_milestone": {
+    "criteria": {
+      "under_pressure": "2024-09-06 02:21:42 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:biomes/high_feet": {
+    "criteria": {
+      "stony_shore": "2024-09-06 02:18:05 +0530"
+    },
+    "done": false
+  },
+  "wooltostring:recipes/misc/wool": {
+    "criteria": {
+      "has_wool": "2024-09-06 02:16:39 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch2_mid": {
+    "criteria": {
+      "root": "2024-09-06 02:21:22 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/advancement_legend": {
+    "criteria": {
+      "kilometre_walk": "2024-09-06 02:20:09 +0530",
+      "bacap_root": "2024-09-06 02:09:38 +0530",
+      "sweet_dreams": "2024-09-06 02:22:08 +0530",
+      "the_first_night": "2024-09-06 02:22:46 +0530",
+      "under_pressure": "2024-09-06 02:21:42 +0530",
+      "statistics_root": "2024-09-06 02:21:22 +0530",
+      "hot_tub": "2024-09-06 02:27:22 +0530",
+      "we_need_to_go_deeper": "2024-09-06 02:21:22 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:technical/stat_branch6_mid": {
+    "criteria": {
+      "root": "2024-09-06 02:21:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-09-06 02:09:36 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-09-06 02:22:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/biomes_milestone": {
+    "criteria": {
+      "kilometre_walk": "2024-09-06 02:20:09 +0530"
+    },
+    "done": false
+  },
+  "warp_portals:use_portal": {
+    "criteria": {
+      "warp_portals_forge_wand": "2024-09-06 02:20:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:challenges/explorer_of_worlds": {
+    "criteria": {
+      "forest": "2024-09-06 02:09:37 +0530",
+      "stony_shore": "2024-09-06 02:18:05 +0530",
+      "taiga": "2024-09-06 02:20:50 +0530",
+      "plains": "2024-09-06 02:20:08 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:statistics/the_first_night": {
+    "criteria": {
+      "trigger": "2024-09-06 02:22:45 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:redstone/under_pressure": {
+    "criteria": {
+      "warped_pressure_plate": "2024-09-06 02:21:41 +0530"
+    },
+    "done": true
+  },
+  "global:2mal3": {
+    "criteria": {
+      "trigger": "2024-09-06 02:09:36 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch1_mid": {
+    "criteria": {
+      "root": "2024-09-06 02:21:22 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/root": {
+    "criteria": {
+      "location": "2024-09-06 02:09:37 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:statistics/root": {
+    "criteria": {
+      "entered_nether_portal": "2024-09-06 02:21:21 +0530"
+    },
+    "done": true
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2024-09-06 02:09:37 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch5_mid": {
+    "criteria": {
+      "root": "2024-09-06 02:21:22 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch9_mid": {
+    "criteria": {
+      "root": "2024-09-06 02:21:22 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:potion/a_much_more_doable_challenge": {
+    "criteria": {
+      "speed": "2024-09-06 02:17:48 +0530",
+      "nausea": "2024-09-06 02:20:07 +0530"
+    },
+    "done": false
+  },
+  "global:inkorthe2nd": {
+    "criteria": {
+      "trigger": "2024-09-06 02:09:37 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:name_colors": {
+    "criteria": {
+      "tick": "2024-09-06 02:09:36 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/statistics_milestone": {
+    "criteria": {
+      "root": "2024-09-06 02:21:22 +0530",
+      "the_first_night": "2024-09-06 02:22:46 +0530"
+    },
+    "done": false
+  },
+  "vanillatweaks:wandering_trader_announcements": {
+    "criteria": {
+      "tick": "2024-09-06 02:09:36 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/fox": {
+    "criteria": {
+      "has_sweet_berries": "2024-09-06 02:25:14 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch4_mid": {
+    "criteria": {
+      "root": "2024-09-06 02:21:22 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether_portal": "2024-09-06 02:21:21 +0530"
+    },
+    "done": true
+  },
+  "netherweather:netherweather": {
+    "criteria": {
+      "trigger": "2024-09-06 02:09:37 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:building/hot_tub": {
+    "criteria": {
+      "enter_lava_cauldron": "2024-09-06 02:27:19 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/one_with_the_forest": {
+    "criteria": {
+      "forest": "2024-09-06 02:09:37 +0530",
+      "taiga": "2024-09-06 02:20:50 +0530",
+      "plains": "2024-09-06 02:20:08 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:technical/stat_branch8_mid": {
+    "criteria": {
+      "root": "2024-09-06 02:21:22 +0530"
+    },
+    "done": true
+  },
+  "adco:first_join": {
+    "criteria": {
+      "requirement": "2024-09-06 02:09:36 +0530"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/food/sweet_berry_juice": {
+    "criteria": {
+      "has_sweet_berries": "2024-09-06 02:25:14 +0530"
+    },
+    "done": true
+  },
+  "global:root": {
+    "criteria": {
+      "trigger": "2024-09-06 02:09:36 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/kilometre_walk": {
+    "criteria": {
+      "outer_pos_z": "2024-09-06 02:20:08 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sweet_berry_jelly": {
+    "criteria": {
+      "has_sweet_berries": "2024-09-06 02:25:14 +0530"
+    },
+    "done": true
+  },
+  "warp_portals:warp_portals": {
+    "criteria": {
+      "trigger": "2024-09-06 02:09:36 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:timber": {
+    "criteria": {
+      "tick": "2024-09-06 02:09:36 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:player_head_drops": {
+    "criteria": {
+      "tick": "2024-09-06 02:09:36 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/mining_milestone": {
+    "criteria": {
+      "we_need_to_go_deeper": "2024-09-06 02:21:22 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:technical/stat_branch3_mid": {
+    "criteria": {
+      "root": "2024-09-06 02:21:22 +0530"
+    },
+    "done": true
+  },
+  "global:notnull": {
+    "criteria": {
+      "trigger": "2024-09-06 02:09:36 +0530"
+    },
+    "done": true
+  },
+  "2mal3:adco/installed": {
+    "criteria": {
+      "trigger": "2024-09-06 02:09:36 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sweet_berry_jelly_potion": {
+    "criteria": {
+      "has_sweet_berries": "2024-09-06 02:25:14 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:challenges/all_the_items": {
+    "criteria": {
+      "sweet_berries": "2024-09-06 02:25:14 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:bacap/building_milestone": {
+    "criteria": {
+      "sweet_dreams": "2024-09-06 02:22:08 +0530",
+      "hot_tub": "2024-09-06 02:27:22 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:technical/stat_branch7_mid": {
+    "criteria": {
+      "root": "2024-09-06 02:21:22 +0530"
+    },
+    "done": true
+  },
+  "wooltostring:recipes/misc/wool_carpets": {
+    "criteria": {
+      "has_wool": "2024-09-06 02:16:39 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2024-09-06 02:09:37 +0530",
+      "taiga": "2024-09-06 02:20:50 +0530",
+      "plains": "2024-09-06 02:20:08 +0530",
+      "beach": "2024-09-06 02:18:05 +0530"
+    },
+    "done": false
+  },
+  "DataVersion": 3953
+}
