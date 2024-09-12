@@ -10680,6 +10680,7 @@
       "dirt": "2024-09-01 08:09:33 +0530",
       "enchanting_table": "2024-09-12 04:44:24 +0530",
       "sculk_catalyst": "2024-09-01 11:58:39 +0530",
+      "grass_block": "2024-09-12 22:10:00 +0530",
       "light_gray_shulker_box": "2024-09-01 10:53:03 +0530",
       "grindstone": "2024-09-12 05:03:56 +0530",
       "gold_block": "2024-09-07 04:57:12 +0530",
@@ -11214,6 +11215,7 @@
       "luxury_cruise": "2024-09-01 08:09:37 +0530",
       "my_work_here_is_done": "2024-09-07 03:39:47 +0530",
       "veteran_of_the_village": "2024-09-11 04:20:10 +0530",
+      "well_handle_this": "2024-09-12 21:32:40 +0530",
       "into_fire": "2024-09-01 08:09:35 +0530",
       "master_macerator": "2024-09-01 08:34:28 +0530",
       "who_is_cutting_onions": "2024-09-01 08:09:35 +0530",
@@ -11809,6 +11811,7 @@
       "stealth_is_optional": "2024-09-01 11:16:29 +0530",
       "a_watery_grave": "2024-09-11 04:48:28 +0530",
       "what_a_creep": "2024-09-02 23:38:00 +0530",
+      "well_handle_this": "2024-09-12 21:32:40 +0530",
       "monster_hunter": "2024-09-01 08:30:41 +0530",
       "ew_ew_ew": "2024-09-01 08:32:53 +0530",
       "skeleton_smiter": "2024-09-06 03:27:24 +0530",
@@ -12309,6 +12312,7 @@
   "blazeandcave:challenges/highway_to_hell": {
     "criteria": {
       "skeleton": "2024-09-11 03:12:15 +0530",
+      "phantom": "2024-09-12 21:32:39 +0530",
       "zombified_piglin": "2024-09-08 22:31:20 +0530",
       "hoglin": "2024-09-01 11:40:04 +0530",
       "piglin": "2024-09-01 11:40:42 +0530",
@@ -13455,17 +13459,17 @@
     },
     "done": true
   },
-  "blazeandcave:building/stationary_storage": {
-    "criteria": {
-      "chest": "2024-09-12 05:43:12 +0530"
-    },
-    "done": true
-  },
   "blazeandcave:animal/rainbow_collection": {
     "criteria": {
       "red_wool": "2024-09-12 05:31:38 +0530"
     },
     "done": false
+  },
+  "blazeandcave:enchanting/over_overkill": {
+    "criteria": {
+      "overkill": "2024-09-12 05:31:38 +0530"
+    },
+    "done": true
   },
   "blazeandcave:enchanting/heavy_metal": {
     "criteria": {
@@ -13473,11 +13477,35 @@
     },
     "done": true
   },
-  "blazeandcave:enchanting/over_overkill": {
+  "blazeandcave:building/stationary_storage": {
     "criteria": {
-      "overkill": "2024-09-12 05:31:38 +0530"
+      "chest": "2024-09-12 05:43:12 +0530"
     },
     "done": true
+  },
+  "blazeandcave:monsters/well_handle_this": {
+    "criteria": {
+      "nether": "2024-09-12 21:32:39 +0530"
+    },
+    "done": true
+  },
+  "rpg_series:path_choose_warrior": {
+    "criteria": {
+      "book": "2024-09-12 21:46:14 +0530"
+    },
+    "done": true
+  },
+  "rpg_series:spell_novice_warrior": {
+    "criteria": {
+      "bind": "2024-09-12 21:48:36 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:building/grass_type": {
+    "criteria": {
+      "grass_block": "2024-09-12 22:10:00 +0530"
+    },
+    "done": false
   },
   "DataVersion": 3953
 }
