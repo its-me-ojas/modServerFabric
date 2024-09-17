@@ -13280,9 +13280,11 @@
   },
   "blazeandcave:challenges/telescopic": {
     "criteria": {
+      "zombified_piglin": "2024-09-17 17:11:10 +0530",
       "piglin": "2024-09-12 02:20:28 +0530",
       "piglin_brute": "2024-09-12 02:20:24 +0530",
-      "ghast": "2024-09-12 02:28:17 +0530"
+      "ghast": "2024-09-12 02:28:17 +0530",
+      "magma_cube": "2024-09-17 17:11:25 +0530"
     },
     "done": false
   },
