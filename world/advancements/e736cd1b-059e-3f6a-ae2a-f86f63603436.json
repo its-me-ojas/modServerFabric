@@ -10492,11 +10492,12 @@
       "string": "2024-09-01 08:32:53 +0530",
       "sculk_shrieker": "2024-09-05 23:36:34 +0530",
       "slime_block": "2024-09-24 18:12:34 +0530",
-      "redstone_block": "2024-09-12 22:33:47 +0530",
       "tripwire_hook": "2024-09-12 22:36:33 +0530",
       "lever": "2024-09-19 00:34:45 +0530",
-      "tnt": "2024-09-07 03:47:03 +0530",
       "note_block": "2024-09-03 00:21:24 +0530",
+      "redstone_block": "2024-09-12 22:33:47 +0530",
+      "big_dripleaf": "2024-09-24 19:39:15 +0530",
+      "tnt": "2024-09-07 03:47:03 +0530",
       "stone_pressure_plate": "2024-09-07 03:47:01 +0530",
       "redstone": "2024-09-01 08:09:33 +0530"
     },
@@ -10639,6 +10640,7 @@
       "netherite_chestplate": "2024-09-07 04:34:16 +0530",
       "netherite_boots": "2024-09-07 04:34:16 +0530",
       "potion": "2024-09-12 02:21:36 +0530",
+      "goat_horn": "2024-09-24 19:34:45 +0530",
       "trident": "2024-09-24 17:18:05 +0530",
       "rotten_flesh": "2024-09-11 04:59:43 +0530",
       "chainmail_leggings": "2024-09-24 16:39:39 +0530",
@@ -10695,6 +10697,7 @@
       "iron_bars": "2024-09-02 22:37:23 +0530",
       "oak_leaves": "2024-09-08 02:49:28 +0530",
       "diorite": "2024-09-06 03:01:18 +0530",
+      "moss_carpet": "2024-09-24 19:23:14 +0530",
       "chest": "2024-09-01 08:09:33 +0530",
       "obsidian": "2024-09-06 03:16:02 +0530",
       "cyan_shulker_box": "2024-09-07 04:56:23 +0530",
@@ -10710,6 +10713,7 @@
       "light_gray_shulker_box": "2024-09-01 10:53:03 +0530",
       "grindstone": "2024-09-12 05:03:56 +0530",
       "gold_block": "2024-09-07 04:57:12 +0530",
+      "big_dripleaf": "2024-09-24 19:39:15 +0530",
       "red_shulker_box": "2024-09-05 23:33:37 +0530",
       "tnt": "2024-09-07 03:47:03 +0530",
       "light_blue_shulker_box": "2024-09-07 04:34:38 +0530",
@@ -10839,6 +10843,7 @@
       "iron_chestplate": "2024-09-24 18:24:11 +0530",
       "beef": "2024-09-01 08:09:33 +0530",
       "recovery_compass": "2024-09-05 23:51:48 +0530",
+      "rabbit": "2024-09-24 19:30:57 +0530",
       "iron_sword": "2024-09-07 03:12:03 +0530",
       "firework_rocket": "2024-09-01 08:09:35 +0530",
       "netherite_sword": "2024-09-06 03:29:06 +0530",
@@ -10897,6 +10902,7 @@
       "ghast_tear": "2024-09-01 08:09:33 +0530",
       "enchanted_book": "2024-09-01 08:12:38 +0530",
       "mutton": "2024-09-06 02:02:52 +0530",
+      "wheat_seeds": "2024-09-24 18:58:45 +0530",
       "netherite_upgrade": "2024-09-24 16:57:39 +0530",
       "diamond_hoe": "2024-09-01 10:59:53 +0530",
       "iron_horse_armor": "2024-09-01 08:12:38 +0530",
@@ -10923,6 +10929,7 @@
       "netherite_chestplate": "2024-09-07 04:34:16 +0530",
       "pufferfish": "2024-09-01 08:12:38 +0530",
       "potion": "2024-09-12 02:21:36 +0530",
+      "goat_horn": "2024-09-24 19:34:45 +0530",
       "ominous_bottle": "2024-09-11 04:07:21 +0530",
       "gold_nugget": "2024-09-01 08:09:35 +0530",
       "trident": "2024-09-24 17:18:05 +0530",
@@ -11129,6 +11136,7 @@
       "like_a_ninja": "2024-09-01 11:58:43 +0530",
       "the_phantom_menace": "2024-09-02 22:43:11 +0530",
       "mozart": "2024-09-03 00:21:24 +0530",
+      "ram": "2024-09-24 19:34:45 +0530",
       "ultra_hardcore": "2024-09-12 22:37:53 +0530",
       "the_way_to_spawn": "2024-09-02 22:26:42 +0530",
       "atlantis": "2024-09-11 04:59:27 +0530",
@@ -11177,6 +11185,7 @@
       "needle_sharp": "2024-09-01 08:09:35 +0530",
       "steals_on_wheels": "2024-09-07 03:41:12 +0530",
       "hero_of_the_village": "2024-09-01 08:09:35 +0530",
+      "leaflet_drop": "2024-09-24 19:39:15 +0530",
       "termite_control": "2024-09-20 00:40:29 +0530",
       "strike_a_light": "2024-09-07 03:09:22 +0530",
       "cover_me_with_diamonds": "2024-09-01 08:09:35 +0530",
@@ -11400,6 +11409,7 @@
       "laps_in_the_pool": "2024-09-01 08:09:37 +0530",
       "the_great_blocky_reef": "2024-09-07 03:36:32 +0530",
       "concrete_evidence": "2024-09-05 23:36:34 +0530",
+      "riot_shield": "2024-09-24 19:14:33 +0530",
       "creepy_heads": "2024-09-24 16:57:05 +0530",
       "not_quite_nine_lives": "2024-09-01 08:09:35 +0530",
       "isnt_it_scute": "2024-09-01 08:09:35 +0530",
@@ -11624,6 +11634,7 @@
       "revaulting": "2024-09-01 08:09:35 +0530",
       "your_daily_fix": "2024-09-05 22:32:29 +0530",
       "out_of_posts": "2024-09-06 02:52:17 +0530",
+      "riot_shield": "2024-09-24 19:14:33 +0530",
       "minecraft_trials_edition": "2024-09-01 08:09:35 +0530",
       "careful_restoration": "2024-09-01 08:09:35 +0530",
       "good_lookin_treasure": "2024-09-05 23:51:48 +0530",
@@ -11647,7 +11658,8 @@
       "desert_rider": "2024-09-12 01:23:43 +0530",
       "which_came_first": "2024-09-12 22:23:07 +0530",
       "cow_tipper": "2024-09-01 08:12:38 +0530",
-      "isnt_it_scute": "2024-09-01 08:09:35 +0530"
+      "isnt_it_scute": "2024-09-01 08:09:35 +0530",
+      "ram": "2024-09-24 19:34:45 +0530"
     },
     "done": false
   },
@@ -11824,6 +11836,7 @@
       "steals_on_wheels": "2024-09-07 03:41:12 +0530",
       "acquire_hardware": "2024-09-01 08:09:35 +0530",
       "coal_miner": "2024-09-07 02:34:05 +0530",
+      "leaflet_drop": "2024-09-24 19:39:15 +0530",
       "dungeons_and_spawners": "2024-09-07 03:48:02 +0530",
       "fossil_fuel": "2024-09-06 02:56:46 +0530",
       "enchanter": "2024-09-12 04:44:24 +0530",
@@ -12146,6 +12159,7 @@
   },
   "blazeandcave:weaponry/master_shieldsman": {
     "criteria": {
+      "pillager": "2024-09-24 19:14:32 +0530",
       "skeleton": "2024-09-01 08:32:47 +0530",
       "phantom": "2024-09-12 05:16:07 +0530",
       "blaze": "2024-09-12 05:32:18 +0530",
@@ -13916,21 +13930,9 @@
     },
     "done": true
   },
-  "rpg_series:spell_master_warrior": {
+  "blazeandcave:statistics/olympic_athlete": {
     "criteria": {
-      "bind": "2024-09-24 18:41:29 +0530"
-    },
-    "done": true
-  },
-  "blazeandcave:mining/smokin_hot": {
-    "criteria": {
-      "smoker": "2024-09-24 18:40:35 +0530"
-    },
-    "done": true
-  },
-  "blazeandcave:statistics/overlevelling": {
-    "criteria": {
-      "trigger": "2024-09-24 18:40:16 +0530"
+      "trigger": "2024-09-24 18:31:21 +0530"
     },
     "done": true
   },
@@ -13940,15 +13942,75 @@
     },
     "done": true
   },
-  "blazeandcave:statistics/olympic_athlete": {
+  "blazeandcave:statistics/overlevelling": {
     "criteria": {
-      "trigger": "2024-09-24 18:31:21 +0530"
+      "trigger": "2024-09-24 18:40:16 +0530"
     },
     "done": true
   },
   "blazeandcave:statistics/xp_grinder": {
     "criteria": {
       "trigger": "2024-09-24 18:40:16 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/smokin_hot": {
+    "criteria": {
+      "smoker": "2024-09-24 18:40:35 +0530"
+    },
+    "done": true
+  },
+  "rpg_series:spell_master_warrior": {
+    "criteria": {
+      "bind": "2024-09-24 18:41:29 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2024-09-24 19:30:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2024-09-24 19:30:57 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:farming/come_to_the_countryside": {
+    "criteria": {
+      "potatoes": "2024-09-24 19:07:00 +0530"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2024-09-24 19:30:57 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:animal/caprymphony": {
+    "criteria": {
+      "seek": "2024-09-24 19:34:58 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:mining/leaflet_drop": {
+    "criteria": {
+      "big_dripleaf": "2024-09-24 19:39:15 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:animal/ram": {
+    "criteria": {
+      "goat_horn": "2024-09-24 19:34:45 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:adventure/riot_shield": {
+    "criteria": {
+      "deflected_crossbow": "2024-09-24 19:14:32 +0530"
     },
     "done": true
   },
