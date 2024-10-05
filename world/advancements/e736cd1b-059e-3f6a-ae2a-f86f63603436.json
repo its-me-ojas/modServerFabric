@@ -11250,6 +11250,7 @@
       "boing_boing": "2024-09-01 08:09:37 +0530",
       "wooly": "2024-09-06 02:02:53 +0530",
       "bake_bread": "2024-09-02 22:37:24 +0530",
+      "pathways": "2024-10-05 23:20:07 +0530",
       "aww_it_broke": "2024-09-11 03:00:41 +0530",
       "minecraft_trials_edition": "2024-09-01 08:09:35 +0530",
       "the_city_at_the_end_of_the_game": "2024-09-01 08:09:35 +0530",
@@ -11257,6 +11258,7 @@
       "stationary_storage": "2024-09-12 05:43:12 +0530",
       "its_original_form": "2024-09-02 22:25:02 +0530",
       "return_to_sender": "2024-09-01 08:09:35 +0530",
+      "those_were_the_days": "2024-10-05 23:01:08 +0530",
       "ricochet_swoop": "2024-09-12 05:16:07 +0530",
       "the_cutest_predator": "2024-09-01 08:09:35 +0530",
       "shriek_forever_after": "2024-09-01 11:12:31 +0530",
@@ -11433,6 +11435,7 @@
       "we_got_a_live_one": "2024-10-05 06:45:13 +0530",
       "dungeons_and_spawners": "2024-09-07 03:48:02 +0530",
       "level_up": "2024-09-01 08:09:37 +0530",
+      "diamonds_to_you": "2024-10-05 23:49:06 +0530",
       "a_terrible_fortress": "2024-09-01 08:09:35 +0530",
       "what_a_creep": "2024-09-02 23:38:00 +0530",
       "horse_training": "2024-09-01 08:09:37 +0530",
@@ -11447,6 +11450,7 @@
       "time_to_upgrade": "2024-09-24 16:57:39 +0530",
       "agent_smithing_table": "2024-09-12 05:00:08 +0530",
       "heart_of_darkness": "2024-09-01 11:39:29 +0530",
+      "raise_the_flag": "2024-10-05 23:57:36 +0530",
       "a_seedy_place": "2024-09-01 08:09:35 +0530",
       "death_pointer": "2024-09-05 23:51:49 +0530",
       "planting_the_past": "2024-09-01 08:09:35 +0530",
@@ -11890,6 +11894,7 @@
       "coal_miner": "2024-09-07 02:34:05 +0530",
       "leaflet_drop": "2024-09-24 19:39:15 +0530",
       "dungeons_and_spawners": "2024-09-07 03:48:02 +0530",
+      "diamonds_to_you": "2024-10-05 23:49:06 +0530",
       "fossil_fuel": "2024-09-06 02:56:46 +0530",
       "enchanter": "2024-09-12 04:44:24 +0530",
       "gi_geode": "2024-09-12 04:24:12 +0530",
@@ -11989,6 +11994,7 @@
       "is_it_a_balloon": "2024-09-12 02:28:18 +0530",
       "when_piglins_fly": "2024-09-12 02:31:36 +0530",
       "ancient_restoration": "2024-10-05 19:59:05 +0530",
+      "those_were_the_days": "2024-10-05 23:01:08 +0530",
       "the_hunt_begins": "2024-09-06 03:26:10 +0530"
     },
     "done": false
@@ -12042,6 +12048,7 @@
       "bubble_bubble_toil_and_trouble": "2024-10-05 21:07:52 +0530",
       "festival_of_lights": "2024-09-06 02:57:14 +0530",
       "torched": "2024-09-24 18:33:31 +0530",
+      "pathways": "2024-10-05 23:20:07 +0530",
       "hot_tub": "2024-09-01 11:03:49 +0530",
       "concrete_evidence": "2024-09-05 23:36:34 +0530",
       "sharpening_station": "2024-09-12 05:03:57 +0530",
@@ -12049,6 +12056,7 @@
       "its_original_form": "2024-09-02 22:25:02 +0530",
       "sweet_dreams": "2024-09-01 08:09:35 +0530",
       "agent_smithing_table": "2024-09-12 05:00:08 +0530",
+      "raise_the_flag": "2024-10-05 23:57:36 +0530",
       "ladder_climbers_inc": "2024-09-02 22:36:18 +0530",
       "en_garde": "2024-09-01 08:24:16 +0530",
       "your_door_was_locked": "2024-09-06 02:56:07 +0530",
@@ -12219,6 +12227,7 @@
       "phantom": "2024-09-12 05:16:07 +0530",
       "ender_dragon": "2024-10-05 05:50:59 +0530",
       "blaze": "2024-09-12 05:32:18 +0530",
+      "magma_cube": "2024-10-05 23:22:00 +0530",
       "enderman": "2024-09-23 22:10:11 +0530"
     },
     "done": false
@@ -12343,6 +12352,7 @@
       "mineshaft": "2024-09-07 03:40:44 +0530",
       "stronghold": "2024-09-01 11:06:03 +0530",
       "dungeon": "2024-09-07 03:48:01 +0530",
+      "bastion_remnant": "2024-10-05 23:01:06 +0530",
       "ancient_city": "2024-09-05 23:45:44 +0530",
       "ruined_portal": "2024-09-02 22:32:52 +0530"
     },
@@ -14200,9 +14210,33 @@
     },
     "done": true
   },
-  "blazeandcave:technical/unending_hell_end": {
+  "blazeandcave:nether/spreading_corruption": {
     "criteria": {
-      "unending_hell_end": "2024-10-05 21:55:28 +0530"
+      "netherrack": "2024-10-05 22:56:18 +0530"
+    },
+    "done": false
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion_remnant": "2024-10-05 23:01:06 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:building/raise_the_flag": {
+    "criteria": {
+      "banner": "2024-10-05 23:57:36 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/diamonds_to_you": {
+    "criteria": {
+      "diamonds_to_you": "2024-10-05 23:49:06 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:building/pathways": {
+    "criteria": {
+      "dirt_path": "2024-10-05 23:20:06 +0530"
     },
     "done": true
   },
