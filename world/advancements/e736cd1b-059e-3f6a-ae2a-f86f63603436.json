@@ -10491,14 +10491,17 @@
     "criteria": {
       "white_wool": "2024-09-24 17:27:48 +0530",
       "chest": "2024-09-01 08:09:33 +0530",
+      "heavy_weighted_pressure_plate": "2024-10-05 21:08:47 +0530",
       "string": "2024-09-01 08:32:53 +0530",
       "sculk_shrieker": "2024-09-05 23:36:34 +0530",
       "slime_block": "2024-09-24 18:12:34 +0530",
       "tripwire_hook": "2024-09-12 22:36:33 +0530",
       "lever": "2024-09-19 00:34:45 +0530",
       "note_block": "2024-09-03 00:21:24 +0530",
+      "iron_door": "2024-10-05 21:04:13 +0530",
       "redstone_block": "2024-09-12 22:33:47 +0530",
       "big_dripleaf": "2024-09-24 19:39:15 +0530",
+      "cauldron": "2024-10-05 21:07:32 +0530",
       "tnt": "2024-09-07 03:47:03 +0530",
       "stone_pressure_plate": "2024-09-07 03:47:01 +0530",
       "redstone": "2024-09-01 08:09:33 +0530"
@@ -10623,6 +10626,7 @@
       "elytra": "2024-09-01 08:09:33 +0530",
       "golden_helmet": "2024-09-07 02:52:59 +0530",
       "leather_leggings": "2024-09-01 08:09:33 +0530",
+      "netherite_shovel": "2024-10-05 21:14:54 +0530",
       "coal": "2024-09-07 02:34:04 +0530",
       "flint_and_steel": "2024-09-07 03:09:19 +0530",
       "leather_helmet": "2024-10-05 06:46:38 +0530",
@@ -10683,6 +10687,7 @@
       "gilded_blackstone": "2024-09-12 02:33:14 +0530",
       "birch_door": "2024-09-06 02:56:07 +0530",
       "chiseled_sandstone": "2024-09-07 03:48:29 +0530",
+      "soul_sand": "2024-10-05 21:15:05 +0530",
       "oak_sapling": "2024-09-08 02:52:22 +0530",
       "polished_diorite": "2024-09-12 04:24:12 +0530",
       "dragon_head": "2024-09-01 08:09:35 +0530",
@@ -10692,6 +10697,7 @@
       "green_shulker_box": "2024-09-11 03:13:31 +0530",
       "white_bed": "2024-09-20 00:59:32 +0530",
       "sandstone_stairs": "2024-09-12 02:14:25 +0530",
+      "iron_door": "2024-10-05 21:04:13 +0530",
       "red_wool": "2024-09-12 05:31:38 +0530",
       "white_shulker_box": "2024-09-01 10:57:25 +0530",
       "smoker": "2024-09-24 18:40:35 +0530",
@@ -10702,6 +10708,7 @@
       "yellow_shulker_box": "2024-09-01 08:16:22 +0530",
       "stone_pressure_plate": "2024-09-07 03:47:01 +0530",
       "iron_bars": "2024-09-02 22:37:23 +0530",
+      "nether_quartz_ore": "2024-10-05 20:30:49 +0530",
       "oak_leaves": "2024-09-08 02:49:28 +0530",
       "diorite": "2024-09-06 03:01:18 +0530",
       "moss_carpet": "2024-09-24 19:23:14 +0530",
@@ -10745,11 +10752,14 @@
       "light_gray_carpet": "2024-09-03 00:02:28 +0530",
       "end_stone": "2024-09-24 18:18:08 +0530",
       "redstone_block": "2024-09-12 22:33:47 +0530",
+      "netherrack": "2024-10-05 20:08:30 +0530",
       "spruce_fence": "2024-09-01 08:24:11 +0530",
       "coal_block": "2024-09-12 04:00:28 +0530",
       "white_wool": "2024-09-24 17:27:48 +0530",
+      "heavy_weighted_pressure_plate": "2024-10-05 21:08:47 +0530",
       "slime_block": "2024-09-24 18:12:34 +0530",
       "emerald_block": "2024-09-07 04:57:11 +0530",
+      "cherry_button": "2024-10-05 21:09:31 +0530",
       "shulker_box": "2024-09-01 08:22:46 +0530",
       "torch": "2024-09-06 02:56:44 +0530",
       "diamond_block": "2024-09-07 04:54:08 +0530",
@@ -10763,6 +10773,7 @@
       "black_shulker_box": "2024-09-01 08:09:33 +0530",
       "ancient_debris": "2024-09-07 04:34:42 +0530",
       "granite": "2024-09-20 00:28:50 +0530",
+      "cauldron": "2024-10-05 21:07:32 +0530",
       "pink_concrete": "2024-09-05 23:36:34 +0530"
     },
     "done": false
@@ -10871,6 +10882,7 @@
       "bucket": "2024-09-01 08:31:26 +0530",
       "elytra": "2024-09-01 08:09:33 +0530",
       "golden_helmet": "2024-09-07 02:52:59 +0530",
+      "netherite_shovel": "2024-10-05 21:14:54 +0530",
       "flint_and_steel": "2024-09-07 03:09:19 +0530",
       "music_disc_5": "2024-09-24 17:16:01 +0530",
       "nautilus_shell": "2024-09-01 08:09:35 +0530",
@@ -10881,6 +10893,7 @@
       "ender_eye": "2024-09-01 08:09:33 +0530",
       "totem_of_undying": "2024-09-01 08:16:31 +0530",
       "iron_ingot": "2024-09-01 08:37:05 +0530",
+      "nether_star": "2024-10-05 21:19:27 +0530",
       "iron_boots": "2024-09-20 00:22:45 +0530",
       "end_crystal": "2024-10-05 05:43:00 +0530",
       "potato": "2024-09-01 11:00:10 +0530",
@@ -10980,6 +10993,7 @@
   },
   "blazeandcave:challenges/stack_all_the_blocks": {
     "criteria": {
+      "obsidian": "2024-10-05 20:22:58 +0530",
       "cyan_shulker_box": "2024-09-07 04:56:23 +0530",
       "purple_shulker_box": "2024-09-01 11:05:32 +0530",
       "pink_shulker_box": "2024-09-01 08:25:22 +0530",
@@ -10994,6 +11008,7 @@
       "black_shulker_box": "2024-09-01 08:09:33 +0530",
       "white_shulker_box": "2024-09-01 10:57:25 +0530",
       "red_shulker_box": "2024-09-05 23:33:37 +0530",
+      "netherrack": "2024-10-05 20:08:32 +0530",
       "yellow_shulker_box": "2024-09-01 08:16:22 +0530",
       "light_blue_shulker_box": "2024-09-07 04:34:38 +0530"
     },
@@ -11068,6 +11083,7 @@
       "leveraging_synergy": "2024-09-12 02:54:38 +0530",
       "troll_chest": "2024-09-07 03:44:01 +0530",
       "the_block_of_eternal_screaming": "2024-09-05 23:36:34 +0530",
+      "metal_plate": "2024-10-05 21:08:47 +0530",
       "root": "2024-09-01 08:09:35 +0530",
       "tripping_over": "2024-09-05 23:22:42 +0530",
       "under_pressure": "2024-09-01 08:22:29 +0530",
@@ -11186,6 +11202,7 @@
       "diam_oh_wait_no": "2024-09-01 08:09:35 +0530",
       "quicksand": "2024-09-06 03:18:21 +0530",
       "xp_grinder": "2024-09-24 18:40:17 +0530",
+      "bubble_bubble_toil_and_trouble": "2024-10-05 21:07:52 +0530",
       "librarian": "2024-09-12 04:25:57 +0530",
       "you_need_a_mint": "2024-09-01 08:09:35 +0530",
       "statistics_root": "2024-09-01 08:09:35 +0530",
@@ -11219,6 +11236,7 @@
       "mollusc_man": "2024-10-05 06:06:57 +0530",
       "ice_bucket_challenge": "2024-09-01 08:09:35 +0530",
       "the_tribal_snouts": "2024-09-08 22:31:21 +0530",
+      "metal_plate": "2024-10-05 21:08:47 +0530",
       "gotta_go_fast": "2024-09-01 08:09:35 +0530",
       "novice_enchanter": "2024-09-01 08:09:37 +0530",
       "unbreakable": "2024-09-01 08:09:35 +0530",
@@ -11262,6 +11280,7 @@
       "spelunker": "2024-09-05 23:43:56 +0530",
       "bogged_down": "2024-09-12 02:55:46 +0530",
       "nether_root": "2024-09-01 11:39:00 +0530",
+      "and_open": "2024-10-05 21:04:17 +0530",
       "the_block_of_eternal_screaming": "2024-09-05 23:36:34 +0530",
       "super_efficient": "2024-09-01 10:59:54 +0530",
       "diemonds": "2024-09-19 00:45:39 +0530",
@@ -11275,6 +11294,7 @@
       "the_end_again": "2024-09-01 08:09:35 +0530",
       "my_eyes": "2024-09-07 03:58:04 +0530",
       "en_garde": "2024-09-01 08:24:16 +0530",
+      "ancient_restoration": "2024-10-05 19:59:05 +0530",
       "it_spreads": "2024-09-01 08:09:35 +0530",
       "bloodthirsty": "2024-09-01 08:09:37 +0530",
       "ad_astra": "2024-09-11 03:19:50 +0530",
@@ -11350,6 +11370,7 @@
       "free_diver": "2024-10-05 06:06:42 +0530",
       "the_ender_of_ender": "2024-09-05 22:10:39 +0530",
       "zombie_slayer": "2024-09-11 04:59:45 +0530",
+      "master_digger": "2024-10-05 21:14:54 +0530",
       "animal_root": "2024-09-01 08:09:35 +0530",
       "who_needs_rockets": "2024-09-01 08:35:41 +0530",
       "for_you_my_sweet": "2024-09-01 08:36:56 +0530",
@@ -11393,6 +11414,7 @@
       "eye_spy": "2024-09-01 08:09:35 +0530",
       "a_watery_grave": "2024-09-11 04:48:28 +0530",
       "over_overkill": "2024-09-12 05:31:39 +0530",
+      "obsidian_miner": "2024-10-05 20:23:03 +0530",
       "monsters_root": "2024-09-01 08:09:35 +0530",
       "torched": "2024-09-24 18:33:31 +0530",
       "spikey": "2024-09-12 02:50:14 +0530",
@@ -11752,6 +11774,7 @@
       "unbreakable": "2024-09-01 08:09:35 +0530",
       "like_a_ninja": "2024-09-01 11:58:43 +0530",
       "master_tridenteer": "2024-09-24 17:25:46 +0530",
+      "master_digger": "2024-10-05 21:14:54 +0530",
       "overkill": "2024-09-01 11:13:12 +0530",
       "master_knight": "2024-09-06 03:29:07 +0530",
       "over_overkill": "2024-09-12 05:31:39 +0530",
@@ -11889,6 +11912,7 @@
       "the_way_to_spawn": "2024-09-02 22:26:42 +0530",
       "diam_oh_wait_no": "2024-09-01 08:09:35 +0530",
       "nananananananana": "2024-09-19 00:55:23 +0530",
+      "obsidian_miner": "2024-10-05 20:23:03 +0530",
       "hot_stuff": "2024-09-01 08:09:35 +0530",
       "sneak_100": "2024-09-01 08:09:35 +0530",
       "stone_age": "2024-09-02 22:25:02 +0530",
@@ -11964,6 +11988,7 @@
       "limbo_walker": "2024-09-06 03:18:20 +0530",
       "is_it_a_balloon": "2024-09-12 02:28:18 +0530",
       "when_piglins_fly": "2024-09-12 02:31:36 +0530",
+      "ancient_restoration": "2024-10-05 19:59:05 +0530",
       "the_hunt_begins": "2024-09-06 03:26:10 +0530"
     },
     "done": false
@@ -12012,7 +12037,9 @@
   },
   "blazeandcave:bacap/building_milestone": {
     "criteria": {
+      "and_open": "2024-10-05 21:04:17 +0530",
       "classic_pocket_edition_block": "2024-09-02 22:25:31 +0530",
+      "bubble_bubble_toil_and_trouble": "2024-10-05 21:07:52 +0530",
       "festival_of_lights": "2024-09-06 02:57:14 +0530",
       "torched": "2024-09-24 18:33:31 +0530",
       "hot_tub": "2024-09-01 11:03:49 +0530",
@@ -12554,6 +12581,7 @@
   "blazeandcave:adventure/town_planner": {
     "criteria": {
       "stonecutter": "2024-09-02 22:25:45 +0530",
+      "cauldron": "2024-10-05 21:07:38 +0530",
       "smithing_table": "2024-09-24 17:30:03 +0530",
       "grindstone": "2024-09-12 05:04:11 +0530"
     },
@@ -12873,6 +12901,7 @@
   },
   "blazeandcave:nether/moar_upgraded_tools": {
     "criteria": {
+      "netherite_shovel": "2024-10-05 21:14:54 +0530",
       "netherite_pickaxe": "2024-09-05 23:24:26 +0530",
       "netherite_axe": "2024-09-05 23:47:08 +0530"
     },
@@ -13745,6 +13774,7 @@
   },
   "blazeandcave:building/cherry_bomb": {
     "criteria": {
+      "cherry_button": "2024-10-05 21:09:31 +0530",
       "cherry_planks": "2024-09-19 00:48:56 +0530"
     },
     "done": false
@@ -14080,12 +14110,6 @@
     },
     "done": true
   },
-  "blazeandcave:technical/fail_dragon_vs": {
-    "criteria": {
-      "enter_lava": "2024-10-05 05:51:06 +0530"
-    },
-    "done": true
-  },
   "blazeandcave:enchanting/curses": {
     "criteria": {
       "vanishing_curse": "2024-10-05 05:55:20 +0530"
@@ -14110,15 +14134,75 @@
     },
     "done": true
   },
+  "barteringstation:recipes/decorations/bartering_station": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-05 06:45:36 +0530"
+    },
+    "done": true
+  },
   "blazeandcave:bacap/time_to_dig": {
     "criteria": {
       "iron_shovel": "2024-10-05 07:06:54 +0530"
     },
     "done": true
   },
-  "barteringstation:recipes/decorations/bartering_station": {
+  "blazeandcave:nether/ancient_restoration": {
     "criteria": {
-      "has_gold_ingot": "2024-10-05 06:45:36 +0530"
+      "entered_nether_portal": "2024-10-05 19:59:05 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:nether/nether_rock_collection": {
+    "criteria": {
+      "netherrack": "2024-10-05 20:08:32 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:mining/obsidian_miner": {
+    "criteria": {
+      "obsidian": "2024-10-05 20:22:58 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:building/and_open": {
+    "criteria": {
+      "iron_door": "2024-10-05 21:04:17 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:building/bubble_bubble_toil_and_trouble": {
+    "criteria": {
+      "fill_cauldron": "2024-10-05 21:07:51 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:redstone/metal_plate": {
+    "criteria": {
+      "heavy_weighted_pressure_plate": "2024-10-05 21:08:47 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:enchanting/master_digger": {
+    "criteria": {
+      "perfect_shovel_fortune": "2024-10-05 21:14:54 +0530"
+    },
+    "done": true
+  },
+  "wither_rework:nether/obtain_nether_star": {
+    "criteria": {
+      "requirement": "2024-10-05 21:19:27 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/fail_dragon_vs": {
+    "criteria": {
+      "enter_water": "2024-10-05 21:55:06 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/unending_hell_end": {
+    "criteria": {
+      "unending_hell_end": "2024-10-05 21:55:28 +0530"
     },
     "done": true
   },
