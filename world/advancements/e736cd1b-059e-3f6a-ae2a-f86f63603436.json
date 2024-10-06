@@ -10625,6 +10625,7 @@
       "iron_horse_armor": "2024-09-01 08:12:38 +0530",
       "netherite_axe": "2024-09-05 23:47:08 +0530",
       "music_disc_pigstep": "2024-09-24 16:59:40 +0530",
+      "leather": "2024-10-06 10:44:10 +0530",
       "elytra": "2024-09-01 08:09:33 +0530",
       "golden_helmet": "2024-09-07 02:52:59 +0530",
       "leather_leggings": "2024-09-01 08:09:33 +0530",
@@ -10639,6 +10640,7 @@
       "bow": "2024-09-02 23:44:29 +0530",
       "iron_ingot": "2024-09-12 04:04:06 +0530",
       "iron_boots": "2024-09-20 00:22:45 +0530",
+      "diamond_leggings": "2024-10-06 10:38:43 +0530",
       "potato": "2024-09-06 01:54:58 +0530",
       "lapis_lazuli": "2024-09-02 22:36:35 +0530",
       "ender_pearl": "2024-09-07 03:33:41 +0530",
@@ -10766,6 +10768,7 @@
       "emerald_block": "2024-09-07 04:57:11 +0530",
       "cherry_button": "2024-10-05 21:09:31 +0530",
       "shulker_box": "2024-09-01 08:22:46 +0530",
+      "cobblestone_wall": "2024-10-06 10:31:47 +0530",
       "torch": "2024-09-06 02:56:44 +0530",
       "diamond_block": "2024-09-07 04:54:08 +0530",
       "ender_chest": "2024-09-01 08:09:33 +0530",
@@ -10778,6 +10781,7 @@
       "black_shulker_box": "2024-09-01 08:09:33 +0530",
       "ancient_debris": "2024-09-07 04:34:42 +0530",
       "granite": "2024-09-20 00:28:50 +0530",
+      "red_mushroom": "2024-10-06 10:15:22 +0530",
       "cauldron": "2024-10-05 21:07:32 +0530",
       "pink_concrete": "2024-09-05 23:36:34 +0530"
     },
@@ -10900,7 +10904,9 @@
       "totem_of_undying": "2024-09-01 08:16:31 +0530",
       "iron_ingot": "2024-09-01 08:37:05 +0530",
       "nether_star": "2024-10-05 21:19:27 +0530",
+      "tipped_arrow": "2024-10-06 10:12:34 +0530",
       "iron_boots": "2024-09-20 00:22:45 +0530",
+      "diamond_leggings": "2024-10-06 10:38:43 +0530",
       "end_crystal": "2024-10-05 05:43:00 +0530",
       "potato": "2024-09-01 11:00:10 +0530",
       "lapis_lazuli": "2024-09-01 08:09:33 +0530",
@@ -10920,6 +10926,7 @@
       "pitcher_pod": "2024-09-01 08:37:22 +0530",
       "lead": "2024-09-01 08:23:35 +0530",
       "prismarine_shard": "2024-09-12 02:24:43 +0530",
+      "friend_pottery_sherd": "2024-10-06 10:35:10 +0530",
       "iron_shovel": "2024-10-05 07:06:54 +0530",
       "amethyst_shard": "2024-09-12 04:24:12 +0530",
       "spyglass": "2024-09-12 02:19:49 +0530",
@@ -10935,6 +10942,7 @@
       "blaze_rod": "2024-09-12 05:32:41 +0530",
       "shears": "2024-09-02 22:27:35 +0530",
       "gold_ingot": "2024-09-01 08:09:33 +0530",
+      "iron_nugget": "2024-10-06 10:17:40 +0530",
       "ghast_tear": "2024-09-01 08:09:33 +0530",
       "enchanted_book": "2024-09-01 08:12:38 +0530",
       "mutton": "2024-09-06 02:02:52 +0530",
@@ -10943,6 +10951,7 @@
       "diamond_hoe": "2024-09-01 10:59:53 +0530",
       "iron_horse_armor": "2024-09-01 08:12:38 +0530",
       "netherite_axe": "2024-09-05 23:47:08 +0530",
+      "cooked_chicken": "2024-10-06 10:33:49 +0530",
       "compass": "2024-09-02 22:26:41 +0530",
       "leather_leggings": "2024-09-01 08:09:33 +0530",
       "silence_armor_trim": "2024-09-05 23:52:47 +0530",
@@ -10970,8 +10979,10 @@
       "ominous_bottle": "2024-09-11 04:07:21 +0530",
       "gold_nugget": "2024-09-01 08:09:35 +0530",
       "trident": "2024-09-24 17:18:05 +0530",
+      "raw_gold": "2024-10-06 10:52:56 +0530",
       "bone": "2024-09-01 08:09:33 +0530",
       "trial_key": "2024-09-02 23:38:49 +0530",
+      "fermented_spider_eye": "2024-10-06 10:55:05 +0530",
       "golden_carrot": "2024-09-11 03:06:53 +0530",
       "diamond": "2024-09-01 08:09:33 +0530",
       "enchanted_golden_apple": "2024-09-01 08:09:33 +0530",
@@ -11031,29 +11042,31 @@
   "blazeandcave:potion/a_much_more_doable_challenge": {
     "criteria": {
       "bad_omen": "2024-09-11 04:07:45 +0530",
-      "night_vision": "2024-09-01 11:37:48 +0530",
       "hero_of_the_village": "2024-09-11 04:20:10 +0530",
       "strength": "2024-09-01 08:09:34 +0530",
-      "poison": "2024-09-11 04:17:39 +0530",
       "regeneration": "2024-09-01 08:09:34 +0530",
+      "dolphins_grace": "2024-10-05 05:33:28 +0530",
+      "speed": "2024-09-01 11:25:43 +0530",
+      "raid_omen": "2024-09-11 04:07:45 +0530",
+      "weakness": "2024-10-06 10:15:30 +0530",
+      "mining_fatigue": "2024-10-05 06:05:51 +0530",
+      "darkness": "2024-09-01 11:12:30 +0530",
+      "levitation": "2024-09-02 23:43:45 +0530",
+      "night_vision": "2024-09-01 11:37:48 +0530",
+      "poison": "2024-09-11 04:17:39 +0530",
       "absorption": "2024-09-01 11:13:19 +0530",
       "blindness": "2024-09-02 22:35:38 +0530",
       "water_breathing": "2024-09-01 11:37:48 +0530",
       "fire_resistance": "2024-09-01 08:09:34 +0530",
       "slowness": "2024-09-01 11:04:38 +0530",
-      "dolphins_grace": "2024-10-05 05:33:28 +0530",
       "haste": "2024-09-12 01:04:51 +0530",
       "jump_boost": "2024-09-08 22:51:19 +0530",
-      "speed": "2024-09-01 11:25:43 +0530",
       "resistance": "2024-09-07 04:47:43 +0530",
       "nausea": "2024-09-01 11:06:01 +0530",
       "slow_falling": "2024-09-02 23:43:45 +0530",
       "hunger": "2024-09-03 00:17:07 +0530",
-      "raid_omen": "2024-09-11 04:07:45 +0530",
-      "mining_fatigue": "2024-10-05 06:05:51 +0530",
-      "darkness": "2024-09-01 11:12:30 +0530",
-      "wither": "2024-09-06 03:18:59 +0530",
-      "levitation": "2024-09-02 23:43:45 +0530"
+      "glowing": "2024-10-06 10:15:30 +0530",
+      "wither": "2024-09-06 03:18:59 +0530"
     },
     "done": false
   },
@@ -11234,6 +11247,7 @@
       "hero_of_the_village": "2024-09-01 08:09:35 +0530",
       "leaflet_drop": "2024-09-24 19:39:15 +0530",
       "termite_control": "2024-09-20 00:40:29 +0530",
+      "spider_skeleton": "2024-10-06 10:55:14 +0530",
       "strike_a_light": "2024-09-07 03:09:22 +0530",
       "cover_me_with_diamonds": "2024-09-01 08:09:35 +0530",
       "take_notes": "2024-09-03 00:21:11 +0530",
@@ -11249,6 +11263,7 @@
       "novice_enchanter": "2024-09-01 08:09:37 +0530",
       "unbreakable": "2024-09-01 08:09:35 +0530",
       "which_came_first": "2024-09-12 22:23:07 +0530",
+      "the_ghastly_eyes": "2024-10-06 10:55:06 +0530",
       "respecting_the_remnants": "2024-09-01 08:09:35 +0530",
       "time_to_chop": "2024-09-01 08:27:10 +0530",
       "jailhouse_block": "2024-09-02 22:37:24 +0530",
@@ -11267,6 +11282,7 @@
       "its_original_form": "2024-09-02 22:25:02 +0530",
       "return_to_sender": "2024-09-01 08:09:35 +0530",
       "those_were_the_days": "2024-10-05 23:01:08 +0530",
+      "frosty": "2024-10-06 10:12:34 +0530",
       "ricochet_swoop": "2024-09-12 05:16:07 +0530",
       "the_cutest_predator": "2024-09-01 08:09:35 +0530",
       "shriek_forever_after": "2024-09-01 11:12:31 +0530",
@@ -11386,6 +11402,7 @@
       "for_you_my_sweet": "2024-09-01 08:36:56 +0530",
       "your_daily_fix": "2024-09-05 22:32:29 +0530",
       "shield_luck": "2024-09-01 08:32:47 +0530",
+      "not_chicken_mcnuggets": "2024-10-06 10:17:40 +0530",
       "bacon": "2024-09-19 00:45:42 +0530",
       "high_temperature_fluid_monster": "2024-09-05 23:22:41 +0530",
       "pork_chop": "2024-09-01 08:36:11 +0530",
@@ -11405,6 +11422,7 @@
       "knocking_your_socks_off": "2024-09-06 03:29:07 +0530",
       "the_end": "2024-09-20 01:00:40 +0530",
       "bring_home_the_beacon": "2024-09-01 08:09:35 +0530",
+      "gold_mine": "2024-10-06 10:52:57 +0530",
       "the_mighty_jungle": "2024-09-02 22:31:21 +0530",
       "galileo_figaro": "2024-09-12 02:20:19 +0530",
       "ring_of_the_end": "2024-09-01 08:09:37 +0530",
@@ -11539,6 +11557,7 @@
       "savanna_plateau": "2024-09-07 04:03:59 +0530",
       "dripstone_caves": "2024-09-05 23:43:55 +0530",
       "jagged_peaks": "2024-09-03 00:18:41 +0530",
+      "eroded_badlands": "2024-10-06 10:50:26 +0530",
       "badlands": "2024-09-07 03:50:25 +0530",
       "windswept_hills": "2024-09-02 22:32:49 +0530",
       "ocean": "2024-09-02 22:33:30 +0530",
@@ -11910,6 +11929,7 @@
       "deep_slate_nine": "2024-09-01 11:06:03 +0530",
       "my_work_here_is_done": "2024-09-07 03:39:47 +0530",
       "strike_a_light": "2024-09-07 03:09:22 +0530",
+      "gold_mine": "2024-10-06 10:52:57 +0530",
       "cover_me_with_diamonds": "2024-09-01 08:09:35 +0530",
       "galileo_figaro": "2024-09-12 02:20:19 +0530",
       "smokin_hot": "2024-09-24 18:40:36 +0530",
@@ -11927,6 +11947,7 @@
       "diam_oh_wait_no": "2024-09-01 08:09:35 +0530",
       "nananananananana": "2024-09-19 00:55:23 +0530",
       "obsidian_miner": "2024-10-05 20:23:03 +0530",
+      "not_chicken_mcnuggets": "2024-10-06 10:17:40 +0530",
       "hot_stuff": "2024-09-01 08:09:35 +0530",
       "sneak_100": "2024-09-01 08:09:35 +0530",
       "stone_age": "2024-09-02 22:25:02 +0530",
@@ -12021,6 +12042,7 @@
       "dead_dont_die": "2024-09-01 08:30:41 +0530",
       "stealth_is_optional": "2024-09-01 11:16:29 +0530",
       "termite_control": "2024-09-20 00:40:29 +0530",
+      "spider_skeleton": "2024-10-06 10:55:14 +0530",
       "what_a_creep": "2024-09-02 23:38:00 +0530",
       "because_im_aquaman": "2024-09-24 17:18:06 +0530",
       "well_handle_this": "2024-09-12 21:32:40 +0530",
@@ -12030,6 +12052,7 @@
       "mollusc_man": "2024-10-05 06:06:57 +0530",
       "root": "2024-09-01 08:09:35 +0530",
       "keep_your_distance": "2024-09-07 02:38:09 +0530",
+      "the_ghastly_eyes": "2024-10-06 10:55:06 +0530",
       "the_ender_of_ender": "2024-09-05 22:10:39 +0530",
       "zombie_slayer": "2024-09-11 04:59:45 +0530",
       "not_today_thank_you": "2024-09-01 08:32:47 +0530",
@@ -12047,7 +12070,8 @@
       "poisonous_ew": "2024-09-12 02:57:02 +0530",
       "there_has_to_be_another_way": "2024-09-07 02:29:36 +0530",
       "witch": "2024-09-11 04:10:42 +0530",
-      "ooh_baby": "2024-09-05 23:12:24 +0530"
+      "ooh_baby": "2024-09-05 23:12:24 +0530",
+      "frosty": "2024-10-06 10:12:34 +0530"
     },
     "done": false
   },
@@ -12206,6 +12230,7 @@
     "criteria": {
       "skeleton": "2024-09-01 08:32:52 +0530",
       "phantom": "2024-09-02 23:44:01 +0530",
+      "stray": "2024-10-06 10:12:34 +0530",
       "husk": "2024-09-03 00:17:10 +0530",
       "zombie": "2024-09-01 08:30:40 +0530",
       "zombie_villager": "2024-09-07 02:29:35 +0530",
@@ -12353,16 +12378,17 @@
   },
   "blazeandcave:adventure/raidin_master": {
     "criteria": {
+      "mineshaft_mesa": "2024-10-06 10:52:56 +0530",
+      "mineshaft": "2024-09-07 03:40:44 +0530",
+      "dungeon": "2024-09-07 03:48:01 +0530",
+      "bastion_remnant": "2024-10-05 23:01:06 +0530",
       "fortress": "2024-09-12 02:15:39 +0530",
       "pillager_outpost": "2024-09-06 02:52:16 +0530",
       "igloo": "2024-09-03 00:01:24 +0530",
       "village_desert": "2024-09-07 03:35:28 +0530",
       "village_plains": "2024-09-05 22:32:18 +0530",
       "ocean_ruin_warm": "2024-09-11 04:59:26 +0530",
-      "mineshaft": "2024-09-07 03:40:44 +0530",
       "stronghold": "2024-09-01 11:06:03 +0530",
-      "dungeon": "2024-09-07 03:48:01 +0530",
-      "bastion_remnant": "2024-10-05 23:01:06 +0530",
       "ancient_city": "2024-09-05 23:45:44 +0530",
       "ruined_portal": "2024-09-02 22:32:52 +0530"
     },
@@ -12398,7 +12424,8 @@
       "savanna_plateau": "2024-09-07 04:03:59 +0530",
       "savanna": "2024-09-02 22:30:59 +0530",
       "wooded_badlands": "2024-09-07 03:49:51 +0530",
-      "desert": "2024-09-01 11:13:54 +0530"
+      "desert": "2024-09-01 11:13:54 +0530",
+      "eroded_badlands": "2024-10-06 10:50:26 +0530"
     },
     "done": false
   },
@@ -12655,6 +12682,7 @@
       "pillager_outpost": "2024-09-07 02:43:59 +0530",
       "village_desert_house": "2024-09-07 03:44:10 +0530",
       "village_armorer": "2024-09-07 03:26:39 +0530",
+      "village_cartographer": "2024-10-06 10:53:51 +0530",
       "simple_dungeon": "2024-09-07 03:48:01 +0530",
       "village_temple": "2024-09-02 23:46:32 +0530",
       "village_tannery": "2024-09-07 03:26:39 +0530",
@@ -12891,6 +12919,7 @@
   },
   "blazeandcave:monsters/baby_baby_baby_noo": {
     "criteria": {
+      "husk": "2024-10-06 10:54:45 +0530",
       "zombie": "2024-09-05 23:12:23 +0530",
       "drowned": "2024-10-05 06:07:25 +0530"
     },
@@ -13957,7 +13986,8 @@
   },
   "blazeandcave:adventure/pottery_exhibition": {
     "criteria": {
-      "heart_pottery_sherd": "2024-09-24 17:04:01 +0530"
+      "heart_pottery_sherd": "2024-09-24 17:04:01 +0530",
+      "friend_pottery_sherd": "2024-10-06 10:35:10 +0530"
     },
     "done": false
   },
@@ -14224,6 +14254,7 @@
   },
   "blazeandcave:nether/spreading_corruption": {
     "criteria": {
+      "soul_sand": "2024-10-06 10:33:00 +0530",
       "netherrack": "2024-10-05 22:56:18 +0530"
     },
     "done": false
@@ -14264,9 +14295,124 @@
     },
     "done": false
   },
-  "blazeandcave:technical/unending_hell_end": {
+  "betterarcheology:recipes/tools/iron_brush": {
     "criteria": {
-      "unending_hell_end": "2024-10-06 09:22:58 +0530"
+      "has_iron_ingot": "2024-10-06 09:53:25 +0530"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/combat/bomb": {
+    "criteria": {
+      "has_gunpowder": "2024-10-06 10:01:33 +0530"
+    },
+    "done": true
+  },
+  "betterarcheology:all_fossils_found": {
+    "criteria": {
+      "betterarcheology:villager_fossil_body": "2024-10-06 10:13:32 +0530",
+      "betterarcheology:villager_fossil_head": "2024-10-06 10:09:59 +0530"
+    },
+    "done": false
+  },
+  "betterarcheology:fossil_found": {
+    "criteria": {
+      "betterarcheology:fossil_found": "2024-10-06 10:09:59 +0530"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/decorations/villager_fossil": {
+    "criteria": {
+      "has_villager_fossil_head": "2024-10-06 10:09:59 +0530"
+    },
+    "done": true
+  },
+  "betterarcheology:loot_vase_broken": {
+    "criteria": {
+      "criteria": "2024-10-06 10:11:49 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:potion/furious_ammunition": {
+    "criteria": {
+      "slowness": "2024-10-06 10:12:34 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:monsters/frosty": {
+    "criteria": {
+      "stray": "2024-10-06 10:12:34 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:building/washing_machine": {
+    "criteria": {
+      "clean_shulker_box": "2024-10-06 10:13:35 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:farming/shrooms": {
+    "criteria": {
+      "red_mushroom": "2024-10-06 10:15:22 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:mining/not_chicken_mcnuggets": {
+    "criteria": {
+      "iron_nugget": "2024-10-06 10:17:40 +0530"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/misc/unidentified_artifact": {
+    "criteria": {
+      "has_artifact_shards": "2024-10-06 10:17:53 +0530"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/misc/archeology_table": {
+    "criteria": {
+      "has_artifact_shards": "2024-10-06 10:17:53 +0530"
+    },
+    "done": true
+  },
+  "betterarcheology:artifact_shards": {
+    "criteria": {
+      "has_shards": "2024-10-06 10:17:53 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:building/crazy_walls": {
+    "criteria": {
+      "cobblestone_wall": "2024-10-06 10:31:47 +0530"
+    },
+    "done": false
+  },
+  "betterarcheology:recipes/tools/diamond_brush": {
+    "criteria": {
+      "has_the_recipe": "2024-10-06 10:34:19 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:animal/true_cow_tipper": {
+    "criteria": {
+      "leather": "2024-10-06 10:44:10 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:mining/gold_mine": {
+    "criteria": {
+      "mineshaft_mesa": "2024-10-06 10:52:56 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:monsters/the_ghastly_eyes": {
+    "criteria": {
+      "invisible_spider": "2024-10-06 10:55:05 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:monsters/spider_skeleton": {
+    "criteria": {
+      "spider": "2024-10-06 10:55:13 +0530"
     },
     "done": true
   },
