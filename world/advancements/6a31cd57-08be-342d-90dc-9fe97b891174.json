@@ -1,0 +1,2068 @@
+{
+  "knightquest:recipes/misc/bamboo_blue_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_bar_stool": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2024-10-06 11:56:11 +0530"
+    },
+    "done": true
+  },
+  "rpg_series:root": {
+    "criteria": {
+      "always": "2024-10-06 11:56:11 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/redstone_milestone": {
+    "criteria": {
+      "under_pressure": "2024-10-06 12:06:08 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:enchanting/master_enchanter": {
+    "criteria": {
+      "depth_strider": "2024-10-06 12:30:19 +0530",
+      "soul_speed": "2024-10-06 12:30:19 +0530",
+      "unbreaking": "2024-10-06 12:07:09 +0530",
+      "swift_sneak": "2024-10-06 12:30:19 +0530",
+      "feather_falling": "2024-10-06 12:30:19 +0530",
+      "mending": "2024-10-06 12:30:18 +0530",
+      "respiration": "2024-10-06 12:30:18 +0530",
+      "protection": "2024-10-06 12:19:08 +0530",
+      "projectile_protection": "2024-10-06 12:07:09 +0530",
+      "aqua_affinity": "2024-10-06 12:30:18 +0530"
+    },
+    "done": false
+  },
+  "betterend:recipes/decorations/lucernia_chair": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_taburet": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/warm_feet": {
+    "criteria": {
+      "wooded_badlands": "2024-10-06 13:00:01 +0530"
+    },
+    "done": false
+  },
+  "betterend:recipes/decorations/helix_tree_sign": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/high_feet": {
+    "criteria": {
+      "stony_shore": "2024-10-06 12:02:36 +0530"
+    },
+    "done": false
+  },
+  "knightquest:recipes/misc/bow_chestplate": {
+    "criteria": {
+      "has_crossbow": "2024-10-06 12:17:13 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/jellyshroom_chair": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/nether_boots": {
+    "criteria": {
+      "has_magma_cream": "2024-10-06 13:01:01 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_ladder": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/end_lotus_ladder": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/backpack_tank": {
+    "criteria": {
+      "has_iron": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "soul_sand_valley": "2024-10-06 12:56:41 +0530"
+    },
+    "done": false
+  },
+  "wooltostring:recipes/misc/wool": {
+    "criteria": {
+      "has_wool": "2024-10-06 11:57:01 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch2_mid": {
+    "criteria": {
+      "root": "2024-10-06 11:57:44 +0530"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/tools/empty_iron_canteen": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/zombie_leggings": {
+    "criteria": {
+      "has_rotten_flesh": "2024-10-06 12:47:49 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/tenanea_taburet": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/advancement_legend": {
+    "criteria": {
+      "ten_thousand_blocks": "2024-10-06 13:00:02 +0530",
+      "time_to_strike": "2024-10-06 12:43:58 +0530",
+      "dead_dont_die": "2024-10-06 12:47:50 +0530",
+      "acquire_hardware": "2024-10-06 12:19:14 +0530",
+      "benchmarking": "2024-10-06 12:42:01 +0530",
+      "x_bow": "2024-10-06 12:17:13 +0530",
+      "bacap_root": "2024-10-06 11:56:12 +0530",
+      "iron_belly": "2024-10-06 12:48:25 +0530",
+      "the_first_night": "2024-10-06 11:57:43 +0530",
+      "sir_knight": "2024-10-06 12:48:20 +0530",
+      "building_root": "2024-10-06 12:42:01 +0530",
+      "gotta_go_fast": "2024-10-06 12:30:19 +0530",
+      "sweet_dreams": "2024-10-06 12:13:47 +0530",
+      "heart_of_darkness": "2024-10-06 12:51:49 +0530",
+      "unbreakable": "2024-10-06 12:30:18 +0530",
+      "weaponry_root": "2024-10-06 12:43:58 +0530",
+      "suit_up": "2024-10-06 12:19:14 +0530",
+      "tarzan": "2024-10-06 12:55:07 +0530",
+      "under_pressure": "2024-10-06 12:06:08 +0530",
+      "nether_root": "2024-10-06 12:56:41 +0530",
+      "animal_root": "2024-10-06 12:21:49 +0530",
+      "for_you_my_sweet": "2024-10-06 12:03:04 +0530",
+      "monsters_root": "2024-10-06 12:43:58 +0530",
+      "shield_luck": "2024-10-06 12:48:58 +0530",
+      "hot_stuff": "2024-10-06 13:00:48 +0530",
+      "monster_hunter": "2024-10-06 12:47:50 +0530",
+      "fireworks_display": "2024-10-06 12:38:42 +0530",
+      "statistics_root": "2024-10-06 11:57:44 +0530",
+      "adventure_root": "2024-10-06 11:57:04 +0530",
+      "kilometre_walk": "2024-10-06 12:05:23 +0530",
+      "getting_wood": "2024-10-06 12:39:58 +0530",
+      "pork_chop": "2024-10-06 12:21:49 +0530",
+      "biomes_root": "2024-10-06 11:57:04 +0530",
+      "gold_rush": "2024-10-06 12:30:19 +0530",
+      "scuba_gear": "2024-10-06 12:30:19 +0530",
+      "there_has_to_be_another_way": "2024-10-06 12:50:12 +0530",
+      "disen_berry_berry_bad": "2024-10-06 13:00:22 +0530",
+      "we_need_to_go_deeper": "2024-10-06 12:06:02 +0530"
+    },
+    "done": false
+  },
+  "knightquest:recipes/misc/kukri_dagger": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/farming_milestone": {
+    "criteria": {
+      "disen_berry_berry_bad": "2024-10-06 13:00:22 +0530"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/cherry_fence": {
+    "criteria": {
+      "has_planks": "2024-10-06 12:53:30 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_boots": "2024-10-06 12:50:59 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch6_mid": {
+    "criteria": {
+      "root": "2024-10-06 11:57:44 +0530"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_piglins": {
+    "criteria": {
+      "nova_structures:hamlet": "2024-10-06 12:56:41 +0530"
+    },
+    "done": false
+  },
+  "betterend:recipes/decorations/pythadendron_fence": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/crafting_upgrade": {
+    "criteria": {
+      "has_crafting_table": "2024-10-06 12:42:01 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/kukri": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-10-06 11:56:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2024-10-06 12:41:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-10-06 12:13:47 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:weaponry/multiclassed": {
+    "criteria": {
+      "sword": "2024-10-06 12:44:02 +0530"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2024-10-06 12:47:49 +0530",
+      "minecraft:zombie_villager": "2024-10-06 12:50:11 +0530"
+    },
+    "done": false
+  },
+  "knightquest:recipes/misc/bamboo_blue_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/nether_chestplate": {
+    "criteria": {
+      "has_magma_cream": "2024-10-06 13:01:01 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_chair": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:building/cherry_bomb": {
+    "criteria": {
+      "cherry_planks": "2024-10-06 12:53:30 +0530"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2024-10-06 12:03:03 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/gold": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:building/root": {
+    "criteria": {
+      "crafting_table": "2024-10-06 12:42:01 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/biomes_milestone": {
+    "criteria": {
+      "ten_thousand_blocks": "2024-10-06 13:00:02 +0530",
+      "kilometre_walk": "2024-10-06 12:05:23 +0530",
+      "for_you_my_sweet": "2024-10-06 12:03:04 +0530",
+      "root": "2024-10-06 11:57:04 +0530",
+      "tarzan": "2024-10-06 12:55:07 +0530"
+    },
+    "done": false
+  },
+  "knightquest:recipes/misc/bow_helmet": {
+    "criteria": {
+      "has_crossbow": "2024-10-06 12:17:13 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/warlord_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/umbrella_tree_gate": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/hollow_leggings": {
+    "criteria": {
+      "has_magma_cream": "2024-10-06 13:01:01 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_fence": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "warp_portals:use_portal": {
+    "criteria": {
+      "warp_portals_forge_wand": "2024-10-06 12:05:21 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:challenges/explorer_of_worlds": {
+    "criteria": {
+      "forest": "2024-10-06 11:56:11 +0530",
+      "soul_sand_valley": "2024-10-06 12:56:41 +0530",
+      "stony_shore": "2024-10-06 12:02:36 +0530",
+      "taiga": "2024-10-06 12:05:52 +0530",
+      "wooded_badlands": "2024-10-06 13:00:01 +0530",
+      "plains": "2024-10-06 12:05:22 +0530",
+      "old_growth_spruce_taiga": "2024-10-06 12:40:17 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:statistics/the_first_night": {
+    "criteria": {
+      "trigger": "2024-10-06 11:57:42 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2024-10-06 12:41:34 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/zombie_helmet": {
+    "criteria": {
+      "has_rotten_flesh": "2024-10-06 12:47:49 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_fence": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/helix_tree_bar_stool": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:redstone/under_pressure": {
+    "criteria": {
+      "warped_pressure_plate": "2024-10-06 12:06:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:enchanting/complete_enchanter": {
+    "criteria": {
+      "depth_strider": "2024-10-06 12:30:19 +0530",
+      "soul_speed": "2024-10-06 12:30:19 +0530",
+      "fire_protection": "2024-10-06 12:50:59 +0530",
+      "unbreaking": "2024-10-06 12:07:09 +0530",
+      "swift_sneak": "2024-10-06 12:30:19 +0530",
+      "feather_falling": "2024-10-06 12:30:19 +0530",
+      "mending": "2024-10-06 12:30:18 +0530",
+      "respiration": "2024-10-06 12:30:18 +0530",
+      "protection": "2024-10-06 12:19:08 +0530",
+      "projectile_protection": "2024-10-06 12:07:09 +0530",
+      "aqua_affinity": "2024-10-06 12:30:18 +0530"
+    },
+    "done": false
+  },
+  "betterend:recipes/decorations/jellyshroom_sign": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/tenanea_gate": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/weaponry_milestone": {
+    "criteria": {
+      "x_bow": "2024-10-06 12:17:13 +0530",
+      "root": "2024-10-06 12:43:58 +0530",
+      "shield_luck": "2024-10-06 12:48:58 +0530",
+      "sir_knight": "2024-10-06 12:48:20 +0530",
+      "fireworks_display": "2024-10-06 12:38:42 +0530"
+    },
+    "done": false
+  },
+  "betterend:recipes/decorations/dragon_tree_taburet": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "global:2mal3": {
+    "criteria": {
+      "trigger": "2024-10-06 11:56:11 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/jellyshroom_fence": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch1_mid": {
+    "criteria": {
+      "root": "2024-10-06 11:57:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2024-10-06 12:41:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:enchanting/armor_for_the_masses": {
+    "criteria": {
+      "fire_protection": "2024-10-06 12:50:59 +0530",
+      "protection": "2024-10-06 12:19:08 +0530",
+      "projectile_protection": "2024-10-06 12:07:09 +0530"
+    },
+    "done": false
+  },
+  "travelersbackpack:recipes/misc/iron": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_sign": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/bow_leggings": {
+    "criteria": {
+      "has_crossbow": "2024-10-06 12:17:13 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-10-06 13:00:48 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:building/yay_i_got_my_wood": {
+    "criteria": {
+      "spruce_log": "2024-10-06 12:39:58 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:bacap/root": {
+    "criteria": {
+      "location": "2024-10-06 11:56:11 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/helix_tree_fence": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:statistics/root": {
+    "criteria": {
+      "the_first_night": "2024-10-06 11:57:43 +0530"
+    },
+    "done": true
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2024-10-06 11:56:11 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/pythadendron_gate": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/warlord_boots": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/tunic_sea_leggings": {
+    "criteria": {
+      "has_iron_leggings": "2024-10-06 12:07:09 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/copy_tool_assembly": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-10-06 12:41:34 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/root": {
+    "criteria": {
+      "killed_by_something": "2024-10-06 11:57:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/helix_tree_ladder": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_sign": {
+    "criteria": {
+      "has_planks": "2024-10-06 12:53:30 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_sign": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_ladder": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch5_mid": {
+    "criteria": {
+      "root": "2024-10-06 11:57:44 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_chair": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_ladder": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_chair": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2024-10-06 12:39:58 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-10-06 12:53:30 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/bamboo_blue_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/golden_hammer": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/end_lotus_taburet": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/dragon_tree_ladder": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/time_to_strike": {
+    "criteria": {
+      "iron_sword": "2024-10-06 12:43:58 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/zombie_boots": {
+    "criteria": {
+      "has_rotten_flesh": "2024-10-06 12:47:49 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_sign": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/dragon_tree_bar_stool": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2024-10-06 11:57:03 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch9_mid": {
+    "criteria": {
+      "root": "2024-10-06 11:57:44 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/end_lotus_sign": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/adventure_milestone": {
+    "criteria": {
+      "root": "2024-10-06 11:57:04 +0530"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2024-10-06 12:41:34 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_ladder": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/helix_tree_taburet": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_taburet": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:potion/a_much_more_doable_challenge": {
+    "criteria": {
+      "fire_resistance": "2024-10-06 13:03:23 +0530",
+      "speed": "2024-10-06 11:56:32 +0530",
+      "resistance": "2024-10-06 12:29:52 +0530",
+      "nausea": "2024-10-06 12:05:21 +0530",
+      "hunger": "2024-10-06 12:48:24 +0530"
+    },
+    "done": false
+  },
+  "knightquest:recipes/misc/tunic_blue_leggings": {
+    "criteria": {
+      "has_iron_leggings": "2024-10-06 12:07:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_door": {
+    "criteria": {
+      "has_planks": "2024-10-06 12:53:30 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/magma_cube_smithing": {
+    "criteria": {
+      "has_magma_cube": "2024-10-06 13:03:11 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/steel_sword": {
+    "criteria": {
+      "has_iron_sword": "2024-10-06 12:43:58 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/animal_milestone": {
+    "criteria": {
+      "pork_chop": "2024-10-06 12:21:49 +0530",
+      "root": "2024-10-06 12:21:49 +0530"
+    },
+    "done": false
+  },
+  "betterend:recipes/decorations/tenanea_chair": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:enchanting/scuba_gear": {
+    "criteria": {
+      "depth_strider": "2024-10-06 12:30:19 +0530",
+      "respiration": "2024-10-06 12:30:18 +0530",
+      "aqua_affinity": "2024-10-06 12:30:18 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/tenanea_sign": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/flower_power": {
+    "criteria": {
+      "poppy": "2024-10-06 12:03:03 +0530",
+      "dandelion": "2024-10-06 12:03:03 +0530"
+    },
+    "done": false
+  },
+  "betterend:recipes/misc/gold_chandelier": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:weaponry/fireworks_display": {
+    "criteria": {
+      "firework_rocket": "2024-10-06 12:38:42 +0530"
+    },
+    "done": true
+  },
+  "global:inkorthe2nd": {
+    "criteria": {
+      "trigger": "2024-10-06 11:56:11 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:name_colors": {
+    "criteria": {
+      "tick": "2024-10-06 11:56:11 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/mossy_glowshroom_gate": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/warlord_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/tunic_green_leggings": {
+    "criteria": {
+      "has_iron_leggings": "2024-10-06 12:07:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2024-10-06 13:01:01 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/tunic_red_leggings": {
+    "criteria": {
+      "has_iron_leggings": "2024-10-06 12:07:09 +0530"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_hamlet": {
+    "criteria": {
+      "nova_structures:hamlet": "2024-10-06 12:56:41 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/helix_tree_chair": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_leggings": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/end_lotus_chair": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/statistics_milestone": {
+    "criteria": {
+      "root": "2024-10-06 11:57:44 +0530",
+      "the_first_night": "2024-10-06 11:57:43 +0530"
+    },
+    "done": false
+  },
+  "knightquest:recipes/misc/chainmail_helmet2": {
+    "criteria": {
+      "has_wheat_seeds": "2024-10-06 11:57:01 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_bar_stool": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_slab": {
+    "criteria": {
+      "has_planks": "2024-10-06 12:53:30 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_leggings": "2024-10-06 12:07:09 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/leather_wrapped_stick": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_all_illager_structures": {
+    "criteria": {
+      "badland_miner_outpost": "2024-10-06 13:00:01 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:weaponry/root": {
+    "criteria": {
+      "sword": "2024-10-06 12:43:58 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:wandering_trader_announcements": {
+    "criteria": {
+      "tick": "2024-10-06 11:56:11 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/dragon_tree_fence": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/enchanting_milestone": {
+    "criteria": {
+      "gotta_go_fast": "2024-10-06 12:30:19 +0530",
+      "scuba_gear": "2024-10-06 12:30:19 +0530",
+      "unbreakable": "2024-10-06 12:30:18 +0530"
+    },
+    "done": false
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/bamboo_blue_boots": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:challenges/stack_all_the_items": {
+    "criteria": {
+      "shield": "2024-10-06 12:48:19 +0530",
+      "crossbow": "2024-10-06 12:17:13 +0530",
+      "iron_sword": "2024-10-06 12:43:58 +0530",
+      "golden_boots": "2024-10-06 12:50:59 +0530",
+      "leather_helmet": "2024-10-06 12:50:12 +0530",
+      "iron_leggings": "2024-10-06 12:07:09 +0530",
+      "lava_bucket": "2024-10-06 13:00:48 +0530"
+    },
+    "done": false
+  },
+  "betterend:recipes/misc/copy_plate_upgrade": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_boots": "2024-10-06 12:50:59 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/shield_chestplate": {
+    "criteria": {
+      "has_shield": "2024-10-06 12:48:19 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_sign": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_chandelier": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/bacap_branch_end": {
+    "criteria": {
+      "crafting_table": "2024-10-06 12:42:01 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/standard_smithing": {
+    "criteria": {
+      "has_standard": "2024-10-06 12:35:27 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/copy_terminite_upgrade": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/bow_boots": {
+    "criteria": {
+      "has_crossbow": "2024-10-06 12:17:13 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/shield_leggings": {
+    "criteria": {
+      "has_shield": "2024-10-06 12:48:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch4_mid": {
+    "criteria": {
+      "root": "2024-10-06 11:57:44 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:weaponry/shield_luck": {
+    "criteria": {
+      "deflected_trident": "2024-10-06 12:48:57 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether_portal": "2024-10-06 12:06:02 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/zombie_helmet2": {
+    "criteria": {
+      "has_rotten_flesh": "2024-10-06 12:47:49 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/tenanea_bar_stool": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "netherweather:netherweather": {
+    "criteria": {
+      "trigger": "2024-10-06 11:56:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2024-10-06 12:41:34 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/hollow_helmet": {
+    "criteria": {
+      "has_magma_cream": "2024-10-06 13:01:01 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/gold_rush": {
+    "criteria": {
+      "gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_stairs": {
+    "criteria": {
+      "has_planks": "2024-10-06 12:53:30 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/heart_of_darkness": {
+    "criteria": {
+      "enter_cave": "2024-10-06 12:51:48 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/one_with_the_forest": {
+    "criteria": {
+      "forest": "2024-10-06 11:56:11 +0530",
+      "taiga": "2024-10-06 12:05:52 +0530",
+      "plains": "2024-10-06 12:05:22 +0530",
+      "old_growth_spruce_taiga": "2024-10-06 12:40:17 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:building/spruce_lee": {
+    "criteria": {
+      "spruce_planks": "2024-10-06 12:41:34 +0530",
+      "spruce_log": "2024-10-06 12:39:58 +0530"
+    },
+    "done": false
+  },
+  "knightquest:recipes/misc/tunic_yellow_leggings": {
+    "criteria": {
+      "has_iron_leggings": "2024-10-06 12:07:09 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch8_mid": {
+    "criteria": {
+      "root": "2024-10-06 11:57:44 +0530"
+    },
+    "done": true
+  },
+  "adco:first_join": {
+    "criteria": {
+      "requirement": "2024-10-06 11:56:11 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:challenges/all_the_blocks": {
+    "criteria": {
+      "poppy": "2024-10-06 12:03:03 +0530",
+      "crafting_table": "2024-10-06 12:42:01 +0530",
+      "spruce_planks": "2024-10-06 12:41:34 +0530",
+      "dirt": "2024-10-06 12:54:32 +0530",
+      "torch": "2024-10-06 12:40:27 +0530",
+      "end_rod": "2024-10-06 13:04:44 +0530",
+      "cherry_planks": "2024-10-06 12:53:30 +0530",
+      "spruce_log": "2024-10-06 12:39:58 +0530",
+      "dandelion": "2024-10-06 12:03:03 +0530"
+    },
+    "done": false
+  },
+  "betterend:recipes/decorations/tenanea_fence": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-10-06 12:53:30 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_button": {
+    "criteria": {
+      "has_planks": "2024-10-06 12:53:30 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:standard_from_custom": {
+    "criteria": {
+      "has_backpack": "2024-10-06 12:35:27 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_bar_stool": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2024-10-06 12:39:58 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2024-10-06 12:03:03 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/helix_tree_gate": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:animal/pork_chop": {
+    "criteria": {
+      "cooked_porkchop": "2024-10-06 12:21:49 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_sign": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_chair": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/copy_handle_attachment": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-10-06 12:21:49 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/end_lotus_bar_stool": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:farming/disen_berry_berry_bad": {
+    "criteria": {
+      "age3": "2024-10-06 13:00:22 +0530"
+    },
+    "done": true
+  },
+  "global:root": {
+    "criteria": {
+      "trigger": "2024-10-06 11:56:11 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/nether_leggings": {
+    "criteria": {
+      "has_magma_cream": "2024-10-06 13:01:01 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/kilometre_walk": {
+    "criteria": {
+      "outer_pos_z": "2024-10-06 12:05:22 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/zombie_chestplate": {
+    "criteria": {
+      "has_rotten_flesh": "2024-10-06 12:47:49 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_hammer": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2024-10-06 12:41:34 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:weaponry/sir_knight": {
+    "criteria": {
+      "shield": "2024-10-06 12:48:19 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/end_lotus_gate": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:challenges/ultimate_enchanter": {
+    "criteria": {
+      "feather_falling4": "2024-10-06 12:30:19 +0530",
+      "fire_protection1": "2024-10-06 12:50:59 +0530",
+      "respiration3": "2024-10-06 12:30:18 +0530",
+      "depth_strider3": "2024-10-06 12:30:19 +0530",
+      "swift_sneak3": "2024-10-06 12:30:19 +0530",
+      "soul_speed3": "2024-10-06 12:30:19 +0530",
+      "projectile_protection4": "2024-10-06 12:07:09 +0530",
+      "mending": "2024-10-06 12:30:18 +0530",
+      "unbreaking3": "2024-10-06 12:07:09 +0530",
+      "protection4": "2024-10-06 12:19:08 +0530",
+      "aqua_affinity": "2024-10-06 12:30:18 +0530"
+    },
+    "done": false
+  },
+  "betterend:recipes/redstone/lacugrove_gate": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_bar_stool": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "warp_portals:warp_portals": {
+    "criteria": {
+      "trigger": "2024-10-06 11:56:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/hollow_chestplate": {
+    "criteria": {
+      "has_magma_cream": "2024-10-06 13:01:01 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_bulb_lantern": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2024-10-06 12:39:58 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:timber": {
+    "criteria": {
+      "tick": "2024-10-06 11:56:11 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/shield_helmet": {
+    "criteria": {
+      "has_shield": "2024-10-06 12:48:19 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/warlord_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "vanillatweaks:player_head_drops": {
+    "criteria": {
+      "tick": "2024-10-06 11:56:11 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/jellyshroom_ladder": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/copy_thallasium_upgrade": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/iron_tier_upgrade": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/mining_milestone": {
+    "criteria": {
+      "acquire_hardware": "2024-10-06 12:19:14 +0530",
+      "gold_rush": "2024-10-06 12:30:19 +0530",
+      "heart_of_darkness": "2024-10-06 12:51:49 +0530",
+      "hot_stuff": "2024-10-06 13:00:48 +0530",
+      "suit_up": "2024-10-06 12:19:14 +0530",
+      "we_need_to_go_deeper": "2024-10-06 12:06:02 +0530"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/cherry_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-10-06 12:53:30 +0530"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/tools/empty_gold_canteen": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch3_mid": {
+    "criteria": {
+      "root": "2024-10-06 11:57:44 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/hose_nozzle": {
+    "criteria": {
+      "has_iron": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "global:notnull": {
+    "criteria": {
+      "trigger": "2024-10-06 11:56:11 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/end_lotus_fence": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/tarzan": {
+    "criteria": {
+      "enter_vine": "2024-10-06 12:55:06 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:enchanting/fiery": {
+    "criteria": {
+      "fire_protection": "2024-10-06 12:50:59 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:monsters/dead_dont_die": {
+    "criteria": {
+      "zombie": "2024-10-06 12:47:49 +0530"
+    },
+    "done": true
+  },
+  "2mal3:adco/installed": {
+    "criteria": {
+      "trigger": "2024-10-06 11:56:11 +0530"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "nether": "2024-10-06 12:56:40 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/nether_milestone": {
+    "criteria": {
+      "root": "2024-10-06 12:56:41 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:monsters/iron_belly": {
+    "criteria": {
+      "rotten_flesh": "2024-10-06 12:48:24 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/jellyshroom_gate": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/jellyshroom_taburet": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:challenges/all_the_items": {
+    "criteria": {
+      "cooked_porkchop": "2024-10-06 12:21:35 +0530",
+      "wheat_seeds": "2024-10-06 11:57:01 +0530",
+      "shield": "2024-10-06 12:48:19 +0530",
+      "crossbow": "2024-10-06 12:17:13 +0530",
+      "rotten_flesh": "2024-10-06 12:47:49 +0530",
+      "iron_leggings": "2024-10-06 12:07:09 +0530",
+      "bucket": "2024-10-06 12:59:51 +0530",
+      "iron_ingot": "2024-10-06 12:19:14 +0530",
+      "magma_cream": "2024-10-06 13:01:01 +0530",
+      "gold_ingot": "2024-10-06 12:30:19 +0530",
+      "iron_sword": "2024-10-06 12:43:58 +0530",
+      "golden_boots": "2024-10-06 12:50:59 +0530",
+      "firework_rocket": "2024-10-06 12:38:42 +0530",
+      "stick": "2024-10-06 12:43:07 +0530",
+      "leather_helmet": "2024-10-06 12:50:12 +0530",
+      "lava_bucket": "2024-10-06 13:00:48 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:enchanting/unbreakable": {
+    "criteria": {
+      "mending": "2024-10-06 12:30:18 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:monsters/there_has_to_be_another_way": {
+    "criteria": {
+      "zombie_villager": "2024-10-06 12:50:11 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:monsters/night_runner": {
+    "criteria": {
+      "zombie": "2024-10-06 12:47:49 +0530",
+      "zombie_villager": "2024-10-06 12:50:11 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:bacap/monsters_milestone": {
+    "criteria": {
+      "dead_dont_die": "2024-10-06 12:47:50 +0530",
+      "iron_belly": "2024-10-06 12:48:25 +0530",
+      "root": "2024-10-06 12:43:58 +0530",
+      "there_has_to_be_another_way": "2024-10-06 12:50:12 +0530",
+      "monster_hunter": "2024-10-06 12:47:50 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:technical/fail_dragon_vs": {
+    "criteria": {
+      "enter_lava": "2024-10-06 13:04:25 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/building_milestone": {
+    "criteria": {
+      "sweet_dreams": "2024-10-06 12:13:47 +0530",
+      "root": "2024-10-06 12:42:01 +0530"
+    },
+    "done": false
+  },
+  "betterend:recipes/decorations/jellyshroom_bar_stool": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/stat_branch7_mid": {
+    "criteria": {
+      "root": "2024-10-06 11:57:44 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/lucernia_gate": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-10-06 12:41:34 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_taburet": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/diamond_hammer": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2024-10-06 12:41:34 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-10-06 12:41:34 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_fence": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:monsters/root": {
+    "criteria": {
+      "sword": "2024-10-06 12:43:58 +0530"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/tools/iron_brush": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/dragon_tree_gate": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:bacap/getting_wood": {
+    "criteria": {
+      "spruce_log": "2024-10-06 12:39:58 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/hollow_boots": {
+    "criteria": {
+      "has_magma_cream": "2024-10-06 13:01:01 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_bar_stool": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/magma_cube": {
+    "criteria": {
+      "has_magma_cream": "2024-10-06 13:01:01 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:biomes/ten_thousand_blocks": {
+    "criteria": {
+      "outer_neg_z": "2024-10-06 13:00:01 +0530"
+    },
+    "done": true
+  },
+  "barteringstation:recipes/decorations/bartering_station": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_leggings": "2024-10-06 12:07:09 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "monster_hunter": "2024-10-06 12:47:49 +0530"
+    },
+    "done": true
+  },
+  "wooltostring:recipes/misc/wool_carpets": {
+    "criteria": {
+      "has_wool": "2024-10-06 11:57:01 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "badlands": "2024-10-06 13:00:01 +0530",
+      "forest": "2024-10-06 11:56:11 +0530",
+      "taiga": "2024-10-06 12:05:52 +0530",
+      "plains": "2024-10-06 12:05:22 +0530",
+      "beach": "2024-10-06 12:02:36 +0530",
+      "old_growth_taiga": "2024-10-06 12:40:17 +0530"
+    },
+    "done": false
+  },
+  "travelersbackpack:recipes/misc/gold_tier_upgrade": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:farming/meat_lovers": {
+    "criteria": {
+      "cooked_porkchop": "2024-10-06 12:21:49 +0530",
+      "rotten_flesh": "2024-10-06 12:48:24 +0530"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_porkchop": "2024-10-06 12:21:49 +0530",
+      "rotten_flesh": "2024-10-06 12:48:24 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:enchanting/gotta_go_fast": {
+    "criteria": {
+      "soul_speed_boots": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_taburet": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/nether_helmet": {
+    "criteria": {
+      "has_magma_cream": "2024-10-06 13:01:01 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2024-10-06 12:41:34 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:challenges/death_from_all": {
+    "criteria": {
+      "skeleton": "2024-10-06 11:57:03 +0530"
+    },
+    "done": false
+  },
+  "betterend:recipes/decorations/tenanea_ladder": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/shield_boots": {
+    "criteria": {
+      "has_shield": "2024-10-06 12:48:19 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_taburet": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2024-10-06 12:42:01 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_fence": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2024-10-06 12:19:14 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_ladder": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/dragon_tree_sign": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:challenges/stack_all_the_blocks": {
+    "criteria": {
+      "cherry_planks": "2024-10-06 12:53:30 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:biomes/for_you_my_sweet": {
+    "criteria": {
+      "dandelion": "2024-10-06 12:03:03 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2024-10-06 12:30:19 +0530"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/dragon_tree_chair": {
+    "criteria": {
+      "has_stick": "2024-10-06 12:43:07 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:weaponry/x_bow": {
+    "criteria": {
+      "crossbow": "2024-10-06 12:17:13 +0530"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
+}
