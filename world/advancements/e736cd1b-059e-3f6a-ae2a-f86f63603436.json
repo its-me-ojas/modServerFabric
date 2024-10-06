@@ -10476,6 +10476,7 @@
       "depth_strider": "2024-09-01 08:09:33 +0530",
       "wind_burst": "2024-09-01 08:34:27 +0530",
       "vanishing_curse": "2024-10-05 05:55:20 +0530",
+      "infinity": "2024-10-06 08:50:47 +0530",
       "flame": "2024-09-24 17:33:20 +0530",
       "blast_protection": "2024-09-07 04:35:12 +0530"
     },
@@ -10543,6 +10544,7 @@
       "depth_strider": "2024-09-01 08:09:33 +0530",
       "wind_burst": "2024-09-01 08:34:27 +0530",
       "vanishing_curse": "2024-10-05 05:55:20 +0530",
+      "infinity": "2024-10-06 08:50:47 +0530",
       "flame": "2024-09-24 17:33:20 +0530",
       "blast_protection": "2024-09-07 02:52:59 +0530"
     },
@@ -10656,7 +10658,8 @@
       "chainmail_leggings": "2024-09-24 16:39:39 +0530",
       "bone": "2024-09-06 03:27:23 +0530",
       "iron_shovel": "2024-10-05 07:06:54 +0530",
-      "spyglass": "2024-09-12 02:19:49 +0530"
+      "spyglass": "2024-09-12 02:19:49 +0530",
+      "carrot": "2024-10-06 09:01:54 +0530"
     },
     "done": false
   },
@@ -10726,10 +10729,12 @@
       "lever": "2024-09-19 00:34:45 +0530",
       "light_gray_shulker_box": "2024-09-01 10:53:03 +0530",
       "grindstone": "2024-09-12 05:03:56 +0530",
+      "gravel": "2024-10-06 09:07:07 +0530",
       "gold_block": "2024-09-07 04:57:12 +0530",
       "big_dripleaf": "2024-09-24 19:39:15 +0530",
       "red_shulker_box": "2024-09-05 23:33:37 +0530",
       "tnt": "2024-09-07 03:47:03 +0530",
+      "blackstone": "2024-10-06 09:07:56 +0530",
       "light_blue_shulker_box": "2024-09-07 04:34:38 +0530",
       "creeper_head": "2024-09-24 16:57:05 +0530",
       "cracked_polished_blackstone_bricks": "2024-09-03 00:01:47 +0530",
@@ -10835,6 +10840,7 @@
       "soul_speed3": "2024-09-01 08:09:33 +0530",
       "efficiency5": "2024-09-01 10:59:53 +0530",
       "vanishing_curse": "2024-10-05 05:55:20 +0530",
+      "infinity": "2024-10-06 08:50:47 +0530",
       "loyalty3": "2024-09-24 17:23:31 +0530",
       "flame": "2024-09-24 17:33:20 +0530",
       "efficiency2": "2024-10-05 07:06:54 +0530",
@@ -10901,6 +10907,7 @@
       "ender_pearl": "2024-09-05 22:11:14 +0530",
       "wheat": "2024-09-19 00:44:49 +0530",
       "ward_armor_trim": "2024-09-05 23:51:48 +0530",
+      "poisonous_potato": "2024-10-06 09:02:18 +0530",
       "music_disc_wait": "2024-09-05 22:44:18 +0530",
       "iron_helmet": "2024-09-08 02:48:31 +0530",
       "netherite_pickaxe": "2024-09-05 23:24:26 +0530",
@@ -10969,7 +10976,8 @@
       "diamond": "2024-09-01 08:09:33 +0530",
       "enchanted_golden_apple": "2024-09-01 08:09:33 +0530",
       "magma_cream": "2024-09-08 21:59:25 +0530",
-      "heart_pottery_sherd": "2024-09-24 17:04:01 +0530"
+      "heart_pottery_sherd": "2024-09-24 17:04:01 +0530",
+      "carrot": "2024-10-06 09:01:50 +0530"
     },
     "done": false
   },
@@ -11463,6 +11471,7 @@
       "laps_in_the_pool": "2024-09-01 08:09:37 +0530",
       "the_great_blocky_reef": "2024-09-07 03:36:32 +0530",
       "concrete_evidence": "2024-09-05 23:36:34 +0530",
+      "dark_ages": "2024-10-06 09:07:57 +0530",
       "riot_shield": "2024-09-24 19:14:33 +0530",
       "creepy_heads": "2024-09-24 16:57:05 +0530",
       "not_quite_nine_lives": "2024-09-01 08:09:35 +0530",
@@ -11981,6 +11990,7 @@
       "quicksand": "2024-09-06 03:18:21 +0530",
       "diamonds_are_not_forever": "2024-09-07 04:34:18 +0530",
       "wub_wub_wub": "2024-09-24 16:59:41 +0530",
+      "dark_ages": "2024-10-06 09:07:57 +0530",
       "i_am_root": "2024-09-01 11:39:44 +0530",
       "hot_tourist_destination": "2024-09-12 02:17:07 +0530",
       "high_temperature_fluid_monster": "2024-09-05 23:22:41 +0530",
@@ -12737,7 +12747,8 @@
   "blazeandcave:building/blackstonehenge": {
     "criteria": {
       "gilded_blackstone": "2024-09-12 02:33:14 +0530",
-      "cracked_polished_blackstone_bricks": "2024-09-03 00:01:47 +0530"
+      "cracked_polished_blackstone_bricks": "2024-09-03 00:01:47 +0530",
+      "blackstone": "2024-10-06 09:07:56 +0530"
     },
     "done": false
   },
@@ -13011,7 +13022,8 @@
     "criteria": {
       "cooked_porkchop": "2024-09-06 03:27:56 +0530",
       "rotten_flesh": "2024-09-11 04:59:43 +0530",
-      "potato": "2024-09-06 01:54:58 +0530"
+      "potato": "2024-09-06 01:54:58 +0530",
+      "carrot": "2024-10-06 09:01:54 +0530"
     },
     "done": false
   },
@@ -14222,9 +14234,9 @@
     },
     "done": true
   },
-  "blazeandcave:building/raise_the_flag": {
+  "blazeandcave:building/pathways": {
     "criteria": {
-      "banner": "2024-10-05 23:57:36 +0530"
+      "dirt_path": "2024-10-05 23:20:06 +0530"
     },
     "done": true
   },
@@ -14234,9 +14246,27 @@
     },
     "done": true
   },
-  "blazeandcave:building/pathways": {
+  "blazeandcave:building/raise_the_flag": {
     "criteria": {
-      "dirt_path": "2024-10-05 23:20:06 +0530"
+      "banner": "2024-10-05 23:57:36 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:nether/dark_ages": {
+    "criteria": {
+      "blackstone": "2024-10-06 09:07:56 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:nether/the_struggle_nether_ends": {
+    "criteria": {
+      "soul_sand": "2024-10-06 09:24:15 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:technical/unending_hell_end": {
+    "criteria": {
+      "unending_hell_end": "2024-10-06 09:22:58 +0530"
     },
     "done": true
   },
