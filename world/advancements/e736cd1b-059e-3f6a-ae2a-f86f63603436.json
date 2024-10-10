@@ -10641,9 +10641,11 @@
       "leather_helmet": "2024-10-05 06:46:38 +0530",
       "music_disc_5": "2024-09-24 17:16:01 +0530",
       "shield": "2024-09-01 08:32:21 +0530",
+      "copper_ingot": "2024-10-10 11:08:57 +0530",
       "mace": "2024-09-01 08:34:27 +0530",
       "totem_of_undying": "2024-09-01 08:16:31 +0530",
       "bow": "2024-09-02 23:44:29 +0530",
+      "stone_sword": "2024-10-10 10:53:37 +0530",
       "iron_ingot": "2024-09-12 04:04:06 +0530",
       "iron_boots": "2024-09-20 00:22:45 +0530",
       "diamond_leggings": "2024-10-06 10:38:43 +0530",
@@ -10670,6 +10672,7 @@
       "raw_copper": "2024-10-06 16:51:29 +0530",
       "iron_shovel": "2024-10-05 07:06:54 +0530",
       "spyglass": "2024-09-12 02:19:49 +0530",
+      "shulker_shell": "2024-10-10 10:17:39 +0530",
       "carrot": "2024-10-06 09:01:54 +0530"
     },
     "done": false
@@ -10707,6 +10710,7 @@
       "white_bed": "2024-09-20 00:59:32 +0530",
       "sandstone_stairs": "2024-09-12 02:14:25 +0530",
       "white_shulker_box": "2024-09-01 10:57:25 +0530",
+      "packed_mud": "2024-10-10 11:09:46 +0530",
       "copper_block": "2024-09-12 03:58:24 +0530",
       "andesite": "2024-09-07 04:27:03 +0530",
       "yellow_shulker_box": "2024-09-01 08:16:22 +0530",
@@ -10782,6 +10786,7 @@
       "cracked_stone_bricks": "2024-09-02 22:26:25 +0530",
       "skeleton_skull": "2024-09-19 00:49:43 +0530",
       "crimson_roots": "2024-09-01 11:39:43 +0530",
+      "chorus_flower": "2024-10-10 10:30:27 +0530",
       "smooth_sandstone": "2024-09-12 04:46:27 +0530",
       "cobblestone": "2024-09-12 05:07:23 +0530",
       "redstone_block": "2024-09-12 22:33:47 +0530",
@@ -10896,6 +10901,7 @@
       "egg": "2024-09-12 22:23:06 +0530",
       "crossbow": "2024-09-01 08:09:33 +0530",
       "iron_chestplate": "2024-09-24 18:24:11 +0530",
+      "chorus_fruit": "2024-10-10 10:30:27 +0530",
       "beef": "2024-09-01 08:09:33 +0530",
       "recovery_compass": "2024-09-05 23:51:48 +0530",
       "rabbit": "2024-09-24 19:30:57 +0530",
@@ -10924,6 +10930,7 @@
       "netherite_scrap": "2024-09-05 23:52:43 +0530",
       "ender_eye": "2024-09-01 08:09:33 +0530",
       "totem_of_undying": "2024-09-01 08:16:31 +0530",
+      "stone_sword": "2024-10-10 10:53:37 +0530",
       "iron_ingot": "2024-09-01 08:37:05 +0530",
       "nether_star": "2024-10-05 21:19:27 +0530",
       "tipped_arrow": "2024-10-06 10:12:34 +0530",
@@ -11055,6 +11062,8 @@
       "black_shulker_box": "2024-09-01 08:09:33 +0530",
       "sand": "2024-10-06 16:29:07 +0530",
       "white_shulker_box": "2024-09-01 10:57:25 +0530",
+      "end_stone": "2024-10-10 10:04:49 +0530",
+      "copper_block": "2024-10-10 11:08:04 +0530",
       "red_shulker_box": "2024-09-05 23:33:37 +0530",
       "netherrack": "2024-10-05 20:08:32 +0530",
       "yellow_shulker_box": "2024-09-01 08:16:22 +0530",
@@ -11170,6 +11179,7 @@
   "blazeandcave:bacap/end_milestone": {
     "criteria": {
       "off_with_his_head": "2024-09-01 08:09:37 +0530",
+      "shulker_breaker": "2024-10-10 10:17:39 +0530",
       "sky_high": "2024-09-03 00:04:01 +0530",
       "organizational_wizard": "2024-09-01 08:27:40 +0530",
       "skys_the_limit": "2024-09-01 08:09:35 +0530",
@@ -11185,6 +11195,7 @@
       "the_end_again": "2024-09-01 08:09:35 +0530",
       "the_start_of_something": "2024-10-05 05:43:01 +0530",
       "portable_storage": "2024-09-01 08:09:35 +0530",
+      "getting_chorus": "2024-10-10 10:30:27 +0530",
       "for_mother_clarence": "2024-09-23 22:44:17 +0530",
       "great_view_from_up_here": "2024-09-23 22:44:34 +0530"
     },
@@ -11269,6 +11280,7 @@
       "subspace_bubble": "2024-09-01 08:09:35 +0530",
       "fallen_kingdom": "2024-09-05 23:45:45 +0530",
       "there_has_to_be_another_way": "2024-09-07 02:29:36 +0530",
+      "getting_chorus": "2024-10-10 10:30:27 +0530",
       "is_it_a_balloon": "2024-09-12 02:28:18 +0530",
       "its_so_beast_like": "2024-09-11 04:10:33 +0530",
       "stairs_no": "2024-09-12 02:14:26 +0530",
@@ -11310,6 +11322,7 @@
       "poisonous_ew": "2024-09-12 02:57:02 +0530",
       "stationary_storage": "2024-09-12 05:43:12 +0530",
       "getting_wood": "2024-10-06 12:40:26 +0530",
+      "cephalight": "2024-10-10 10:34:38 +0530",
       "its_original_form": "2024-09-02 22:25:02 +0530",
       "return_to_sender": "2024-09-01 08:09:35 +0530",
       "classy_glassy": "2024-10-06 16:30:22 +0530",
@@ -11413,6 +11426,7 @@
       "x_bow": "2024-09-01 08:09:35 +0530",
       "off_with_his_head": "2024-09-01 08:09:37 +0530",
       "a_knight_to_nether_forget": "2024-09-07 04:34:18 +0530",
+      "the_world_is_ending": "2024-10-10 09:54:47 +0530",
       "luxury_cruise": "2024-09-01 08:09:37 +0530",
       "my_work_here_is_done": "2024-09-07 03:39:47 +0530",
       "veteran_of_the_village": "2024-09-11 04:20:10 +0530",
@@ -11420,6 +11434,7 @@
       "into_fire": "2024-09-01 08:09:35 +0530",
       "master_macerator": "2024-09-01 08:34:28 +0530",
       "who_is_cutting_onions": "2024-09-01 08:09:35 +0530",
+      "master_copper_miner": "2024-10-10 11:08:05 +0530",
       "bring_down_the_beast": "2024-09-12 02:28:50 +0530",
       "holy_scrap": "2024-09-05 23:52:43 +0530",
       "oh_shiny": "2024-09-01 08:09:35 +0530",
@@ -11475,6 +11490,7 @@
       "overkill": "2024-09-01 11:13:12 +0530",
       "eye_spy": "2024-09-01 08:09:35 +0530",
       "a_watery_grave": "2024-09-11 04:48:28 +0530",
+      "shulker_breaker": "2024-10-10 10:17:39 +0530",
       "over_overkill": "2024-09-12 05:31:39 +0530",
       "obsidian_miner": "2024-10-05 20:23:03 +0530",
       "monsters_root": "2024-09-01 08:09:35 +0530",
@@ -11770,16 +11786,17 @@
   },
   "blazeandcave:bacap/animal_milestone": {
     "criteria": {
-      "bacon": "2024-09-19 00:45:42 +0530",
       "the_cutest_predator": "2024-09-01 08:09:35 +0530",
       "leader_of_the_pack": "2024-09-01 08:09:35 +0530",
-      "pork_chop": "2024-09-01 08:36:11 +0530",
       "wooly": "2024-09-06 02:02:53 +0530",
+      "cow_tipper": "2024-09-01 08:12:38 +0530",
+      "bacon": "2024-09-19 00:45:42 +0530",
+      "pork_chop": "2024-09-01 08:36:11 +0530",
+      "cephalight": "2024-10-10 10:34:38 +0530",
       "tickle_time": "2024-09-24 16:39:38 +0530",
       "root": "2024-09-01 08:09:35 +0530",
       "desert_rider": "2024-09-12 01:23:43 +0530",
       "which_came_first": "2024-09-12 22:23:07 +0530",
-      "cow_tipper": "2024-09-01 08:12:38 +0530",
       "isnt_it_scute": "2024-09-01 08:09:35 +0530",
       "ram": "2024-09-24 19:34:45 +0530"
     },
@@ -11897,6 +11914,7 @@
   },
   "blazeandcave:bacap/challenges_milestone": {
     "criteria": {
+      "the_world_is_ending": "2024-10-10 09:54:47 +0530",
       "immortal": "2024-09-01 08:19:55 +0530",
       "root": "2024-09-01 08:09:35 +0530",
       "ad_astra": "2024-09-11 03:19:50 +0530"
@@ -11976,6 +11994,7 @@
       "galileo_figaro": "2024-09-12 02:20:19 +0530",
       "smokin_hot": "2024-09-24 18:40:36 +0530",
       "meet_the_flintstones": "2024-09-07 03:10:07 +0530",
+      "master_copper_miner": "2024-10-10 11:08:05 +0530",
       "seeing_red": "2024-09-01 08:09:35 +0530",
       "ice_bucket_challenge": "2024-09-01 08:09:35 +0530",
       "this_is_mine_now": "2024-09-07 03:40:45 +0530",
@@ -13344,7 +13363,8 @@
     "criteria": {
       "pillager": "2024-09-07 03:58:04 +0530",
       "zombie_villager": "2024-10-05 07:07:43 +0530",
-      "creeper": "2024-09-12 05:11:59 +0530"
+      "creeper": "2024-09-12 05:11:59 +0530",
+      "enderman": "2024-10-10 10:07:34 +0530"
     },
     "done": false
   },
@@ -14380,6 +14400,7 @@
   },
   "blazeandcave:potion/furious_ammunition": {
     "criteria": {
+      "normal_poison": "2024-10-10 11:03:43 +0530",
       "slowness": "2024-10-06 10:12:34 +0530"
     },
     "done": false
@@ -14582,21 +14603,87 @@
     },
     "done": true
   },
-  "blazeandcave:statistics/passing_the_time": {
-    "criteria": {
-      "trigger": "2024-10-10 01:22:25 +0530"
-    },
-    "done": true
-  },
   "adventurez:recipes/ender_whale_meat": {
     "criteria": {
       "got_the_ender_whale_meat": "2024-10-10 01:20:58 +0530"
     },
     "done": true
   },
-  "blazeandcave:technical/unending_hell_end": {
+  "blazeandcave:statistics/passing_the_time": {
     "criteria": {
-      "unending_hell_end": "2024-10-10 01:09:44 +0530"
+      "trigger": "2024-10-10 01:22:25 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:challenges/the_world_is_ending": {
+    "criteria": {
+      "ten_withers": "2024-10-10 09:54:46 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:end/shulker_breaker": {
+    "criteria": {
+      "shulker_shell": "2024-10-10 10:17:39 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:technical/fail_dragon_vs": {
+    "criteria": {
+      "enter_lava": "2024-10-10 10:29:39 +0530"
+    },
+    "done": true
+  },
+  "adventurez:recipes/chorus_fruit_on_a_stick_recipe": {
+    "criteria": {
+      "got_the_chorus_fruit": "2024-10-10 10:30:27 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:end/getting_chorus": {
+    "criteria": {
+      "chorus_fruit": "2024-10-10 10:30:27 +0530"
+    },
+    "done": true
+  },
+  "toughasnails:recipes/food/chorus_fruit_juice": {
+    "criteria": {
+      "has_chorus_fruit": "2024-10-10 10:30:27 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:animal/cephalight": {
+    "criteria": {
+      "glow_squid": "2024-10-10 10:34:38 +0530"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/pig_smithing": {
+    "criteria": {
+      "has_pig": "2024-10-10 11:04:15 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:building/elmer_mudd": {
+    "criteria": {
+      "packed_mud": "2024-10-10 11:09:46 +0530"
+    },
+    "done": false
+  },
+  "blazeandcave:mining/sly_copper_the_copper_heist": {
+    "criteria": {
+      "copper_block": "2024-10-10 11:08:04 +0530"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/mud_bricks": {
+    "criteria": {
+      "has_packed_mud": "2024-10-10 11:09:46 +0530"
+    },
+    "done": true
+  },
+  "blazeandcave:mining/master_copper_miner": {
+    "criteria": {
+      "copper_block": "2024-10-10 11:08:04 +0530"
     },
     "done": true
   },
